@@ -146,7 +146,7 @@ function App() {
         </section>
       </main>
       <footer style={{ textAlign: 'center', color: '#a5b4fc', fontSize: '0.95em', margin: '2em 0 1em 0' }}>
-        &copy; {new Date().getFullYear()} Prompt Generator. All rights reserved.
+        &copy; {new Date().getFullYear()} <a href="https://risadams.com">Ris Adams</a>. All rights reserved.
       </footer>
     </div>
   );
