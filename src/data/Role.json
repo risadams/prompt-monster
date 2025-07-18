@@ -1,0 +1,12 @@
+[
+  { "id": "PO", "name": "Product Owner", "description": "Responsible for maximizing the value of the product and managing the product backlog." },
+  { "id": "SM", "name": "Scrum Master", "description": "Facilitates Scrum processes and removes impediments for the team." },
+  { "id": "Architect", "name": "Architect", "description": "Designs and oversees the technical architecture of the solution." },
+  { "id": "Developer", "name": "Developer", "description": "Implements features and fixes bugs as part of the development team." },
+  { "id": "Tester", "name": "Tester", "description": "Ensures the quality of the product through testing and validation." },
+  { "id": "RTE", "name": "Release Train Engineer", "description": "Servant leader and coach for the Agile Release Train (ART)." },
+  { "id": "SystemTeam", "name": "System Team", "description": "Provides support in building and maintaining the development environment." },
+  { "id": "BusinessOwner", "name": "Business Owner", "description": "Key stakeholders responsible for business outcomes." },
+  { "id": "UXDesigner", "name": "UX Designer", "description": "Designs user experiences and interfaces." },
+  { "id": "EpicOwner", "name": "Epic Owner", "description": "Responsible for coordinating epic implementation across teams." }
+]
