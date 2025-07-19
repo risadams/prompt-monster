@@ -178,5 +178,653 @@
     "goal": "Communicate progress",
     "context": "Monthly reporting cycle",
     "details": "Include risks, next steps"
+  },
+  {
+    "id": "po-ideation",
+    "name": "Feature Ideation Session",
+    "role": "Product Owner",
+    "task": "Generate and evaluate new feature ideas",
+    "goal": "Identify innovative solutions to user problems",
+    "context": "Market research and user feedback sessions completed",
+    "details": "Use design thinking methods, consider technical feasibility and business value"
+  },
+  {
+    "id": "po-story-breakdown",
+    "name": "Epic to User Stories Breakdown",
+    "role": "Product Owner",
+    "task": "Break down large epics into actionable user stories",
+    "goal": "Create sprint-ready stories with clear acceptance criteria",
+    "context": "Epic has been approved and prioritized in roadmap",
+    "details": "Ensure stories follow INVEST principles, include edge cases"
+  },
+  {
+    "id": "po-story-writing",
+    "name": "User Story Writing Workshop",
+    "role": "Product Owner",
+    "task": "Write comprehensive user stories with acceptance criteria",
+    "goal": "Provide clear requirements for development team",
+    "context": "Feature requirements gathering completed",
+    "details": "Use 'As a... I want... So that...' format, define done criteria"
+  },
+  {
+    "id": "po-persona-stories",
+    "name": "Persona-Based Story Creation",
+    "role": "Product Owner",
+    "task": "Create user stories based on specific user personas",
+    "goal": "Ensure features address real user needs",
+    "context": "User personas have been researched and defined",
+    "details": "Map stories to persona pain points, validate with user research"
+  },
+  {
+    "id": "po-story-sizing",
+    "name": "Story Estimation and Sizing",
+    "role": "Product Owner",
+    "task": "Work with team to estimate and size user stories",
+    "goal": "Enable accurate sprint planning and commitment",
+    "context": "Stories are written and ready for development",
+    "details": "Use planning poker, break down large stories, ensure uniform understanding"
+  },
+  {
+    "id": "po-acceptance-criteria",
+    "name": "Acceptance Criteria Definition",
+    "role": "Product Owner",
+    "task": "Define detailed acceptance criteria for user stories",
+    "goal": "Provide clear definition of done for each story",
+    "context": "User stories have been created and prioritized",
+    "details": "Use Given-When-Then format, include happy path and edge cases"
+  },
+  {
+    "id": "po-story-refinement",
+    "name": "Backlog Refinement Session",
+    "role": "Product Owner",
+    "task": "Refine and improve existing user stories in backlog",
+    "goal": "Ensure backlog items are ready for sprint planning",
+    "context": "Stories need clarification or updates based on new insights",
+    "details": "Update acceptance criteria, split large stories, remove outdated items"
+  },
+  {
+    "id": "po-mvp-definition",
+    "name": "MVP Story Selection",
+    "role": "Product Owner",
+    "task": "Identify and prioritize stories for minimum viable product",
+    "goal": "Define the smallest set of features that deliver value",
+    "context": "Feature concept approved, need to plan phased delivery",
+    "details": "Focus on core user journey, defer nice-to-have features"
+  },
+  {
+    "id": "po-story-mapping",
+    "name": "User Story Mapping Session",
+    "role": "Product Owner",
+    "task": "Create visual story map to organize user journey",
+    "goal": "Visualize user flow and identify story dependencies",
+    "context": "Multiple related stories need to be organized",
+    "details": "Map user activities, arrange stories by priority and release"
+  },
+  {
+    "id": "po-idea-validation",
+    "name": "Idea Validation and Research",
+    "role": "Product Owner",
+    "task": "Validate product ideas through research and testing",
+    "goal": "Reduce risk of building unwanted features",
+    "context": "New product ideas generated from brainstorming sessions",
+    "details": "Conduct user interviews, analyze market data, create hypotheses"
+  },
+  {
+    "id": "po-competitor-analysis",
+    "name": "Competitive Analysis for Features",
+    "role": "Product Owner",
+    "task": "Analyze competitor features to inform product decisions",
+    "goal": "Identify market gaps and differentiation opportunities",
+    "context": "Planning new features or improving existing ones",
+    "details": "Document competitor strengths/weaknesses, identify unique value propositions"
+  },
+  {
+    "id": "po-business-case",
+    "name": "Feature Business Case Development",
+    "role": "Product Owner",
+    "task": "Create business case for proposed features",
+    "goal": "Justify investment in new product development",
+    "context": "Stakeholders need ROI justification for feature development",
+    "details": "Include market opportunity, development cost, expected revenue impact"
+  },
+  {
+    "id": "sm-impediment",
+    "name": "Impediment Removal",
+    "role": "Scrum Master",
+    "task": "Identify and remove team impediments",
+    "goal": "Improve team velocity and productivity",
+    "context": "Team struggling with blockers",
+    "details": "Document impediments, escalate when needed, track resolution"
+  },
+  {
+    "id": "sm-coaching",
+    "name": "Agile Coaching Session",
+    "role": "Scrum Master",
+    "task": "Coach team members on Agile practices",
+    "goal": "Improve team's Agile maturity",
+    "context": "Team new to Agile or struggling with practices",
+    "details": "Focus on specific practices, provide examples, encourage questions"
+  },
+  {
+    "id": "dev-code-review",
+    "name": "Code Review Process",
+    "role": "Developer",
+    "task": "Review code changes from team members",
+    "goal": "Maintain code quality and share knowledge",
+    "context": "Pull request submitted for review",
+    "details": "Check for bugs, style, performance, security issues"
+  },
+  {
+    "id": "dev-refactoring",
+    "name": "Code Refactoring",
+    "role": "Developer",
+    "task": "Refactor existing code for better maintainability",
+    "goal": "Improve code quality without changing functionality",
+    "context": "Technical debt needs to be addressed",
+    "details": "Identify code smells, apply design patterns, ensure tests pass"
+  },
+  {
+    "id": "arch-patterns",
+    "name": "Design Pattern Selection",
+    "role": "Architect",
+    "task": "Select appropriate design patterns for implementation",
+    "goal": "Ensure scalable and maintainable architecture",
+    "context": "Complex feature requiring architectural decisions",
+    "details": "Consider trade-offs, document decisions, align with team"
+  },
+  {
+    "id": "tester-exploratory",
+    "name": "Exploratory Testing Session",
+    "role": "Tester",
+    "task": "Conduct unscripted testing to discover issues",
+    "goal": "Find bugs that automated tests might miss",
+    "context": "New feature ready for testing",
+    "details": "Use test charters, document findings, explore edge cases"
+  },
+  {
+    "id": "ux-usability",
+    "name": "Usability Testing",
+    "role": "UX Designer",
+    "task": "Test interface usability with real users",
+    "goal": "Identify usability issues and improvement opportunities",
+    "context": "New interface design ready for validation",
+    "details": "Create test scenarios, observe user behavior, document issues"
+  },
+  {
+    "id": "rte-planning",
+    "name": "PI Planning Facilitation",
+    "role": "Release Train Engineer",
+    "task": "Facilitate Program Increment planning session",
+    "goal": "Align teams on PI objectives and dependencies",
+    "context": "Beginning of new Program Increment",
+    "details": "Coordinate logistics, manage time, ensure all teams participate"
+  },
+  {
+    "id": "sys-deployment",
+    "name": "Production Deployment",
+    "role": "System Team",
+    "task": "Deploy application to production environment",
+    "goal": "Successfully release new features to users",
+    "context": "Feature testing completed and approved",
+    "details": "Follow deployment checklist, monitor system health, rollback if needed"
+  },
+  {
+    "id": "bo-metrics",
+    "name": "Business Metrics Review",
+    "role": "Business Owner",
+    "task": "Review key business metrics and KPIs",
+    "goal": "Track business performance and identify trends",
+    "context": "Monthly business review meeting",
+    "details": "Analyze trends, identify action items, communicate insights"
+  },
+  {
+    "id": "epic-planning",
+    "name": "Epic Planning Session",
+    "role": "Epic Owner",
+    "task": "Plan epic implementation across multiple teams",
+    "goal": "Define epic scope and team responsibilities",
+    "context": "Epic approved for implementation",
+    "details": "Break down into features, assign to teams, identify dependencies"
+  },
+  {
+    "id": "customer-feedback",
+    "name": "Product Feedback Session",
+    "role": "Customer",
+    "task": "Provide feedback on product features and usability",
+    "goal": "Help improve product to better meet user needs",
+    "context": "Using product in real-world scenarios",
+    "details": "Share specific examples, suggest improvements, rate satisfaction"
+  },
+  {
+    "id": "customer-requirements",
+    "name": "Requirements Gathering",
+    "role": "Customer",
+    "task": "Define business requirements for new features",
+    "goal": "Ensure product meets business needs",
+    "context": "Planning new product capabilities",
+    "details": "Describe current process, identify pain points, define success criteria"
+  },
+  {
+    "id": "enduser-testing",
+    "name": "User Acceptance Testing",
+    "role": "End User",
+    "task": "Test new features from end user perspective",
+    "goal": "Validate features work as expected in real scenarios",
+    "context": "New features ready for user validation",
+    "details": "Test real workflows, check for usability issues, verify requirements"
+  },
+  {
+    "id": "enduser-training",
+    "name": "Feature Training Session",
+    "role": "End User",
+    "task": "Learn how to use new product features",
+    "goal": "Become proficient with new capabilities",
+    "context": "New features released and available",
+    "details": "Practice with real data, ask questions, document tips"
+  },
+  {
+    "id": "stakeholder-review",
+    "name": "Project Status Review",
+    "role": "Stakeholder",
+    "task": "Review project progress and make decisions",
+    "goal": "Ensure project stays aligned with business objectives",
+    "context": "Regular project checkpoint meeting",
+    "details": "Review deliverables, approve next steps, address concerns"
+  },
+  {
+    "id": "stakeholder-approval",
+    "name": "Feature Approval Process",
+    "role": "Stakeholder",
+    "task": "Review and approve proposed features",
+    "goal": "Ensure features align with business strategy",
+    "context": "Feature proposals ready for executive review",
+    "details": "Evaluate business value, consider resource impact, make go/no-go decision"
+  },
+  {
+    "id": "pm-strategy",
+    "name": "Product Strategy Definition",
+    "role": "Product Manager",
+    "task": "Define long-term product strategy and vision",
+    "goal": "Establish clear direction for product development",
+    "context": "Annual planning cycle or major market changes",
+    "details": "Analyze market trends, define competitive positioning, set measurable goals"
+  },
+  {
+    "id": "pm-roadmap",
+    "name": "Product Roadmap Planning",
+    "role": "Product Manager",
+    "task": "Create detailed product roadmap",
+    "goal": "Communicate planned features and timeline",
+    "context": "Strategy defined, need to plan execution",
+    "details": "Prioritize features, estimate timelines, consider dependencies"
+  },
+  {
+    "id": "pm-launch",
+    "name": "Product Launch Coordination",
+    "role": "Product Manager",
+    "task": "Coordinate cross-functional product launch",
+    "goal": "Successfully bring new product to market",
+    "context": "Product development nearing completion",
+    "details": "Coordinate marketing, sales, support, and engineering teams"
+  },
+  {
+    "id": "techlead-mentoring",
+    "name": "Developer Mentoring Session",
+    "role": "Tech Lead",
+    "task": "Mentor junior developers on technical skills",
+    "goal": "Improve team technical capabilities",
+    "context": "Junior developers need guidance on complex topics",
+    "details": "Provide code examples, explain best practices, assign learning tasks"
+  },
+  {
+    "id": "techlead-architecture",
+    "name": "Technical Architecture Design",
+    "role": "Tech Lead",
+    "task": "Design technical architecture for new features",
+    "goal": "Ensure robust and scalable implementation",
+    "context": "Complex feature requiring technical planning",
+    "details": "Consider scalability, maintainability, security, and performance"
+  },
+  {
+    "id": "techlead-standards",
+    "name": "Coding Standards Review",
+    "role": "Tech Lead",
+    "task": "Establish and review team coding standards",
+    "goal": "Maintain consistent code quality across team",
+    "context": "Team growing or standards need updating",
+    "details": "Define guidelines, create examples, set up automated checks"
+  },
+  {
+    "id": "devops-pipeline",
+    "name": "CI/CD Pipeline Optimization",
+    "role": "DevOps Engineer",
+    "task": "Optimize continuous integration and deployment pipelines",
+    "goal": "Improve deployment speed and reliability",
+    "context": "Current pipeline has performance or reliability issues",
+    "details": "Analyze bottlenecks, implement improvements, measure results"
+  },
+  {
+    "id": "devops-monitoring",
+    "name": "Infrastructure Monitoring Setup",
+    "role": "DevOps Engineer",
+    "task": "Set up comprehensive infrastructure monitoring",
+    "goal": "Proactively detect and prevent system issues",
+    "context": "Need better visibility into system health",
+    "details": "Deploy monitoring tools, set up alerts, create dashboards"
+  },
+  {
+    "id": "devops-security",
+    "name": "Security Hardening",
+    "role": "DevOps Engineer",
+    "task": "Implement security best practices in infrastructure",
+    "goal": "Protect system from security threats",
+    "context": "Security audit identified vulnerabilities",
+    "details": "Apply security patches, configure firewalls, implement access controls"
+  },
+  {
+    "id": "analyst-metrics",
+    "name": "User Behavior Analysis",
+    "role": "Data Analyst",
+    "task": "Analyze user behavior patterns and metrics",
+    "goal": "Understand how users interact with the product",
+    "context": "Need insights to improve user experience",
+    "details": "Use analytics tools, create visualizations, identify trends"
+  },
+  {
+    "id": "analyst-reporting",
+    "name": "Executive Dashboard Creation",
+    "role": "Data Analyst",
+    "task": "Create executive-level reporting dashboard",
+    "goal": "Provide key stakeholders with business insights",
+    "context": "Leadership needs regular business performance updates",
+    "details": "Identify key metrics, design clear visualizations, automate updates"
+  },
+  {
+    "id": "analyst-research",
+    "name": "Market Research Analysis",
+    "role": "Data Analyst",
+    "task": "Analyze market research data and trends",
+    "goal": "Inform product strategy decisions",
+    "context": "Considering new market opportunities",
+    "details": "Process survey data, identify patterns, create recommendations"
+  },
+  {
+    "id": "qalead-strategy",
+    "name": "QA Strategy Development",
+    "role": "QA Lead",
+    "task": "Develop comprehensive quality assurance strategy",
+    "goal": "Ensure product quality through systematic testing approach",
+    "context": "New product or major feature release planned",
+    "details": "Define test pyramid, select tools, establish quality gates"
+  },
+  {
+    "id": "qalead-team",
+    "name": "QA Team Coordination",
+    "role": "QA Lead",
+    "task": "Coordinate testing activities across QA team",
+    "goal": "Ensure efficient and thorough testing coverage",
+    "context": "Multiple features being tested simultaneously",
+    "details": "Assign test areas, track progress, resolve testing conflicts"
+  },
+  {
+    "id": "qalead-metrics",
+    "name": "Quality Metrics Review",
+    "role": "QA Lead",
+    "task": "Analyze quality metrics and testing effectiveness",
+    "goal": "Improve testing processes and product quality",
+    "context": "End of release cycle or quality issues identified",
+    "details": "Review defect trends, test coverage, team productivity"
+  },
+  {
+    "id": "ui-components",
+    "name": "UI Component Design",
+    "role": "UI Designer",
+    "task": "Design reusable UI components for design system",
+    "goal": "Create consistent and scalable user interface elements",
+    "context": "Building or updating design system",
+    "details": "Consider accessibility, responsiveness, brand guidelines"
+  },
+  {
+    "id": "ui-mockups",
+    "name": "Interface Mockup Creation",
+    "role": "UI Designer",
+    "task": "Create detailed interface mockups for new features",
+    "goal": "Visualize feature design before development",
+    "context": "Feature requirements defined, ready for visual design",
+    "details": "Include all states, interactions, and responsive breakpoints"
+  },
+  {
+    "id": "ui-guidelines",
+    "name": "Visual Design Guidelines",
+    "role": "UI Designer",
+    "task": "Establish visual design guidelines and standards",
+    "goal": "Ensure consistent visual design across product",
+    "context": "Brand refresh or new product launch",
+    "details": "Define typography, colors, spacing, iconography"
+  },
+  {
+    "id": "security-audit",
+    "name": "Security Vulnerability Assessment",
+    "role": "Security Specialist",
+    "task": "Conduct comprehensive security audit of application",
+    "goal": "Identify and mitigate security vulnerabilities",
+    "context": "Regular security review or before major release",
+    "details": "Test for common vulnerabilities, review code, assess infrastructure"
+  },
+  {
+    "id": "security-compliance",
+    "name": "Compliance Review",
+    "role": "Security Specialist",
+    "task": "Ensure product meets regulatory compliance requirements",
+    "goal": "Maintain compliance with industry standards",
+    "context": "Preparing for compliance audit or certification",
+    "details": "Review GDPR, SOX, HIPAA or other relevant regulations"
+  },
+  {
+    "id": "security-training",
+    "name": "Security Awareness Training",
+    "role": "Security Specialist",
+    "task": "Conduct security training for development team",
+    "goal": "Improve team's security awareness and practices",
+    "context": "New team members or security incidents occurred",
+    "details": "Cover secure coding, threat awareness, incident response"
+  },
+  {
+    "id": "solution-design",
+    "name": "End-to-End Solution Design",
+    "role": "Solution Architect",
+    "task": "Design comprehensive solution architecture",
+    "goal": "Create scalable solution spanning multiple systems",
+    "context": "Complex business requirement involving multiple domains",
+    "details": "Consider integration points, data flow, scalability, security"
+  },
+  {
+    "id": "solution-integration",
+    "name": "System Integration Planning",
+    "role": "Solution Architect",
+    "task": "Plan integration between multiple systems",
+    "goal": "Ensure seamless data and process flow",
+    "context": "Need to connect new system with existing infrastructure",
+    "details": "Define APIs, data mapping, error handling, monitoring"
+  },
+  {
+    "id": "solution-migration",
+    "name": "System Migration Strategy",
+    "role": "Solution Architect",
+    "task": "Plan migration from legacy to new system",
+    "goal": "Minimize disruption during system transition",
+    "context": "Legacy system needs to be replaced or upgraded",
+    "details": "Define migration phases, data conversion, rollback plans"
+  },
+  {
+    "id": "project-planning",
+    "name": "Project Planning and Scheduling",
+    "role": "Project Manager",
+    "task": "Create detailed project plan and schedule",
+    "goal": "Ensure project delivery on time and within budget",
+    "context": "New project approved and resources allocated",
+    "details": "Define milestones, dependencies, resource allocation, risk mitigation"
+  },
+  {
+    "id": "project-risk",
+    "name": "Risk Assessment and Management",
+    "role": "Project Manager",
+    "task": "Identify and manage project risks",
+    "goal": "Minimize impact of potential project issues",
+    "context": "Project in progress with identified uncertainties",
+    "details": "Create risk register, define mitigation strategies, monitor regularly"
+  },
+  {
+    "id": "project-communication",
+    "name": "Stakeholder Communication",
+    "role": "Project Manager",
+    "task": "Communicate project status to stakeholders",
+    "goal": "Keep stakeholders informed and engaged",
+    "context": "Regular project updates or major milestone achieved",
+    "details": "Prepare status reports, highlight achievements, address concerns"
+  },
+  {
+    "id": "sales-demo",
+    "name": "Product Demo Presentation",
+    "role": "Sales Representative",
+    "task": "Present product demonstration to potential customers",
+    "goal": "Showcase product value and generate sales leads",
+    "context": "Meeting with prospective customer",
+    "details": "Customize demo to customer needs, highlight key benefits, handle objections"
+  },
+  {
+    "id": "sales-requirements",
+    "name": "Customer Requirements Gathering",
+    "role": "Sales Representative",
+    "task": "Gather detailed requirements from potential customers",
+    "goal": "Understand customer needs to propose appropriate solution",
+    "context": "Sales opportunity in discovery phase",
+    "details": "Ask probing questions, document current process, identify pain points"
+  },
+  {
+    "id": "sales-proposal",
+    "name": "Sales Proposal Development",
+    "role": "Sales Representative",
+    "task": "Create compelling sales proposal for customer",
+    "goal": "Win new business by addressing customer needs",
+    "context": "Customer interested and requirements understood",
+    "details": "Include pricing, implementation plan, success metrics, references"
+  },
+  {
+    "id": "support-troubleshooting",
+    "name": "Customer Issue Troubleshooting",
+    "role": "Support Agent",
+    "task": "Diagnose and resolve customer technical issues",
+    "goal": "Restore customer productivity quickly",
+    "context": "Customer reported problem with product functionality",
+    "details": "Gather symptoms, reproduce issue, escalate if needed, document resolution"
+  },
+  {
+    "id": "support-knowledge",
+    "name": "Knowledge Base Maintenance",
+    "role": "Support Agent",
+    "task": "Update and maintain customer support knowledge base",
+    "goal": "Improve self-service capabilities and support efficiency",
+    "context": "Common issues identified or new features released",
+    "details": "Write clear articles, include screenshots, organize by topic"
+  },
+  {
+    "id": "support-escalation",
+    "name": "Issue Escalation Management",
+    "role": "Support Agent",
+    "task": "Manage escalation of complex customer issues",
+    "goal": "Ensure customer issues are resolved appropriately",
+    "context": "Customer issue beyond first-level support capabilities",
+    "details": "Document issue thoroughly, identify right expert, follow up on resolution"
+  },
+  {
+    "id": "content-documentation",
+    "name": "User Documentation Creation",
+    "role": "Content Writer",
+    "task": "Create comprehensive user documentation",
+    "goal": "Help users understand and effectively use product features",
+    "context": "New features released or existing docs need improvement",
+    "details": "Write clear instructions, include examples, organize logically"
+  },
+  {
+    "id": "content-marketing",
+    "name": "Marketing Content Development",
+    "role": "Content Writer",
+    "task": "Create marketing content for product promotion",
+    "goal": "Generate interest and leads for product",
+    "context": "Product launch or marketing campaign planned",
+    "details": "Write compelling copy, align with brand voice, target specific audience"
+  },
+  {
+    "id": "content-tutorials",
+    "name": "Tutorial and Guide Creation",
+    "role": "Content Writer",
+    "task": "Develop step-by-step tutorials and how-to guides",
+    "goal": "Enable users to accomplish specific tasks",
+    "context": "Users need guidance on complex workflows",
+    "details": "Break down complex processes, include screenshots, test with real users"
+  },
+  {
+    "id": "researcher-interviews",
+    "name": "User Interview Coordination",
+    "role": "User Researcher",
+    "task": "Plan and conduct user interviews for product insights",
+    "goal": "Gather deep insights into user needs and behaviors",
+    "context": "Need qualitative data to inform product decisions",
+    "details": "Recruit participants, prepare interview guide, analyze findings"
+  },
+  {
+    "id": "researcher-surveys",
+    "name": "User Survey Design and Analysis",
+    "role": "User Researcher",
+    "task": "Design and analyze user surveys",
+    "goal": "Collect quantitative data about user preferences",
+    "context": "Need broad user feedback on specific topics",
+    "details": "Design unbiased questions, distribute effectively, analyze statistically"
+  },
+  {
+    "id": "researcher-personas",
+    "name": "User Persona Development",
+    "role": "User Researcher",
+    "task": "Create detailed user personas based on research",
+    "goal": "Help team understand and empathize with users",
+    "context": "Research data collected, need to synthesize insights",
+    "details": "Identify patterns, create realistic profiles, validate with stakeholders"
+  },
+  {
+    "id": "compliance-review",
+    "name": "Regulatory Compliance Assessment",
+    "role": "Compliance Officer",
+    "task": "Review product features for regulatory compliance",
+    "goal": "Ensure product meets all applicable regulations",
+    "context": "New features or regulations require compliance review",
+    "details": "Review relevant regulations, assess compliance gaps, recommend changes"
+  },
+  {
+    "id": "compliance-documentation",
+    "name": "Compliance Documentation",
+    "role": "Compliance Officer",
+    "task": "Create compliance documentation and procedures",
+    "goal": "Document compliance processes for audit purposes",
+    "context": "Preparing for regulatory audit or certification",
+    "details": "Document procedures, create evidence trail, train relevant staff"
+  },
+  {
+    "id": "marketing-campaign",
+    "name": "Marketing Campaign Planning",
+    "role": "Marketing Manager",
+    "task": "Plan and execute marketing campaign for product",
+    "goal": "Increase product awareness and generate leads",
+    "context": "Product launch or need to boost market presence",
+    "details": "Define target audience, select channels, create messaging, measure results"
+  },
+  {
+    "id": "marketing-analysis",
+    "name": "Market Analysis and Positioning",
+    "role": "Marketing Manager",
+    "task": "Analyze market trends and competitive positioning",
+    "goal": "Inform marketing strategy and product positioning",
+    "context": "Planning marketing strategy or entering new market",
+    "details": "Research competitors, identify market gaps, define value proposition"
   }
 ]
