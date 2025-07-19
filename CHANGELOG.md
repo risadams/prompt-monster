@@ -149,4 +149,4 @@ src/
 
 ---
 
-**Note**: This changelog will be updated with each release. For detailed commit history, please see the [Git log](https://github.com/risadams/prompt-generator/commits/main).
+**Note**: This changelog will be updated with each release. For detailed commit history, please see the [Git log](https://github.com/risadams/prompt-monster/commits/main).

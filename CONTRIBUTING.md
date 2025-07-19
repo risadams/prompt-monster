@@ -22,8 +22,8 @@ Click the "Fork" button at the top right of the repository page.
 
 ### 2. Clone Your Fork
 ```bash
-git clone https://github.com/YOUR_USERNAME/prompt-generator.git
-cd prompt-generator
+git clone https://github.com/YOUR_USERNAME/prompt-monster.git
+cd prompt-monster
 ```
 
 ### 3. Create a Branch
@@ -64,8 +64,8 @@ Then create a Pull Request on GitHub.
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/risadams/prompt-generator.git
-cd prompt-generator
+git clone https://github.com/risadams/prompt-monster.git
+cd prompt-monster
 
 # Install dependencies
 npm install
@@ -229,8 +229,8 @@ style: improve button hover animations
 - [Git Tutorial](https://git-scm.com/docs/gittutorial)
 
 ### Questions?
-- Check existing [Issues](https://github.com/risadams/prompt-generator/issues)
-- Start a [Discussion](https://github.com/risadams/prompt-generator/discussions)
+- Check existing [Issues](https://github.com/risadams/prompt-monster/issues)
+- Start a [Discussion](https://github.com/risadams/prompt-monster/discussions)
 - Contact [@risadams](https://github.com/risadams)
 
 ## 🎉 Recognition

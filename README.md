@@ -77,8 +77,8 @@ Prompt Monster is a fun, approachable, and powerful tool for crafting effective 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/risadams/prompt-generator.git
-   cd prompt-generator
+   git clone https://github.com/risadams/prompt-monster.git
+   cd prompt-monster
    ```
 
 2. **Install dependencies**
@@ -151,7 +151,7 @@ Details: Include demographics, goals, frustrations, and preferred features
 ## 🏗️ Project Structure
 
 ```
-prompt-generator/
+prompt-monster/
 ├── public/                 # Static assets
 │   ├── index.html         # HTML template
 │   ├── logo.svg           # Monster logo
@@ -358,8 +358,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/risadams/prompt-generator/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/risadams/prompt-generator/discussions)
+- **Issues**: [GitHub Issues](https://github.com/risadams/prompt-monster/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/risadams/prompt-monster/discussions)
 - **Author**: [Ris Adams](https://risadams.com)
 
 ---

@@ -1,7 +1,8 @@
 {
-  "name": "@risadams/prompt-generator",
-  "version": "0.1.0",
+  "name": "@risadams/prompt-monster",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://risadams.github.io/prompt-monster",
   "dependencies": {
     "core-js-pure": "^3.44.0",
     "react": "^19.1.0",
@@ -9,11 +10,16 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^5.0.3"
   },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
