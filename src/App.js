@@ -1,202 +1,396 @@
-import React from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
+import './App.css';
+import './utils.css';
 import roles from './data/Role.json';
 import templates from './data/Templates.json';
 
 function App() {
-  const [idea, setIdea] = React.useState('');
-  const [selectedRole, setSelectedRole] = React.useState('');
-  const [customRole, setCustomRole] = React.useState('');
-  const [task, setTask] = React.useState('');
-  const [context, setContext] = React.useState('');
-  const [requirements, setRequirements] = React.useState('');
-  const [copied, setCopied] = React.useState(false);
-  const [templateSearch, setTemplateSearch] = React.useState('');
+  // State management
+  const [formData, setFormData] = useState({
+    idea: '',
+    selectedRole: '',
+    customRole: '',
+    task: '',
+    context: '',
+    requirements: ''
+  });
+  const [templateSearch, setTemplateSearch] = useState('');
+  const [copied, setCopied] = useState(false);
+  const [isFormValid, setIsFormValid] = useState(false);
 
-  const handleRoleChange = (e) => {
-    setSelectedRole(e.target.value);
-    if (e.target.value !== 'other') {
-      setCustomRole('');
+  // Validate form
+  useEffect(() => {
+    const { selectedRole, customRole, task, idea } = formData;
+    const hasRole = selectedRole && (selectedRole !== 'other' || customRole.trim());
+    const hasTask = task.trim();
+    const hasIdea = idea.trim();
+    setIsFormValid(hasRole && hasTask && hasIdea);
+  }, [formData]);
+
+  // Handle form field changes
+  const handleFieldChange = useCallback((field, value) => {
+    setFormData(prev => ({
+      ...prev,
+      [field]: value,
+      // Clear custom role if switching away from 'other'
+      ...(field === 'selectedRole' && value !== 'other' ? { customRole: '' } : {})
+    }));
+  }, []);
+
+  // Generate prompt
+  const generatePrompt = useCallback(() => {
+    const { selectedRole, customRole, task, idea, context, requirements } = formData;
+    
+    if (!isFormValid) return '';
+
+    const roleToUse = selectedRole === 'other' ? customRole : selectedRole;
+    const selectedRoleObj = roles.find(r => r.name === selectedRole);
+    
+    let prompt = `Acting as a "${roleToUse}" I want to "${task}" so that I can "${idea}".`;
+    
+    // Add context section
+    let contextSection = '';
+    if (selectedRoleObj?.description) {
+      contextSection = `Role Description: ${selectedRoleObj.description}`;
+      if (context.trim()) {
+        contextSection += `\n${context}`;
+      }
+    } else if (context.trim()) {
+      contextSection = context;
     }
-  };
+    
+    if (contextSection) {
+      prompt += `\n\nHere is the context: ${contextSection}`;
+    }
+    
+    if (requirements.trim()) {
+      prompt += `\n\nDetails: ${requirements}`;
+    }
+    
+    return prompt;
+  }, [formData, isFormValid]);
 
-  // Find role description if a predefined role is selected
-  const selectedRoleObj = roles.find(r => r.name === selectedRole);
-  const roleDescription = selectedRoleObj ? selectedRoleObj.description : '';
+  const prompt = generatePrompt();
 
-  // Build context section
-  let contextSection = '';
-  if (selectedRoleObj && roleDescription) {
-    contextSection += `Role Description: ${roleDescription}`;
-    if (context) contextSection += `\n${context}\n`;
-  } else if (context) {
-    contextSection = context;
-  }
+  // Copy to clipboard
+  const handleCopy = useCallback(async () => {
+    if (!prompt) return;
+    
+    try {
+      await navigator.clipboard.writeText(prompt);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy text: ', err);
+      // Fallback for older browsers
+      const textArea = document.createElement('textarea');
+      textArea.value = prompt;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textArea);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
+  }, [prompt]);
 
-  const prompt =
-    (selectedRole === 'other' ? customRole : selectedRole) && task && idea
-      ? `Acting as a "${selectedRole === 'other' ? customRole : selectedRole}" I want to "${task}" so that I can "${idea}".` +
-      (contextSection ? `\n\nHere is the context: ${contextSection}` : '') +
-      (requirements ? `\n\nDetails: ${requirements}` : '')
-      : '';
-
-  const handleCopy = () => {
-    navigator.clipboard.writeText(prompt);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 1500);
-  };
-
-  // Template library logic
-  const filteredTemplates = templates.filter(t =>
-    t.name.toLowerCase().includes(templateSearch.toLowerCase()) ||
-    t.role.toLowerCase().includes(templateSearch.toLowerCase()) ||
-    t.task.toLowerCase().includes(templateSearch.toLowerCase())
+  // Filter templates
+  const filteredTemplates = templates.filter(template =>
+    template.name.toLowerCase().includes(templateSearch.toLowerCase()) ||
+    template.role.toLowerCase().includes(templateSearch.toLowerCase()) ||
+    template.task.toLowerCase().includes(templateSearch.toLowerCase())
   );
 
-  const applyTemplate = (template) => {
-    setSelectedRole(template.role);
-    setCustomRole('');
-    setTask(template.task);
-    setIdea(template.goal);
-    setContext(template.context || '');
-    setRequirements(template.details || '');
-  };
+  // Apply template
+  const applyTemplate = useCallback((template) => {
+    setFormData({
+      selectedRole: template.role,
+      customRole: '',
+      task: template.task,
+      idea: template.goal,
+      context: template.context || '',
+      requirements: template.details || ''
+    });
+    
+    // Announce to screen readers
+    const announcement = `Applied template: ${template.name}`;
+    const announcer = document.createElement('div');
+    announcer.textContent = announcement;
+    announcer.setAttribute('aria-live', 'polite');
+    announcer.className = 'sr-only';
+    document.body.appendChild(announcer);
+    setTimeout(() => document.body.removeChild(announcer), 1000);
+  }, []);
 
   return (
-    <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #e0e7ff 0%, #f9fafb 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', fontFamily: 'Segoe UI, Arial, sans-serif' }}>
-      <header style={{ width: '100%', padding: '2em 0 1em 0', textAlign: 'center', position: 'relative' }}>
-        <img src={process.env.PUBLIC_URL + '/logo.svg'} alt="Prompt Monster Logo" style={{ width: 80, height: 80, marginBottom: '0.5em', filter: 'drop-shadow(0 2px 8px #a5b4fc)' }} />
-        <h1 style={{ fontWeight: 700, fontSize: '2.5em', color: '#8B5CF6', marginBottom: '0.2em', letterSpacing: '1px', textShadow: '0 2px 8px #a5b4fc' }}>Prompt Monster</h1>
-        <p style={{ color: '#6366f1', fontSize: '1.2em', marginBottom: 0, fontWeight: 500 }}>Unleash your creativity with monstrously good prompts!</p>
-      </header>
-      <main style={{ width: '100%', maxWidth: 900, margin: '2em auto', display: 'flex', gap: '2em' }}>
-        <aside style={{ width: '340px', background: '#fff', borderRadius: 16, boxShadow: '0 4px 24px rgba(55,48,163,0.08)', padding: '2em', display: 'flex', flexDirection: 'column', gap: '1em', height: 'fit-content' }}>
-          <h2 style={{ color: '#3730a3', fontWeight: 700, fontSize: '1.2em', marginBottom: '0.5em' }}>Template Library</h2>
-          <input
-            type="text"
-            value={templateSearch}
-            onChange={e => setTemplateSearch(e.target.value)}
-            placeholder="Search templates..."
-            style={{ width: '100%', padding: '0.75em', fontSize: '1em', borderRadius: 8, border: '1px solid #c7d2fe', background: '#f3f4f6', marginBottom: '1em' }}
+    <div className="app-container">
+      {/* Skip to content link for accessibility */}
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
+
+      <header className="app-header" role="banner">
+        <div className="header-content">
+          <img
+            src={`${process.env.PUBLIC_URL}/logo.svg`}
+            alt="Prompt Monster - A friendly purple monster mascot"
+            className="monster-logo"
           />
-          <div style={{ maxHeight: '500px', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '1em' }}>
-            {filteredTemplates.length === 0 ? (
-              <div style={{ color: '#6b7280', fontStyle: 'italic' }}>No templates found.</div>
-            ) : (
-              filteredTemplates.map(template => (
-                <div key={template.id} style={{ background: '#f3f4f6', borderRadius: 8, padding: '1em', boxShadow: '0 1px 4px rgba(55,48,163,0.04)' }}>
-                  <div style={{ fontWeight: 600, color: '#3730a3', fontSize: '1em' }}>{template.name}</div>
-                  <div style={{ color: '#6366f1', fontSize: '0.95em', marginBottom: '0.5em' }}>{template.role}</div>
-                  <div style={{ color: '#374151', fontSize: '0.95em', marginBottom: '0.5em' }}><strong>Task:</strong> {template.task}</div>
-                  <button
-                    onClick={() => applyTemplate(template)}
-                    style={{ background: '#3730a3', color: '#fff', border: 'none', borderRadius: 8, padding: '0.5em 1em', fontSize: '0.95em', fontWeight: 600, cursor: 'pointer', marginTop: '0.5em' }}
-                  >
-                    Use Template
-                  </button>
-                </div>
-              ))
-            )}
-          </div>
-        </aside>
-        <section style={{ flex: 1, background: '#fff', borderRadius: 16, boxShadow: '0 4px 24px rgba(55,48,163,0.08)', padding: '2em', display: 'flex', flexDirection: 'column', gap: '1.5em' }}>
-          <div>
-            <label htmlFor="role-select" style={{ fontWeight: 600, color: '#3730a3' }}>Role <span style={{ color: 'red' }}>*</span></label>
-            <select
-              id="role-select"
-              value={selectedRole}
-              onChange={handleRoleChange}
-              style={{ width: '100%', padding: '0.75em', fontSize: '1em', marginTop: '0.5em', borderRadius: 8, border: '1px solid #c7d2fe', background: '#f3f4f6' }}
-              required
-            >
-              <option value="">Select a role...</option>
-              {roles.map(role => (
-                <option key={role.id} value={role.name}>{role.name}</option>
-              ))}
-              <option value="other">Other (specify below)</option>
-            </select>
-            {selectedRole === 'other' && (
-              <input
-                type="text"
-                value={customRole}
-                onChange={e => setCustomRole(e.target.value)}
-                style={{ width: '100%', padding: '0.75em', fontSize: '1em', marginTop: '0.75em', borderRadius: 8, border: '1px solid #c7d2fe', background: '#f3f4f6' }}
-                placeholder="Enter your role..."
-                required
-              />
-            )}
-          </div>
-          <div>
-            <label htmlFor="task-input" style={{ fontWeight: 600, color: '#3730a3' }}>Task <span style={{ color: 'red' }}>*</span></label>
-            <input
-              id="task-input"
-              type="text"
-              value={task}
-              onChange={e => setTask(e.target.value)}
-              style={{ width: '100%', padding: '0.75em', fontSize: '1em', marginTop: '0.5em', borderRadius: 8, border: '1px solid #c7d2fe', background: '#f3f4f6' }}
-              placeholder="What do you want the AI to do?"
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="idea-input" style={{ fontWeight: 600, color: '#3730a3' }}>Goal <span style={{ color: 'red' }}>*</span></label>
-            <input
-              id="idea-input"
-              type="text"
-              value={idea}
-              onChange={e => setIdea(e.target.value)}
-              style={{ width: '100%', padding: '0.75em', fontSize: '1em', marginTop: '0.5em', borderRadius: 8, border: '1px solid #c7d2fe', background: '#f3f4f6' }}
-              placeholder="Describe your goal..."
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="context-input" style={{ fontWeight: 600, color: '#3730a3' }}>Context</label>
-            <input
-              id="context-input"
-              type="text"
-              value={context}
-              onChange={e => setContext(e.target.value)}
-              style={{ width: '100%', padding: '0.75em', fontSize: '1em', marginTop: '0.5em', borderRadius: 8, border: '1px solid #c7d2fe', background: '#f3f4f6' }}
-              placeholder="Any background context for the task..."
-            />
-          </div>
-          <div>
-            <label htmlFor="requirements-input" style={{ fontWeight: 600, color: '#3730a3' }}>Details</label>
-            <input
-              id="requirements-input"
-              type="text"
-              value={requirements}
-              onChange={e => setRequirements(e.target.value)}
-              style={{ width: '100%', padding: '0.75em', fontSize: '1em', marginTop: '0.5em', borderRadius: 8, border: '1px solid #c7d2fe', background: '#f3f4f6' }}
-              placeholder="Specify requirements, dos/don'ts, output formats..."
-            />
-          </div>
-          <section style={{ marginTop: '2em', background: '#f3f4f6', borderRadius: 12, padding: '1.5em', boxShadow: '0 2px 8px rgba(55,48,163,0.04)' }}>
-            <h2 style={{ color: '#3730a3', fontWeight: 700, fontSize: '1.3em', marginBottom: '1em' }}>Generated Prompt</h2>
-            {prompt ? (
-              <>
-                <textarea
-                  readOnly
-                  style={{ width: '100%', minHeight: '120px', fontSize: '1em', padding: '1em', borderRadius: '8px', border: '1px solid #c7d2fe', background: '#fff', marginBottom: '1em' }}
-                  value={prompt}
-                />
-                <button
-                  onClick={handleCopy}
-                  style={{ background: copied ? '#6366f1' : '#3730a3', color: '#fff', border: 'none', borderRadius: 8, padding: '0.75em 1.5em', fontSize: '1em', fontWeight: 600, cursor: 'pointer', transition: 'background 0.2s' }}
-                >
-                  {copied ? 'Copied!' : 'Copy to Clipboard'}
-                </button>
-              </>
-            ) : (
-              <div style={{ color: '#6b7280', fontStyle: 'italic' }}>
-                Please fill in <strong>Role</strong>, <strong>Task</strong>, and <strong>Goal</strong> to generate your prompt.
+          <h1 className="app-title">Prompt Monster</h1>
+          <p className="app-subtitle">
+            Unleash your creativity with monstrously good prompts! 🎭
+          </p>
+        </div>
+      </header>
+
+      <main id="main-content" className="main-content" role="main">
+        <div className="content-grid">
+          {/* Template Library Sidebar */}
+          <aside className="template-library" aria-label="Template Library">
+            <div className="card">
+              <div className="card-header">
+                <h2 className="card-title">Template Library</h2>
               </div>
-            )}
+              
+              <div className="form-group">
+                <label htmlFor="template-search" className="sr-only">
+                  Search templates
+                </label>
+                <input
+                  id="template-search"
+                  type="text"
+                  className="search-input"
+                  value={templateSearch}
+                  onChange={(e) => setTemplateSearch(e.target.value)}
+                  placeholder="🔍 Search templates..."
+                  aria-describedby="search-help"
+                />
+                <div id="search-help" className="sr-only">
+                  Search through available prompt templates by name, role, or task
+                </div>
+              </div>
+
+              <div className="templates-container" role="list" aria-label="Available templates">
+                {filteredTemplates.length === 0 ? (
+                  <div className="no-templates" role="status">
+                    No templates found. Try adjusting your search terms.
+                  </div>
+                ) : (
+                  filteredTemplates.map((template) => (
+                    <div
+                      key={template.id}
+                      className="template-item"
+                      role="listitem"
+                    >
+                      <div className="template-name">{template.name}</div>
+                      <div className="template-role">👤 {template.role}</div>
+                      <div className="template-task">
+                        <strong>Task:</strong> {template.task}
+                      </div>
+                      <button
+                        className="btn btn-secondary btn-sm"
+                        onClick={() => applyTemplate(template)}
+                        aria-label={`Apply template: ${template.name}`}
+                      >
+                        Use Template
+                      </button>
+                    </div>
+                  ))
+                )}
+              </div>
+            </div>
+          </aside>
+
+          {/* Main Form */}
+          <section className="prompt-builder" aria-label="Prompt Builder">
+            <div className="card">
+              <div className="card-header">
+                <h2 className="card-title">Prompt Builder</h2>
+              </div>
+
+              <form onSubmit={(e) => e.preventDefault()} noValidate>
+                {/* Role Selection */}
+                <div className="form-group">
+                  <label htmlFor="role-select" className="form-label">
+                    Role <span className="required-indicator" aria-label="required">*</span>
+                  </label>
+                  <select
+                    id="role-select"
+                    className="form-select"
+                    value={formData.selectedRole}
+                    onChange={(e) => handleFieldChange('selectedRole', e.target.value)}
+                    required
+                    aria-describedby="role-help"
+                  >
+                    <option value="">Select a role...</option>
+                    {roles.map((role) => (
+                      <option key={role.id} value={role.name}>
+                        {role.name}
+                      </option>
+                    ))}
+                    <option value="other">Other (specify below)</option>
+                  </select>
+                  <div id="role-help" className="sr-only">
+                    Choose the role you want the AI to assume, or select "Other" to specify a custom role
+                  </div>
+                </div>
+
+                {/* Custom Role Input */}
+                {formData.selectedRole === 'other' && (
+                  <div className="form-group">
+                    <label htmlFor="custom-role" className="form-label">
+                      Custom Role <span className="required-indicator" aria-label="required">*</span>
+                    </label>
+                    <input
+                      id="custom-role"
+                      type="text"
+                      className="form-input"
+                      value={formData.customRole}
+                      onChange={(e) => handleFieldChange('customRole', e.target.value)}
+                      placeholder="Enter your custom role..."
+                      required
+                      aria-describedby="custom-role-help"
+                    />
+                    <div id="custom-role-help" className="sr-only">
+                      Specify the custom role you want the AI to assume
+                    </div>
+                  </div>
+                )}
+
+                {/* Task Input */}
+                <div className="form-group">
+                  <label htmlFor="task-input" className="form-label">
+                    Task <span className="required-indicator" aria-label="required">*</span>
+                  </label>
+                  <input
+                    id="task-input"
+                    type="text"
+                    className="form-input"
+                    value={formData.task}
+                    onChange={(e) => handleFieldChange('task', e.target.value)}
+                    placeholder="What do you want the AI to do?"
+                    required
+                    aria-describedby="task-help"
+                  />
+                  <div id="task-help" className="sr-only">
+                    Describe the specific task you want the AI to perform
+                  </div>
+                </div>
+
+                {/* Goal Input */}
+                <div className="form-group">
+                  <label htmlFor="idea-input" className="form-label">
+                    Goal <span className="required-indicator" aria-label="required">*</span>
+                  </label>
+                  <input
+                    id="idea-input"
+                    type="text"
+                    className="form-input"
+                    value={formData.idea}
+                    onChange={(e) => handleFieldChange('idea', e.target.value)}
+                    placeholder="Describe your goal or desired outcome..."
+                    required
+                    aria-describedby="idea-help"
+                  />
+                  <div id="idea-help" className="sr-only">
+                    Explain what you want to achieve with this task
+                  </div>
+                </div>
+
+                {/* Context Input */}
+                <div className="form-group">
+                  <label htmlFor="context-input" className="form-label">
+                    Context
+                  </label>
+                  <input
+                    id="context-input"
+                    type="text"
+                    className="form-input"
+                    value={formData.context}
+                    onChange={(e) => handleFieldChange('context', e.target.value)}
+                    placeholder="Any background context for the task..."
+                    aria-describedby="context-help"
+                  />
+                  <div id="context-help" className="sr-only">
+                    Provide any additional background information that might be helpful
+                  </div>
+                </div>
+
+                {/* Requirements Input */}
+                <div className="form-group">
+                  <label htmlFor="requirements-input" className="form-label">
+                    Details
+                  </label>
+                  <textarea
+                    id="requirements-input"
+                    className="form-textarea"
+                    value={formData.requirements}
+                    onChange={(e) => handleFieldChange('requirements', e.target.value)}
+                    placeholder="Specify requirements, constraints, output formats, or any other details..."
+                    aria-describedby="requirements-help"
+                    rows="4"
+                  />
+                  <div id="requirements-help" className="sr-only">
+                    Add specific requirements, constraints, or formatting instructions
+                  </div>
+                </div>
+              </form>
+
+              {/* Generated Prompt Section */}
+              <section className="prompt-section" aria-label="Generated Prompt">
+                <div className="prompt-header">
+                  <h3 className="prompt-title">Generated Prompt</h3>
+                </div>
+
+                {prompt ? (
+                  <>
+                    <textarea
+                      className="prompt-output"
+                      value={prompt}
+                      readOnly
+                      aria-label="Generated prompt text"
+                      aria-describedby="prompt-help"
+                    />
+                    <div id="prompt-help" className="sr-only">
+                      This is your generated prompt based on the information you provided
+                    </div>
+                    
+                    <div className="prompt-actions">
+                      <button
+                        className={`btn ${copied ? 'btn-success' : 'btn-primary'}`}
+                        onClick={handleCopy}
+                        aria-label={copied ? 'Prompt copied to clipboard' : 'Copy prompt to clipboard'}
+                      >
+                        {copied ? (
+                          <>✅ Copied!</>
+                        ) : (
+                          <>📋 Copy to Clipboard</>
+                        )}
+                      </button>
+                    </div>
+                  </>
+                ) : (
+                  <div className="prompt-placeholder" role="status">
+                    <p>
+                      Ready to create a monstrously effective prompt? 🎪<br />
+                      Fill in the <strong>Role</strong>, <strong>Task</strong>, and <strong>Goal</strong> fields above to generate your AI prompt.
+                    </p>
+                  </div>
+                )}
+              </section>
+            </div>
           </section>
-        </section>
+        </div>
       </main>
-      <footer style={{ textAlign: 'center', color: '#a5b4fc', fontSize: '0.95em', margin: '2em 0 1em 0' }}>
-        &copy; {new Date().getFullYear()} <a href="https://risadams.com">Ris Adams</a>. All rights reserved.
+
+      <footer className="app-footer" role="contentinfo">
+        <p>
+          &copy; {new Date().getFullYear()}{' '}
+          <a href="https://risadams.com" target="_blank" rel="noopener noreferrer">
+            Ris Adams
+          </a>
+          . All rights reserved. Made with 💜 for the AI community.
+        </p>
       </footer>
     </div>
   );
