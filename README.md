@@ -11,7 +11,7 @@
 [![Responsive](https://img.shields.io/badge/Design-Responsive-blue?style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-[Live Demo](http://localhost:3000) • [Features](#features) • [Getting Started](#getting-started) • [Documentation](#documentation)
+[Live Demo](https://risadams.github.io/prompt-monster) • [Features](#features) • [Getting Started](#getting-started) • [Documentation](#documentation)
 
 </div>
 
@@ -101,7 +101,7 @@ Prompt Monster is a fun, approachable, and powerful tool for crafting effective 
 
 4. **Open your browser**
 
-   ```
+   ```text
    http://localhost:3000
    ```
 
@@ -137,7 +137,7 @@ This creates an optimized production build in the `build` folder, ready for depl
 
 ### Example Workflow
 
-```
+```text
 Role: UX Designer
 Task: Create a user persona
 Goal: Better understand our target audience for a mobile banking app
@@ -147,7 +147,7 @@ Details: Include demographics, goals, frustrations, and preferred features
 
 **Generated Prompt:**
 
-```
+```text
 Acting as a "UX Designer" I want to "Create a user persona" so that I can "Better understand our target audience for a mobile banking app".
 
 Here is the context: Role Description: Designs user experiences and interfaces.
@@ -160,7 +160,7 @@ Details: Include demographics, goals, frustrations, and preferred features
 
 ## 🏗️ Project Structure
 
-```
+```text
 prompt-monster/
 ├── public/                 # Static assets
 │   ├── index.html         # HTML template
