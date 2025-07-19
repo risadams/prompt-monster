@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.0.0] - 2025-07-19
+## [1.0.0] - 2025-07-19
 
 ### 🎉 Major Redesign Release
 
@@ -16,6 +16,7 @@ This release represents a complete redesign and rebuild of Prompt Monster with a
 ### ✨ Added
 
 #### Design & UI
+
 - **New Brand-Aligned Design**: Implemented complete visual redesign following Prompt Monster brand guidelines
 - **Animated Monster Logo**: Added floating animation effect to the mascot logo
 - **Gradient Backgrounds**: Beautiful color transitions throughout the interface
@@ -24,6 +25,7 @@ This release represents a complete redesign and rebuild of Prompt Monster with a
 - **Micro-Interactions**: Smooth animations and hover states throughout the application
 
 #### Responsive Design
+
 - **Mobile-First Approach**: Completely responsive design optimized for all screen sizes
 - **CSS Grid Layout**: Modern grid system for flexible, responsive layouts
 - **Breakpoint System**: Tailored experiences for mobile (< 768px), tablet (768px-1024px), and desktop (> 1024px)
@@ -31,6 +33,7 @@ This release represents a complete redesign and rebuild of Prompt Monster with a
 - **Sticky Sidebar**: Template library stays accessible while scrolling on desktop
 
 #### Accessibility (WCAG 2.1 AA Compliant)
+
 - **Keyboard Navigation**: Full keyboard support with skip-to-content links
 - **Screen Reader Support**: Proper semantic HTML and ARIA labels throughout
 - **Focus Management**: Clear focus indicators and logical tab order
@@ -39,6 +42,7 @@ This release represents a complete redesign and rebuild of Prompt Monster with a
 - **Color Contrast**: All text meets WCAG AA contrast requirements (4.5:1 ratio)
 
 #### Features
+
 - **Enhanced Template System**: Improved search and filtering capabilities
 - **Real-Time Form Validation**: Immediate feedback on form completion status
 - **Better Copy Functionality**: Enhanced clipboard support with fallback for older browsers
@@ -46,6 +50,7 @@ This release represents a complete redesign and rebuild of Prompt Monster with a
 - **Progressive Enhancement**: Application works with graceful degradation
 
 #### Technical Improvements
+
 - **React Hooks**: Modern state management with useState, useCallback, useEffect
 - **CSS Custom Properties**: Consistent theming system with CSS variables
 - **Component Architecture**: Better organized, reusable components
@@ -53,6 +58,7 @@ This release represents a complete redesign and rebuild of Prompt Monster with a
 - **SEO Optimization**: Better meta tags and Open Graph support
 
 #### Documentation
+
 - **Comprehensive README**: Detailed documentation covering all aspects of the application
 - **Design System Guide**: Complete documentation of design principles and components
 - **Contributing Guidelines**: Clear instructions for contributors
@@ -61,6 +67,7 @@ This release represents a complete redesign and rebuild of Prompt Monster with a
 ### 🔄 Changed
 
 #### User Interface
+
 - **Complete UI Overhaul**: Redesigned all components following modern design principles
 - **Improved Layout**: Better organization of content with clearer visual hierarchy
 - **Enhanced Color Scheme**: Updated to use brand colors (purple, blue, green palette)
@@ -68,18 +75,21 @@ This release represents a complete redesign and rebuild of Prompt Monster with a
 - **Modern Buttons**: Gradient backgrounds with enhanced interaction states
 
 #### User Experience
+
 - **Streamlined Workflow**: More intuitive prompt creation process
 - **Better Visual Feedback**: Clear success states and error handling
 - **Improved Form Design**: Enhanced input fields with better labeling
 - **Template Integration**: Smoother template application with visual feedback
 
 #### Technical Architecture
+
 - **Modernized Codebase**: Updated to use current React best practices
 - **CSS Architecture**: Organized styles with logical separation of concerns
 - **Responsive Grid**: Replaced fixed layouts with flexible CSS Grid
 - **Accessibility-First**: Built with accessibility as a core principle
 
 ### 🐛 Fixed
+
 - **Mobile Responsiveness**: Resolved layout issues on small screens
 - **Keyboard Navigation**: Fixed tab order and focus management
 - **Cross-Browser Compatibility**: Ensured consistent experience across browsers
@@ -88,18 +98,21 @@ This release represents a complete redesign and rebuild of Prompt Monster with a
 ### 🔧 Technical Details
 
 #### Dependencies
+
 - Updated to React 19.1.0
 - Added Google Fonts integration
 - Enhanced CSS with modern features
 
 #### Browser Support
+
 - Chrome 88+
 - Firefox 85+
 - Safari 14+
 - Edge 88+
 
 #### File Structure
-```
+
+```text
 src/
 ├── components/        # React components
 │   └── AppHeader.js   # New header component
@@ -110,11 +123,13 @@ src/
 ```
 
 ### 📱 Responsive Breakpoints
+
 - **Mobile**: < 768px - Single column layout, touch-optimized
 - **Tablet**: 768px - 1024px - Two-column grid with balanced spacing
 - **Desktop**: > 1024px - Full layout with sticky sidebar
 
 ### ♿ Accessibility Features
+
 - Skip-to-content navigation
 - Proper heading hierarchy (h1 → h2 → h3)
 - Form labels associated with inputs
@@ -125,9 +140,10 @@ src/
 
 ---
 
-## [1.0.0] - 2025-07-18
+## [0.0.0] - 2025-07-18
 
 ### Initial Release
+
 - Basic prompt generation functionality
 - Template system
 - Role-based prompts
@@ -137,7 +153,7 @@ src/
 
 ## Version Comparison
 
-| Feature | v1.0.0 | v2.0.0 |
+| Feature | v0.0.0 | v1.0.0 |
 |---------|--------|--------|
 | Design | Basic | Modern, Brand-Aligned |
 | Responsiveness | Basic | Fully Responsive |

@@ -34,24 +34,28 @@ Prompt Monster is a fun, approachable, and powerful tool for crafting effective 
 ## ✨ Features
 
 ### 🔧 Prompt Building
+
 - **Role-Based Prompts**: Choose from predefined roles or create custom ones
 - **Structured Framework**: Task → Goal → Context → Details structure for effective prompts
 - **Real-Time Preview**: See your prompt generate as you type
 - **One-Click Copy**: Copy generated prompts to clipboard instantly
 
 ### 📚 Template System
+
 - **Curated Templates**: Pre-built templates for common use cases
 - **Smart Search**: Find templates by name, role, or task
 - **Quick Application**: Apply template values with a single click
 - **Extensible**: Easy to add new templates
 
 ### 🎨 Design & UX
+
 - **Monster Branding**: Playful monster mascot with floating animation
 - **Gradient Backgrounds**: Beautiful color transitions throughout the interface
 - **Smooth Interactions**: Hover effects, loading states, and micro-animations
 - **Visual Feedback**: Clear success states and error handling
 
 ### ♿ Accessibility Features
+
 - **Keyboard Navigation**: Full keyboard support with skip links
 - **Screen Reader Support**: Proper ARIA labels and semantic HTML
 - **High Contrast Mode**: Enhanced visibility for users with visual impairments
@@ -59,6 +63,7 @@ Prompt Monster is a fun, approachable, and powerful tool for crafting effective 
 - **Reduced Motion**: Respects user's motion preferences
 
 ### 📱 Responsive Design
+
 - **Mobile-First**: Optimized for touch devices with appropriate target sizes
 - **Flexible Layouts**: CSS Grid-based responsive design
 - **Breakpoint System**: Tailored experiences for mobile, tablet, and desktop
@@ -76,22 +81,26 @@ Prompt Monster is a fun, approachable, and powerful tool for crafting effective 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/risadams/prompt-monster.git
    cd prompt-monster
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm start
    ```
 
 4. **Open your browser**
+
    ```
    http://localhost:3000
    ```
@@ -137,6 +146,7 @@ Details: Include demographics, goals, frustrations, and preferred features
 ```
 
 **Generated Prompt:**
+
 ```
 Acting as a "UX Designer" I want to "Create a user persona" so that I can "Better understand our target audience for a mobile banking app".
 
@@ -168,9 +178,6 @@ prompt-monster/
 │   ├── index.css         # Base styles & CSS custom properties
 │   ├── utils.css         # Utility classes
 │   └── index.js          # Application entry point
-├── BRAND.md              # Brand guidelines
-├── DESIGN.md             # Design system documentation
-├── REDESIGN-SUMMARY.md   # Redesign overview
 └── README.md             # This file
 ```
 
@@ -208,7 +215,7 @@ For detailed design documentation, see [DESIGN.md](DESIGN.md).
 
 | Command | Description |
 |---------|-------------|
-| `npm start` | Starts development server on http://localhost:3000 |
+| `npm start` | Starts development server on <http://localhost:3000> |
 | `npm run build` | Creates production build in `build/` folder |
 | `npm test` | Runs test suite (when tests are added) |
 | `npm run eject` | Ejects from Create React App (irreversible) |
@@ -217,6 +224,7 @@ For detailed design documentation, see [DESIGN.md](DESIGN.md).
 
 1. Edit `src/data/Templates.json`
 2. Add a new template object with required fields:
+
    ```json
    {
      "id": "unique-id",
@@ -233,6 +241,7 @@ For detailed design documentation, see [DESIGN.md](DESIGN.md).
 
 1. Edit `src/data/Role.json`
 2. Add a new role object:
+
    ```json
    {
      "id": "ROLE_ID",
@@ -261,6 +270,7 @@ The application uses CSS custom properties for consistent theming:
 Prompt Monster is built with accessibility as a core principle:
 
 ### WCAG 2.1 AA Compliance
+
 - ✅ Color contrast ratios meet standards
 - ✅ All interactive elements are keyboard accessible
 - ✅ Screen readers can access all content
@@ -268,6 +278,7 @@ Prompt Monster is built with accessibility as a core principle:
 - ✅ Error messages are descriptive and helpful
 
 ### Testing Tools
+
 - [WAVE Web Accessibility Evaluator](https://wave.webaim.org/)
 - [axe DevTools](https://www.deque.com/axe/devtools/)
 - [Lighthouse Accessibility Audit](https://developers.google.com/web/tools/lighthouse)
@@ -284,6 +295,7 @@ Prompt Monster supports all modern browsers:
 - ✅ Edge 88+
 
 ### Progressive Enhancement
+
 - **JavaScript Required**: Core functionality requires JavaScript
 - **Graceful Degradation**: Informative fallback for disabled JavaScript
 - **Print Support**: Optimized styles for printing prompts
@@ -316,6 +328,7 @@ No environment variables are required for basic functionality.
 We welcome contributions! Here's how you can help:
 
 ### Getting Started
+
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/amazing-feature`
 3. Make your changes
@@ -325,6 +338,7 @@ We welcome contributions! Here's how you can help:
 7. Open a Pull Request
 
 ### Contribution Guidelines
+
 - Follow the existing code style
 - Ensure accessibility standards are maintained
 - Test on multiple devices and browsers
@@ -332,6 +346,7 @@ We welcome contributions! Here's how you can help:
 - Add appropriate comments for complex logic
 
 ### Areas for Contribution
+
 - 🎨 New prompt templates
 - 🔧 Feature enhancements
 - 🐛 Bug fixes
