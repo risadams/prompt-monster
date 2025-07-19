@@ -1,0 +1,182 @@
+[
+  {
+    "id": "po-sprint",
+    "name": "Sprint Planning (PO)",
+    "role": "Product Owner",
+    "task": "Define user stories for the next sprint",
+    "goal": "Deliver valuable features to users",
+    "context": "Working with a cross-functional team",
+    "details": "Focus on MVP, avoid scope creep"
+  },
+  {
+    "id": "sm-retro",
+    "name": "Retrospective Facilitation",
+    "role": "Scrum Master",
+    "task": "Facilitate a sprint retrospective",
+    "goal": "Help the team improve processes",
+    "context": "Team has just completed a challenging sprint",
+    "details": "Encourage open feedback, keep it constructive"
+  },
+  {
+    "id": "dev-bugfix",
+    "name": "Bug Fixing",
+    "role": "Developer",
+    "task": "Fix reported bugs in the application",
+    "goal": "Improve product stability",
+    "context": "Bugs reported by QA in the latest release",
+    "details": "Prioritize critical issues"
+  },
+  {
+    "id": "ux-research",
+    "name": "User Research",
+    "role": "UX Designer",
+    "task": "Conduct user interviews",
+    "goal": "Understand user needs",
+    "context": "Preparing for a new feature launch",
+    "details": "Document findings, focus on pain points"
+  },
+  {
+    "id": "arch-review",
+    "name": "Architecture Review",
+    "role": "Architect",
+    "task": "Review system architecture for scalability",
+    "goal": "Ensure the system can handle future growth",
+    "context": "Upcoming increase in user base",
+    "details": "Identify bottlenecks, suggest improvements"
+  },
+  {
+    "id": "tester-automation",
+    "name": "Test Automation",
+    "role": "Tester",
+    "task": "Automate regression tests",
+    "goal": "Reduce manual testing effort",
+    "context": "Frequent releases require quick validation",
+    "details": "Use Selenium, report flaky tests"
+  },
+  {
+    "id": "rte-sync",
+    "name": "ART Sync",
+    "role": "Release Train Engineer",
+    "task": "Coordinate ART sync meeting",
+    "goal": "Align teams on release goals",
+    "context": "Multiple teams working on shared features",
+    "details": "Share progress, resolve dependencies"
+  },
+  {
+    "id": "sys-env",
+    "name": "Environment Setup",
+    "role": "System Team",
+    "task": "Set up CI/CD pipelines",
+    "goal": "Enable automated deployments",
+    "context": "New microservices being added",
+    "details": "Document steps, ensure security compliance"
+  },
+  {
+    "id": "bo-roadmap",
+    "name": "Roadmap Definition",
+    "role": "Business Owner",
+    "task": "Define product roadmap",
+    "goal": "Guide product development",
+    "context": "Market analysis completed",
+    "details": "Prioritize features by business value"
+  },
+  {
+    "id": "epic-coord",
+    "name": "Epic Coordination",
+    "role": "Epic Owner",
+    "task": "Coordinate epic implementation",
+    "goal": "Deliver cross-team initiatives",
+    "context": "Multiple teams involved",
+    "details": "Track dependencies, communicate status"
+  },
+  {
+    "id": "po-feedback",
+    "name": "Collect User Feedback",
+    "role": "Product Owner",
+    "task": "Gather feedback from users",
+    "goal": "Improve product usability",
+    "context": "Recent feature release",
+    "details": "Use surveys, analyze results"
+  },
+  {
+    "id": "sm-daily",
+    "name": "Daily Standup",
+    "role": "Scrum Master",
+    "task": "Facilitate daily standup meeting",
+    "goal": "Keep team aligned",
+    "context": "Remote team members",
+    "details": "Timebox meeting, address blockers"
+  },
+  {
+    "id": "dev-feature",
+    "name": "Feature Development",
+    "role": "Developer",
+    "task": "Implement new feature",
+    "goal": "Expand product capabilities",
+    "context": "Feature requested by customers",
+    "details": "Follow coding standards, write tests"
+  },
+  {
+    "id": "ux-prototype",
+    "name": "Prototype Design",
+    "role": "UX Designer",
+    "task": "Design interactive prototype",
+    "goal": "Validate design concepts",
+    "context": "Early stage of product development",
+    "details": "Use Figma, gather stakeholder feedback"
+  },
+  {
+    "id": "arch-docs",
+    "name": "Architecture Documentation",
+    "role": "Architect",
+    "task": "Document system architecture",
+    "goal": "Enable knowledge sharing",
+    "context": "New team members onboarding",
+    "details": "Create diagrams, explain key decisions"
+  },
+  {
+    "id": "tester-perf",
+    "name": "Performance Testing",
+    "role": "Tester",
+    "task": "Conduct performance tests",
+    "goal": "Ensure system reliability",
+    "context": "High traffic expected",
+    "details": "Use JMeter, report bottlenecks"
+  },
+  {
+    "id": "rte-retro",
+    "name": "ART Retrospective",
+    "role": "Release Train Engineer",
+    "task": "Facilitate ART retrospective",
+    "goal": "Improve ART processes",
+    "context": "End of PI",
+    "details": "Collect feedback, identify improvements"
+  },
+  {
+    "id": "sys-monitor",
+    "name": "System Monitoring",
+    "role": "System Team",
+    "task": "Set up monitoring tools",
+    "goal": "Detect issues early",
+    "context": "Production environment",
+    "details": "Use Grafana, set alerts"
+  },
+  {
+    "id": "bo-demo",
+    "name": "Product Demo",
+    "role": "Business Owner",
+    "task": "Present product demo to stakeholders",
+    "goal": "Showcase product value",
+    "context": "Quarterly review meeting",
+    "details": "Highlight key features, answer questions"
+  },
+  {
+    "id": "epic-report",
+    "name": "Epic Status Report",
+    "role": "Epic Owner",
+    "task": "Prepare epic status report",
+    "goal": "Communicate progress",
+    "context": "Monthly reporting cycle",
+    "details": "Include risks, next steps"
+  }
+]
