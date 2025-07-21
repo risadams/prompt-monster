@@ -14,7 +14,16 @@ function App() {
     context: '',
     requirements: ''
   });
+  const [currentTemplate, setCurrentTemplate] = useState(null);
+  const [userModifications, setUserModifications] = useState({
+    task: false,
+    idea: false,
+    context: false,
+    requirements: false
+  });
   const [templateSearch, setTemplateSearch] = useState('');
+  const [roleFilter, setRoleFilter] = useState('');
+  const [showInstructions, setShowInstructions] = useState(true);
   const [copied, setCopied] = useState(false);
   const [isFormValid, setIsFormValid] = useState(false);
 
@@ -35,7 +44,19 @@ function App() {
       // Clear custom role if switching away from 'other'
       ...(field === 'selectedRole' && value !== 'other' ? { customRole: '' } : {})
     }));
-  }, []);
+
+    // Track user modifications for template preservation
+    if (currentTemplate && ['task', 'idea', 'context', 'requirements'].includes(field)) {
+      const templateValue = currentTemplate[field === 'idea' ? 'goal' : 
+                                          field === 'requirements' ? 'details' : field];
+      const isModified = value !== (templateValue || '');
+      
+      setUserModifications(prev => ({
+        ...prev,
+        [field]: isModified
+      }));
+    }
+  }, [currentTemplate]);
 
   // Generate prompt
   const generatePrompt = useCallback(() => {
@@ -95,25 +116,60 @@ function App() {
   }, [prompt]);
 
   // Filter templates
-  const filteredTemplates = templates.filter(template =>
-    template.name.toLowerCase().includes(templateSearch.toLowerCase()) ||
-    template.role.toLowerCase().includes(templateSearch.toLowerCase()) ||
-    template.task.toLowerCase().includes(templateSearch.toLowerCase())
-  );
+  const filteredTemplates = templates.filter(template => {
+    const matchesSearch = template.name.toLowerCase().includes(templateSearch.toLowerCase()) ||
+                         template.role.toLowerCase().includes(templateSearch.toLowerCase()) ||
+                         template.task.toLowerCase().includes(templateSearch.toLowerCase());
+    const matchesRole = !roleFilter || template.role === roleFilter;
+    return matchesSearch && matchesRole;
+  });
 
-  // Apply template
+  // Apply template with user modification preservation
   const applyTemplate = useCallback((template) => {
-    setFormData({
+    // If switching templates, preserve user modifications
+    const newFormData = {
       selectedRole: template.role,
       customRole: '',
-      task: template.task,
-      idea: template.goal,
-      context: template.context || '',
-      requirements: template.details || ''
+      // Only update if user hasn't modified the field
+      task: userModifications.task ? formData.task : template.task,
+      idea: userModifications.idea ? formData.idea : template.goal,
+      context: userModifications.context ? formData.context : (template.context || ''),
+      requirements: userModifications.requirements ? formData.requirements : (template.details || '')
+    };
+
+    setFormData(newFormData);
+    setCurrentTemplate(template);
+    
+    // Reset modification tracking for fields that were updated from template
+    setUserModifications(prev => ({
+      task: prev.task && newFormData.task !== template.task,
+      idea: prev.idea && newFormData.idea !== template.goal,
+      context: prev.context && newFormData.context !== (template.context || ''),
+      requirements: prev.requirements && newFormData.requirements !== (template.details || '')
+    }));
+    
+    // Announce to screen readers
+    const announcement = `Applied template: ${template.name}. User modifications preserved.`;
+    const announcer = document.createElement('div');
+    announcer.textContent = announcement;
+    announcer.setAttribute('aria-live', 'polite');
+    announcer.className = 'sr-only';
+    document.body.appendChild(announcer);
+    setTimeout(() => document.body.removeChild(announcer), 1000);
+  }, [formData, userModifications]);
+
+  // Clear current template
+  const clearTemplate = useCallback(() => {
+    setCurrentTemplate(null);
+    setUserModifications({
+      task: false,
+      idea: false,
+      context: false,
+      requirements: false
     });
     
     // Announce to screen readers
-    const announcement = `Applied template: ${template.name}`;
+    const announcement = `Template cleared. All fields are now user-defined.`;
     const announcer = document.createElement('div');
     announcer.textContent = announcement;
     announcer.setAttribute('aria-live', 'polite');
@@ -121,6 +177,39 @@ function App() {
     document.body.appendChild(announcer);
     setTimeout(() => document.body.removeChild(announcer), 1000);
   }, []);
+
+  // Reset form to initial state
+  const resetForm = useCallback(() => {
+    setFormData({
+      idea: '',
+      selectedRole: '',
+      customRole: '',
+      task: '',
+      context: '',
+      requirements: ''
+    });
+    setCurrentTemplate(null);
+    setUserModifications({
+      task: false,
+      idea: false,
+      context: false,
+      requirements: false
+    });
+    setTemplateSearch('');
+    setRoleFilter('');
+    
+    // Announce to screen readers
+    const announcement = `Form reset to initial state.`;
+    const announcer = document.createElement('div');
+    announcer.textContent = announcement;
+    announcer.setAttribute('aria-live', 'polite');
+    announcer.className = 'sr-only';
+    document.body.appendChild(announcer);
+    setTimeout(() => document.body.removeChild(announcer), 1000);
+  }, []);
+
+  // Get unique roles for filter dropdown
+  const uniqueRoles = [...new Set(templates.map(template => template.role))].sort();
 
   return (
     <div className="app-container">
@@ -144,12 +233,83 @@ function App() {
       </header>
 
       <main id="main-content" className="main-content" role="main">
+        {/* Usage Instructions */}
+        <section className="usage-instructions" aria-label="How to Use Prompt Monster">
+          <div className="card instructions-card">
+            <div className="card-header">
+              <h2 className="card-title instructions-title">🎯 How to Use Prompt Monster</h2>
+              <button
+                className="btn btn-ghost btn-sm toggle-instructions"
+                onClick={() => setShowInstructions(!showInstructions)}
+                aria-expanded={showInstructions}
+                aria-label={showInstructions ? "Hide instructions" : "Show instructions"}
+              >
+                {showInstructions ? "Hide" : "Show"} Guide
+              </button>
+            </div>
+            
+            {showInstructions && (
+              <div className="instructions-content">
+                <div className="instruction-step">
+                  <div className="step-number">1</div>
+                  <div className="step-content">
+                    <h3>Choose Your Approach</h3>
+                    <p>Start with a <strong>template</strong> from the library for common scenarios, or <strong>build from scratch</strong> by filling out the form manually.</p>
+                  </div>
+                </div>
+                
+                <div className="instruction-step">
+                  <div className="step-number">2</div>
+                  <div className="step-content">
+                    <h3>Fill Required Fields</h3>
+                    <p>Complete the <strong>Role</strong>, <strong>Task</strong>, and <strong>Goal</strong> fields. Add optional <strong>Context</strong> and <strong>Details</strong> for better results.</p>
+                  </div>
+                </div>
+                
+                <div className="instruction-step">
+                  <div className="step-number">3</div>
+                  <div className="step-content">
+                    <h3>Copy & Enhance Your Prompt</h3>
+                    <p>Copy the generated prompt and paste it into your favorite AI tool (ChatGPT, Claude, Gemini, etc.). <strong>Remember:</strong> This is your <em>starting point</em> - add any relevant context like source code, files, documents, or specific requirements to get the best results.</p>
+                  </div>
+                </div>
+                
+                <div className="pro-tips">
+                  <h4>💡 Pro Tips</h4>
+                  <ul>
+                    <li><strong>Add Context:</strong> Include relevant files, code snippets, or documents with your prompt</li>
+                    <li><strong>Be Specific:</strong> The more specific your task and goal, the better the AI response</li>
+                    <li><strong>Iterate:</strong> Use the generated prompt as a foundation and refine based on AI feedback</li>
+                    <li><strong>Template Power:</strong> Your modifications are preserved when switching templates</li>
+                  </ul>
+                </div>
+              </div>
+            )}
+          </div>
+        </section>
+
         <div className="content-grid">
           {/* Template Library Sidebar */}
           <aside className="template-library" aria-label="Template Library">
             <div className="card">
               <div className="card-header">
                 <h2 className="card-title">Template Library</h2>
+                {currentTemplate && (
+                  <div className="current-template-indicator">
+                    <div className="current-template-info">
+                      <span className="current-template-label">Active Template:</span>
+                      <span className="current-template-name">{currentTemplate.name}</span>
+                    </div>
+                    <button
+                      className="btn btn-outline btn-sm"
+                      onClick={clearTemplate}
+                      aria-label="Clear current template"
+                      title="Clear current template and reset modification tracking"
+                    >
+                      Clear Template
+                    </button>
+                  </div>
+                )}
               </div>
               
               <div className="form-group">
@@ -170,6 +330,51 @@ function App() {
                 </div>
               </div>
 
+              {/* Role Filter */}
+              <div className="form-group">
+                <label htmlFor="role-filter" className="filter-label">
+                  Filter by Role
+                </label>
+                <select
+                  id="role-filter"
+                  className="filter-select"
+                  value={roleFilter}
+                  onChange={(e) => setRoleFilter(e.target.value)}
+                  aria-describedby="role-filter-help"
+                >
+                  <option value="">All Roles ({templates.length})</option>
+                  {uniqueRoles.map((role) => {
+                    const count = templates.filter(t => t.role === role).length;
+                    return (
+                      <option key={role} value={role}>
+                        {role} ({count})
+                      </option>
+                    );
+                  })}
+                </select>
+                <div id="role-filter-help" className="sr-only">
+                  Filter templates by specific role
+                </div>
+              </div>
+
+              {/* Filter Actions */}
+              <div className="filter-actions">
+                <button
+                  className="btn btn-outline btn-sm"
+                  onClick={() => {
+                    setTemplateSearch('');
+                    setRoleFilter('');
+                  }}
+                  disabled={!templateSearch && !roleFilter}
+                  aria-label="Clear all filters"
+                >
+                  Clear Filters
+                </button>
+                <span className="filter-results">
+                  {filteredTemplates.length} of {templates.length} templates
+                </span>
+              </div>
+
               <div className="templates-container" role="list" aria-label="Available templates">
                 {filteredTemplates.length === 0 ? (
                   <div className="no-templates" role="status">
@@ -179,20 +384,27 @@ function App() {
                   filteredTemplates.map((template) => (
                     <div
                       key={template.id}
-                      className="template-item"
+                      className={`template-item ${currentTemplate?.id === template.id ? 'template-active' : ''}`}
                       role="listitem"
                     >
-                      <div className="template-name">{template.name}</div>
+                      <div className="template-name">
+                        {template.name}
+                        {currentTemplate?.id === template.id && (
+                          <span className="active-indicator" aria-label="Currently active template">
+                            ✨ Active
+                          </span>
+                        )}
+                      </div>
                       <div className="template-role">👤 {template.role}</div>
                       <div className="template-task">
                         <strong>Task:</strong> {template.task}
                       </div>
                       <button
-                        className="btn btn-secondary btn-sm"
+                        className={`btn ${currentTemplate?.id === template.id ? 'btn-secondary' : 'btn-secondary'} btn-sm`}
                         onClick={() => applyTemplate(template)}
-                        aria-label={`Apply template: ${template.name}`}
+                        aria-label={`${currentTemplate?.id === template.id ? 'Reapply' : 'Apply'} template: ${template.name}`}
                       >
-                        Use Template
+                        {currentTemplate?.id === template.id ? 'Reapply Template' : 'Use Template'}
                       </button>
                     </div>
                   ))
@@ -206,6 +418,16 @@ function App() {
             <div className="card">
               <div className="card-header">
                 <h2 className="card-title">Prompt Builder</h2>
+                <div className="form-actions">
+                  <button
+                    className="btn btn-outline btn-sm"
+                    onClick={resetForm}
+                    aria-label="Reset entire form to initial state"
+                    title="Clear all fields and reset template"
+                  >
+                    🔄 Reset Form
+                  </button>
+                </div>
               </div>
 
               <form onSubmit={(e) => e.preventDefault()} noValidate>
@@ -261,6 +483,11 @@ function App() {
                 <div className="form-group">
                   <label htmlFor="task-input" className="form-label">
                     Task <span className="required-indicator" aria-label="required">*</span>
+                    {currentTemplate && userModifications.task && (
+                      <span className="modification-indicator" title="You've modified this field from the template">
+                        ✏️ Modified
+                      </span>
+                    )}
                   </label>
                   <input
                     id="task-input"
@@ -281,6 +508,11 @@ function App() {
                 <div className="form-group">
                   <label htmlFor="idea-input" className="form-label">
                     Goal <span className="required-indicator" aria-label="required">*</span>
+                    {currentTemplate && userModifications.idea && (
+                      <span className="modification-indicator" title="You've modified this field from the template">
+                        ✏️ Modified
+                      </span>
+                    )}
                   </label>
                   <input
                     id="idea-input"
@@ -301,6 +533,11 @@ function App() {
                 <div className="form-group">
                   <label htmlFor="context-input" className="form-label">
                     Context
+                    {currentTemplate && userModifications.context && (
+                      <span className="modification-indicator" title="You've modified this field from the template">
+                        ✏️ Modified
+                      </span>
+                    )}
                   </label>
                   <input
                     id="context-input"
@@ -320,6 +557,11 @@ function App() {
                 <div className="form-group">
                   <label htmlFor="requirements-input" className="form-label">
                     Details
+                    {currentTemplate && userModifications.requirements && (
+                      <span className="modification-indicator" title="You've modified this field from the template">
+                        ✏️ Modified
+                      </span>
+                    )}
                   </label>
                   <textarea
                     id="requirements-input"
@@ -367,6 +609,12 @@ function App() {
                           <>📋 Copy to Clipboard</>
                         )}
                       </button>
+                    </div>
+                    
+                    <div className="prompt-reminder">
+                      <p className="reminder-text">
+                        <strong>💡 Remember:</strong> This is your starting point! Paste this into your AI tool and add any relevant context like source code, files, documents, or specific examples to get the best results.
+                      </p>
                     </div>
                   </>
                 ) : (
