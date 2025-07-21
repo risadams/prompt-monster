@@ -810,204 +810,24 @@
     "category": "Support"
   },
   {
-    "id": "support-escalation",
+    "id": "escalation-management",
     "name": "Issue Escalation Management",
     "roles": ["Support Agent", "Escalation Manager"],
-    "task": "Manage escalation of complex customer issues",
-    "goal": "Ensure customer issues are resolved appropriately",
-    "context": "Customer issue beyond first-level support capabilities",
-    "details": "Document issue thoroughly, identify right expert, follow up on resolution",
+    "task": "Manage and resolve escalations for complex customer issues",
+    "goal": "Ensure timely and effective resolution",
+    "context": "High-priority or complex issues reported",
+    "details": "Document issue, coordinate with support, follow up on resolution",
     "category": "Support"
   },
   {
-    "id": "content-documentation",
-    "name": "User Documentation Creation",
-    "roles": ["Content Writer", "Technical Writer"],
-    "task": "Create comprehensive user documentation",
-    "goal": "Help users understand and effectively use product features",
-    "context": "New features released or existing docs need improvement",
-    "details": "Write clear instructions, include examples, organize logically",
-    "category": "Content"
-  },
-  {
-    "id": "content-marketing",
-    "name": "Marketing Content Development",
-    "roles": ["Content Writer", "Marketing Manager"],
-    "task": "Create marketing content for product promotion",
-    "goal": "Generate interest and leads for product",
-    "context": "Product launch or marketing campaign planned",
-    "details": "Write compelling copy, align with brand voice, target specific audience",
-    "category": "Content"
-  },
-  {
-    "id": "content-tutorials",
-    "name": "Tutorial and Guide Creation",
-    "roles": ["Content Writer", "Trainer"],
-    "task": "Develop step-by-step tutorials and how-to guides",
-    "goal": "Enable users to accomplish specific tasks",
-    "context": "Users need guidance on complex workflows",
-    "details": "Break down complex processes, include screenshots, test with real users",
-    "category": "Content"
-  },
-  {
-    "id": "researcher-interviews",
-    "name": "User Interview Coordination",
-    "roles": ["User Researcher", "Project Coordinator"],
-    "task": "Plan and conduct user interviews for product insights",
-    "goal": "Gather deep insights into user needs and behaviors",
-    "context": "Need qualitative data to inform product decisions",
-    "details": "Recruit participants, prepare interview guide, analyze findings",
-    "category": "Research"
-  },
-  {
-    "id": "researcher-surveys",
-    "name": "User Survey Design and Analysis",
-    "roles": ["User Researcher", "Data Analyst"],
-    "task": "Design and analyze user surveys",
-    "goal": "Collect quantitative data about user preferences",
-    "context": "Need broad user feedback on specific topics",
-    "details": "Design unbiased questions, distribute effectively, analyze statistically",
-    "category": "Research"
-  },
-  {
-    "id": "researcher-personas",
-    "name": "User Persona Development",
-    "roles": ["User Researcher", "UX Designer"],
-    "task": "Create detailed user personas based on research",
-    "goal": "Help team understand and empathize with users",
-    "context": "Research data collected, need to synthesize insights",
-    "details": "Identify patterns, create realistic profiles, validate with stakeholders",
-    "category": "Research"
-  },
-  {
-    "id": "compliance-review",
-    "name": "Regulatory Compliance Assessment",
-    "roles": ["Compliance Officer", "QA Lead"],
-    "task": "Review product features for regulatory compliance",
-    "goal": "Ensure product meets all applicable regulations",
-    "context": "New features or regulations require compliance review",
-    "details": "Review relevant regulations, assess compliance gaps, recommend changes",
-    "category": "Compliance"
-  },
-  {
-    "id": "compliance-documentation",
-    "name": "Compliance Documentation",
-    "roles": ["Compliance Officer", "Technical Writer"],
-    "task": "Create compliance documentation and procedures",
-    "goal": "Document compliance processes for audit purposes",
-    "context": "Preparing for regulatory audit or certification",
-    "details": "Document procedures, create evidence trail, train relevant staff",
-    "category": "Compliance"
-  },
-  {
-    "id": "marketing-campaign",
-    "name": "Marketing Campaign Planning",
-    "roles": ["Marketing Manager", "Content Writer"],
-    "task": "Plan and execute marketing campaign for product",
-    "goal": "Increase product awareness and generate leads",
-    "context": "Product launch or need to boost market presence",
-    "details": "Define target audience, select channels, create messaging, measure results",
-    "category": "Marketing"
-  },
-  {
-    "id": "marketing-analysis",
-    "name": "Market Analysis and Positioning",
-    "roles": ["Marketing Manager", "Data Analyst"],
-    "task": "Analyze market trends and competitive positioning",
-    "goal": "Inform marketing strategy and product positioning",
-    "context": "Planning marketing strategy or entering new market",
-    "details": "Research competitors, identify market gaps, define value proposition",
-    "category": "Marketing"
-  },
-  {
-    "id": "ai-ethics-review",
-    "name": "AI Ethics Review",
-    "roles": ["AI Ethics Officer", "Product Owner"],
-    "task": "Review AI system for ethical compliance",
-    "goal": "Ensure responsible AI deployment",
-    "context": "New AI feature ready for launch",
-    "details": "Assess bias, fairness, transparency, and accountability",
-    "category": "AI Ethics"
-  },
-  {
-    "id": "localization-testing",
-    "name": "Localization Testing",
-    "roles": ["Localization Specialist", "Tester"],
-    "task": "Test product in multiple languages",
-    "goal": "Ensure global usability",
-    "context": "Product expanding to new markets",
-    "details": "Check translations, cultural appropriateness, and formatting",
-    "category": "Testing"
-  },
-  {
-    "id": "accessibility-audit",
-    "name": "Accessibility Audit",
-    "roles": ["Accessibility Expert", "QA Lead"],
-    "task": "Audit product for accessibility standards",
-    "goal": "Make product usable for all",
-    "context": "Preparing for public release",
-    "details": "Test with screen readers, keyboard navigation, color contrast",
-    "category": "Testing"
-  },
-  {
-    "id": "incident-response",
-    "name": "Incident Response Drill",
-    "roles": ["Security Specialist", "Incident Manager"],
-    "task": "Conduct incident response simulation",
-    "goal": "Prepare team for security breaches",
-    "context": "Annual security training",
-    "details": "Simulate breach, test response protocols, review outcomes",
+    "id": "incident-management",
+    "name": "Incident Management and Response",
+    "roles": ["Security Specialist", "Incident Manager", "Support Agent"],
+    "task": "Manage and respond to customer or security incidents",
+    "goal": "Prepare team and resolve incidents promptly",
+    "context": "Incident reported or annual security training",
+    "details": "Acknowledge, investigate, simulate breach, coordinate resolution, review outcomes",
     "category": "Security"
-  },
-  {
-    "id": "data-migration",
-    "name": "Data Migration Planning",
-    "roles": ["Database Administrator", "Data Analyst"],
-    "task": "Plan migration of legacy data",
-    "goal": "Ensure smooth transition to new system",
-    "context": "Legacy system being replaced",
-    "details": "Map data, plan migration steps, test integrity",
-    "category": "Database"
-  },
-  {
-    "id": "api-design-review",
-    "name": "API Design Review",
-    "roles": ["Backend Developer", "API Specialist"],
-    "task": "Review API design for best practices",
-    "goal": "Ensure robust and scalable APIs",
-    "context": "New API endpoints proposed",
-    "details": "Check RESTful principles, versioning, documentation",
-    "category": "Development"
-  },
-  {
-    "id": "mobile-ux-testing",
-    "name": "Mobile UX Testing",
-    "roles": ["Mobile UX Designer", "Tester"],
-    "task": "Test mobile app user experience",
-    "goal": "Optimize for mobile usability",
-    "context": "Mobile app beta ready",
-    "details": "Test gestures, responsiveness, navigation flow",
-    "category": "Design"
-  },
-  {
-    "id": "cloud-cost-optimization",
-    "name": "Cloud Cost Optimization",
-    "roles": ["Cloud Architect", "Financial Analyst"],
-    "task": "Analyze and reduce cloud infrastructure costs",
-    "goal": "Improve cost efficiency",
-    "context": "Cloud spend exceeds budget",
-    "details": "Review usage, recommend savings, automate scaling",
-    "category": "Cloud"
-  },
-  {
-    "id": "customer-onboarding",
-    "name": "Customer Onboarding Process",
-    "roles": ["Support Agent", "Customer Success Manager"],
-    "task": "Guide new customers through onboarding",
-    "goal": "Ensure successful product adoption",
-    "context": "New customer signed up",
-    "details": "Provide training, answer questions, track progress",
-    "category": "Support"
   },
   {
     "id": "customer-success-health-check",
@@ -1020,34 +840,54 @@
     "category": "Support"
   },
   {
-    "id": "customer-success-renewal-planning",
-    "name": "Renewal Planning Session",
+    "id": "account-planning",
+    "name": "Account Planning and Relationship Management",
     "roles": ["Account Manager", "Customer Success Manager"],
-    "task": "Plan renewal strategies for key accounts",
-    "goal": "Increase renewal rates and reduce churn",
-    "context": "Renewal period approaching",
-    "details": "Review contract terms, identify upsell opportunities, prepare proposals",
+    "task": "Plan and strengthen relationships with key accounts",
+    "goal": "Increase loyalty, satisfaction, and align on goals",
+    "context": "Strategic accounts, quarterly/annual planning",
+    "details": "Facilitate workshops, document plans, regular check-ins, executive reviews",
     "category": "Account Management"
   },
   {
-    "id": "customer-success-onboarding-feedback",
-    "name": "Onboarding Feedback Collection",
-    "roles": ["Support Agent", "Customer Success Manager"],
-    "task": "Collect feedback from new customers on onboarding process",
-    "goal": "Improve onboarding experience",
-    "context": "Recent onboarding completed",
-    "details": "Survey customers, analyze responses, recommend changes",
-    "category": "Support"
+    "id": "training-session",
+    "name": "Customer/User Training Session",
+    "roles": ["Trainer", "Support Agent", "End User", "Customer Success Manager"],
+    "task": "Conduct training for users/customers on product features",
+    "goal": "Increase product adoption and proficiency",
+    "context": "New feature release or onboarding",
+    "details": "Prepare materials, deliver sessions, answer questions, gather feedback",
+    "category": "Training"
   },
   {
-    "id": "customer-success-training-session",
-    "name": "Customer Training Session",
-    "roles": ["Support Agent", "Trainer"],
-    "task": "Conduct training for customers on product features",
-    "goal": "Increase product adoption and proficiency",
-    "context": "New feature release",
-    "details": "Prepare training materials, deliver sessions, answer questions",
-    "category": "Training"
+    "id": "renewal-management",
+    "name": "Renewal Planning and Execution",
+    "roles": ["Account Manager", "Customer Success Manager"],
+    "task": "Plan and execute renewal strategies for key accounts",
+    "goal": "Increase renewal rates and reduce churn",
+    "context": "Renewal period approaching or contracts expiring",
+    "details": "Review terms, prepare quotes, negotiate, identify upsell opportunities",
+    "category": "Account Management"
+  },
+  {
+    "id": "customization-management",
+    "name": "Customization Planning and Execution",
+    "roles": ["Product Manager", "Developer", "Customer Success Manager"],
+    "task": "Plan and oversee execution of product customizations",
+    "goal": "Deliver tailored solutions to customers",
+    "context": "Customer requests for customization approved",
+    "details": "Gather requirements, prioritize, coordinate development, test and deploy",
+    "category": "Product Management"
+  },
+  {
+    "id": "upgrade-management",
+    "name": "Upgrade Planning and Execution",
+    "roles": ["Product Manager", "Project Manager", "Customer Success Manager"],
+    "task": "Plan and manage execution of product upgrades for customers",
+    "goal": "Ensure smooth and successful upgrades",
+    "context": "New product version released or upgrades planned",
+    "details": "Identify candidates, plan communication, coordinate with support, verify completion",
+    "category": "Product Management"
   },
   {
     "id": "customer-success-advocacy-program",
@@ -1948,5 +1788,15 @@
     "context": "Increase in remote customer interactions",
     "details": "Cover virtual communication tools, engagement techniques, and etiquette",
     "category": "Training"
+  },
+  {
+    "id": "feedback-session",
+    "name": "User/Product Feedback Collection",
+    "roles": ["Product Owner", "UX Researcher", "Customer"],
+    "task": "Gather and analyze feedback from users and customers",
+    "goal": "Improve product usability and value",
+    "context": "After feature release or during product use",
+    "details": "Use surveys, interviews, analyze results, share insights",
+    "category": "Feedback"
   }
 ]
