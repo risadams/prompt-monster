@@ -6,7 +6,8 @@
     "task": "Define user stories for the next sprint",
     "goal": "Deliver valuable features to users",
     "context": "Working with a cross-functional team",
-    "details": "Focus on MVP, avoid scope creep"
+    "details": "Focus on MVP, avoid scope creep",
+    "category": "Agile"
   },
   {
     "id": "sm-retro",
@@ -15,7 +16,8 @@
     "task": "Facilitate a sprint retrospective",
     "goal": "Help the team improve processes",
     "context": "Team has just completed a challenging sprint",
-    "details": "Encourage open feedback, keep it constructive"
+    "details": "Encourage open feedback, keep it constructive",
+    "category": "Agile"
   },
   {
     "id": "dev-bugfix",
@@ -24,7 +26,8 @@
     "task": "Fix reported bugs in the application",
     "goal": "Improve product stability",
     "context": "Bugs reported by QA in the latest release",
-    "details": "Prioritize critical issues"
+    "details": "Prioritize critical issues",
+    "category": "Development"
   },
   {
     "id": "ux-research",
@@ -33,7 +36,8 @@
     "task": "Conduct user interviews",
     "goal": "Understand user needs",
     "context": "Preparing for a new feature launch",
-    "details": "Document findings, focus on pain points"
+    "details": "Document findings, focus on pain points",
+    "category": "Design"
   },
   {
     "id": "arch-review",
@@ -42,7 +46,8 @@
     "task": "Review system architecture for scalability",
     "goal": "Ensure the system can handle future growth",
     "context": "Upcoming increase in user base",
-    "details": "Identify bottlenecks, suggest improvements"
+    "details": "Identify bottlenecks, suggest improvements",
+    "category": "Architecture"
   },
   {
     "id": "tester-automation",
@@ -51,7 +56,8 @@
     "task": "Automate regression tests",
     "goal": "Reduce manual testing effort",
     "context": "Frequent releases require quick validation",
-    "details": "Use Selenium, report flaky tests"
+    "details": "Use Selenium, report flaky tests",
+    "category": "Testing"
   },
   {
     "id": "rte-sync",
@@ -60,7 +66,8 @@
     "task": "Coordinate ART sync meeting",
     "goal": "Align teams on release goals",
     "context": "Multiple teams working on shared features",
-    "details": "Share progress, resolve dependencies"
+    "details": "Share progress, resolve dependencies",
+    "category": "Release Management"
   },
   {
     "id": "sys-env",
@@ -69,7 +76,8 @@
     "task": "Set up CI/CD pipelines",
     "goal": "Enable automated deployments",
     "context": "New microservices being added",
-    "details": "Document steps, ensure security compliance"
+    "details": "Document steps, ensure security compliance",
+    "category": "DevOps"
   },
   {
     "id": "bo-roadmap",
@@ -78,7 +86,8 @@
     "task": "Define product roadmap",
     "goal": "Guide product development",
     "context": "Market analysis completed",
-    "details": "Prioritize features by business value"
+    "details": "Prioritize features by business value",
+    "category": "Business"
   },
   {
     "id": "epic-coord",
@@ -87,7 +96,8 @@
     "task": "Coordinate epic implementation",
     "goal": "Deliver cross-team initiatives",
     "context": "Multiple teams involved",
-    "details": "Track dependencies, communicate status"
+    "details": "Track dependencies, communicate status",
+    "category": "Agile"
   },
   {
     "id": "po-feedback",
@@ -96,7 +106,8 @@
     "task": "Gather feedback from users",
     "goal": "Improve product usability",
     "context": "Recent feature release",
-    "details": "Use surveys, analyze results"
+    "details": "Use surveys, analyze results",
+    "category": "Agile"
   },
   {
     "id": "sm-daily",
@@ -105,7 +116,8 @@
     "task": "Facilitate daily standup meeting",
     "goal": "Keep team aligned",
     "context": "Remote team members",
-    "details": "Timebox meeting, address blockers"
+    "details": "Timebox meeting, address blockers",
+    "category": "Agile"
   },
   {
     "id": "dev-feature",
@@ -114,7 +126,8 @@
     "task": "Implement new feature",
     "goal": "Expand product capabilities",
     "context": "Feature requested by customers",
-    "details": "Follow coding standards, write tests"
+    "details": "Follow coding standards, write tests",
+    "category": "Development"
   },
   {
     "id": "ux-prototype",
@@ -123,7 +136,8 @@
     "task": "Design interactive prototype",
     "goal": "Validate design concepts",
     "context": "Early stage of product development",
-    "details": "Use Figma, gather stakeholder feedback"
+    "details": "Use Figma, gather stakeholder feedback",
+    "category": "Design"
   },
   {
     "id": "arch-docs",
@@ -132,7 +146,8 @@
     "task": "Document system architecture",
     "goal": "Enable knowledge sharing",
     "context": "New team members onboarding",
-    "details": "Create diagrams, explain key decisions"
+    "details": "Create diagrams, explain key decisions",
+    "category": "Architecture"
   },
   {
     "id": "tester-perf",
@@ -141,7 +156,8 @@
     "task": "Conduct performance tests",
     "goal": "Ensure system reliability",
     "context": "High traffic expected",
-    "details": "Use JMeter, report bottlenecks"
+    "details": "Use JMeter, report bottlenecks",
+    "category": "Testing"
   },
   {
     "id": "rte-retro",
@@ -150,7 +166,8 @@
     "task": "Facilitate ART retrospective",
     "goal": "Improve ART processes",
     "context": "End of PI",
-    "details": "Collect feedback, identify improvements"
+    "details": "Collect feedback, identify improvements",
+    "category": "Release Management"
   },
   {
     "id": "sys-monitor",
@@ -159,7 +176,8 @@
     "task": "Set up monitoring tools",
     "goal": "Detect issues early",
     "context": "Production environment",
-    "details": "Use Grafana, set alerts"
+    "details": "Use Grafana, set alerts",
+    "category": "DevOps"
   },
   {
     "id": "bo-demo",
@@ -168,7 +186,8 @@
     "task": "Present product demo to stakeholders",
     "goal": "Showcase product value",
     "context": "Quarterly review meeting",
-    "details": "Highlight key features, answer questions"
+    "details": "Highlight key features, answer questions",
+    "category": "Business"
   },
   {
     "id": "epic-report",
@@ -177,7 +196,8 @@
     "task": "Prepare epic status report",
     "goal": "Communicate progress",
     "context": "Monthly reporting cycle",
-    "details": "Include risks, next steps"
+    "details": "Include risks, next steps",
+    "category": "Agile"
   },
   {
     "id": "po-ideation",
@@ -186,7 +206,8 @@
     "task": "Generate and evaluate new feature ideas",
     "goal": "Identify innovative solutions to user problems",
     "context": "Market research and user feedback sessions completed",
-    "details": "Use design thinking methods, consider technical feasibility and business value"
+    "details": "Use design thinking methods, consider technical feasibility and business value",
+    "category": "Agile"
   },
   {
     "id": "po-story-breakdown",
@@ -195,7 +216,8 @@
     "task": "Break down large epics into actionable user stories",
     "goal": "Create sprint-ready stories with clear acceptance criteria",
     "context": "Epic has been approved and prioritized in roadmap",
-    "details": "Ensure stories follow INVEST principles, include edge cases"
+    "details": "Ensure stories follow INVEST principles, include edge cases",
+    "category": "Agile"
   },
   {
     "id": "po-story-writing",
@@ -204,7 +226,8 @@
     "task": "Write comprehensive user stories with acceptance criteria",
     "goal": "Provide clear requirements for development team",
     "context": "Feature requirements gathering completed",
-    "details": "Use 'As a... I want... So that...' format, define done criteria"
+    "details": "Use 'As a... I want... So that...' format, define done criteria",
+    "category": "Agile"
   },
   {
     "id": "po-persona-stories",
@@ -213,7 +236,8 @@
     "task": "Create user stories based on specific user personas",
     "goal": "Ensure features address real user needs",
     "context": "User personas have been researched and defined",
-    "details": "Map stories to persona pain points, validate with user research"
+    "details": "Map stories to persona pain points, validate with user research",
+    "category": "Agile"
   },
   {
     "id": "po-story-sizing",
@@ -222,7 +246,8 @@
     "task": "Work with team to estimate and size user stories",
     "goal": "Enable accurate sprint planning and commitment",
     "context": "Stories are written and ready for development",
-    "details": "Use planning poker, break down large stories, ensure uniform understanding"
+    "details": "Use planning poker, break down large stories, ensure uniform understanding",
+    "category": "Agile"
   },
   {
     "id": "po-acceptance-criteria",
@@ -231,7 +256,8 @@
     "task": "Define detailed acceptance criteria for user stories",
     "goal": "Provide clear definition of done for each story",
     "context": "User stories have been created and prioritized",
-    "details": "Use Given-When-Then format, include happy path and edge cases"
+    "details": "Use Given-When-Then format, include happy path and edge cases",
+    "category": "Agile"
   },
   {
     "id": "po-story-refinement",
@@ -240,7 +266,8 @@
     "task": "Refine and improve existing user stories in backlog",
     "goal": "Ensure backlog items are ready for sprint planning",
     "context": "Stories need clarification or updates based on new insights",
-    "details": "Update acceptance criteria, split large stories, remove outdated items"
+    "details": "Update acceptance criteria, split large stories, remove outdated items",
+    "category": "Agile"
   },
   {
     "id": "po-mvp-definition",
@@ -249,7 +276,8 @@
     "task": "Identify and prioritize stories for minimum viable product",
     "goal": "Define the smallest set of features that deliver value",
     "context": "Feature concept approved, need to plan phased delivery",
-    "details": "Focus on core user journey, defer nice-to-have features"
+    "details": "Focus on core user journey, defer nice-to-have features",
+    "category": "Agile"
   },
   {
     "id": "po-story-mapping",
@@ -258,7 +286,8 @@
     "task": "Create visual story map to organize user journey",
     "goal": "Visualize user flow and identify story dependencies",
     "context": "Multiple related stories need to be organized",
-    "details": "Map user activities, arrange stories by priority and release"
+    "details": "Map user activities, arrange stories by priority and release",
+    "category": "Agile"
   },
   {
     "id": "po-idea-validation",
@@ -267,7 +296,8 @@
     "task": "Validate product ideas through research and testing",
     "goal": "Reduce risk of building unwanted features",
     "context": "New product ideas generated from brainstorming sessions",
-    "details": "Conduct user interviews, analyze market data, create hypotheses"
+    "details": "Conduct user interviews, analyze market data, create hypotheses",
+    "category": "Agile"
   },
   {
     "id": "po-competitor-analysis",
@@ -276,7 +306,8 @@
     "task": "Analyze competitor features to inform product decisions",
     "goal": "Identify market gaps and differentiation opportunities",
     "context": "Planning new features or improving existing ones",
-    "details": "Document competitor strengths/weaknesses, identify unique value propositions"
+    "details": "Document competitor strengths/weaknesses, identify unique value propositions",
+    "category": "Agile"
   },
   {
     "id": "po-business-case",
@@ -285,7 +316,8 @@
     "task": "Create business case for proposed features",
     "goal": "Justify investment in new product development",
     "context": "Stakeholders need ROI justification for feature development",
-    "details": "Include market opportunity, development cost, expected revenue impact"
+    "details": "Include market opportunity, development cost, expected revenue impact",
+    "category": "Business"
   },
   {
     "id": "sm-impediment",
@@ -294,7 +326,8 @@
     "task": "Identify and remove team impediments",
     "goal": "Improve team velocity and productivity",
     "context": "Team struggling with blockers",
-    "details": "Document impediments, escalate when needed, track resolution"
+    "details": "Document impediments, escalate when needed, track resolution",
+    "category": "Agile"
   },
   {
     "id": "sm-coaching",
@@ -303,7 +336,8 @@
     "task": "Coach team members on Agile practices",
     "goal": "Improve team's Agile maturity",
     "context": "Team new to Agile or struggling with practices",
-    "details": "Focus on specific practices, provide examples, encourage questions"
+    "details": "Focus on specific practices, provide examples, encourage questions",
+    "category": "Agile"
   },
   {
     "id": "dev-code-review",
@@ -312,7 +346,8 @@
     "task": "Review code changes from team members",
     "goal": "Maintain code quality and share knowledge",
     "context": "Pull request submitted for review",
-    "details": "Check for bugs, style, performance, security issues"
+    "details": "Check for bugs, style, performance, security issues",
+    "category": "Development"
   },
   {
     "id": "dev-refactoring",
@@ -321,7 +356,8 @@
     "task": "Refactor existing code for better maintainability",
     "goal": "Improve code quality without changing functionality",
     "context": "Technical debt needs to be addressed",
-    "details": "Identify code smells, apply design patterns, ensure tests pass"
+    "details": "Identify code smells, apply design patterns, ensure tests pass",
+    "category": "Development"
   },
   {
     "id": "arch-patterns",
@@ -330,7 +366,8 @@
     "task": "Select appropriate design patterns for implementation",
     "goal": "Ensure scalable and maintainable architecture",
     "context": "Complex feature requiring architectural decisions",
-    "details": "Consider trade-offs, document decisions, align with team"
+    "details": "Consider trade-offs, document decisions, align with team",
+    "category": "Architecture"
   },
   {
     "id": "tester-exploratory",
@@ -339,7 +376,8 @@
     "task": "Conduct unscripted testing to discover issues",
     "goal": "Find bugs that automated tests might miss",
     "context": "New feature ready for testing",
-    "details": "Use test charters, document findings, explore edge cases"
+    "details": "Use test charters, document findings, explore edge cases",
+    "category": "Testing"
   },
   {
     "id": "ux-usability",
@@ -348,7 +386,8 @@
     "task": "Test interface usability with real users",
     "goal": "Identify usability issues and improvement opportunities",
     "context": "New interface design ready for validation",
-    "details": "Create test scenarios, observe user behavior, document issues"
+    "details": "Create test scenarios, observe user behavior, document issues",
+    "category": "Design"
   },
   {
     "id": "rte-planning",
@@ -357,7 +396,8 @@
     "task": "Facilitate Program Increment planning session",
     "goal": "Align teams on PI objectives and dependencies",
     "context": "Beginning of new Program Increment",
-    "details": "Coordinate logistics, manage time, ensure all teams participate"
+    "details": "Coordinate logistics, manage time, ensure all teams participate",
+    "category": "Release Management"
   },
   {
     "id": "sys-deployment",
@@ -366,7 +406,8 @@
     "task": "Deploy application to production environment",
     "goal": "Successfully release new features to users",
     "context": "Feature testing completed and approved",
-    "details": "Follow deployment checklist, monitor system health, rollback if needed"
+    "details": "Follow deployment checklist, monitor system health, rollback if needed",
+    "category": "DevOps"
   },
   {
     "id": "bo-metrics",
@@ -375,7 +416,8 @@
     "task": "Review key business metrics and KPIs",
     "goal": "Track business performance and identify trends",
     "context": "Monthly business review meeting",
-    "details": "Analyze trends, identify action items, communicate insights"
+    "details": "Analyze trends, identify action items, communicate insights",
+    "category": "Business"
   },
   {
     "id": "epic-planning",
@@ -384,7 +426,8 @@
     "task": "Plan epic implementation across multiple teams",
     "goal": "Define epic scope and team responsibilities",
     "context": "Epic approved for implementation",
-    "details": "Break down into features, assign to teams, identify dependencies"
+    "details": "Break down into features, assign to teams, identify dependencies",
+    "category": "Agile"
   },
   {
     "id": "customer-feedback",
@@ -393,7 +436,8 @@
     "task": "Provide feedback on product features and usability",
     "goal": "Help improve product to better meet user needs",
     "context": "Using product in real-world scenarios",
-    "details": "Share specific examples, suggest improvements, rate satisfaction"
+    "details": "Share specific examples, suggest improvements, rate satisfaction",
+    "category": "Feedback"
   },
   {
     "id": "customer-requirements",
@@ -402,7 +446,8 @@
     "task": "Define business requirements for new features",
     "goal": "Ensure product meets business needs",
     "context": "Planning new product capabilities",
-    "details": "Describe current process, identify pain points, define success criteria"
+    "details": "Describe current process, identify pain points, define success criteria",
+    "category": "Feedback"
   },
   {
     "id": "enduser-testing",
@@ -411,7 +456,8 @@
     "task": "Test new features from end user perspective",
     "goal": "Validate features work as expected in real scenarios",
     "context": "New features ready for user validation",
-    "details": "Test real workflows, check for usability issues, verify requirements"
+    "details": "Test real workflows, check for usability issues, verify requirements",
+    "category": "Testing"
   },
   {
     "id": "enduser-training",
@@ -420,7 +466,8 @@
     "task": "Learn how to use new product features",
     "goal": "Become proficient with new capabilities",
     "context": "New features released and available",
-    "details": "Practice with real data, ask questions, document tips"
+    "details": "Practice with real data, ask questions, document tips",
+    "category": "Training"
   },
   {
     "id": "stakeholder-review",
@@ -429,7 +476,8 @@
     "task": "Review project progress and make decisions",
     "goal": "Ensure project stays aligned with business objectives",
     "context": "Regular project checkpoint meeting",
-    "details": "Review deliverables, approve next steps, address concerns"
+    "details": "Review deliverables, approve next steps, address concerns",
+    "category": "Management"
   },
   {
     "id": "stakeholder-approval",
@@ -438,7 +486,8 @@
     "task": "Review and approve proposed features",
     "goal": "Ensure features align with business strategy",
     "context": "Feature proposals ready for executive review",
-    "details": "Evaluate business value, consider resource impact, make go/no-go decision"
+    "details": "Evaluate business value, consider resource impact, make go/no-go decision",
+    "category": "Management"
   },
   {
     "id": "pm-strategy",
@@ -447,7 +496,8 @@
     "task": "Define long-term product strategy and vision",
     "goal": "Establish clear direction for product development",
     "context": "Annual planning cycle or major market changes",
-    "details": "Analyze market trends, define competitive positioning, set measurable goals"
+    "details": "Analyze market trends, define competitive positioning, set measurable goals",
+    "category": "Strategy"
   },
   {
     "id": "pm-roadmap",
@@ -456,7 +506,8 @@
     "task": "Create detailed product roadmap",
     "goal": "Communicate planned features and timeline",
     "context": "Strategy defined, need to plan execution",
-    "details": "Prioritize features, estimate timelines, consider dependencies"
+    "details": "Prioritize features, estimate timelines, consider dependencies",
+    "category": "Strategy"
   },
   {
     "id": "pm-launch",
@@ -465,7 +516,8 @@
     "task": "Coordinate cross-functional product launch",
     "goal": "Successfully bring new product to market",
     "context": "Product development nearing completion",
-    "details": "Coordinate marketing, sales, support, and engineering teams"
+    "details": "Coordinate marketing, sales, support, and engineering teams",
+    "category": "Launch"
   },
   {
     "id": "techlead-mentoring",
@@ -474,7 +526,8 @@
     "task": "Mentor junior developers on technical skills",
     "goal": "Improve team technical capabilities",
     "context": "Junior developers need guidance on complex topics",
-    "details": "Provide code examples, explain best practices, assign learning tasks"
+    "details": "Provide code examples, explain best practices, assign learning tasks",
+    "category": "Development"
   },
   {
     "id": "techlead-architecture",
@@ -483,7 +536,8 @@
     "task": "Design technical architecture for new features",
     "goal": "Ensure robust and scalable implementation",
     "context": "Complex feature requiring technical planning",
-    "details": "Consider scalability, maintainability, security, and performance"
+    "details": "Consider scalability, maintainability, security, and performance",
+    "category": "Architecture"
   },
   {
     "id": "techlead-standards",
@@ -492,7 +546,8 @@
     "task": "Establish and review team coding standards",
     "goal": "Maintain consistent code quality across team",
     "context": "Team growing or standards need updating",
-    "details": "Define guidelines, create examples, set up automated checks"
+    "details": "Define guidelines, create examples, set up automated checks",
+    "category": "Development"
   },
   {
     "id": "devops-pipeline",
@@ -501,7 +556,8 @@
     "task": "Optimize continuous integration and deployment pipelines",
     "goal": "Improve deployment speed and reliability",
     "context": "Current pipeline has performance or reliability issues",
-    "details": "Analyze bottlenecks, implement improvements, measure results"
+    "details": "Analyze bottlenecks, implement improvements, measure results",
+    "category": "DevOps"
   },
   {
     "id": "devops-monitoring",
@@ -510,7 +566,8 @@
     "task": "Set up comprehensive infrastructure monitoring",
     "goal": "Proactively detect and prevent system issues",
     "context": "Need better visibility into system health",
-    "details": "Deploy monitoring tools, set up alerts, create dashboards"
+    "details": "Deploy monitoring tools, set up alerts, create dashboards",
+    "category": "DevOps"
   },
   {
     "id": "devops-security",
@@ -519,7 +576,8 @@
     "task": "Implement security best practices in infrastructure",
     "goal": "Protect system from security threats",
     "context": "Security audit identified vulnerabilities",
-    "details": "Apply security patches, configure firewalls, implement access controls"
+    "details": "Apply security patches, configure firewalls, implement access controls",
+    "category": "DevOps"
   },
   {
     "id": "analyst-metrics",
@@ -528,7 +586,8 @@
     "task": "Analyze user behavior patterns and metrics",
     "goal": "Understand how users interact with the product",
     "context": "Need insights to improve user experience",
-    "details": "Use analytics tools, create visualizations, identify trends"
+    "details": "Use analytics tools, create visualizations, identify trends",
+    "category": "Analysis"
   },
   {
     "id": "analyst-reporting",
@@ -537,7 +596,8 @@
     "task": "Create executive-level reporting dashboard",
     "goal": "Provide key stakeholders with business insights",
     "context": "Leadership needs regular business performance updates",
-    "details": "Identify key metrics, design clear visualizations, automate updates"
+    "details": "Identify key metrics, design clear visualizations, automate updates",
+    "category": "Analysis"
   },
   {
     "id": "analyst-research",
@@ -546,7 +606,8 @@
     "task": "Analyze market research data and trends",
     "goal": "Inform product strategy decisions",
     "context": "Considering new market opportunities",
-    "details": "Process survey data, identify patterns, create recommendations"
+    "details": "Process survey data, identify patterns, create recommendations",
+    "category": "Analysis"
   },
   {
     "id": "qalead-strategy",
@@ -555,7 +616,8 @@
     "task": "Develop comprehensive quality assurance strategy",
     "goal": "Ensure product quality through systematic testing approach",
     "context": "New product or major feature release planned",
-    "details": "Define test pyramid, select tools, establish quality gates"
+    "details": "Define test pyramid, select tools, establish quality gates",
+    "category": "Testing"
   },
   {
     "id": "qalead-team",
@@ -564,7 +626,8 @@
     "task": "Coordinate testing activities across QA team",
     "goal": "Ensure efficient and thorough testing coverage",
     "context": "Multiple features being tested simultaneously",
-    "details": "Assign test areas, track progress, resolve testing conflicts"
+    "details": "Assign test areas, track progress, resolve testing conflicts",
+    "category": "Testing"
   },
   {
     "id": "qalead-metrics",
@@ -573,7 +636,8 @@
     "task": "Analyze quality metrics and testing effectiveness",
     "goal": "Improve testing processes and product quality",
     "context": "End of release cycle or quality issues identified",
-    "details": "Review defect trends, test coverage, team productivity"
+    "details": "Review defect trends, test coverage, team productivity",
+    "category": "Testing"
   },
   {
     "id": "ui-components",
@@ -582,7 +646,8 @@
     "task": "Design reusable UI components for design system",
     "goal": "Create consistent and scalable user interface elements",
     "context": "Building or updating design system",
-    "details": "Consider accessibility, responsiveness, brand guidelines"
+    "details": "Consider accessibility, responsiveness, brand guidelines",
+    "category": "Design"
   },
   {
     "id": "ui-mockups",
@@ -591,7 +656,8 @@
     "task": "Create detailed interface mockups for new features",
     "goal": "Visualize feature design before development",
     "context": "Feature requirements defined, ready for visual design",
-    "details": "Include all states, interactions, and responsive breakpoints"
+    "details": "Include all states, interactions, and responsive breakpoints",
+    "category": "Design"
   },
   {
     "id": "ui-guidelines",
@@ -600,7 +666,8 @@
     "task": "Establish visual design guidelines and standards",
     "goal": "Ensure consistent visual design across product",
     "context": "Brand refresh or new product launch",
-    "details": "Define typography, colors, spacing, iconography"
+    "details": "Define typography, colors, spacing, iconography",
+    "category": "Design"
   },
   {
     "id": "security-audit",
@@ -609,7 +676,8 @@
     "task": "Conduct comprehensive security audit of application",
     "goal": "Identify and mitigate security vulnerabilities",
     "context": "Regular security review or before major release",
-    "details": "Test for common vulnerabilities, review code, assess infrastructure"
+    "details": "Test for common vulnerabilities, review code, assess infrastructure",
+    "category": "Security"
   },
   {
     "id": "security-compliance",
@@ -618,7 +686,8 @@
     "task": "Ensure product meets regulatory compliance requirements",
     "goal": "Maintain compliance with industry standards",
     "context": "Preparing for compliance audit or certification",
-    "details": "Review GDPR, SOX, HIPAA or other relevant regulations"
+    "details": "Review GDPR, SOX, HIPAA or other relevant regulations",
+    "category": "Security"
   },
   {
     "id": "security-training",
@@ -627,7 +696,8 @@
     "task": "Conduct security training for development team",
     "goal": "Improve team's security awareness and practices",
     "context": "New team members or security incidents occurred",
-    "details": "Cover secure coding, threat awareness, incident response"
+    "details": "Cover secure coding, threat awareness, incident response",
+    "category": "Security"
   },
   {
     "id": "solution-design",
@@ -636,7 +706,8 @@
     "task": "Design comprehensive solution architecture",
     "goal": "Create scalable solution spanning multiple systems",
     "context": "Complex business requirement involving multiple domains",
-    "details": "Consider integration points, data flow, scalability, security"
+    "details": "Consider integration points, data flow, scalability, security",
+    "category": "Architecture"
   },
   {
     "id": "solution-integration",
@@ -645,7 +716,8 @@
     "task": "Plan integration between multiple systems",
     "goal": "Ensure seamless data and process flow",
     "context": "Need to connect new system with existing infrastructure",
-    "details": "Define APIs, data mapping, error handling, monitoring"
+    "details": "Define APIs, data mapping, error handling, monitoring",
+    "category": "Architecture"
   },
   {
     "id": "solution-migration",
@@ -654,7 +726,8 @@
     "task": "Plan migration from legacy to new system",
     "goal": "Minimize disruption during system transition",
     "context": "Legacy system needs to be replaced or upgraded",
-    "details": "Define migration phases, data conversion, rollback plans"
+    "details": "Define migration phases, data conversion, rollback plans",
+    "category": "Architecture"
   },
   {
     "id": "project-planning",
@@ -663,7 +736,8 @@
     "task": "Create detailed project plan and schedule",
     "goal": "Ensure project delivery on time and within budget",
     "context": "New project approved and resources allocated",
-    "details": "Define milestones, dependencies, resource allocation, risk mitigation"
+    "details": "Define milestones, dependencies, resource allocation, risk mitigation",
+    "category": "Management"
   },
   {
     "id": "project-risk",
@@ -672,7 +746,8 @@
     "task": "Identify and manage project risks",
     "goal": "Minimize impact of potential project issues",
     "context": "Project in progress with identified uncertainties",
-    "details": "Create risk register, define mitigation strategies, monitor regularly"
+    "details": "Create risk register, define mitigation strategies, monitor regularly",
+    "category": "Management"
   },
   {
     "id": "project-communication",
@@ -681,7 +756,8 @@
     "task": "Communicate project status to stakeholders",
     "goal": "Keep stakeholders informed and engaged",
     "context": "Regular project updates or major milestone achieved",
-    "details": "Prepare status reports, highlight achievements, address concerns"
+    "details": "Prepare status reports, highlight achievements, address concerns",
+    "category": "Management"
   },
   {
     "id": "sales-demo",
@@ -690,7 +766,8 @@
     "task": "Present product demonstration to potential customers",
     "goal": "Showcase product value and generate sales leads",
     "context": "Meeting with prospective customer",
-    "details": "Customize demo to customer needs, highlight key benefits, handle objections"
+    "details": "Customize demo to customer needs, highlight key benefits, handle objections",
+    "category": "Sales"
   },
   {
     "id": "sales-requirements",
@@ -699,7 +776,8 @@
     "task": "Gather detailed requirements from potential customers",
     "goal": "Understand customer needs to propose appropriate solution",
     "context": "Sales opportunity in discovery phase",
-    "details": "Ask probing questions, document current process, identify pain points"
+    "details": "Ask probing questions, document current process, identify pain points",
+    "category": "Sales"
   },
   {
     "id": "sales-proposal",
@@ -708,7 +786,8 @@
     "task": "Create compelling sales proposal for customer",
     "goal": "Win new business by addressing customer needs",
     "context": "Customer interested and requirements understood",
-    "details": "Include pricing, implementation plan, success metrics, references"
+    "details": "Include pricing, implementation plan, success metrics, references",
+    "category": "Sales"
   },
   {
     "id": "support-troubleshooting",
@@ -717,7 +796,8 @@
     "task": "Diagnose and resolve customer technical issues",
     "goal": "Restore customer productivity quickly",
     "context": "Customer reported problem with product functionality",
-    "details": "Gather symptoms, reproduce issue, escalate if needed, document resolution"
+    "details": "Gather symptoms, reproduce issue, escalate if needed, document resolution",
+    "category": "Support"
   },
   {
     "id": "support-knowledge",
@@ -726,7 +806,8 @@
     "task": "Update and maintain customer support knowledge base",
     "goal": "Improve self-service capabilities and support efficiency",
     "context": "Common issues identified or new features released",
-    "details": "Write clear articles, include screenshots, organize by topic"
+    "details": "Write clear articles, include screenshots, organize by topic",
+    "category": "Support"
   },
   {
     "id": "support-escalation",
@@ -735,7 +816,8 @@
     "task": "Manage escalation of complex customer issues",
     "goal": "Ensure customer issues are resolved appropriately",
     "context": "Customer issue beyond first-level support capabilities",
-    "details": "Document issue thoroughly, identify right expert, follow up on resolution"
+    "details": "Document issue thoroughly, identify right expert, follow up on resolution",
+    "category": "Support"
   },
   {
     "id": "content-documentation",
@@ -744,7 +826,8 @@
     "task": "Create comprehensive user documentation",
     "goal": "Help users understand and effectively use product features",
     "context": "New features released or existing docs need improvement",
-    "details": "Write clear instructions, include examples, organize logically"
+    "details": "Write clear instructions, include examples, organize logically",
+    "category": "Content"
   },
   {
     "id": "content-marketing",
@@ -753,7 +836,8 @@
     "task": "Create marketing content for product promotion",
     "goal": "Generate interest and leads for product",
     "context": "Product launch or marketing campaign planned",
-    "details": "Write compelling copy, align with brand voice, target specific audience"
+    "details": "Write compelling copy, align with brand voice, target specific audience",
+    "category": "Content"
   },
   {
     "id": "content-tutorials",
@@ -762,7 +846,8 @@
     "task": "Develop step-by-step tutorials and how-to guides",
     "goal": "Enable users to accomplish specific tasks",
     "context": "Users need guidance on complex workflows",
-    "details": "Break down complex processes, include screenshots, test with real users"
+    "details": "Break down complex processes, include screenshots, test with real users",
+    "category": "Content"
   },
   {
     "id": "researcher-interviews",
@@ -771,7 +856,8 @@
     "task": "Plan and conduct user interviews for product insights",
     "goal": "Gather deep insights into user needs and behaviors",
     "context": "Need qualitative data to inform product decisions",
-    "details": "Recruit participants, prepare interview guide, analyze findings"
+    "details": "Recruit participants, prepare interview guide, analyze findings",
+    "category": "Research"
   },
   {
     "id": "researcher-surveys",
@@ -780,7 +866,8 @@
     "task": "Design and analyze user surveys",
     "goal": "Collect quantitative data about user preferences",
     "context": "Need broad user feedback on specific topics",
-    "details": "Design unbiased questions, distribute effectively, analyze statistically"
+    "details": "Design unbiased questions, distribute effectively, analyze statistically",
+    "category": "Research"
   },
   {
     "id": "researcher-personas",
@@ -789,7 +876,8 @@
     "task": "Create detailed user personas based on research",
     "goal": "Help team understand and empathize with users",
     "context": "Research data collected, need to synthesize insights",
-    "details": "Identify patterns, create realistic profiles, validate with stakeholders"
+    "details": "Identify patterns, create realistic profiles, validate with stakeholders",
+    "category": "Research"
   },
   {
     "id": "compliance-review",
@@ -798,7 +886,8 @@
     "task": "Review product features for regulatory compliance",
     "goal": "Ensure product meets all applicable regulations",
     "context": "New features or regulations require compliance review",
-    "details": "Review relevant regulations, assess compliance gaps, recommend changes"
+    "details": "Review relevant regulations, assess compliance gaps, recommend changes",
+    "category": "Compliance"
   },
   {
     "id": "compliance-documentation",
@@ -807,7 +896,8 @@
     "task": "Create compliance documentation and procedures",
     "goal": "Document compliance processes for audit purposes",
     "context": "Preparing for regulatory audit or certification",
-    "details": "Document procedures, create evidence trail, train relevant staff"
+    "details": "Document procedures, create evidence trail, train relevant staff",
+    "category": "Compliance"
   },
   {
     "id": "marketing-campaign",
@@ -816,7 +906,8 @@
     "task": "Plan and execute marketing campaign for product",
     "goal": "Increase product awareness and generate leads",
     "context": "Product launch or need to boost market presence",
-    "details": "Define target audience, select channels, create messaging, measure results"
+    "details": "Define target audience, select channels, create messaging, measure results",
+    "category": "Marketing"
   },
   {
     "id": "marketing-analysis",
@@ -825,7 +916,8 @@
     "task": "Analyze market trends and competitive positioning",
     "goal": "Inform marketing strategy and product positioning",
     "context": "Planning marketing strategy or entering new market",
-    "details": "Research competitors, identify market gaps, define value proposition"
+    "details": "Research competitors, identify market gaps, define value proposition",
+    "category": "Marketing"
   },
   {
     "id": "ai-ethics-review",
@@ -834,7 +926,8 @@
     "task": "Review AI system for ethical compliance",
     "goal": "Ensure responsible AI deployment",
     "context": "New AI feature ready for launch",
-    "details": "Assess bias, fairness, transparency, and accountability"
+    "details": "Assess bias, fairness, transparency, and accountability",
+    "category": "AI Ethics"
   },
   {
     "id": "localization-testing",
@@ -843,7 +936,8 @@
     "task": "Test product in multiple languages",
     "goal": "Ensure global usability",
     "context": "Product expanding to new markets",
-    "details": "Check translations, cultural appropriateness, and formatting"
+    "details": "Check translations, cultural appropriateness, and formatting",
+    "category": "Testing"
   },
   {
     "id": "accessibility-audit",
@@ -852,7 +946,8 @@
     "task": "Audit product for accessibility standards",
     "goal": "Make product usable for all",
     "context": "Preparing for public release",
-    "details": "Test with screen readers, keyboard navigation, color contrast"
+    "details": "Test with screen readers, keyboard navigation, color contrast",
+    "category": "Testing"
   },
   {
     "id": "incident-response",
@@ -861,7 +956,8 @@
     "task": "Conduct incident response simulation",
     "goal": "Prepare team for security breaches",
     "context": "Annual security training",
-    "details": "Simulate breach, test response protocols, review outcomes"
+    "details": "Simulate breach, test response protocols, review outcomes",
+    "category": "Security"
   },
   {
     "id": "data-migration",
@@ -870,7 +966,8 @@
     "task": "Plan migration of legacy data",
     "goal": "Ensure smooth transition to new system",
     "context": "Legacy system being replaced",
-    "details": "Map data, plan migration steps, test integrity"
+    "details": "Map data, plan migration steps, test integrity",
+    "category": "Database"
   },
   {
     "id": "api-design-review",
@@ -879,7 +976,8 @@
     "task": "Review API design for best practices",
     "goal": "Ensure robust and scalable APIs",
     "context": "New API endpoints proposed",
-    "details": "Check RESTful principles, versioning, documentation"
+    "details": "Check RESTful principles, versioning, documentation",
+    "category": "Development"
   },
   {
     "id": "mobile-ux-testing",
@@ -888,7 +986,8 @@
     "task": "Test mobile app user experience",
     "goal": "Optimize for mobile usability",
     "context": "Mobile app beta ready",
-    "details": "Test gestures, responsiveness, navigation flow"
+    "details": "Test gestures, responsiveness, navigation flow",
+    "category": "Design"
   },
   {
     "id": "cloud-cost-optimization",
@@ -897,7 +996,8 @@
     "task": "Analyze and reduce cloud infrastructure costs",
     "goal": "Improve cost efficiency",
     "context": "Cloud spend exceeds budget",
-    "details": "Review usage, recommend savings, automate scaling"
+    "details": "Review usage, recommend savings, automate scaling",
+    "category": "Cloud"
   },
   {
     "id": "customer-onboarding",
@@ -906,7 +1006,8 @@
     "task": "Guide new customers through onboarding",
     "goal": "Ensure successful product adoption",
     "context": "New customer signed up",
-    "details": "Provide training, answer questions, track progress"
+    "details": "Provide training, answer questions, track progress",
+    "category": "Support"
   },
   {
     "id": "customer-success-health-check",
@@ -915,7 +1016,8 @@
     "task": "Conduct regular health checks for customers",
     "goal": "Identify at-risk accounts and intervene early",
     "context": "Quarterly review cycle",
-    "details": "Analyze usage data, schedule check-ins, document findings"
+    "details": "Analyze usage data, schedule check-ins, document findings",
+    "category": "Support"
   },
   {
     "id": "customer-success-renewal-planning",
@@ -924,7 +1026,8 @@
     "task": "Plan renewal strategies for key accounts",
     "goal": "Increase renewal rates and reduce churn",
     "context": "Renewal period approaching",
-    "details": "Review contract terms, identify upsell opportunities, prepare proposals"
+    "details": "Review contract terms, identify upsell opportunities, prepare proposals",
+    "category": "Account Management"
   },
   {
     "id": "customer-success-onboarding-feedback",
@@ -933,7 +1036,8 @@
     "task": "Collect feedback from new customers on onboarding process",
     "goal": "Improve onboarding experience",
     "context": "Recent onboarding completed",
-    "details": "Survey customers, analyze responses, recommend changes"
+    "details": "Survey customers, analyze responses, recommend changes",
+    "category": "Support"
   },
   {
     "id": "customer-success-training-session",
@@ -942,7 +1046,8 @@
     "task": "Conduct training for customers on product features",
     "goal": "Increase product adoption and proficiency",
     "context": "New feature release",
-    "details": "Prepare training materials, deliver sessions, answer questions"
+    "details": "Prepare training materials, deliver sessions, answer questions",
+    "category": "Training"
   },
   {
     "id": "customer-success-advocacy-program",
@@ -951,7 +1056,8 @@
     "task": "Launch program to empower customer advocates",
     "goal": "Increase engagement and referrals",
     "context": "Growing customer base",
-    "details": "Recruit advocates, provide resources, recognize contributions"
+    "details": "Recruit advocates, provide resources, recognize contributions",
+    "category": "Marketing"
   },
   {
     "id": "customer-success-escalation-management",
@@ -960,7 +1066,8 @@
     "task": "Manage escalations for critical customer issues",
     "goal": "Ensure timely and effective resolution",
     "context": "High-priority issue reported",
-    "details": "Document issue, coordinate with support, follow up on resolution"
+    "details": "Document issue, coordinate with support, follow up on resolution",
+    "category": "Support"
   },
   {
     "id": "customer-success-usage-analysis",
@@ -969,7 +1076,8 @@
     "task": "Analyze customer usage patterns",
     "goal": "Identify opportunities for increased adoption",
     "context": "Usage data available",
-    "details": "Segment customers, identify trends, recommend actions"
+    "details": "Segment customers, identify trends, recommend actions",
+    "category": "Analysis"
   },
   {
     "id": "customer-success-relationship-building",
@@ -978,7 +1086,8 @@
     "task": "Strengthen relationships with key customers",
     "goal": "Increase loyalty and satisfaction",
     "context": "Strategic accounts identified",
-    "details": "Schedule regular check-ins, provide personalized support, track outcomes"
+    "details": "Schedule regular check-ins, provide personalized support, track outcomes",
+    "category": "Account Management"
   },
   {
     "id": "customer-success-feedback-loop",
@@ -987,7 +1096,8 @@
     "task": "Establish continuous feedback loop with customers",
     "goal": "Improve product and service iteratively",
     "context": "Ongoing product development",
-    "details": "Collect feedback, analyze data, implement changes"
+    "details": "Collect feedback, analyze data, implement changes",
+    "category": "Feedback"
   },
   {
     "id": "customer-success-renewal-execution",
@@ -996,7 +1106,8 @@
     "task": "Execute renewal process for expiring contracts",
     "goal": "Ensure high renewal rates",
     "context": "Contracts approaching expiration",
-    "details": "Review account status, prepare renewal quotes, negotiate terms"
+    "details": "Review account status, prepare renewal quotes, negotiate terms",
+    "category": "Account Management"
   },
   {
     "id": "customer-success-upgrade-planning",
@@ -1005,7 +1116,8 @@
     "task": "Plan upgrades for customers on older product versions",
     "goal": "Ensure customers benefit from latest features and improvements",
     "context": "New product version released",
-    "details": "Identify upgrade candidates, plan communication, coordinate with support"
+    "details": "Identify upgrade candidates, plan communication, coordinate with support",
+    "category": "Product Management"
   },
   {
     "id": "customer-success-churn-risk-analysis",
@@ -1014,7 +1126,8 @@
     "task": "Analyze and mitigate customer churn risks",
     "goal": "Retain at-risk customers",
     "context": "Regular churn analysis cycle",
-    "details": "Identify at-risk customers, analyze engagement data, recommend retention actions"
+    "details": "Identify at-risk customers, analyze engagement data, recommend retention actions",
+    "category": "Account Management"
   },
   {
     "id": "customer-success-loyalty-program",
@@ -1023,7 +1136,8 @@
     "task": "Develop and manage customer loyalty program",
     "goal": "Increase customer retention and lifetime value",
     "context": "Loyalty program concept approved",
-    "details": "Define program structure, communicate benefits, track participation and impact"
+    "details": "Define program structure, communicate benefits, track participation and impact",
+    "category": "Marketing"
   },
   {
     "id": "customer-success-account-planning",
@@ -1032,7 +1146,8 @@
     "task": "Conduct planning sessions for key accounts",
     "goal": "Align on customer goals, challenges, and success plans",
     "context": "Strategic accounts identified",
-    "details": "Facilitate workshops, document plans, follow up on action items"
+    "details": "Facilitate workshops, document plans, follow up on action items",
+    "category": "Account Management"
   },
   {
     "id": "customer-success-executive-business-reviews",
@@ -1041,7 +1156,8 @@
     "task": "Prepare for executive business reviews with key customers",
     "goal": "Demonstrate value and strengthen relationships",
     "context": "Quarterly business review period",
-    "details": "Gather success metrics, prepare presentation, rehearse delivery"
+    "details": "Gather success metrics, prepare presentation, rehearse delivery",
+    "category": "Account Management"
   },
   {
     "id": "customer-success-incident-management",
@@ -1050,7 +1166,8 @@
     "task": "Manage and resolve customer incidents",
     "goal": "Ensure customer issues are addressed promptly",
     "context": "Incident reported by customer",
-    "details": "Acknowledge receipt, investigate, coordinate resolution, communicate updates"
+    "details": "Acknowledge receipt, investigate, coordinate resolution, communicate updates",
+    "category": "Support"
   },
   {
     "id": "customer-success-service-improvement",
@@ -1059,7 +1176,8 @@
     "task": "Develop and implement service improvement plans",
     "goal": "Enhance service quality and customer satisfaction",
     "context": "Service performance review indicates issues",
-    "details": "Identify improvement areas, define action plans, monitor progress"
+    "details": "Identify improvement areas, define action plans, monitor progress",
+    "category": "Support"
   },
   {
     "id": "customer-success-knowledge-transfer",
@@ -1068,7 +1186,8 @@
     "task": "Facilitate knowledge transfer sessions for customers",
     "goal": "Empower customers to effectively use the product",
     "context": "New features or major updates released",
-    "details": "Create training materials, conduct training, gather feedback"
+    "details": "Create training materials, conduct training, gather feedback",
+    "category": "Training"
   },
   {
     "id": "customer-success-product-adoption",
@@ -1077,7 +1196,8 @@
     "task": "Analyze and report on product adoption metrics",
     "goal": "Ensure customers are effectively using the product",
     "context": "Post-implementation review",
-    "details": "Review usage data, identify underutilized features, recommend actions"
+    "details": "Review usage data, identify underutilized features, recommend actions",
+    "category": "Analysis"
   },
   {
     "id": "customer-success-customer-satisfaction",
@@ -1086,7 +1206,8 @@
     "task": "Conduct surveys to measure customer satisfaction",
     "goal": "Gather feedback to improve products and services",
     "context": "After key interactions or support cases",
-    "details": "Design survey, distribute to customers, analyze results"
+    "details": "Design survey, distribute to customers, analyze results",
+    "category": "Feedback"
   },
   {
     "id": "customer-success-referral-program",
@@ -1095,7 +1216,8 @@
     "task": "Manage customer referral program",
     "goal": "Encourage satisfied customers to refer new clients",
     "context": "Existing customers with positive feedback",
-    "details": "Communicate program details, track referrals, reward participants"
+    "details": "Communicate program details, track referrals, reward participants",
+    "category": "Marketing"
   },
   {
     "id": "customer-success-exit-interviews",
@@ -1104,7 +1226,8 @@
     "task": "Conduct exit interviews with departing customers",
     "goal": "Gather feedback to improve retention",
     "context": "Customer has decided not to renew",
-    "details": "Schedule interview, ask for feedback, document insights"
+    "details": "Schedule interview, ask for feedback, document insights",
+    "category": "Support"
   },
   {
     "id": "customer-success-re-engagement",
@@ -1113,7 +1236,8 @@
     "task": "Develop and execute re-engagement plans for inactive customers",
     "goal": "Reactivate dormant accounts",
     "context": "Customer inactivity detected",
-    "details": "Analyze reasons for inactivity, define re-engagement actions, monitor results"
+    "details": "Analyze reasons for inactivity, define re-engagement actions, monitor results",
+    "category": "Marketing"
   },
   {
     "id": "customer-success-upgrade-execution",
@@ -1122,7 +1246,8 @@
     "task": "Manage execution of product upgrades for customers",
     "goal": "Ensure smooth and successful upgrades",
     "context": "Upgrades planned or in progress",
-    "details": "Coordinate with technical teams, communicate with customers, verify completion"
+    "details": "Coordinate with technical teams, communicate with customers, verify completion",
+    "category": "Product Management"
   },
   {
     "id": "customer-success-customization-planning",
@@ -1131,7 +1256,8 @@
     "task": "Plan customization requirements for key customers",
     "goal": "Ensure product meets specific customer needs",
     "context": "Customer requests for customization",
-    "details": "Gather requirements, prioritize requests, plan implementation"
+    "details": "Gather requirements, prioritize requests, plan implementation",
+    "category": "Product Management"
   },
   {
     "id": "customer-success-customization-execution",
@@ -1140,7 +1266,8 @@
     "task": "Oversee execution of product customizations",
     "goal": "Deliver tailored solutions to customers",
     "context": "Customization requests approved",
-    "details": "Coordinate with development, test customizations, deploy to customers"
+    "details": "Coordinate with development, test customizations, deploy to customers",
+    "category": "Product Management"
   },
   {
     "id": "customer-success-technical-account-management",
@@ -1149,7 +1276,8 @@
     "task": "Provide technical account management for key customers",
     "goal": "Ensure customer success through proactive technical support",
     "context": "Strategic accounts with complex technical setups",
-    "details": "Regular check-ins, technical health reviews, proactive issue resolution"
+    "details": "Regular check-ins, technical health reviews, proactive issue resolution",
+    "category": "Technical Account Management"
   },
   {
     "id": "customer-success-business-reviews",
@@ -1158,7 +1286,8 @@
     "task": "Prepare for business reviews with customer executives",
     "goal": "Demonstrate value and align on strategic goals",
     "context": "Quarterly business review cycle",
-    "details": "Gather data, prepare presentations, rehearse key messages"
+    "details": "Gather data, prepare presentations, rehearse key messages",
+    "category": "Account Management"
   },
   {
     "id": "customer-success-annual-planning",
@@ -1167,7 +1296,8 @@
     "task": "Develop annual success plans for key accounts",
     "goal": "Align customer success efforts with customer business objectives",
     "context": "Annual planning cycle",
-    "details": "Review past performance, set objectives, define action plans"
+    "details": "Review past performance, set objectives, define action plans",
+    "category": "Account Management"
   },
   {
     "id": "customer-success-continuous-improvement",
@@ -1176,7 +1306,8 @@
     "task": "Establish process for continuous improvement in customer success",
     "goal": "Enhance customer satisfaction and retention",
     "context": "Ongoing customer success operations",
-    "details": "Collect feedback, analyze data, implement process improvements"
+    "details": "Collect feedback, analyze data, implement process improvements",
+    "category": "Feedback"
   },
   {
     "id": "customer-success-service-delivery",
@@ -1185,7 +1316,8 @@
     "task": "Manage delivery of services to customers",
     "goal": "Ensure high-quality and timely service delivery",
     "context": "Service delivery in progress",
-    "details": "Monitor service performance, address issues, communicate with customers"
+    "details": "Monitor service performance, address issues, communicate with customers",
+    "category": "Support"
   },
   {
     "id": "customer-success-issue-resolution",
@@ -1194,7 +1326,8 @@
     "task": "Manage and resolve customer issues",
     "goal": "Ensure customer satisfaction through effective issue resolution",
     "context": "Customer issues reported",
-    "details": "Acknowledge issues, investigate, coordinate resolution, follow up"
+    "details": "Acknowledge issues, investigate, coordinate resolution, follow up",
+    "category": "Support"
   },
   {
     "id": "customer-success-customer-engagement",
@@ -1203,7 +1336,8 @@
     "task": "Develop and execute plans to engage customers",
     "goal": "Increase customer involvement and feedback",
     "context": "Customer engagement strategy development",
-    "details": "Define engagement activities, schedule regular check-ins, gather feedback"
+    "details": "Define engagement activities, schedule regular check-ins, gather feedback",
+    "category": "Marketing"
   },
   {
     "id": "customer-success-relationship-management",
@@ -1212,7 +1346,8 @@
     "task": "Manage and nurture customer relationships",
     "goal": "Enhance customer loyalty and lifetime value",
     "context": "Ongoing customer relationship management",
-    "details": "Regular communication, personalized support, proactive engagement"
+    "details": "Regular communication, personalized support, proactive engagement",
+    "category": "Account Management"
   },
   {
     "id": "customer-success-experience-optimization",
@@ -1221,7 +1356,8 @@
     "task": "Analyze and optimize customer experience",
     "goal": "Improve customer satisfaction and retention",
     "context": "Customer journey mapping and analysis",
-    "details": "Identify pain points, recommend improvements, implement changes"
+    "details": "Identify pain points, recommend improvements, implement changes",
+    "category": "Feedback"
   },
   {
     "id": "customer-success-voice-of-customer",
@@ -1230,7 +1366,8 @@
     "task": "Establish program to capture and act on customer feedback",
     "goal": "Continuously improve product and service based on customer input",
     "context": "Customer feedback collection and analysis",
-    "details": "Implement feedback tools, analyze data, drive improvements"
+    "details": "Implement feedback tools, analyze data, drive improvements",
+    "category": "Feedback"
   },
   {
     "id": "customer-success-executive-engagement",
@@ -1239,7 +1376,8 @@
     "task": "Develop and execute plans for engaging customer executives",
     "goal": "Strengthen relationships and alignment with key stakeholders",
     "context": "Strategic accounts with executive-level relationships",
-    "details": "Schedule regular executive business reviews, share insights, align on goals"
+    "details": "Schedule regular executive business reviews, share insights, align on goals",
+    "category": "Account Management"
   },
   {
     "id": "customer-success-partner-coordination",
@@ -1248,7 +1386,8 @@
     "task": "Coordinate with partners to deliver integrated solutions",
     "goal": "Ensure seamless delivery of joint solutions to customers",
     "context": "Engagements involving multiple partners",
-    "details": "Manage partner relationships, align on deliverables, monitor performance"
+    "details": "Manage partner relationships, align on deliverables, monitor performance",
+    "category": "Project Management"
   },
   {
     "id": "customer-success-technical-escalation",
@@ -1257,7 +1396,8 @@
     "task": "Manage technical escalations for critical issues",
     "goal": "Ensure timely resolution of complex technical problems",
     "context": "High-severity technical issues reported",
-    "details": "Coordinate with technical teams, communicate with customers, track resolution"
+    "details": "Coordinate with technical teams, communicate with customers, track resolution",
+    "category": "Technical Account Management"
   },
   {
     "id": "customer-success-business-case-development",
@@ -1266,7 +1406,8 @@
     "task": "Develop business cases for proposed customer solutions",
     "goal": "Justify investment in customer-specific solutions",
     "context": "New customer opportunities identified",
-    "details": "Include market analysis, solution benefits, cost estimates, ROI"
+    "details": "Include market analysis, solution benefits, cost estimates, ROI",
+    "category": "Business"
   },
   {
     "id": "customer-success-solution-design",
@@ -1275,7 +1416,8 @@
     "task": "Consult on solution design for customer requirements",
     "goal": "Ensure solutions are designed to meet customer needs",
     "context": "Customer requirements gathering phase",
-    "details": "Review requirements, provide design recommendations, ensure alignment with capabilities"
+    "details": "Review requirements, provide design recommendations, ensure alignment with capabilities",
+    "category": "Architecture"
   },
   {
     "id": "customer-success-implementation-support",
@@ -1284,7 +1426,8 @@
     "task": "Support implementation of solutions for customers",
     "goal": "Ensure successful and timely implementation",
     "context": "Solution implementation in progress",
-    "details": "Coordinate with delivery teams, monitor progress, communicate with customers"
+    "details": "Coordinate with delivery teams, monitor progress, communicate with customers",
+    "category": "Project Management"
   },
   {
     "id": "customer-success-post-implementation-review",
@@ -1293,7 +1436,8 @@
     "task": "Conduct reviews after solution implementation",
     "goal": "Ensure solutions meet customer expectations and drive value",
     "context": "After solution go-live",
-    "details": "Gather feedback, analyze outcomes, recommend adjustments if necessary"
+    "details": "Gather feedback, analyze outcomes, recommend adjustments if necessary",
+    "category": "Feedback"
   },
   {
     "id": "customer-success-change-management",
@@ -1302,7 +1446,8 @@
     "task": "Manage change management process for customers",
     "goal": "Ensure smooth adoption of changes",
     "context": "Changes to services or solutions",
-    "details": "Communicate changes, train users, gather feedback on change impact"
+    "details": "Communicate changes, train users, gather feedback on change impact",
+    "category": "Project Management"
   },
   {
     "id": "customer-success-risk-mitigation",
@@ -1311,7 +1456,8 @@
     "task": "Develop and implement risk mitigation plans",
     "goal": "Minimize impact of potential risks to customer success",
     "context": "Identified risks to customer satisfaction or retention",
-    "details": "Define mitigation strategies, assign owners, monitor effectiveness"
+    "details": "Define mitigation strategies, assign owners, monitor effectiveness",
+    "category": "Project Management"
   },
   {
     "id": "customer-success-opportunity-identification",
@@ -1320,7 +1466,8 @@
     "task": "Identify and pursue opportunities for account growth",
     "goal": "Increase revenue from existing accounts",
     "context": "Regular account review process",
-    "details": "Analyze account potential, propose growth initiatives, track progress"
+    "details": "Analyze account potential, propose growth initiatives, track progress",
+    "category": "Account Management"
   },
   {
     "id": "customer-success-strategic-initiative-support",
@@ -1329,7 +1476,8 @@
     "task": "Support customer participation in strategic initiatives",
     "goal": "Align customer success efforts with customer strategic goals",
     "context": "Customer involved in strategic initiatives",
-    "details": "Provide guidance, share best practices, facilitate resources"
+    "details": "Provide guidance, share best practices, facilitate resources",
+    "category": "Project Management"
   },
   {
     "id": "customer-success-experience-mapping",
@@ -1338,7 +1486,8 @@
     "task": "Map customer journey and identify improvement areas",
     "goal": "Enhance overall customer experience",
     "context": "Customer journey analysis project",
-    "details": "Conduct workshops, create journey maps, identify pain points and solutions"
+    "details": "Conduct workshops, create journey maps, identify pain points and solutions",
+    "category": "Feedback"
   },
   {
     "id": "customer-success-advocacy-development",
@@ -1347,7 +1496,8 @@
     "task": "Develop program to cultivate customer advocacy",
     "goal": "Leverage customer advocates for marketing and referrals",
     "context": "Identified satisfied customers with influence",
-    "details": "Define program structure, recruit participants, provide training and resources"
+    "details": "Define program structure, recruit participants, provide training and resources",
+    "category": "Marketing"
   },
   {
     "id": "customer-success-metrics-and-reporting",
@@ -1356,7 +1506,8 @@
     "task": "Define and implement metrics and reporting for customer success",
     "goal": "Measure and communicate customer success outcomes",
     "context": "Need for data-driven decision making",
-    "details": "Identify key metrics, set up reporting tools, train team on usage"
+    "details": "Identify key metrics, set up reporting tools, train team on usage",
+    "category": "Analysis"
   },
   {
     "id": "customer-success-collaboration-platform",
@@ -1365,7 +1516,8 @@
     "task": "Establish collaboration platform for customer interactions",
     "goal": "Enhance communication and collaboration with customers",
     "context": "Need for improved customer engagement tools",
-    "details": "Select platform, configure for customer use, train team and customers"
+    "details": "Select platform, configure for customer use, train team and customers",
+    "category": "Project Management"
   },
   {
     "id": "customer-success-service-level-agreement",
@@ -1374,7 +1526,8 @@
     "task": "Define service level agreements for customer success",
     "goal": "Set clear expectations for service delivery",
     "context": "New or updated services",
-    "details": "Define service levels, response times, resolution times, and responsibilities"
+    "details": "Define service levels, response times, resolution times, and responsibilities",
+    "category": "Project Management"
   },
   {
     "id": "customer-success-contingency-planning",
@@ -1383,7 +1536,8 @@
     "task": "Develop contingency plans for potential service disruptions",
     "goal": "Ensure quick recovery from unexpected issues",
     "context": "Risk assessment identifies potential service interruptions",
-    "details": "Identify critical services, define backup procedures, establish communication plans"
+    "details": "Identify critical services, define backup procedures, establish communication plans",
+    "category": "Project Management"
   },
   {
     "id": "customer-success-technology-evaluation",
@@ -1392,7 +1546,8 @@
     "task": "Evaluate and recommend technology solutions for customers",
     "goal": "Ensure customers have the right tools for success",
     "context": "Customer needs assessment",
-    "details": "Research solutions, evaluate against requirements, present recommendations"
+    "details": "Research solutions, evaluate against requirements, present recommendations",
+    "category": "Architecture"
   },
   {
     "id": "customer-success-vendor-management",
@@ -1401,7 +1556,8 @@
     "task": "Manage relationships with vendors providing services to customers",
     "goal": "Ensure vendor performance meets customer expectations",
     "context": "Services delivered by third-party vendors",
-    "details": "Monitor vendor performance, address issues, negotiate contracts"
+    "details": "Monitor vendor performance, address issues, negotiate contracts",
+    "category": "Project Management"
   },
   {
     "id": "customer-success-budget-management",
@@ -1410,7 +1566,8 @@
     "task": "Manage budget for customer success initiatives",
     "goal": "Ensure effective use of resources",
     "context": "Annual budgeting cycle",
-    "details": "Define budget, track expenses, report on variances"
+    "details": "Define budget, track expenses, report on variances",
+    "category": "Finance"
   },
   {
     "id": "customer-success-resource-allocation",
@@ -1419,7 +1576,8 @@
     "task": "Plan and allocate resources for customer success activities",
     "goal": "Optimize resource utilization",
     "context": "New initiatives or projects",
-    "details": "Identify resource needs, allocate budget and personnel, monitor utilization"
+    "details": "Identify resource needs, allocate budget and personnel, monitor utilization",
+    "category": "Project Management"
   },
   {
     "id": "customer-success-performance-evaluation",
@@ -1428,7 +1586,8 @@
     "task": "Evaluate performance of customer success initiatives",
     "goal": "Measure impact and identify improvement areas",
     "context": "End of initiative or project",
-    "details": "Collect data, analyze outcomes, prepare evaluation report"
+    "details": "Collect data, analyze outcomes, prepare evaluation report",
+    "category": "Analysis"
   },
   {
     "id": "customer-success-knowledge-management",
@@ -1437,7 +1596,8 @@
     "task": "Establish and maintain knowledge management system",
     "goal": "Capture and share knowledge across customer success team",
     "context": "Need for consistent information and best practices",
-    "details": "Select KM system, define taxonomy, migrate existing content, train users"
+    "details": "Select KM system, define taxonomy, migrate existing content, train users",
+    "category": "Knowledge Management"
   },
   {
     "id": "customer-success-skills-development",
@@ -1446,7 +1606,8 @@
     "task": "Develop and implement skills development program",
     "goal": "Enhance skills and capabilities of customer success team",
     "context": "Identified skills gaps or new skills required",
-    "details": "Conduct skills assessment, define training plan, evaluate training providers"
+    "details": "Conduct skills assessment, define training plan, evaluate training providers",
+    "category": "Training"
   },
   {
     "id": "customer-success-team-building",
@@ -1455,7 +1616,8 @@
     "task": "Organize team building activities for customer success team",
     "goal": "Improve team cohesion and collaboration",
     "context": "Regular team development initiative",
-    "details": "Plan activities, set objectives, facilitate sessions, gather feedback"
+    "details": "Plan activities, set objectives, facilitate sessions, gather feedback",
+    "category": "Team Building"
   },
   {
     "id": "customer-success-performance-management",
@@ -1464,7 +1626,8 @@
     "task": "Manage performance of customer success team members",
     "goal": "Ensure high performance and accountability",
     "context": "Regular performance review cycle",
-    "details": "Set performance expectations, conduct reviews, provide feedback and coaching"
+    "details": "Set performance expectations, conduct reviews, provide feedback and coaching",
+    "category": "Management"
   },
   {
     "id": "customer-success-career-development",
@@ -1473,7 +1636,8 @@
     "task": "Support career development for customer success team",
     "goal": "Enhance career growth and satisfaction",
     "context": "Ongoing career development support",
-    "details": "Conduct career discussions, identify development opportunities, create development plans"
+    "details": "Conduct career discussions, identify development opportunities, create development plans",
+    "category": "Career Development"
   },
   {
     "id": "customer-success-recruitment-support",
@@ -1482,7 +1646,8 @@
     "task": "Support recruitment for customer success roles",
     "goal": "Attract and hire top talent for customer success team",
     "context": "Open positions in customer success team",
-    "details": "Define role requirements, participate in interviews, evaluate candidates"
+    "details": "Define role requirements, participate in interviews, evaluate candidates",
+    "category": "Recruitment"
   },
   {
     "id": "customer-success-diversity-and-inclusion",
@@ -1491,7 +1656,8 @@
     "task": "Promote diversity and inclusion within customer success team",
     "goal": "Foster an inclusive and diverse work environment",
     "context": "Organizational diversity and inclusion goals",
-    "details": "Define initiatives, set diversity targets, monitor progress, report outcomes"
+    "details": "Define initiatives, set diversity targets, monitor progress, report outcomes",
+    "category": "Diversity and Inclusion"
   },
   {
     "id": "customer-success-employee-engagement",
@@ -1500,7 +1666,8 @@
     "task": "Conduct employee engagement surveys",
     "goal": "Measure and improve employee engagement and satisfaction",
     "context": "Regular employee feedback initiative",
-    "details": "Design survey, distribute to employees, analyze results, recommend actions"
+    "details": "Design survey, distribute to employees, analyze results, recommend actions",
+    "category": "Engagement"
   },
   {
     "id": "customer-success-culture-building",
@@ -1509,7 +1676,8 @@
     "task": "Organize activities to promote positive team culture",
     "goal": "Enhance team morale and cohesion",
     "context": "Ongoing team development",
-    "details": "Plan culture-building activities, communicate purpose, gather feedback"
+    "details": "Plan culture-building activities, communicate purpose, gather feedback",
+    "category": "Team Building"
   },
   {
     "id": "customer-success-change-leadership",
@@ -1518,7 +1686,8 @@
     "task": "Provide training on leading change initiatives",
     "goal": "Equip team to effectively lead and manage change",
     "context": "Organizational change initiatives",
-    "details": "Develop training materials, conduct workshops, provide ongoing support"
+    "details": "Develop training materials, conduct workshops, provide ongoing support",
+    "category": "Training"
   },
   {
     "id": "customer-success-emotional-intelligence",
@@ -1527,7 +1696,8 @@
     "task": "Develop emotional intelligence skills within the team",
     "goal": "Enhance team collaboration and customer interactions",
     "context": "Identified need for emotional intelligence skills",
-    "details": "Provide training, coaching, and resources on emotional intelligence"
+    "details": "Provide training, coaching, and resources on emotional intelligence",
+    "category": "Training"
   },
   {
     "id": "customer-success-resilience-training",
@@ -1536,7 +1706,8 @@
     "task": "Provide training on building resilience",
     "goal": "Help team handle challenges and setbacks effectively",
     "context": "Organizational focus on employee well-being",
-    "details": "Develop training program, conduct workshops, provide resources"
+    "details": "Develop training program, conduct workshops, provide resources",
+    "category": "Training"
   },
   {
     "id": "customer-success-stress-management",
@@ -1545,7 +1716,8 @@
     "task": "Provide training on managing stress",
     "goal": "Enhance team well-being and performance",
     "context": "Identified need for stress management support",
-    "details": "Develop training materials, conduct sessions, provide resources"
+    "details": "Develop training materials, conduct sessions, provide resources",
+    "category": "Training"
   },
   {
     "id": "customer-success-work-life-balance",
@@ -1554,7 +1726,8 @@
     "task": "Promote work-life balance within the team",
     "goal": "Improve employee satisfaction and retention",
     "context": "Organizational well-being initiatives",
-    "details": "Define policies, promote flexible working, provide resources and support"
+    "details": "Define policies, promote flexible working, provide resources and support",
+    "category": "Training"
   },
   {
     "id": "customer-success-employee-recognition",
@@ -1563,7 +1736,8 @@
     "task": "Develop and manage employee recognition program",
     "goal": "Enhance employee motivation and retention",
     "context": "Ongoing employee engagement initiative",
-    "details": "Define recognition criteria, communicate program, celebrate achievements"
+    "details": "Define recognition criteria, communicate program, celebrate achievements",
+    "category": "Engagement"
   },
   {
     "id": "customer-success-team-performance",
@@ -1572,7 +1746,8 @@
     "task": "Define and track team performance metrics",
     "goal": "Ensure team accountability and continuous improvement",
     "context": "Regular performance management cycle",
-    "details": "Identify key performance indicators, set targets, monitor progress"
+    "details": "Identify key performance indicators, set targets, monitor progress",
+    "category": "Management"
   },
   {
     "id": "customer-success-individual-performance",
@@ -1581,7 +1756,8 @@
     "task": "Define and track individual performance metrics",
     "goal": "Ensure individual accountability and development",
     "context": "Regular performance review cycle",
-    "details": "Identify key performance indicators, set targets, monitor progress"
+    "details": "Identify key performance indicators, set targets, monitor progress",
+    "category": "Management"
   },
   {
     "id": "customer-success-career-pathing",
@@ -1590,7 +1766,8 @@
     "task": "Develop and implement career pathing for customer success roles",
     "goal": "Provide clear career progression opportunities",
     "context": "Talent development and retention strategy",
-    "details": "Define career paths, communicate opportunities, provide support for advancement"
+    "details": "Define career paths, communicate opportunities, provide support for advancement",
+    "category": "Career Development"
   },
   {
     "id": "customer-success-exit-strategy",
@@ -1599,7 +1776,8 @@
     "task": "Develop exit strategies for at-risk customers",
     "goal": "Retain customers by addressing issues proactively",
     "context": "Customer health check indicates risk",
-    "details": "Identify issues, define action plan, monitor implementation"
+    "details": "Identify issues, define action plan, monitor implementation",
+    "category": "Account Management"
   },
   {
     "id": "customer-success-recovery-plan",
@@ -1608,7 +1786,8 @@
     "task": "Develop recovery plans for service disruptions",
     "goal": "Ensure quick recovery and minimal impact on customer",
     "context": "Service disruption incident",
-    "details": "Define recovery steps, assign responsibilities, communicate plan to customer"
+    "details": "Define recovery steps, assign responsibilities, communicate plan to customer",
+    "category": "Support"
   },
   {
     "id": "customer-success-communication-training",
@@ -1617,7 +1796,8 @@
     "task": "Provide training on effective communication skills",
     "goal": "Enhance team communication and customer interactions",
     "context": "Identified need for communication skills development",
-    "details": "Develop training materials, conduct workshops, provide feedback"
+    "details": "Develop training materials, conduct workshops, provide feedback",
+    "category": "Training"
   },
   {
     "id": "customer-success-negotiation-skills",
@@ -1626,7 +1806,8 @@
     "task": "Provide training on negotiation skills",
     "goal": "Improve team's negotiation capabilities",
     "context": "Identified need for negotiation skills development",
-    "details": "Develop training materials, conduct workshops, provide role-playing opportunities"
+    "details": "Develop training materials, conduct workshops, provide role-playing opportunities",
+    "category": "Training"
   },
   {
     "id": "customer-success-presentation-skills",
@@ -1635,7 +1816,8 @@
     "task": "Provide training on effective presentation skills",
     "goal": "Enhance team's presentation capabilities",
     "context": "Identified need for presentation skills development",
-    "details": "Develop training materials, conduct workshops, provide presentation opportunities"
+    "details": "Develop training materials, conduct workshops, provide presentation opportunities",
+    "category": "Training"
   },
   {
     "id": "customer-success-time-management",
@@ -1644,7 +1826,8 @@
     "task": "Provide training on time management skills",
     "goal": "Improve team's productivity and work-life balance",
     "context": "Identified need for time management skills development",
-    "details": "Develop training materials, conduct workshops, provide tools and resources"
+    "details": "Develop training materials, conduct workshops, provide tools and resources",
+    "category": "Training"
   },
   {
     "id": "customer-success-organizational-skills",
@@ -1653,7 +1836,8 @@
     "task": "Provide training on organizational skills",
     "goal": "Enhance team's ability to manage multiple tasks and priorities",
     "context": "Identified need for organizational skills development",
-    "details": "Develop training materials, conduct workshops, provide tools and resources"
+    "details": "Develop training materials, conduct workshops, provide tools and resources",
+    "category": "Training"
   },
   {
     "id": "customer-success-analytical-skills",
@@ -1662,7 +1846,8 @@
     "task": "Provide training on analytical skills",
     "goal": "Improve team's ability to analyze data and make decisions",
     "context": "Identified need for analytical skills development",
-    "details": "Develop training materials, conduct workshops, provide tools and resources"
+    "details": "Develop training materials, conduct workshops, provide tools and resources",
+    "category": "Training"
   },
   {
     "id": "customer-success-problem-solving-skills",
@@ -1671,7 +1856,8 @@
     "task": "Provide training on problem-solving skills",
     "goal": "Enhance team's ability to identify and solve issues",
     "context": "Identified need for problem-solving skills development",
-    "details": "Develop training materials, conduct workshops, provide tools and resources"
+    "details": "Develop training materials, conduct workshops, provide tools and resources",
+    "category": "Training"
   },
   {
     "id": "customer-success-critical-thinking-skills",
@@ -1680,7 +1866,8 @@
     "task": "Provide training on critical thinking skills",
     "goal": "Improve team's ability to think critically and strategically",
     "context": "Identified need for critical thinking skills development",
-    "details": "Develop training materials, conduct workshops, provide tools and resources"
+    "details": "Develop training materials, conduct workshops, provide tools and resources",
+    "category": "Training"
   },
   {
     "id": "customer-success-innovation-skills",
@@ -1689,7 +1876,8 @@
     "task": "Provide training on innovation skills",
     "goal": "Foster a culture of innovation and continuous improvement",
     "context": "Organizational focus on innovation",
-    "details": "Develop training materials, conduct workshops, provide resources and support"
+    "details": "Develop training materials, conduct workshops, provide resources and support",
+    "category": "Training"
   },
   {
     "id": "customer-success-change-management-training",
@@ -1698,7 +1886,8 @@
     "task": "Provide training on change management principles and practices",
     "goal": "Equip team to manage and lead change effectively",
     "context": "Organizational change initiatives",
-    "details": "Develop training materials, conduct workshops, provide coaching"
+    "details": "Develop training materials, conduct workshops, provide coaching",
+    "category": "Training"
   },
   {
     "id": "customer-success-project-management-training",
@@ -1707,7 +1896,8 @@
     "task": "Provide training on project management methodologies and tools",
     "goal": "Enhance team's project management skills",
     "context": "Identified need for improved project management capabilities",
-    "details": "Develop training materials, conduct workshops, provide project simulations"
+    "details": "Develop training materials, conduct workshops, provide project simulations",
+    "category": "Training"
   },
   {
     "id": "customer-success-service-design",
@@ -1716,7 +1906,8 @@
     "task": "Facilitate service design thinking workshops",
     "goal": "Innovate and improve customer service experiences",
     "context": "Need to enhance service offerings",
-    "details": "Use design thinking methods, prototype solutions, gather feedback"
+    "details": "Use design thinking methods, prototype solutions, gather feedback",
+    "category": "Design"
   },
   {
     "id": "customer-success-empathy-training",
@@ -1725,7 +1916,8 @@
     "task": "Provide training on developing empathy for customers",
     "goal": "Enhance customer interactions and satisfaction",
     "context": "Identified need for improved customer understanding",
-    "details": "Conduct empathy mapping exercises, role-playing, and feedback sessions"
+    "details": "Conduct empathy mapping exercises, role-playing, and feedback sessions",
+    "category": "Training"
   },
   {
     "id": "customer-success-advanced-analytics",
@@ -1734,7 +1926,8 @@
     "task": "Train team on advanced analytics techniques",
     "goal": "Leverage data for proactive customer success management",
     "context": "Need to enhance data analysis capabilities",
-    "details": "Cover predictive analytics, customer segmentation, and behavior modeling"
+    "details": "Cover predictive analytics, customer segmentation, and behavior modeling",
+    "category": "Training"
   },
   {
     "id": "customer-success-software-tools-training",
@@ -1743,7 +1936,8 @@
     "task": "Provide training on software tools used in customer success",
     "goal": "Ensure effective use of tools for customer management",
     "context": "Onboarding new tools or updates",
-    "details": "Conduct hands-on training sessions, create user guides, provide support"
+    "details": "Conduct hands-on training sessions, create user guides, provide support",
+    "category": "Training"
   },
   {
     "id": "customer-success-virtual-engagement",
@@ -1752,6 +1946,7 @@
     "task": "Train team on best practices for virtual customer engagement",
     "goal": "Enhance effectiveness of remote interactions with customers",
     "context": "Increase in remote customer interactions",
-    "details": "Cover virtual communication tools, engagement techniques, and etiquette"
+    "details": "Cover virtual communication tools, engagement techniques, and etiquette",
+    "category": "Training"
   }
 ]

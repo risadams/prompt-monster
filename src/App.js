@@ -23,6 +23,7 @@ function App() {
   });
   const [templateSearch, setTemplateSearch] = useState('');
   const [roleFilter, setRoleFilter] = useState('');
+  const [categoryFilter, setCategoryFilter] = useState('');
   const [showInstructions, setShowInstructions] = useState(true);
   const [copied, setCopied] = useState(false);
   const [isFormValid, setIsFormValid] = useState(false);
@@ -115,13 +116,17 @@ function App() {
     }
   }, [prompt]);
 
+  // Get unique categories for filter dropdown
+  const uniqueCategories = [...new Set(templates.map(template => template.category))].sort();
+
   // Filter templates
   const filteredTemplates = templates.filter(template => {
     const matchesSearch = template.name.toLowerCase().includes(templateSearch.toLowerCase()) ||
                          template.role.toLowerCase().includes(templateSearch.toLowerCase()) ||
                          template.task.toLowerCase().includes(templateSearch.toLowerCase());
     const matchesRole = !roleFilter || template.role === roleFilter;
-    return matchesSearch && matchesRole;
+    const matchesCategory = !categoryFilter || template.category === categoryFilter;
+    return matchesSearch && matchesRole && matchesCategory;
   });
 
   // Apply template with user modification preservation
@@ -197,6 +202,7 @@ function App() {
     });
     setTemplateSearch('');
     setRoleFilter('');
+    setCategoryFilter('');
     
     // Announce to screen readers
     const announcement = `Form reset to initial state.`;
@@ -357,6 +363,33 @@ function App() {
                 </div>
               </div>
 
+              {/* Category Filter */}
+              <div className="form-group">
+                <label htmlFor="category-filter" className="filter-label">
+                  Filter by Category
+                </label>
+                <select
+                  id="category-filter"
+                  className="filter-select"
+                  value={categoryFilter}
+                  onChange={(e) => setCategoryFilter(e.target.value)}
+                  aria-describedby="category-filter-help"
+                >
+                  <option value="">All Categories ({templates.length})</option>
+                  {uniqueCategories.map((cat) => {
+                    const count = templates.filter(t => t.category === cat).length;
+                    return (
+                      <option key={cat} value={cat}>
+                        {cat} ({count})
+                      </option>
+                    );
+                  })}
+                </select>
+                <div id="category-filter-help" className="sr-only">
+                  Filter templates by specific category
+                </div>
+              </div>
+
               {/* Filter Actions */}
               <div className="filter-actions">
                 <button
@@ -364,8 +397,9 @@ function App() {
                   onClick={() => {
                     setTemplateSearch('');
                     setRoleFilter('');
+                    setCategoryFilter('');
                   }}
-                  disabled={!templateSearch && !roleFilter}
+                  disabled={!templateSearch && !roleFilter && !categoryFilter}
                   aria-label="Clear all filters"
                 >
                   Clear Filters
