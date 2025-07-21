@@ -902,7 +902,7 @@
   {
     "id": "customer-onboarding",
     "name": "Customer Onboarding Process",
-    "role": "Customer Success Manager",
+    "role": "Support Agent",
     "task": "Guide new customers through onboarding",
     "goal": "Ensure successful product adoption",
     "context": "New customer signed up",
@@ -911,7 +911,7 @@
   {
     "id": "customer-success-health-check",
     "name": "Customer Health Check",
-    "role": "Customer Success Manager",
+    "role": "Support Agent",
     "task": "Conduct regular health checks for customers",
     "goal": "Identify at-risk accounts and intervene early",
     "context": "Quarterly review cycle",
@@ -920,7 +920,7 @@
   {
     "id": "customer-success-renewal-planning",
     "name": "Renewal Planning Session",
-    "role": "Customer Success Manager",
+    "role": "Account Manager",
     "task": "Plan renewal strategies for key accounts",
     "goal": "Increase renewal rates and reduce churn",
     "context": "Renewal period approaching",
@@ -929,7 +929,7 @@
   {
     "id": "customer-success-onboarding-feedback",
     "name": "Onboarding Feedback Collection",
-    "role": "Customer Success Manager",
+    "role": "Support Agent",
     "task": "Collect feedback from new customers on onboarding process",
     "goal": "Improve onboarding experience",
     "context": "Recent onboarding completed",
@@ -938,7 +938,7 @@
   {
     "id": "customer-success-training-session",
     "name": "Customer Training Session",
-    "role": "Customer Success Manager",
+    "role": "Support Agent",
     "task": "Conduct training for customers on product features",
     "goal": "Increase product adoption and proficiency",
     "context": "New feature release",
@@ -947,7 +947,7 @@
   {
     "id": "customer-success-advocacy-program",
     "name": "Customer Advocacy Program Launch",
-    "role": "Customer Success Manager",
+    "role": "Marketing Manager",
     "task": "Launch program to empower customer advocates",
     "goal": "Increase engagement and referrals",
     "context": "Growing customer base",
@@ -956,7 +956,7 @@
   {
     "id": "customer-success-escalation-management",
     "name": "Escalation Management Process",
-    "role": "Customer Success Manager",
+    "role": "Support Agent",
     "task": "Manage escalations for critical customer issues",
     "goal": "Ensure timely and effective resolution",
     "context": "High-priority issue reported",
@@ -965,7 +965,7 @@
   {
     "id": "customer-success-usage-analysis",
     "name": "Customer Usage Analysis",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Analyze customer usage patterns",
     "goal": "Identify opportunities for increased adoption",
     "context": "Usage data available",
@@ -974,7 +974,7 @@
   {
     "id": "customer-success-relationship-building",
     "name": "Customer Relationship Building",
-    "role": "Customer Success Manager",
+    "role": "Account Manager",
     "task": "Strengthen relationships with key customers",
     "goal": "Increase loyalty and satisfaction",
     "context": "Strategic accounts identified",
@@ -983,70 +983,16 @@
   {
     "id": "customer-success-feedback-loop",
     "name": "Customer Feedback Loop Setup",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Establish continuous feedback loop with customers",
     "goal": "Improve product and service iteratively",
     "context": "Ongoing product development",
     "details": "Collect feedback, analyze data, implement changes"
   },
   {
-    "id": "customer-success-communication-plan",
-    "name": "Customer Communication Plan",
-    "role": "Customer Success Manager",
-    "task": "Develop communication plan for customer success topics",
-    "goal": "Ensure clear messaging to customers",
-    "context": "Major product update or incident",
-    "details": "Draft messages, select channels, monitor feedback"
-  },
-  {
-    "id": "customer-success-risk-assessment",
-    "name": "Customer Success Risk Assessment",
-    "role": "Customer Success Manager",
-    "task": "Assess risks to customer satisfaction and retention",
-    "goal": "Proactively address potential issues",
-    "context": "Feature design phase or service change",
-    "details": "Identify risks, propose mitigations, document decisions"
-  },
-  {
-    "id": "customer-success-strategic-planning",
-    "name": "Strategic Account Planning",
-    "role": "Customer Success Manager",
-    "task": "Develop strategic plans for key accounts",
-    "goal": "Align customer success efforts with customer business goals",
-    "context": "Key accounts identified for strategic focus",
-    "details": "Conduct SWOT analysis, define success metrics, plan joint business reviews"
-  },
-  {
-    "id": "customer-success-value-realization",
-    "name": "Value Realization Review",
-    "role": "Customer Success Manager",
-    "task": "Review and ensure customers are realizing expected value",
-    "goal": "Increase customer satisfaction and retention",
-    "context": "Post-implementation review",
-    "details": "Gather customer feedback, analyze usage data, recommend optimizations"
-  },
-  {
-    "id": "customer-success-product-feedback",
-    "name": "Product Feedback Collection",
-    "role": "Customer Success Manager",
-    "task": "Collect and analyze customer feedback on product",
-    "goal": "Inform product improvements and enhancements",
-    "context": "Ongoing product usage",
-    "details": "Use surveys, interviews, and usage data to gather feedback"
-  },
-  {
-    "id": "customer-success-reference-program",
-    "name": "Customer Reference Program",
-    "role": "Customer Success Manager",
-    "task": "Establish and manage customer reference program",
-    "goal": "Leverage satisfied customers for referrals and case studies",
-    "context": "Customers with successful outcomes identified",
-    "details": "Request permission to use as reference, provide guidelines, recognize participation"
-  },
-  {
     "id": "customer-success-renewal-execution",
     "name": "Renewal Execution",
-    "role": "Customer Success Manager",
+    "role": "Account Manager",
     "task": "Execute renewal process for expiring contracts",
     "goal": "Ensure high renewal rates",
     "context": "Contracts approaching expiration",
@@ -1055,7 +1001,7 @@
   {
     "id": "customer-success-upgrade-planning",
     "name": "Upgrade Planning Session",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Plan upgrades for customers on older product versions",
     "goal": "Ensure customers benefit from latest features and improvements",
     "context": "New product version released",
@@ -1064,7 +1010,7 @@
   {
     "id": "customer-success-churn-risk-analysis",
     "name": "Churn Risk Analysis",
-    "role": "Customer Success Manager",
+    "role": "Account Manager",
     "task": "Analyze and mitigate customer churn risks",
     "goal": "Retain at-risk customers",
     "context": "Regular churn analysis cycle",
@@ -1073,7 +1019,7 @@
   {
     "id": "customer-success-loyalty-program",
     "name": "Customer Loyalty Program",
-    "role": "Customer Success Manager",
+    "role": "Marketing Manager",
     "task": "Develop and manage customer loyalty program",
     "goal": "Increase customer retention and lifetime value",
     "context": "Loyalty program concept approved",
@@ -1082,7 +1028,7 @@
   {
     "id": "customer-success-account-planning",
     "name": "Account Planning Session",
-    "role": "Customer Success Manager",
+    "role": "Account Manager",
     "task": "Conduct planning sessions for key accounts",
     "goal": "Align on customer goals, challenges, and success plans",
     "context": "Strategic accounts identified",
@@ -1091,7 +1037,7 @@
   {
     "id": "customer-success-executive-business-reviews",
     "name": "Executive Business Review Preparation",
-    "role": "Customer Success Manager",
+    "role": "Account Manager",
     "task": "Prepare for executive business reviews with key customers",
     "goal": "Demonstrate value and strengthen relationships",
     "context": "Quarterly business review period",
@@ -1100,7 +1046,7 @@
   {
     "id": "customer-success-incident-management",
     "name": "Incident Management Process",
-    "role": "Customer Success Manager",
+    "role": "Support Agent",
     "task": "Manage and resolve customer incidents",
     "goal": "Ensure customer issues are addressed promptly",
     "context": "Incident reported by customer",
@@ -1109,7 +1055,7 @@
   {
     "id": "customer-success-service-improvement",
     "name": "Service Improvement Plan",
-    "role": "Customer Success Manager",
+    "role": "Support Agent",
     "task": "Develop and implement service improvement plans",
     "goal": "Enhance service quality and customer satisfaction",
     "context": "Service performance review indicates issues",
@@ -1118,7 +1064,7 @@
   {
     "id": "customer-success-knowledge-transfer",
     "name": "Knowledge Transfer Session",
-    "role": "Customer Success Manager",
+    "role": "Support Agent",
     "task": "Facilitate knowledge transfer sessions for customers",
     "goal": "Empower customers to effectively use the product",
     "context": "New features or major updates released",
@@ -1127,7 +1073,7 @@
   {
     "id": "customer-success-product-adoption",
     "name": "Product Adoption Analysis",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Analyze and report on product adoption metrics",
     "goal": "Ensure customers are effectively using the product",
     "context": "Post-implementation review",
@@ -1145,7 +1091,7 @@
   {
     "id": "customer-success-referral-program",
     "name": "Customer Referral Program",
-    "role": "Customer Success Manager",
+    "role": "Marketing Manager",
     "task": "Manage customer referral program",
     "goal": "Encourage satisfied customers to refer new clients",
     "context": "Existing customers with positive feedback",
@@ -1154,7 +1100,7 @@
   {
     "id": "customer-success-exit-interviews",
     "name": "Customer Exit Interview",
-    "role": "Customer Success Manager",
+    "role": "Support Agent",
     "task": "Conduct exit interviews with departing customers",
     "goal": "Gather feedback to improve retention",
     "context": "Customer has decided not to renew",
@@ -1163,7 +1109,7 @@
   {
     "id": "customer-success-re-engagement",
     "name": "Customer Re-Engagement Plan",
-    "role": "Customer Success Manager",
+    "role": "Marketing Manager",
     "task": "Develop and execute re-engagement plans for inactive customers",
     "goal": "Reactivate dormant accounts",
     "context": "Customer inactivity detected",
@@ -1172,7 +1118,7 @@
   {
     "id": "customer-success-upgrade-execution",
     "name": "Upgrade Execution",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Manage execution of product upgrades for customers",
     "goal": "Ensure smooth and successful upgrades",
     "context": "Upgrades planned or in progress",
@@ -1181,7 +1127,7 @@
   {
     "id": "customer-success-customization-planning",
     "name": "Customization Planning Session",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Plan customization requirements for key customers",
     "goal": "Ensure product meets specific customer needs",
     "context": "Customer requests for customization",
@@ -1190,7 +1136,7 @@
   {
     "id": "customer-success-customization-execution",
     "name": "Customization Execution",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Oversee execution of product customizations",
     "goal": "Deliver tailored solutions to customers",
     "context": "Customization requests approved",
@@ -1199,7 +1145,7 @@
   {
     "id": "customer-success-technical-account-management",
     "name": "Technical Account Management",
-    "role": "Customer Success Manager",
+    "role": "Solution Architect",
     "task": "Provide technical account management for key customers",
     "goal": "Ensure customer success through proactive technical support",
     "context": "Strategic accounts with complex technical setups",
@@ -1208,7 +1154,7 @@
   {
     "id": "customer-success-business-reviews",
     "name": "Business Review Preparation",
-    "role": "Customer Success Manager",
+    "role": "Account Manager",
     "task": "Prepare for business reviews with customer executives",
     "goal": "Demonstrate value and align on strategic goals",
     "context": "Quarterly business review cycle",
@@ -1217,7 +1163,7 @@
   {
     "id": "customer-success-annual-planning",
     "name": "Annual Success Planning",
-    "role": "Customer Success Manager",
+    "role": "Account Manager",
     "task": "Develop annual success plans for key accounts",
     "goal": "Align customer success efforts with customer business objectives",
     "context": "Annual planning cycle",
@@ -1226,7 +1172,7 @@
   {
     "id": "customer-success-continuous-improvement",
     "name": "Continuous Improvement Process",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Establish process for continuous improvement in customer success",
     "goal": "Enhance customer satisfaction and retention",
     "context": "Ongoing customer success operations",
@@ -1235,7 +1181,7 @@
   {
     "id": "customer-success-service-delivery",
     "name": "Service Delivery Management",
-    "role": "Customer Success Manager",
+    "role": "Support Agent",
     "task": "Manage delivery of services to customers",
     "goal": "Ensure high-quality and timely service delivery",
     "context": "Service delivery in progress",
@@ -1244,7 +1190,7 @@
   {
     "id": "customer-success-issue-resolution",
     "name": "Issue Resolution Process",
-    "role": "Customer Success Manager",
+    "role": "Support Agent",
     "task": "Manage and resolve customer issues",
     "goal": "Ensure customer satisfaction through effective issue resolution",
     "context": "Customer issues reported",
@@ -1253,7 +1199,7 @@
   {
     "id": "customer-success-customer-engagement",
     "name": "Customer Engagement Plan",
-    "role": "Customer Success Manager",
+    "role": "Marketing Manager",
     "task": "Develop and execute plans to engage customers",
     "goal": "Increase customer involvement and feedback",
     "context": "Customer engagement strategy development",
@@ -1262,7 +1208,7 @@
   {
     "id": "customer-success-relationship-management",
     "name": "Relationship Management Process",
-    "role": "Customer Success Manager",
+    "role": "Account Manager",
     "task": "Manage and nurture customer relationships",
     "goal": "Enhance customer loyalty and lifetime value",
     "context": "Ongoing customer relationship management",
@@ -1271,7 +1217,7 @@
   {
     "id": "customer-success-experience-optimization",
     "name": "Customer Experience Optimization",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Analyze and optimize customer experience",
     "goal": "Improve customer satisfaction and retention",
     "context": "Customer journey mapping and analysis",
@@ -1280,7 +1226,7 @@
   {
     "id": "customer-success-voice-of-customer",
     "name": "Voice of Customer Program",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Establish program to capture and act on customer feedback",
     "goal": "Continuously improve product and service based on customer input",
     "context": "Customer feedback collection and analysis",
@@ -1289,7 +1235,7 @@
   {
     "id": "customer-success-executive-engagement",
     "name": "Executive Engagement Plan",
-    "role": "Customer Success Manager",
+    "role": "Account Manager",
     "task": "Develop and execute plans for engaging customer executives",
     "goal": "Strengthen relationships and alignment with key stakeholders",
     "context": "Strategic accounts with executive-level relationships",
@@ -1298,7 +1244,7 @@
   {
     "id": "customer-success-partner-coordination",
     "name": "Partner Coordination Process",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Coordinate with partners to deliver integrated solutions",
     "goal": "Ensure seamless delivery of joint solutions to customers",
     "context": "Engagements involving multiple partners",
@@ -1307,7 +1253,7 @@
   {
     "id": "customer-success-technical-escalation",
     "name": "Technical Escalation Management",
-    "role": "Customer Success Manager",
+    "role": "Solution Architect",
     "task": "Manage technical escalations for critical issues",
     "goal": "Ensure timely resolution of complex technical problems",
     "context": "High-severity technical issues reported",
@@ -1316,7 +1262,7 @@
   {
     "id": "customer-success-business-case-development",
     "name": "Business Case Development",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Develop business cases for proposed customer solutions",
     "goal": "Justify investment in customer-specific solutions",
     "context": "New customer opportunities identified",
@@ -1325,7 +1271,7 @@
   {
     "id": "customer-success-solution-design",
     "name": "Solution Design Consultation",
-    "role": "Customer Success Manager",
+    "role": "Solution Architect",
     "task": "Consult on solution design for customer requirements",
     "goal": "Ensure solutions are designed to meet customer needs",
     "context": "Customer requirements gathering phase",
@@ -1334,7 +1280,7 @@
   {
     "id": "customer-success-implementation-support",
     "name": "Implementation Support",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Support implementation of solutions for customers",
     "goal": "Ensure successful and timely implementation",
     "context": "Solution implementation in progress",
@@ -1343,7 +1289,7 @@
   {
     "id": "customer-success-post-implementation-review",
     "name": "Post-Implementation Review",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Conduct reviews after solution implementation",
     "goal": "Ensure solutions meet customer expectations and drive value",
     "context": "After solution go-live",
@@ -1352,7 +1298,7 @@
   {
     "id": "customer-success-change-management",
     "name": "Change Management Process",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Manage change management process for customers",
     "goal": "Ensure smooth adoption of changes",
     "context": "Changes to services or solutions",
@@ -1361,7 +1307,7 @@
   {
     "id": "customer-success-risk-mitigation",
     "name": "Risk Mitigation Planning",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Develop and implement risk mitigation plans",
     "goal": "Minimize impact of potential risks to customer success",
     "context": "Identified risks to customer satisfaction or retention",
@@ -1370,7 +1316,7 @@
   {
     "id": "customer-success-opportunity-identification",
     "name": "Opportunity Identification",
-    "role": "Customer Success Manager",
+    "role": "Account Manager",
     "task": "Identify and pursue opportunities for account growth",
     "goal": "Increase revenue from existing accounts",
     "context": "Regular account review process",
@@ -1379,7 +1325,7 @@
   {
     "id": "customer-success-strategic-initiative-support",
     "name": "Strategic Initiative Support",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Support customer participation in strategic initiatives",
     "goal": "Align customer success efforts with customer strategic goals",
     "context": "Customer involved in strategic initiatives",
@@ -1388,7 +1334,7 @@
   {
     "id": "customer-success-experience-mapping",
     "name": "Customer Experience Mapping",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Map customer journey and identify improvement areas",
     "goal": "Enhance overall customer experience",
     "context": "Customer journey analysis project",
@@ -1397,7 +1343,7 @@
   {
     "id": "customer-success-advocacy-development",
     "name": "Advocacy Development Program",
-    "role": "Customer Success Manager",
+    "role": "Marketing Manager",
     "task": "Develop program to cultivate customer advocacy",
     "goal": "Leverage customer advocates for marketing and referrals",
     "context": "Identified satisfied customers with influence",
@@ -1406,7 +1352,7 @@
   {
     "id": "customer-success-metrics-and-reporting",
     "name": "Metrics and Reporting Setup",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Define and implement metrics and reporting for customer success",
     "goal": "Measure and communicate customer success outcomes",
     "context": "Need for data-driven decision making",
@@ -1415,7 +1361,7 @@
   {
     "id": "customer-success-collaboration-platform",
     "name": "Collaboration Platform Setup",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Establish collaboration platform for customer interactions",
     "goal": "Enhance communication and collaboration with customers",
     "context": "Need for improved customer engagement tools",
@@ -1424,7 +1370,7 @@
   {
     "id": "customer-success-service-level-agreement",
     "name": "Service Level Agreement Definition",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Define service level agreements for customer success",
     "goal": "Set clear expectations for service delivery",
     "context": "New or updated services",
@@ -1433,7 +1379,7 @@
   {
     "id": "customer-success-contingency-planning",
     "name": "Contingency Planning",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Develop contingency plans for potential service disruptions",
     "goal": "Ensure quick recovery from unexpected issues",
     "context": "Risk assessment identifies potential service interruptions",
@@ -1442,7 +1388,7 @@
   {
     "id": "customer-success-technology-evaluation",
     "name": "Technology Evaluation and Recommendation",
-    "role": "Customer Success Manager",
+    "role": "Solution Architect",
     "task": "Evaluate and recommend technology solutions for customers",
     "goal": "Ensure customers have the right tools for success",
     "context": "Customer needs assessment",
@@ -1451,7 +1397,7 @@
   {
     "id": "customer-success-vendor-management",
     "name": "Vendor Management Process",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Manage relationships with vendors providing services to customers",
     "goal": "Ensure vendor performance meets customer expectations",
     "context": "Services delivered by third-party vendors",
@@ -1460,7 +1406,7 @@
   {
     "id": "customer-success-budget-management",
     "name": "Budget Management Process",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Manage budget for customer success initiatives",
     "goal": "Ensure effective use of resources",
     "context": "Annual budgeting cycle",
@@ -1469,7 +1415,7 @@
   {
     "id": "customer-success-resource-allocation",
     "name": "Resource Allocation Planning",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Plan and allocate resources for customer success activities",
     "goal": "Optimize resource utilization",
     "context": "New initiatives or projects",
@@ -1478,7 +1424,7 @@
   {
     "id": "customer-success-performance-evaluation",
     "name": "Performance Evaluation Process",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Evaluate performance of customer success initiatives",
     "goal": "Measure impact and identify improvement areas",
     "context": "End of initiative or project",
@@ -1487,7 +1433,7 @@
   {
     "id": "customer-success-knowledge-management",
     "name": "Knowledge Management System",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Establish and maintain knowledge management system",
     "goal": "Capture and share knowledge across customer success team",
     "context": "Need for consistent information and best practices",
@@ -1496,7 +1442,7 @@
   {
     "id": "customer-success-skills-development",
     "name": "Skills Development Program",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Develop and implement skills development program",
     "goal": "Enhance skills and capabilities of customer success team",
     "context": "Identified skills gaps or new skills required",
@@ -1505,7 +1451,7 @@
   {
     "id": "customer-success-team-building",
     "name": "Team Building Activity",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Organize team building activities for customer success team",
     "goal": "Improve team cohesion and collaboration",
     "context": "Regular team development initiative",
@@ -1514,7 +1460,7 @@
   {
     "id": "customer-success-performance-management",
     "name": "Performance Management Process",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Manage performance of customer success team members",
     "goal": "Ensure high performance and accountability",
     "context": "Regular performance review cycle",
@@ -1523,7 +1469,7 @@
   {
     "id": "customer-success-career-development",
     "name": "Career Development Planning",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Support career development for customer success team",
     "goal": "Enhance career growth and satisfaction",
     "context": "Ongoing career development support",
@@ -1532,7 +1478,7 @@
   {
     "id": "customer-success-recruitment-support",
     "name": "Recruitment Support",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Support recruitment for customer success roles",
     "goal": "Attract and hire top talent for customer success team",
     "context": "Open positions in customer success team",
@@ -1541,7 +1487,7 @@
   {
     "id": "customer-success-diversity-and-inclusion",
     "name": "Diversity and Inclusion Initiative",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Promote diversity and inclusion within customer success team",
     "goal": "Foster an inclusive and diverse work environment",
     "context": "Organizational diversity and inclusion goals",
@@ -1550,7 +1496,7 @@
   {
     "id": "customer-success-employee-engagement",
     "name": "Employee Engagement Survey",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Conduct employee engagement surveys",
     "goal": "Measure and improve employee engagement and satisfaction",
     "context": "Regular employee feedback initiative",
@@ -1559,7 +1505,7 @@
   {
     "id": "customer-success-culture-building",
     "name": "Culture Building Activities",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Organize activities to promote positive team culture",
     "goal": "Enhance team morale and cohesion",
     "context": "Ongoing team development",
@@ -1568,7 +1514,7 @@
   {
     "id": "customer-success-change-leadership",
     "name": "Change Leadership Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on leading change initiatives",
     "goal": "Equip team to effectively lead and manage change",
     "context": "Organizational change initiatives",
@@ -1577,7 +1523,7 @@
   {
     "id": "customer-success-emotional-intelligence",
     "name": "Emotional Intelligence Development",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Develop emotional intelligence skills within the team",
     "goal": "Enhance team collaboration and customer interactions",
     "context": "Identified need for emotional intelligence skills",
@@ -1586,7 +1532,7 @@
   {
     "id": "customer-success-resilience-training",
     "name": "Resilience Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on building resilience",
     "goal": "Help team handle challenges and setbacks effectively",
     "context": "Organizational focus on employee well-being",
@@ -1595,7 +1541,7 @@
   {
     "id": "customer-success-stress-management",
     "name": "Stress Management Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on managing stress",
     "goal": "Enhance team well-being and performance",
     "context": "Identified need for stress management support",
@@ -1604,7 +1550,7 @@
   {
     "id": "customer-success-work-life-balance",
     "name": "Work-Life Balance Initiative",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Promote work-life balance within the team",
     "goal": "Improve employee satisfaction and retention",
     "context": "Organizational well-being initiatives",
@@ -1613,7 +1559,7 @@
   {
     "id": "customer-success-employee-recognition",
     "name": "Employee Recognition Program",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Develop and manage employee recognition program",
     "goal": "Enhance employee motivation and retention",
     "context": "Ongoing employee engagement initiative",
@@ -1622,7 +1568,7 @@
   {
     "id": "customer-success-team-performance",
     "name": "Team Performance Metrics",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Define and track team performance metrics",
     "goal": "Ensure team accountability and continuous improvement",
     "context": "Regular performance management cycle",
@@ -1631,7 +1577,7 @@
   {
     "id": "customer-success-individual-performance",
     "name": "Individual Performance Metrics",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Define and track individual performance metrics",
     "goal": "Ensure individual accountability and development",
     "context": "Regular performance review cycle",
@@ -1640,7 +1586,7 @@
   {
     "id": "customer-success-career-pathing",
     "name": "Career Pathing Initiative",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Develop and implement career pathing for customer success roles",
     "goal": "Provide clear career progression opportunities",
     "context": "Talent development and retention strategy",
@@ -1649,7 +1595,7 @@
   {
     "id": "customer-success-exit-strategy",
     "name": "Exit Strategy Development",
-    "role": "Customer Success Manager",
+    "role": "Account Manager",
     "task": "Develop exit strategies for at-risk customers",
     "goal": "Retain customers by addressing issues proactively",
     "context": "Customer health check indicates risk",
@@ -1658,7 +1604,7 @@
   {
     "id": "customer-success-recovery-plan",
     "name": "Customer Recovery Plan",
-    "role": "Customer Success Manager",
+    "role": "Support Agent",
     "task": "Develop recovery plans for service disruptions",
     "goal": "Ensure quick recovery and minimal impact on customer",
     "context": "Service disruption incident",
@@ -1667,7 +1613,7 @@
   {
     "id": "customer-success-communication-training",
     "name": "Communication Skills Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on effective communication skills",
     "goal": "Enhance team communication and customer interactions",
     "context": "Identified need for communication skills development",
@@ -1676,7 +1622,7 @@
   {
     "id": "customer-success-negotiation-skills",
     "name": "Negotiation Skills Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on negotiation skills",
     "goal": "Improve team's negotiation capabilities",
     "context": "Identified need for negotiation skills development",
@@ -1685,7 +1631,7 @@
   {
     "id": "customer-success-presentation-skills",
     "name": "Presentation Skills Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on effective presentation skills",
     "goal": "Enhance team's presentation capabilities",
     "context": "Identified need for presentation skills development",
@@ -1694,7 +1640,7 @@
   {
     "id": "customer-success-time-management",
     "name": "Time Management Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on time management skills",
     "goal": "Improve team's productivity and work-life balance",
     "context": "Identified need for time management skills development",
@@ -1703,7 +1649,7 @@
   {
     "id": "customer-success-organizational-skills",
     "name": "Organizational Skills Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on organizational skills",
     "goal": "Enhance team's ability to manage multiple tasks and priorities",
     "context": "Identified need for organizational skills development",
@@ -1712,7 +1658,7 @@
   {
     "id": "customer-success-analytical-skills",
     "name": "Analytical Skills Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on analytical skills",
     "goal": "Improve team's ability to analyze data and make decisions",
     "context": "Identified need for analytical skills development",
@@ -1721,7 +1667,7 @@
   {
     "id": "customer-success-problem-solving-skills",
     "name": "Problem Solving Skills Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on problem-solving skills",
     "goal": "Enhance team's ability to identify and solve issues",
     "context": "Identified need for problem-solving skills development",
@@ -1730,7 +1676,7 @@
   {
     "id": "customer-success-critical-thinking-skills",
     "name": "Critical Thinking Skills Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on critical thinking skills",
     "goal": "Improve team's ability to think critically and strategically",
     "context": "Identified need for critical thinking skills development",
@@ -1739,7 +1685,7 @@
   {
     "id": "customer-success-innovation-skills",
     "name": "Innovation Skills Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on innovation skills",
     "goal": "Foster a culture of innovation and continuous improvement",
     "context": "Organizational focus on innovation",
@@ -1748,7 +1694,7 @@
   {
     "id": "customer-success-change-management-training",
     "name": "Change Management Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on change management principles and practices",
     "goal": "Equip team to manage and lead change effectively",
     "context": "Organizational change initiatives",
@@ -1757,7 +1703,7 @@
   {
     "id": "customer-success-project-management-training",
     "name": "Project Management Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on project management methodologies and tools",
     "goal": "Enhance team's project management skills",
     "context": "Identified need for improved project management capabilities",
@@ -1766,7 +1712,7 @@
   {
     "id": "customer-success-service-design",
     "name": "Service Design Workshop",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Facilitate service design thinking workshops",
     "goal": "Innovate and improve customer service experiences",
     "context": "Need to enhance service offerings",
@@ -1775,7 +1721,7 @@
   {
     "id": "customer-success-empathy-training",
     "name": "Empathy Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on developing empathy for customers",
     "goal": "Enhance customer interactions and satisfaction",
     "context": "Identified need for improved customer understanding",
@@ -1784,7 +1730,7 @@
   {
     "id": "customer-success-advanced-analytics",
     "name": "Advanced Analytics Training",
-    "role": "Customer Success Manager",
+    "role": "Product Manager",
     "task": "Train team on advanced analytics techniques",
     "goal": "Leverage data for proactive customer success management",
     "context": "Need to enhance data analysis capabilities",
@@ -1793,7 +1739,7 @@
   {
     "id": "customer-success-software-tools-training",
     "name": "Software Tools Training",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Provide training on software tools used in customer success",
     "goal": "Ensure effective use of tools for customer management",
     "context": "Onboarding new tools or updates",
@@ -1802,7 +1748,7 @@
   {
     "id": "customer-success-virtual-engagement",
     "name": "Virtual Engagement Best Practices",
-    "role": "Customer Success Manager",
+    "role": "Project Manager",
     "task": "Train team on best practices for virtual customer engagement",
     "goal": "Enhance effectiveness of remote interactions with customers",
     "context": "Increase in remote customer interactions",
