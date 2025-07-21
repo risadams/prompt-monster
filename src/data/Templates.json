@@ -1,8 +1,8 @@
 [
   {
     "id": "po-sprint",
-    "name": "Sprint Planning (PO)",
-    "role": "Product Owner",
+    "name": "Sprint Planning",
+    "roles": ["Product Owner", "Scrum Master"],
     "task": "Define user stories for the next sprint",
     "goal": "Deliver valuable features to users",
     "context": "Working with a cross-functional team",
@@ -12,7 +12,7 @@
   {
     "id": "sm-retro",
     "name": "Retrospective Facilitation",
-    "role": "Scrum Master",
+    "roles": ["Scrum Master", "Product Owner"],
     "task": "Facilitate a sprint retrospective",
     "goal": "Help the team improve processes",
     "context": "Team has just completed a challenging sprint",
@@ -22,7 +22,7 @@
   {
     "id": "dev-bugfix",
     "name": "Bug Fixing",
-    "role": "Developer",
+    "roles": ["Developer", "Tester"],
     "task": "Fix reported bugs in the application",
     "goal": "Improve product stability",
     "context": "Bugs reported by QA in the latest release",
@@ -32,7 +32,7 @@
   {
     "id": "ux-research",
     "name": "User Research",
-    "role": "UX Designer",
+    "roles": ["UX Designer", "User Researcher"],
     "task": "Conduct user interviews",
     "goal": "Understand user needs",
     "context": "Preparing for a new feature launch",
@@ -42,7 +42,7 @@
   {
     "id": "arch-review",
     "name": "Architecture Review",
-    "role": "Architect",
+    "roles": ["Architect", "Tech Lead"],
     "task": "Review system architecture for scalability",
     "goal": "Ensure the system can handle future growth",
     "context": "Upcoming increase in user base",
@@ -52,7 +52,7 @@
   {
     "id": "tester-automation",
     "name": "Test Automation",
-    "role": "Tester",
+    "roles": ["Tester", "QA Lead"],
     "task": "Automate regression tests",
     "goal": "Reduce manual testing effort",
     "context": "Frequent releases require quick validation",
@@ -62,7 +62,7 @@
   {
     "id": "rte-sync",
     "name": "ART Sync",
-    "role": "Release Train Engineer",
+    "roles": ["Release Train Engineer", "Scrum Master"],
     "task": "Coordinate ART sync meeting",
     "goal": "Align teams on release goals",
     "context": "Multiple teams working on shared features",
@@ -72,7 +72,7 @@
   {
     "id": "sys-env",
     "name": "Environment Setup",
-    "role": "System Team",
+    "roles": ["System Team", "DevOps Engineer"],
     "task": "Set up CI/CD pipelines",
     "goal": "Enable automated deployments",
     "context": "New microservices being added",
@@ -82,7 +82,7 @@
   {
     "id": "bo-roadmap",
     "name": "Roadmap Definition",
-    "role": "Business Owner",
+    "roles": ["Business Owner", "Product Manager"],
     "task": "Define product roadmap",
     "goal": "Guide product development",
     "context": "Market analysis completed",
@@ -92,7 +92,7 @@
   {
     "id": "epic-coord",
     "name": "Epic Coordination",
-    "role": "Epic Owner",
+    "roles": ["Epic Owner", "Product Owner", "Scrum Master"],
     "task": "Coordinate epic implementation",
     "goal": "Deliver cross-team initiatives",
     "context": "Multiple teams involved",
@@ -102,7 +102,7 @@
   {
     "id": "po-feedback",
     "name": "Collect User Feedback",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "UX Researcher"],
     "task": "Gather feedback from users",
     "goal": "Improve product usability",
     "context": "Recent feature release",
@@ -112,7 +112,7 @@
   {
     "id": "sm-daily",
     "name": "Daily Standup",
-    "role": "Scrum Master",
+    "roles": ["Scrum Master", "Team Member"],
     "task": "Facilitate daily standup meeting",
     "goal": "Keep team aligned",
     "context": "Remote team members",
@@ -122,7 +122,7 @@
   {
     "id": "dev-feature",
     "name": "Feature Development",
-    "role": "Developer",
+    "roles": ["Developer", "UI Designer"],
     "task": "Implement new feature",
     "goal": "Expand product capabilities",
     "context": "Feature requested by customers",
@@ -132,7 +132,7 @@
   {
     "id": "ux-prototype",
     "name": "Prototype Design",
-    "role": "UX Designer",
+    "roles": ["UX Designer", "UI Designer"],
     "task": "Design interactive prototype",
     "goal": "Validate design concepts",
     "context": "Early stage of product development",
@@ -142,7 +142,7 @@
   {
     "id": "arch-docs",
     "name": "Architecture Documentation",
-    "role": "Architect",
+    "roles": ["Architect", "Technical Writer"],
     "task": "Document system architecture",
     "goal": "Enable knowledge sharing",
     "context": "New team members onboarding",
@@ -152,7 +152,7 @@
   {
     "id": "tester-perf",
     "name": "Performance Testing",
-    "role": "Tester",
+    "roles": ["Tester", "QA Lead"],
     "task": "Conduct performance tests",
     "goal": "Ensure system reliability",
     "context": "High traffic expected",
@@ -162,7 +162,7 @@
   {
     "id": "rte-retro",
     "name": "ART Retrospective",
-    "role": "Release Train Engineer",
+    "roles": ["Release Train Engineer", "Scrum Master"],
     "task": "Facilitate ART retrospective",
     "goal": "Improve ART processes",
     "context": "End of PI",
@@ -172,7 +172,7 @@
   {
     "id": "sys-monitor",
     "name": "System Monitoring",
-    "role": "System Team",
+    "roles": ["System Team", "DevOps Engineer"],
     "task": "Set up monitoring tools",
     "goal": "Detect issues early",
     "context": "Production environment",
@@ -182,7 +182,7 @@
   {
     "id": "bo-demo",
     "name": "Product Demo",
-    "role": "Business Owner",
+    "roles": ["Business Owner", "Product Manager"],
     "task": "Present product demo to stakeholders",
     "goal": "Showcase product value",
     "context": "Quarterly review meeting",
@@ -192,7 +192,7 @@
   {
     "id": "epic-report",
     "name": "Epic Status Report",
-    "role": "Epic Owner",
+    "roles": ["Epic Owner", "Scrum Master"],
     "task": "Prepare epic status report",
     "goal": "Communicate progress",
     "context": "Monthly reporting cycle",
@@ -202,7 +202,7 @@
   {
     "id": "po-ideation",
     "name": "Feature Ideation Session",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "UX Designer"],
     "task": "Generate and evaluate new feature ideas",
     "goal": "Identify innovative solutions to user problems",
     "context": "Market research and user feedback sessions completed",
@@ -212,7 +212,7 @@
   {
     "id": "po-story-breakdown",
     "name": "Epic to User Stories Breakdown",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "Scrum Master"],
     "task": "Break down large epics into actionable user stories",
     "goal": "Create sprint-ready stories with clear acceptance criteria",
     "context": "Epic has been approved and prioritized in roadmap",
@@ -222,7 +222,7 @@
   {
     "id": "po-story-writing",
     "name": "User Story Writing Workshop",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "Scrum Master"],
     "task": "Write comprehensive user stories with acceptance criteria",
     "goal": "Provide clear requirements for development team",
     "context": "Feature requirements gathering completed",
@@ -232,7 +232,7 @@
   {
     "id": "po-persona-stories",
     "name": "Persona-Based Story Creation",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "UX Designer"],
     "task": "Create user stories based on specific user personas",
     "goal": "Ensure features address real user needs",
     "context": "User personas have been researched and defined",
@@ -242,7 +242,7 @@
   {
     "id": "po-story-sizing",
     "name": "Story Estimation and Sizing",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "Developer"],
     "task": "Work with team to estimate and size user stories",
     "goal": "Enable accurate sprint planning and commitment",
     "context": "Stories are written and ready for development",
@@ -252,7 +252,7 @@
   {
     "id": "po-acceptance-criteria",
     "name": "Acceptance Criteria Definition",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "QA Lead"],
     "task": "Define detailed acceptance criteria for user stories",
     "goal": "Provide clear definition of done for each story",
     "context": "User stories have been created and prioritized",
@@ -262,7 +262,7 @@
   {
     "id": "po-story-refinement",
     "name": "Backlog Refinement Session",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "Scrum Master"],
     "task": "Refine and improve existing user stories in backlog",
     "goal": "Ensure backlog items are ready for sprint planning",
     "context": "Stories need clarification or updates based on new insights",
@@ -272,7 +272,7 @@
   {
     "id": "po-mvp-definition",
     "name": "MVP Story Selection",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "Scrum Master"],
     "task": "Identify and prioritize stories for minimum viable product",
     "goal": "Define the smallest set of features that deliver value",
     "context": "Feature concept approved, need to plan phased delivery",
@@ -282,7 +282,7 @@
   {
     "id": "po-story-mapping",
     "name": "User Story Mapping Session",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "Scrum Master", "UX Designer"],
     "task": "Create visual story map to organize user journey",
     "goal": "Visualize user flow and identify story dependencies",
     "context": "Multiple related stories need to be organized",
@@ -292,7 +292,7 @@
   {
     "id": "po-idea-validation",
     "name": "Idea Validation and Research",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "UX Researcher"],
     "task": "Validate product ideas through research and testing",
     "goal": "Reduce risk of building unwanted features",
     "context": "New product ideas generated from brainstorming sessions",
@@ -302,7 +302,7 @@
   {
     "id": "po-competitor-analysis",
     "name": "Competitive Analysis for Features",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "Market Analyst"],
     "task": "Analyze competitor features to inform product decisions",
     "goal": "Identify market gaps and differentiation opportunities",
     "context": "Planning new features or improving existing ones",
@@ -312,7 +312,7 @@
   {
     "id": "po-business-case",
     "name": "Feature Business Case Development",
-    "role": "Product Owner",
+    "roles": ["Product Owner", "Business Analyst"],
     "task": "Create business case for proposed features",
     "goal": "Justify investment in new product development",
     "context": "Stakeholders need ROI justification for feature development",
@@ -322,7 +322,7 @@
   {
     "id": "sm-impediment",
     "name": "Impediment Removal",
-    "role": "Scrum Master",
+    "roles": ["Scrum Master", "Team Member"],
     "task": "Identify and remove team impediments",
     "goal": "Improve team velocity and productivity",
     "context": "Team struggling with blockers",
@@ -332,7 +332,7 @@
   {
     "id": "sm-coaching",
     "name": "Agile Coaching Session",
-    "role": "Scrum Master",
+    "roles": ["Scrum Master", "Agile Coach"],
     "task": "Coach team members on Agile practices",
     "goal": "Improve team's Agile maturity",
     "context": "Team new to Agile or struggling with practices",
@@ -342,7 +342,7 @@
   {
     "id": "dev-code-review",
     "name": "Code Review Process",
-    "role": "Developer",
+    "roles": ["Developer", "Tech Lead"],
     "task": "Review code changes from team members",
     "goal": "Maintain code quality and share knowledge",
     "context": "Pull request submitted for review",
@@ -352,7 +352,7 @@
   {
     "id": "dev-refactoring",
     "name": "Code Refactoring",
-    "role": "Developer",
+    "roles": ["Developer", "Tech Lead"],
     "task": "Refactor existing code for better maintainability",
     "goal": "Improve code quality without changing functionality",
     "context": "Technical debt needs to be addressed",
@@ -362,7 +362,7 @@
   {
     "id": "arch-patterns",
     "name": "Design Pattern Selection",
-    "role": "Architect",
+    "roles": ["Architect", "Tech Lead"],
     "task": "Select appropriate design patterns for implementation",
     "goal": "Ensure scalable and maintainable architecture",
     "context": "Complex feature requiring architectural decisions",
@@ -372,7 +372,7 @@
   {
     "id": "tester-exploratory",
     "name": "Exploratory Testing Session",
-    "role": "Tester",
+    "roles": ["Tester", "QA Lead"],
     "task": "Conduct unscripted testing to discover issues",
     "goal": "Find bugs that automated tests might miss",
     "context": "New feature ready for testing",
@@ -382,7 +382,7 @@
   {
     "id": "ux-usability",
     "name": "Usability Testing",
-    "role": "UX Designer",
+    "roles": ["UX Designer", "User Researcher"],
     "task": "Test interface usability with real users",
     "goal": "Identify usability issues and improvement opportunities",
     "context": "New interface design ready for validation",
@@ -392,7 +392,7 @@
   {
     "id": "rte-planning",
     "name": "PI Planning Facilitation",
-    "role": "Release Train Engineer",
+    "roles": ["Release Train Engineer", "Scrum Master"],
     "task": "Facilitate Program Increment planning session",
     "goal": "Align teams on PI objectives and dependencies",
     "context": "Beginning of new Program Increment",
@@ -402,7 +402,7 @@
   {
     "id": "sys-deployment",
     "name": "Production Deployment",
-    "role": "System Team",
+    "roles": ["System Team", "DevOps Engineer"],
     "task": "Deploy application to production environment",
     "goal": "Successfully release new features to users",
     "context": "Feature testing completed and approved",
@@ -412,7 +412,7 @@
   {
     "id": "bo-metrics",
     "name": "Business Metrics Review",
-    "role": "Business Owner",
+    "roles": ["Business Owner", "Data Analyst"],
     "task": "Review key business metrics and KPIs",
     "goal": "Track business performance and identify trends",
     "context": "Monthly business review meeting",
@@ -422,7 +422,7 @@
   {
     "id": "epic-planning",
     "name": "Epic Planning Session",
-    "role": "Epic Owner",
+    "roles": ["Epic Owner", "Scrum Master"],
     "task": "Plan epic implementation across multiple teams",
     "goal": "Define epic scope and team responsibilities",
     "context": "Epic approved for implementation",
@@ -432,7 +432,7 @@
   {
     "id": "customer-feedback",
     "name": "Product Feedback Session",
-    "role": "Customer",
+    "roles": ["Customer", "Product Owner"],
     "task": "Provide feedback on product features and usability",
     "goal": "Help improve product to better meet user needs",
     "context": "Using product in real-world scenarios",
@@ -442,7 +442,7 @@
   {
     "id": "customer-requirements",
     "name": "Requirements Gathering",
-    "role": "Customer",
+    "roles": ["Customer", "Business Analyst"],
     "task": "Define business requirements for new features",
     "goal": "Ensure product meets business needs",
     "context": "Planning new product capabilities",
@@ -452,7 +452,7 @@
   {
     "id": "enduser-testing",
     "name": "User Acceptance Testing",
-    "role": "End User",
+    "roles": ["End User", "Tester"],
     "task": "Test new features from end user perspective",
     "goal": "Validate features work as expected in real scenarios",
     "context": "New features ready for user validation",
@@ -462,7 +462,7 @@
   {
     "id": "enduser-training",
     "name": "Feature Training Session",
-    "role": "End User",
+    "roles": ["End User", "Trainer"],
     "task": "Learn how to use new product features",
     "goal": "Become proficient with new capabilities",
     "context": "New features released and available",
@@ -472,7 +472,7 @@
   {
     "id": "stakeholder-review",
     "name": "Project Status Review",
-    "role": "Stakeholder",
+    "roles": ["Stakeholder", "Project Manager"],
     "task": "Review project progress and make decisions",
     "goal": "Ensure project stays aligned with business objectives",
     "context": "Regular project checkpoint meeting",
@@ -482,7 +482,7 @@
   {
     "id": "stakeholder-approval",
     "name": "Feature Approval Process",
-    "role": "Stakeholder",
+    "roles": ["Stakeholder", "Product Owner"],
     "task": "Review and approve proposed features",
     "goal": "Ensure features align with business strategy",
     "context": "Feature proposals ready for executive review",
@@ -492,7 +492,7 @@
   {
     "id": "pm-strategy",
     "name": "Product Strategy Definition",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Business Analyst"],
     "task": "Define long-term product strategy and vision",
     "goal": "Establish clear direction for product development",
     "context": "Annual planning cycle or major market changes",
@@ -502,7 +502,7 @@
   {
     "id": "pm-roadmap",
     "name": "Product Roadmap Planning",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Scrum Master"],
     "task": "Create detailed product roadmap",
     "goal": "Communicate planned features and timeline",
     "context": "Strategy defined, need to plan execution",
@@ -512,7 +512,7 @@
   {
     "id": "pm-launch",
     "name": "Product Launch Coordination",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Marketing Manager"],
     "task": "Coordinate cross-functional product launch",
     "goal": "Successfully bring new product to market",
     "context": "Product development nearing completion",
@@ -522,7 +522,7 @@
   {
     "id": "techlead-mentoring",
     "name": "Developer Mentoring Session",
-    "role": "Tech Lead",
+    "roles": ["Tech Lead", "Developer"],
     "task": "Mentor junior developers on technical skills",
     "goal": "Improve team technical capabilities",
     "context": "Junior developers need guidance on complex topics",
@@ -532,7 +532,7 @@
   {
     "id": "techlead-architecture",
     "name": "Technical Architecture Design",
-    "role": "Tech Lead",
+    "roles": ["Tech Lead", "Architect"],
     "task": "Design technical architecture for new features",
     "goal": "Ensure robust and scalable implementation",
     "context": "Complex feature requiring technical planning",
@@ -542,7 +542,7 @@
   {
     "id": "techlead-standards",
     "name": "Coding Standards Review",
-    "role": "Tech Lead",
+    "roles": ["Tech Lead", "Developer"],
     "task": "Establish and review team coding standards",
     "goal": "Maintain consistent code quality across team",
     "context": "Team growing or standards need updating",
@@ -552,7 +552,7 @@
   {
     "id": "devops-pipeline",
     "name": "CI/CD Pipeline Optimization",
-    "role": "DevOps Engineer",
+    "roles": ["DevOps Engineer", "System Administrator"],
     "task": "Optimize continuous integration and deployment pipelines",
     "goal": "Improve deployment speed and reliability",
     "context": "Current pipeline has performance or reliability issues",
@@ -562,7 +562,7 @@
   {
     "id": "devops-monitoring",
     "name": "Infrastructure Monitoring Setup",
-    "role": "DevOps Engineer",
+    "roles": ["DevOps Engineer", "System Administrator"],
     "task": "Set up comprehensive infrastructure monitoring",
     "goal": "Proactively detect and prevent system issues",
     "context": "Need better visibility into system health",
@@ -572,7 +572,7 @@
   {
     "id": "devops-security",
     "name": "Security Hardening",
-    "role": "DevOps Engineer",
+    "roles": ["DevOps Engineer", "Security Specialist"],
     "task": "Implement security best practices in infrastructure",
     "goal": "Protect system from security threats",
     "context": "Security audit identified vulnerabilities",
@@ -582,7 +582,7 @@
   {
     "id": "analyst-metrics",
     "name": "User Behavior Analysis",
-    "role": "Data Analyst",
+    "roles": ["Data Analyst", "Product Manager"],
     "task": "Analyze user behavior patterns and metrics",
     "goal": "Understand how users interact with the product",
     "context": "Need insights to improve user experience",
@@ -592,7 +592,7 @@
   {
     "id": "analyst-reporting",
     "name": "Executive Dashboard Creation",
-    "role": "Data Analyst",
+    "roles": ["Data Analyst", "Business Intelligence Developer"],
     "task": "Create executive-level reporting dashboard",
     "goal": "Provide key stakeholders with business insights",
     "context": "Leadership needs regular business performance updates",
@@ -602,7 +602,7 @@
   {
     "id": "analyst-research",
     "name": "Market Research Analysis",
-    "role": "Data Analyst",
+    "roles": ["Data Analyst", "Market Researcher"],
     "task": "Analyze market research data and trends",
     "goal": "Inform product strategy decisions",
     "context": "Considering new market opportunities",
@@ -612,7 +612,7 @@
   {
     "id": "qalead-strategy",
     "name": "QA Strategy Development",
-    "role": "QA Lead",
+    "roles": ["QA Lead", "Test Manager"],
     "task": "Develop comprehensive quality assurance strategy",
     "goal": "Ensure product quality through systematic testing approach",
     "context": "New product or major feature release planned",
@@ -622,7 +622,7 @@
   {
     "id": "qalead-team",
     "name": "QA Team Coordination",
-    "role": "QA Lead",
+    "roles": ["QA Lead", "Tester"],
     "task": "Coordinate testing activities across QA team",
     "goal": "Ensure efficient and thorough testing coverage",
     "context": "Multiple features being tested simultaneously",
@@ -632,7 +632,7 @@
   {
     "id": "qalead-metrics",
     "name": "Quality Metrics Review",
-    "role": "QA Lead",
+    "roles": ["QA Lead", "Data Analyst"],
     "task": "Analyze quality metrics and testing effectiveness",
     "goal": "Improve testing processes and product quality",
     "context": "End of release cycle or quality issues identified",
@@ -642,7 +642,7 @@
   {
     "id": "ui-components",
     "name": "UI Component Design",
-    "role": "UI Designer",
+    "roles": ["UI Designer", "Front-end Developer"],
     "task": "Design reusable UI components for design system",
     "goal": "Create consistent and scalable user interface elements",
     "context": "Building or updating design system",
@@ -652,7 +652,7 @@
   {
     "id": "ui-mockups",
     "name": "Interface Mockup Creation",
-    "role": "UI Designer",
+    "roles": ["UI Designer", "UX Designer"],
     "task": "Create detailed interface mockups for new features",
     "goal": "Visualize feature design before development",
     "context": "Feature requirements defined, ready for visual design",
@@ -662,7 +662,7 @@
   {
     "id": "ui-guidelines",
     "name": "Visual Design Guidelines",
-    "role": "UI Designer",
+    "roles": ["UI Designer", "Brand Designer"],
     "task": "Establish visual design guidelines and standards",
     "goal": "Ensure consistent visual design across product",
     "context": "Brand refresh or new product launch",
@@ -672,7 +672,7 @@
   {
     "id": "security-audit",
     "name": "Security Vulnerability Assessment",
-    "role": "Security Specialist",
+    "roles": ["Security Specialist", "DevOps Engineer"],
     "task": "Conduct comprehensive security audit of application",
     "goal": "Identify and mitigate security vulnerabilities",
     "context": "Regular security review or before major release",
@@ -682,7 +682,7 @@
   {
     "id": "security-compliance",
     "name": "Compliance Review",
-    "role": "Security Specialist",
+    "roles": ["Security Specialist", "Compliance Officer"],
     "task": "Ensure product meets regulatory compliance requirements",
     "goal": "Maintain compliance with industry standards",
     "context": "Preparing for compliance audit or certification",
@@ -692,7 +692,7 @@
   {
     "id": "security-training",
     "name": "Security Awareness Training",
-    "role": "Security Specialist",
+    "roles": ["Security Specialist", "Trainer"],
     "task": "Conduct security training for development team",
     "goal": "Improve team's security awareness and practices",
     "context": "New team members or security incidents occurred",
@@ -702,7 +702,7 @@
   {
     "id": "solution-design",
     "name": "End-to-End Solution Design",
-    "role": "Solution Architect",
+    "roles": ["Solution Architect", "Business Analyst"],
     "task": "Design comprehensive solution architecture",
     "goal": "Create scalable solution spanning multiple systems",
     "context": "Complex business requirement involving multiple domains",
@@ -712,7 +712,7 @@
   {
     "id": "solution-integration",
     "name": "System Integration Planning",
-    "role": "Solution Architect",
+    "roles": ["Solution Architect", "Integration Specialist"],
     "task": "Plan integration between multiple systems",
     "goal": "Ensure seamless data and process flow",
     "context": "Need to connect new system with existing infrastructure",
@@ -722,7 +722,7 @@
   {
     "id": "solution-migration",
     "name": "System Migration Strategy",
-    "role": "Solution Architect",
+    "roles": ["Solution Architect", "Data Migration Specialist"],
     "task": "Plan migration from legacy to new system",
     "goal": "Minimize disruption during system transition",
     "context": "Legacy system needs to be replaced or upgraded",
@@ -732,7 +732,7 @@
   {
     "id": "project-planning",
     "name": "Project Planning and Scheduling",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Scrum Master"],
     "task": "Create detailed project plan and schedule",
     "goal": "Ensure project delivery on time and within budget",
     "context": "New project approved and resources allocated",
@@ -742,7 +742,7 @@
   {
     "id": "project-risk",
     "name": "Risk Assessment and Management",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Risk Manager"],
     "task": "Identify and manage project risks",
     "goal": "Minimize impact of potential project issues",
     "context": "Project in progress with identified uncertainties",
@@ -752,7 +752,7 @@
   {
     "id": "project-communication",
     "name": "Stakeholder Communication",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Stakeholder"],
     "task": "Communicate project status to stakeholders",
     "goal": "Keep stakeholders informed and engaged",
     "context": "Regular project updates or major milestone achieved",
@@ -762,7 +762,7 @@
   {
     "id": "sales-demo",
     "name": "Product Demo Presentation",
-    "role": "Sales Representative",
+    "roles": ["Sales Representative", "Product Specialist"],
     "task": "Present product demonstration to potential customers",
     "goal": "Showcase product value and generate sales leads",
     "context": "Meeting with prospective customer",
@@ -772,7 +772,7 @@
   {
     "id": "sales-requirements",
     "name": "Customer Requirements Gathering",
-    "role": "Sales Representative",
+    "roles": ["Sales Representative", "Business Analyst"],
     "task": "Gather detailed requirements from potential customers",
     "goal": "Understand customer needs to propose appropriate solution",
     "context": "Sales opportunity in discovery phase",
@@ -782,7 +782,7 @@
   {
     "id": "sales-proposal",
     "name": "Sales Proposal Development",
-    "role": "Sales Representative",
+    "roles": ["Sales Representative", "Proposal Manager"],
     "task": "Create compelling sales proposal for customer",
     "goal": "Win new business by addressing customer needs",
     "context": "Customer interested and requirements understood",
@@ -792,7 +792,7 @@
   {
     "id": "support-troubleshooting",
     "name": "Customer Issue Troubleshooting",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Technical Specialist"],
     "task": "Diagnose and resolve customer technical issues",
     "goal": "Restore customer productivity quickly",
     "context": "Customer reported problem with product functionality",
@@ -802,7 +802,7 @@
   {
     "id": "support-knowledge",
     "name": "Knowledge Base Maintenance",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Content Writer"],
     "task": "Update and maintain customer support knowledge base",
     "goal": "Improve self-service capabilities and support efficiency",
     "context": "Common issues identified or new features released",
@@ -812,7 +812,7 @@
   {
     "id": "support-escalation",
     "name": "Issue Escalation Management",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Escalation Manager"],
     "task": "Manage escalation of complex customer issues",
     "goal": "Ensure customer issues are resolved appropriately",
     "context": "Customer issue beyond first-level support capabilities",
@@ -822,7 +822,7 @@
   {
     "id": "content-documentation",
     "name": "User Documentation Creation",
-    "role": "Content Writer",
+    "roles": ["Content Writer", "Technical Writer"],
     "task": "Create comprehensive user documentation",
     "goal": "Help users understand and effectively use product features",
     "context": "New features released or existing docs need improvement",
@@ -832,7 +832,7 @@
   {
     "id": "content-marketing",
     "name": "Marketing Content Development",
-    "role": "Content Writer",
+    "roles": ["Content Writer", "Marketing Manager"],
     "task": "Create marketing content for product promotion",
     "goal": "Generate interest and leads for product",
     "context": "Product launch or marketing campaign planned",
@@ -842,7 +842,7 @@
   {
     "id": "content-tutorials",
     "name": "Tutorial and Guide Creation",
-    "role": "Content Writer",
+    "roles": ["Content Writer", "Trainer"],
     "task": "Develop step-by-step tutorials and how-to guides",
     "goal": "Enable users to accomplish specific tasks",
     "context": "Users need guidance on complex workflows",
@@ -852,7 +852,7 @@
   {
     "id": "researcher-interviews",
     "name": "User Interview Coordination",
-    "role": "User Researcher",
+    "roles": ["User Researcher", "Project Coordinator"],
     "task": "Plan and conduct user interviews for product insights",
     "goal": "Gather deep insights into user needs and behaviors",
     "context": "Need qualitative data to inform product decisions",
@@ -862,7 +862,7 @@
   {
     "id": "researcher-surveys",
     "name": "User Survey Design and Analysis",
-    "role": "User Researcher",
+    "roles": ["User Researcher", "Data Analyst"],
     "task": "Design and analyze user surveys",
     "goal": "Collect quantitative data about user preferences",
     "context": "Need broad user feedback on specific topics",
@@ -872,7 +872,7 @@
   {
     "id": "researcher-personas",
     "name": "User Persona Development",
-    "role": "User Researcher",
+    "roles": ["User Researcher", "UX Designer"],
     "task": "Create detailed user personas based on research",
     "goal": "Help team understand and empathize with users",
     "context": "Research data collected, need to synthesize insights",
@@ -882,7 +882,7 @@
   {
     "id": "compliance-review",
     "name": "Regulatory Compliance Assessment",
-    "role": "Compliance Officer",
+    "roles": ["Compliance Officer", "QA Lead"],
     "task": "Review product features for regulatory compliance",
     "goal": "Ensure product meets all applicable regulations",
     "context": "New features or regulations require compliance review",
@@ -892,7 +892,7 @@
   {
     "id": "compliance-documentation",
     "name": "Compliance Documentation",
-    "role": "Compliance Officer",
+    "roles": ["Compliance Officer", "Technical Writer"],
     "task": "Create compliance documentation and procedures",
     "goal": "Document compliance processes for audit purposes",
     "context": "Preparing for regulatory audit or certification",
@@ -902,7 +902,7 @@
   {
     "id": "marketing-campaign",
     "name": "Marketing Campaign Planning",
-    "role": "Marketing Manager",
+    "roles": ["Marketing Manager", "Content Writer"],
     "task": "Plan and execute marketing campaign for product",
     "goal": "Increase product awareness and generate leads",
     "context": "Product launch or need to boost market presence",
@@ -912,7 +912,7 @@
   {
     "id": "marketing-analysis",
     "name": "Market Analysis and Positioning",
-    "role": "Marketing Manager",
+    "roles": ["Marketing Manager", "Data Analyst"],
     "task": "Analyze market trends and competitive positioning",
     "goal": "Inform marketing strategy and product positioning",
     "context": "Planning marketing strategy or entering new market",
@@ -922,7 +922,7 @@
   {
     "id": "ai-ethics-review",
     "name": "AI Ethics Review",
-    "role": "AI Ethics Officer",
+    "roles": ["AI Ethics Officer", "Product Owner"],
     "task": "Review AI system for ethical compliance",
     "goal": "Ensure responsible AI deployment",
     "context": "New AI feature ready for launch",
@@ -932,7 +932,7 @@
   {
     "id": "localization-testing",
     "name": "Localization Testing",
-    "role": "Localization Specialist",
+    "roles": ["Localization Specialist", "Tester"],
     "task": "Test product in multiple languages",
     "goal": "Ensure global usability",
     "context": "Product expanding to new markets",
@@ -942,7 +942,7 @@
   {
     "id": "accessibility-audit",
     "name": "Accessibility Audit",
-    "role": "Accessibility Expert",
+    "roles": ["Accessibility Expert", "QA Lead"],
     "task": "Audit product for accessibility standards",
     "goal": "Make product usable for all",
     "context": "Preparing for public release",
@@ -952,7 +952,7 @@
   {
     "id": "incident-response",
     "name": "Incident Response Drill",
-    "role": "Security Specialist",
+    "roles": ["Security Specialist", "Incident Manager"],
     "task": "Conduct incident response simulation",
     "goal": "Prepare team for security breaches",
     "context": "Annual security training",
@@ -962,7 +962,7 @@
   {
     "id": "data-migration",
     "name": "Data Migration Planning",
-    "role": "Database Administrator",
+    "roles": ["Database Administrator", "Data Analyst"],
     "task": "Plan migration of legacy data",
     "goal": "Ensure smooth transition to new system",
     "context": "Legacy system being replaced",
@@ -972,7 +972,7 @@
   {
     "id": "api-design-review",
     "name": "API Design Review",
-    "role": "Backend Developer",
+    "roles": ["Backend Developer", "API Specialist"],
     "task": "Review API design for best practices",
     "goal": "Ensure robust and scalable APIs",
     "context": "New API endpoints proposed",
@@ -982,7 +982,7 @@
   {
     "id": "mobile-ux-testing",
     "name": "Mobile UX Testing",
-    "role": "Mobile UX Designer",
+    "roles": ["Mobile UX Designer", "Tester"],
     "task": "Test mobile app user experience",
     "goal": "Optimize for mobile usability",
     "context": "Mobile app beta ready",
@@ -992,7 +992,7 @@
   {
     "id": "cloud-cost-optimization",
     "name": "Cloud Cost Optimization",
-    "role": "Cloud Architect",
+    "roles": ["Cloud Architect", "Financial Analyst"],
     "task": "Analyze and reduce cloud infrastructure costs",
     "goal": "Improve cost efficiency",
     "context": "Cloud spend exceeds budget",
@@ -1002,7 +1002,7 @@
   {
     "id": "customer-onboarding",
     "name": "Customer Onboarding Process",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Customer Success Manager"],
     "task": "Guide new customers through onboarding",
     "goal": "Ensure successful product adoption",
     "context": "New customer signed up",
@@ -1012,7 +1012,7 @@
   {
     "id": "customer-success-health-check",
     "name": "Customer Health Check",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Customer Success Manager"],
     "task": "Conduct regular health checks for customers",
     "goal": "Identify at-risk accounts and intervene early",
     "context": "Quarterly review cycle",
@@ -1022,7 +1022,7 @@
   {
     "id": "customer-success-renewal-planning",
     "name": "Renewal Planning Session",
-    "role": "Account Manager",
+    "roles": ["Account Manager", "Customer Success Manager"],
     "task": "Plan renewal strategies for key accounts",
     "goal": "Increase renewal rates and reduce churn",
     "context": "Renewal period approaching",
@@ -1032,7 +1032,7 @@
   {
     "id": "customer-success-onboarding-feedback",
     "name": "Onboarding Feedback Collection",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Customer Success Manager"],
     "task": "Collect feedback from new customers on onboarding process",
     "goal": "Improve onboarding experience",
     "context": "Recent onboarding completed",
@@ -1042,7 +1042,7 @@
   {
     "id": "customer-success-training-session",
     "name": "Customer Training Session",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Trainer"],
     "task": "Conduct training for customers on product features",
     "goal": "Increase product adoption and proficiency",
     "context": "New feature release",
@@ -1052,7 +1052,7 @@
   {
     "id": "customer-success-advocacy-program",
     "name": "Customer Advocacy Program Launch",
-    "role": "Marketing Manager",
+    "roles": ["Marketing Manager", "Customer Success Manager"],
     "task": "Launch program to empower customer advocates",
     "goal": "Increase engagement and referrals",
     "context": "Growing customer base",
@@ -1062,7 +1062,7 @@
   {
     "id": "customer-success-escalation-management",
     "name": "Escalation Management Process",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Escalation Manager"],
     "task": "Manage escalations for critical customer issues",
     "goal": "Ensure timely and effective resolution",
     "context": "High-priority issue reported",
@@ -1072,7 +1072,7 @@
   {
     "id": "customer-success-usage-analysis",
     "name": "Customer Usage Analysis",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Data Analyst"],
     "task": "Analyze customer usage patterns",
     "goal": "Identify opportunities for increased adoption",
     "context": "Usage data available",
@@ -1082,7 +1082,7 @@
   {
     "id": "customer-success-relationship-building",
     "name": "Customer Relationship Building",
-    "role": "Account Manager",
+    "roles": ["Account Manager", "Customer Success Manager"],
     "task": "Strengthen relationships with key customers",
     "goal": "Increase loyalty and satisfaction",
     "context": "Strategic accounts identified",
@@ -1092,7 +1092,7 @@
   {
     "id": "customer-success-feedback-loop",
     "name": "Customer Feedback Loop Setup",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "UX Researcher"],
     "task": "Establish continuous feedback loop with customers",
     "goal": "Improve product and service iteratively",
     "context": "Ongoing product development",
@@ -1102,7 +1102,7 @@
   {
     "id": "customer-success-renewal-execution",
     "name": "Renewal Execution",
-    "role": "Account Manager",
+    "roles": ["Account Manager", "Customer Success Manager"],
     "task": "Execute renewal process for expiring contracts",
     "goal": "Ensure high renewal rates",
     "context": "Contracts approaching expiration",
@@ -1112,7 +1112,7 @@
   {
     "id": "customer-success-upgrade-planning",
     "name": "Upgrade Planning Session",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Customer Success Manager"],
     "task": "Plan upgrades for customers on older product versions",
     "goal": "Ensure customers benefit from latest features and improvements",
     "context": "New product version released",
@@ -1122,7 +1122,7 @@
   {
     "id": "customer-success-churn-risk-analysis",
     "name": "Churn Risk Analysis",
-    "role": "Account Manager",
+    "roles": ["Account Manager", "Data Analyst"],
     "task": "Analyze and mitigate customer churn risks",
     "goal": "Retain at-risk customers",
     "context": "Regular churn analysis cycle",
@@ -1132,7 +1132,7 @@
   {
     "id": "customer-success-loyalty-program",
     "name": "Customer Loyalty Program",
-    "role": "Marketing Manager",
+    "roles": ["Marketing Manager", "Customer Success Manager"],
     "task": "Develop and manage customer loyalty program",
     "goal": "Increase customer retention and lifetime value",
     "context": "Loyalty program concept approved",
@@ -1142,7 +1142,7 @@
   {
     "id": "customer-success-account-planning",
     "name": "Account Planning Session",
-    "role": "Account Manager",
+    "roles": ["Account Manager", "Customer Success Manager"],
     "task": "Conduct planning sessions for key accounts",
     "goal": "Align on customer goals, challenges, and success plans",
     "context": "Strategic accounts identified",
@@ -1152,7 +1152,7 @@
   {
     "id": "customer-success-executive-business-reviews",
     "name": "Executive Business Review Preparation",
-    "role": "Account Manager",
+    "roles": ["Account Manager", "Customer Success Manager"],
     "task": "Prepare for executive business reviews with key customers",
     "goal": "Demonstrate value and strengthen relationships",
     "context": "Quarterly business review period",
@@ -1162,7 +1162,7 @@
   {
     "id": "customer-success-incident-management",
     "name": "Incident Management Process",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Incident Manager"],
     "task": "Manage and resolve customer incidents",
     "goal": "Ensure customer issues are addressed promptly",
     "context": "Incident reported by customer",
@@ -1172,7 +1172,7 @@
   {
     "id": "customer-success-service-improvement",
     "name": "Service Improvement Plan",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Service Manager"],
     "task": "Develop and implement service improvement plans",
     "goal": "Enhance service quality and customer satisfaction",
     "context": "Service performance review indicates issues",
@@ -1182,7 +1182,7 @@
   {
     "id": "customer-success-knowledge-transfer",
     "name": "Knowledge Transfer Session",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Trainer"],
     "task": "Facilitate knowledge transfer sessions for customers",
     "goal": "Empower customers to effectively use the product",
     "context": "New features or major updates released",
@@ -1192,7 +1192,7 @@
   {
     "id": "customer-success-product-adoption",
     "name": "Product Adoption Analysis",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Data Analyst"],
     "task": "Analyze and report on product adoption metrics",
     "goal": "Ensure customers are effectively using the product",
     "context": "Post-implementation review",
@@ -1202,7 +1202,7 @@
   {
     "id": "customer-success-customer-satisfaction",
     "name": "Customer Satisfaction Survey",
-    "role": "Customer Success Manager",
+    "roles": ["Customer Success Manager", "Data Analyst"],
     "task": "Conduct surveys to measure customer satisfaction",
     "goal": "Gather feedback to improve products and services",
     "context": "After key interactions or support cases",
@@ -1212,7 +1212,7 @@
   {
     "id": "customer-success-referral-program",
     "name": "Customer Referral Program",
-    "role": "Marketing Manager",
+    "roles": ["Marketing Manager", "Customer Success Manager"],
     "task": "Manage customer referral program",
     "goal": "Encourage satisfied customers to refer new clients",
     "context": "Existing customers with positive feedback",
@@ -1222,7 +1222,7 @@
   {
     "id": "customer-success-exit-interviews",
     "name": "Customer Exit Interview",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Customer Success Manager"],
     "task": "Conduct exit interviews with departing customers",
     "goal": "Gather feedback to improve retention",
     "context": "Customer has decided not to renew",
@@ -1232,7 +1232,7 @@
   {
     "id": "customer-success-re-engagement",
     "name": "Customer Re-Engagement Plan",
-    "role": "Marketing Manager",
+    "roles": ["Marketing Manager", "Customer Success Manager"],
     "task": "Develop and execute re-engagement plans for inactive customers",
     "goal": "Reactivate dormant accounts",
     "context": "Customer inactivity detected",
@@ -1242,7 +1242,7 @@
   {
     "id": "customer-success-upgrade-execution",
     "name": "Upgrade Execution",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Project Manager"],
     "task": "Manage execution of product upgrades for customers",
     "goal": "Ensure smooth and successful upgrades",
     "context": "Upgrades planned or in progress",
@@ -1252,7 +1252,7 @@
   {
     "id": "customer-success-customization-planning",
     "name": "Customization Planning Session",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Customer Success Manager"],
     "task": "Plan customization requirements for key customers",
     "goal": "Ensure product meets specific customer needs",
     "context": "Customer requests for customization",
@@ -1262,7 +1262,7 @@
   {
     "id": "customer-success-customization-execution",
     "name": "Customization Execution",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Developer"],
     "task": "Oversee execution of product customizations",
     "goal": "Deliver tailored solutions to customers",
     "context": "Customization requests approved",
@@ -1272,7 +1272,7 @@
   {
     "id": "customer-success-technical-account-management",
     "name": "Technical Account Management",
-    "role": "Solution Architect",
+    "roles": ["Solution Architect", "Account Manager"],
     "task": "Provide technical account management for key customers",
     "goal": "Ensure customer success through proactive technical support",
     "context": "Strategic accounts with complex technical setups",
@@ -1282,7 +1282,7 @@
   {
     "id": "customer-success-business-reviews",
     "name": "Business Review Preparation",
-    "role": "Account Manager",
+    "roles": ["Account Manager", "Customer Success Manager"],
     "task": "Prepare for business reviews with customer executives",
     "goal": "Demonstrate value and align on strategic goals",
     "context": "Quarterly business review cycle",
@@ -1292,7 +1292,7 @@
   {
     "id": "customer-success-annual-planning",
     "name": "Annual Success Planning",
-    "role": "Account Manager",
+    "roles": ["Account Manager", "Customer Success Manager"],
     "task": "Develop annual success plans for key accounts",
     "goal": "Align customer success efforts with customer business objectives",
     "context": "Annual planning cycle",
@@ -1302,7 +1302,7 @@
   {
     "id": "customer-success-continuous-improvement",
     "name": "Continuous Improvement Process",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Customer Success Manager"],
     "task": "Establish process for continuous improvement in customer success",
     "goal": "Enhance customer satisfaction and retention",
     "context": "Ongoing customer success operations",
@@ -1312,7 +1312,7 @@
   {
     "id": "customer-success-service-delivery",
     "name": "Service Delivery Management",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Service Manager"],
     "task": "Manage delivery of services to customers",
     "goal": "Ensure high-quality and timely service delivery",
     "context": "Service delivery in progress",
@@ -1322,7 +1322,7 @@
   {
     "id": "customer-success-issue-resolution",
     "name": "Issue Resolution Process",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Incident Manager"],
     "task": "Manage and resolve customer issues",
     "goal": "Ensure customer satisfaction through effective issue resolution",
     "context": "Customer issues reported",
@@ -1332,7 +1332,7 @@
   {
     "id": "customer-success-customer-engagement",
     "name": "Customer Engagement Plan",
-    "role": "Marketing Manager",
+    "roles": ["Marketing Manager", "Customer Success Manager"],
     "task": "Develop and execute plans to engage customers",
     "goal": "Increase customer involvement and feedback",
     "context": "Customer engagement strategy development",
@@ -1342,7 +1342,7 @@
   {
     "id": "customer-success-relationship-management",
     "name": "Relationship Management Process",
-    "role": "Account Manager",
+    "roles": ["Account Manager", "Customer Success Manager"],
     "task": "Manage and nurture customer relationships",
     "goal": "Enhance customer loyalty and lifetime value",
     "context": "Ongoing customer relationship management",
@@ -1352,7 +1352,7 @@
   {
     "id": "customer-success-experience-optimization",
     "name": "Customer Experience Optimization",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "UX Designer"],
     "task": "Analyze and optimize customer experience",
     "goal": "Improve customer satisfaction and retention",
     "context": "Customer journey mapping and analysis",
@@ -1362,7 +1362,7 @@
   {
     "id": "customer-success-voice-of-customer",
     "name": "Voice of Customer Program",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Customer Success Manager"],
     "task": "Establish program to capture and act on customer feedback",
     "goal": "Continuously improve product and service based on customer input",
     "context": "Customer feedback collection and analysis",
@@ -1372,7 +1372,7 @@
   {
     "id": "customer-success-executive-engagement",
     "name": "Executive Engagement Plan",
-    "role": "Account Manager",
+    "roles": ["Account Manager", "Customer Success Manager"],
     "task": "Develop and execute plans for engaging customer executives",
     "goal": "Strengthen relationships and alignment with key stakeholders",
     "context": "Strategic accounts with executive-level relationships",
@@ -1382,7 +1382,7 @@
   {
     "id": "customer-success-partner-coordination",
     "name": "Partner Coordination Process",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Partner Manager"],
     "task": "Coordinate with partners to deliver integrated solutions",
     "goal": "Ensure seamless delivery of joint solutions to customers",
     "context": "Engagements involving multiple partners",
@@ -1392,7 +1392,7 @@
   {
     "id": "customer-success-technical-escalation",
     "name": "Technical Escalation Management",
-    "role": "Solution Architect",
+    "roles": ["Solution Architect", "Escalation Manager"],
     "task": "Manage technical escalations for critical issues",
     "goal": "Ensure timely resolution of complex technical problems",
     "context": "High-severity technical issues reported",
@@ -1402,7 +1402,7 @@
   {
     "id": "customer-success-business-case-development",
     "name": "Business Case Development",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Business Analyst"],
     "task": "Develop business cases for proposed customer solutions",
     "goal": "Justify investment in customer-specific solutions",
     "context": "New customer opportunities identified",
@@ -1412,7 +1412,7 @@
   {
     "id": "customer-success-solution-design",
     "name": "Solution Design Consultation",
-    "role": "Solution Architect",
+    "roles": ["Solution Architect", "Product Owner"],
     "task": "Consult on solution design for customer requirements",
     "goal": "Ensure solutions are designed to meet customer needs",
     "context": "Customer requirements gathering phase",
@@ -1422,7 +1422,7 @@
   {
     "id": "customer-success-implementation-support",
     "name": "Implementation Support",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Support Agent"],
     "task": "Support implementation of solutions for customers",
     "goal": "Ensure successful and timely implementation",
     "context": "Solution implementation in progress",
@@ -1432,7 +1432,7 @@
   {
     "id": "customer-success-post-implementation-review",
     "name": "Post-Implementation Review",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Customer Success Manager"],
     "task": "Conduct reviews after solution implementation",
     "goal": "Ensure solutions meet customer expectations and drive value",
     "context": "After solution go-live",
@@ -1442,7 +1442,7 @@
   {
     "id": "customer-success-change-management",
     "name": "Change Management Process",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Change Manager"],
     "task": "Manage change management process for customers",
     "goal": "Ensure smooth adoption of changes",
     "context": "Changes to services or solutions",
@@ -1452,7 +1452,7 @@
   {
     "id": "customer-success-risk-mitigation",
     "name": "Risk Mitigation Planning",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Risk Manager"],
     "task": "Develop and implement risk mitigation plans",
     "goal": "Minimize impact of potential risks to customer success",
     "context": "Identified risks to customer satisfaction or retention",
@@ -1462,7 +1462,7 @@
   {
     "id": "customer-success-opportunity-identification",
     "name": "Opportunity Identification",
-    "role": "Account Manager",
+    "roles": ["Account Manager", "Business Development"],
     "task": "Identify and pursue opportunities for account growth",
     "goal": "Increase revenue from existing accounts",
     "context": "Regular account review process",
@@ -1472,7 +1472,7 @@
   {
     "id": "customer-success-strategic-initiative-support",
     "name": "Strategic Initiative Support",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Customer Success Manager"],
     "task": "Support customer participation in strategic initiatives",
     "goal": "Align customer success efforts with customer strategic goals",
     "context": "Customer involved in strategic initiatives",
@@ -1482,7 +1482,7 @@
   {
     "id": "customer-success-experience-mapping",
     "name": "Customer Experience Mapping",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "UX Designer"],
     "task": "Map customer journey and identify improvement areas",
     "goal": "Enhance overall customer experience",
     "context": "Customer journey analysis project",
@@ -1492,7 +1492,7 @@
   {
     "id": "customer-success-advocacy-development",
     "name": "Advocacy Development Program",
-    "role": "Marketing Manager",
+    "roles": ["Marketing Manager", "Customer Success Manager"],
     "task": "Develop program to cultivate customer advocacy",
     "goal": "Leverage customer advocates for marketing and referrals",
     "context": "Identified satisfied customers with influence",
@@ -1502,7 +1502,7 @@
   {
     "id": "customer-success-metrics-and-reporting",
     "name": "Metrics and Reporting Setup",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Data Analyst"],
     "task": "Define and implement metrics and reporting for customer success",
     "goal": "Measure and communicate customer success outcomes",
     "context": "Need for data-driven decision making",
@@ -1512,7 +1512,7 @@
   {
     "id": "customer-success-collaboration-platform",
     "name": "Collaboration Platform Setup",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "System Administrator"],
     "task": "Establish collaboration platform for customer interactions",
     "goal": "Enhance communication and collaboration with customers",
     "context": "Need for improved customer engagement tools",
@@ -1522,7 +1522,7 @@
   {
     "id": "customer-success-service-level-agreement",
     "name": "Service Level Agreement Definition",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Service Manager"],
     "task": "Define service level agreements for customer success",
     "goal": "Set clear expectations for service delivery",
     "context": "New or updated services",
@@ -1532,7 +1532,7 @@
   {
     "id": "customer-success-contingency-planning",
     "name": "Contingency Planning",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Risk Manager"],
     "task": "Develop contingency plans for potential service disruptions",
     "goal": "Ensure quick recovery from unexpected issues",
     "context": "Risk assessment identifies potential service interruptions",
@@ -1542,7 +1542,7 @@
   {
     "id": "customer-success-technology-evaluation",
     "name": "Technology Evaluation and Recommendation",
-    "role": "Solution Architect",
+    "roles": ["Solution Architect", "Technical Consultant"],
     "task": "Evaluate and recommend technology solutions for customers",
     "goal": "Ensure customers have the right tools for success",
     "context": "Customer needs assessment",
@@ -1552,7 +1552,7 @@
   {
     "id": "customer-success-vendor-management",
     "name": "Vendor Management Process",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Vendor Manager"],
     "task": "Manage relationships with vendors providing services to customers",
     "goal": "Ensure vendor performance meets customer expectations",
     "context": "Services delivered by third-party vendors",
@@ -1562,7 +1562,7 @@
   {
     "id": "customer-success-budget-management",
     "name": "Budget Management Process",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Financial Analyst"],
     "task": "Manage budget for customer success initiatives",
     "goal": "Ensure effective use of resources",
     "context": "Annual budgeting cycle",
@@ -1572,7 +1572,7 @@
   {
     "id": "customer-success-resource-allocation",
     "name": "Resource Allocation Planning",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Resource Manager"],
     "task": "Plan and allocate resources for customer success activities",
     "goal": "Optimize resource utilization",
     "context": "New initiatives or projects",
@@ -1582,7 +1582,7 @@
   {
     "id": "customer-success-performance-evaluation",
     "name": "Performance Evaluation Process",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Data Analyst"],
     "task": "Evaluate performance of customer success initiatives",
     "goal": "Measure impact and identify improvement areas",
     "context": "End of initiative or project",
@@ -1592,7 +1592,7 @@
   {
     "id": "customer-success-knowledge-management",
     "name": "Knowledge Management System",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Knowledge Manager"],
     "task": "Establish and maintain knowledge management system",
     "goal": "Capture and share knowledge across customer success team",
     "context": "Need for consistent information and best practices",
@@ -1602,7 +1602,7 @@
   {
     "id": "customer-success-skills-development",
     "name": "Skills Development Program",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Develop and implement skills development program",
     "goal": "Enhance skills and capabilities of customer success team",
     "context": "Identified skills gaps or new skills required",
@@ -1612,7 +1612,7 @@
   {
     "id": "customer-success-team-building",
     "name": "Team Building Activity",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Team Lead"],
     "task": "Organize team building activities for customer success team",
     "goal": "Improve team cohesion and collaboration",
     "context": "Regular team development initiative",
@@ -1622,7 +1622,7 @@
   {
     "id": "customer-success-performance-management",
     "name": "Performance Management Process",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "HR Specialist"],
     "task": "Manage performance of customer success team members",
     "goal": "Ensure high performance and accountability",
     "context": "Regular performance review cycle",
@@ -1632,7 +1632,7 @@
   {
     "id": "customer-success-career-development",
     "name": "Career Development Planning",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "HR Specialist"],
     "task": "Support career development for customer success team",
     "goal": "Enhance career growth and satisfaction",
     "context": "Ongoing career development support",
@@ -1642,7 +1642,7 @@
   {
     "id": "customer-success-recruitment-support",
     "name": "Recruitment Support",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Recruiter"],
     "task": "Support recruitment for customer success roles",
     "goal": "Attract and hire top talent for customer success team",
     "context": "Open positions in customer success team",
@@ -1652,7 +1652,7 @@
   {
     "id": "customer-success-diversity-and-inclusion",
     "name": "Diversity and Inclusion Initiative",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Diversity Officer"],
     "task": "Promote diversity and inclusion within customer success team",
     "goal": "Foster an inclusive and diverse work environment",
     "context": "Organizational diversity and inclusion goals",
@@ -1662,7 +1662,7 @@
   {
     "id": "customer-success-employee-engagement",
     "name": "Employee Engagement Survey",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "HR Specialist"],
     "task": "Conduct employee engagement surveys",
     "goal": "Measure and improve employee engagement and satisfaction",
     "context": "Regular employee feedback initiative",
@@ -1672,7 +1672,7 @@
   {
     "id": "customer-success-culture-building",
     "name": "Culture Building Activities",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Team Lead"],
     "task": "Organize activities to promote positive team culture",
     "goal": "Enhance team morale and cohesion",
     "context": "Ongoing team development",
@@ -1682,7 +1682,7 @@
   {
     "id": "customer-success-change-leadership",
     "name": "Change Leadership Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on leading change initiatives",
     "goal": "Equip team to effectively lead and manage change",
     "context": "Organizational change initiatives",
@@ -1692,7 +1692,7 @@
   {
     "id": "customer-success-emotional-intelligence",
     "name": "Emotional Intelligence Development",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Develop emotional intelligence skills within the team",
     "goal": "Enhance team collaboration and customer interactions",
     "context": "Identified need for emotional intelligence skills",
@@ -1702,7 +1702,7 @@
   {
     "id": "customer-success-resilience-training",
     "name": "Resilience Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on building resilience",
     "goal": "Help team handle challenges and setbacks effectively",
     "context": "Organizational focus on employee well-being",
@@ -1712,7 +1712,7 @@
   {
     "id": "customer-success-stress-management",
     "name": "Stress Management Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on managing stress",
     "goal": "Enhance team well-being and performance",
     "context": "Identified need for stress management support",
@@ -1722,7 +1722,7 @@
   {
     "id": "customer-success-work-life-balance",
     "name": "Work-Life Balance Initiative",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "HR Specialist"],
     "task": "Promote work-life balance within the team",
     "goal": "Improve employee satisfaction and retention",
     "context": "Organizational well-being initiatives",
@@ -1732,7 +1732,7 @@
   {
     "id": "customer-success-employee-recognition",
     "name": "Employee Recognition Program",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "HR Specialist"],
     "task": "Develop and manage employee recognition program",
     "goal": "Enhance employee motivation and retention",
     "context": "Ongoing employee engagement initiative",
@@ -1742,7 +1742,7 @@
   {
     "id": "customer-success-team-performance",
     "name": "Team Performance Metrics",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Data Analyst"],
     "task": "Define and track team performance metrics",
     "goal": "Ensure team accountability and continuous improvement",
     "context": "Regular performance management cycle",
@@ -1752,7 +1752,7 @@
   {
     "id": "customer-success-individual-performance",
     "name": "Individual Performance Metrics",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Data Analyst"],
     "task": "Define and track individual performance metrics",
     "goal": "Ensure individual accountability and development",
     "context": "Regular performance review cycle",
@@ -1762,7 +1762,7 @@
   {
     "id": "customer-success-career-pathing",
     "name": "Career Pathing Initiative",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "HR Specialist"],
     "task": "Develop and implement career pathing for customer success roles",
     "goal": "Provide clear career progression opportunities",
     "context": "Talent development and retention strategy",
@@ -1772,7 +1772,7 @@
   {
     "id": "customer-success-exit-strategy",
     "name": "Exit Strategy Development",
-    "role": "Account Manager",
+    "roles": ["Account Manager", "Customer Success Manager"],
     "task": "Develop exit strategies for at-risk customers",
     "goal": "Retain customers by addressing issues proactively",
     "context": "Customer health check indicates risk",
@@ -1782,7 +1782,7 @@
   {
     "id": "customer-success-recovery-plan",
     "name": "Customer Recovery Plan",
-    "role": "Support Agent",
+    "roles": ["Support Agent", "Service Manager"],
     "task": "Develop recovery plans for service disruptions",
     "goal": "Ensure quick recovery and minimal impact on customer",
     "context": "Service disruption incident",
@@ -1792,7 +1792,7 @@
   {
     "id": "customer-success-communication-training",
     "name": "Communication Skills Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on effective communication skills",
     "goal": "Enhance team communication and customer interactions",
     "context": "Identified need for communication skills development",
@@ -1802,7 +1802,7 @@
   {
     "id": "customer-success-negotiation-skills",
     "name": "Negotiation Skills Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on negotiation skills",
     "goal": "Improve team's negotiation capabilities",
     "context": "Identified need for negotiation skills development",
@@ -1812,7 +1812,7 @@
   {
     "id": "customer-success-presentation-skills",
     "name": "Presentation Skills Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on effective presentation skills",
     "goal": "Enhance team's presentation capabilities",
     "context": "Identified need for presentation skills development",
@@ -1822,7 +1822,7 @@
   {
     "id": "customer-success-time-management",
     "name": "Time Management Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on time management skills",
     "goal": "Improve team's productivity and work-life balance",
     "context": "Identified need for time management skills development",
@@ -1832,7 +1832,7 @@
   {
     "id": "customer-success-organizational-skills",
     "name": "Organizational Skills Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on organizational skills",
     "goal": "Enhance team's ability to manage multiple tasks and priorities",
     "context": "Identified need for organizational skills development",
@@ -1842,7 +1842,7 @@
   {
     "id": "customer-success-analytical-skills",
     "name": "Analytical Skills Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on analytical skills",
     "goal": "Improve team's ability to analyze data and make decisions",
     "context": "Identified need for analytical skills development",
@@ -1852,7 +1852,7 @@
   {
     "id": "customer-success-problem-solving-skills",
     "name": "Problem Solving Skills Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on problem-solving skills",
     "goal": "Enhance team's ability to identify and solve issues",
     "context": "Identified need for problem-solving skills development",
@@ -1862,7 +1862,7 @@
   {
     "id": "customer-success-critical-thinking-skills",
     "name": "Critical Thinking Skills Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on critical thinking skills",
     "goal": "Improve team's ability to think critically and strategically",
     "context": "Identified need for critical thinking skills development",
@@ -1872,7 +1872,7 @@
   {
     "id": "customer-success-innovation-skills",
     "name": "Innovation Skills Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on innovation skills",
     "goal": "Foster a culture of innovation and continuous improvement",
     "context": "Organizational focus on innovation",
@@ -1882,7 +1882,7 @@
   {
     "id": "customer-success-change-management-training",
     "name": "Change Management Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on change management principles and practices",
     "goal": "Equip team to manage and lead change effectively",
     "context": "Organizational change initiatives",
@@ -1892,7 +1892,7 @@
   {
     "id": "customer-success-project-management-training",
     "name": "Project Management Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on project management methodologies and tools",
     "goal": "Enhance team's project management skills",
     "context": "Identified need for improved project management capabilities",
@@ -1902,7 +1902,7 @@
   {
     "id": "customer-success-service-design",
     "name": "Service Design Workshop",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "UX Designer"],
     "task": "Facilitate service design thinking workshops",
     "goal": "Innovate and improve customer service experiences",
     "context": "Need to enhance service offerings",
@@ -1912,7 +1912,7 @@
   {
     "id": "customer-success-empathy-training",
     "name": "Empathy Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on developing empathy for customers",
     "goal": "Enhance customer interactions and satisfaction",
     "context": "Identified need for improved customer understanding",
@@ -1922,7 +1922,7 @@
   {
     "id": "customer-success-advanced-analytics",
     "name": "Advanced Analytics Training",
-    "role": "Product Manager",
+    "roles": ["Product Manager", "Data Scientist"],
     "task": "Train team on advanced analytics techniques",
     "goal": "Leverage data for proactive customer success management",
     "context": "Need to enhance data analysis capabilities",
@@ -1932,7 +1932,7 @@
   {
     "id": "customer-success-software-tools-training",
     "name": "Software Tools Training",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Provide training on software tools used in customer success",
     "goal": "Ensure effective use of tools for customer management",
     "context": "Onboarding new tools or updates",
@@ -1942,7 +1942,7 @@
   {
     "id": "customer-success-virtual-engagement",
     "name": "Virtual Engagement Best Practices",
-    "role": "Project Manager",
+    "roles": ["Project Manager", "Trainer"],
     "task": "Train team on best practices for virtual customer engagement",
     "goal": "Enhance effectiveness of remote interactions with customers",
     "context": "Increase in remote customer interactions",

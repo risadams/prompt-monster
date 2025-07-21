@@ -119,12 +119,15 @@ function App() {
   // Get unique categories for filter dropdown
   const uniqueCategories = [...new Set(templates.map(template => template.category))].sort();
 
+  // Get unique roles for filter dropdown
+  const uniqueRoles = [...new Set(templates.flatMap(template => template.roles || []))].sort();
+
   // Filter templates
   const filteredTemplates = templates.filter(template => {
     const matchesSearch = template.name.toLowerCase().includes(templateSearch.toLowerCase()) ||
-                         template.role.toLowerCase().includes(templateSearch.toLowerCase()) ||
-                         template.task.toLowerCase().includes(templateSearch.toLowerCase());
-    const matchesRole = !roleFilter || template.role === roleFilter;
+      (template.roles && template.roles.some(role => role.toLowerCase().includes(templateSearch.toLowerCase()))) ||
+      template.task.toLowerCase().includes(templateSearch.toLowerCase());
+    const matchesRole = !roleFilter || (template.roles && template.roles.includes(roleFilter));
     const matchesCategory = !categoryFilter || template.category === categoryFilter;
     return matchesSearch && matchesRole && matchesCategory;
   });
@@ -133,7 +136,7 @@ function App() {
   const applyTemplate = useCallback((template) => {
     // If switching templates, preserve user modifications
     const newFormData = {
-      selectedRole: template.role,
+      selectedRole: template.roles ? template.roles[0] : '',
       customRole: '',
       // Only update if user hasn't modified the field
       task: userModifications.task ? formData.task : template.task,
@@ -213,9 +216,6 @@ function App() {
     document.body.appendChild(announcer);
     setTimeout(() => document.body.removeChild(announcer), 1000);
   }, []);
-
-  // Get unique roles for filter dropdown
-  const uniqueRoles = [...new Set(templates.map(template => template.role))].sort();
 
   return (
     <div className="app-container">
@@ -350,7 +350,7 @@ function App() {
                 >
                   <option value="">All Roles ({templates.length})</option>
                   {uniqueRoles.map((role) => {
-                    const count = templates.filter(t => t.role === role).length;
+                    const count = templates.filter(t => t.roles && t.roles.includes(role)).length;
                     return (
                       <option key={role} value={role}>
                         {role} ({count})
@@ -429,7 +429,7 @@ function App() {
                           </span>
                         )}
                       </div>
-                      <div className="template-role">👤 {template.role}</div>
+                      <div className="template-role">👤 {template.roles ? template.roles.join(', ') : ''}</div>
                       <div className="template-task">
                         <strong>Task:</strong> {template.task}
                       </div>
