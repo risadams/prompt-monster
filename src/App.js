@@ -2,7 +2,12 @@ import React, { useState, useCallback, useEffect } from 'react';
 import './App.css';
 import './utils.css';
 import roles from './data/Role.json';
-import templates from './data/Templates.json';
+// Dynamically import all templates from /data/templates/*.json
+const templateContext = require.context('./data/templates', false, /\.json$/);
+const templates = templateContext.keys()
+  .map((key) => templateContext(key))
+  .flat()
+  ;
 
 function App() {
   // State management
@@ -48,10 +53,10 @@ function App() {
 
     // Track user modifications for template preservation
     if (currentTemplate && ['task', 'idea', 'context', 'requirements'].includes(field)) {
-      const templateValue = currentTemplate[field === 'idea' ? 'goal' : 
-                                          field === 'requirements' ? 'details' : field];
+      const templateValue = currentTemplate[field === 'idea' ? 'goal' :
+        field === 'requirements' ? 'details' : field];
       const isModified = value !== (templateValue || '');
-      
+
       setUserModifications(prev => ({
         ...prev,
         [field]: isModified
@@ -62,14 +67,14 @@ function App() {
   // Generate prompt
   const generatePrompt = useCallback(() => {
     const { selectedRole, customRole, task, idea, context, requirements } = formData;
-    
+
     if (!isFormValid) return '';
 
     const roleToUse = selectedRole === 'other' ? customRole : selectedRole;
     const selectedRoleObj = roles.find(r => r.name === selectedRole);
-    
+
     let prompt = `Acting as a "${roleToUse}" I want to "${task}" so that I can "${idea}".`;
-    
+
     // Add context section
     let contextSection = '';
     if (selectedRoleObj?.description) {
@@ -80,15 +85,15 @@ function App() {
     } else if (context.trim()) {
       contextSection = context;
     }
-    
+
     if (contextSection) {
       prompt += `\n\nHere is the context: ${contextSection}`;
     }
-    
+
     if (requirements.trim()) {
       prompt += `\n\nDetails: ${requirements}`;
     }
-    
+
     return prompt;
   }, [formData, isFormValid]);
 
@@ -97,7 +102,7 @@ function App() {
   // Copy to clipboard
   const handleCopy = useCallback(async () => {
     if (!prompt) return;
-    
+
     try {
       await navigator.clipboard.writeText(prompt);
       setCopied(true);
@@ -117,7 +122,7 @@ function App() {
   }, [prompt]);
 
   // Get unique categories for filter dropdown
-  const uniqueCategories = [...new Set(templates.map(template => template.category))].sort();
+  const uniqueCategories = [...new Set(templates.flatMap(template => template.categories || []))].sort();
 
   // Get unique roles for filter dropdown
   const uniqueRoles = [...new Set(templates.flatMap(template => template.roles || []))].sort();
@@ -128,7 +133,7 @@ function App() {
       (template.roles && template.roles.some(role => role.toLowerCase().includes(templateSearch.toLowerCase()))) ||
       template.task.toLowerCase().includes(templateSearch.toLowerCase());
     const matchesRole = !roleFilter || (template.roles && template.roles.includes(roleFilter));
-    const matchesCategory = !categoryFilter || template.category === categoryFilter;
+    const matchesCategory = !categoryFilter || (template.categories && template.categories.includes(categoryFilter));
     return matchesSearch && matchesRole && matchesCategory;
   });
 
@@ -147,7 +152,7 @@ function App() {
 
     setFormData(newFormData);
     setCurrentTemplate(template);
-    
+
     // Reset modification tracking for fields that were updated from template
     setUserModifications(prev => ({
       task: prev.task && newFormData.task !== template.task,
@@ -155,7 +160,7 @@ function App() {
       context: prev.context && newFormData.context !== (template.context || ''),
       requirements: prev.requirements && newFormData.requirements !== (template.details || '')
     }));
-    
+
     // Announce to screen readers
     const announcement = `Applied template: ${template.name}. User modifications preserved.`;
     const announcer = document.createElement('div');
@@ -175,7 +180,7 @@ function App() {
       context: false,
       requirements: false
     });
-    
+
     // Announce to screen readers
     const announcement = `Template cleared. All fields are now user-defined.`;
     const announcer = document.createElement('div');
@@ -206,7 +211,7 @@ function App() {
     setTemplateSearch('');
     setRoleFilter('');
     setCategoryFilter('');
-    
+
     // Announce to screen readers
     const announcement = `Form reset to initial state.`;
     const announcer = document.createElement('div');
@@ -253,7 +258,7 @@ function App() {
                 {showInstructions ? "Hide" : "Show"} Guide
               </button>
             </div>
-            
+
             {showInstructions && (
               <div className="instructions-content">
                 <div className="instruction-step">
@@ -263,7 +268,7 @@ function App() {
                     <p>Start with a <strong>template</strong> from the library for common scenarios, or <strong>build from scratch</strong> by filling out the form manually.</p>
                   </div>
                 </div>
-                
+
                 <div className="instruction-step">
                   <div className="step-number">2</div>
                   <div className="step-content">
@@ -271,7 +276,7 @@ function App() {
                     <p>Complete the <strong>Role</strong>, <strong>Task</strong>, and <strong>Goal</strong> fields. Add optional <strong>Context</strong> and <strong>Details</strong> for better results.</p>
                   </div>
                 </div>
-                
+
                 <div className="instruction-step">
                   <div className="step-number">3</div>
                   <div className="step-content">
@@ -279,7 +284,7 @@ function App() {
                     <p>Copy the generated prompt and paste it into your favorite AI tool (ChatGPT, Claude, Gemini, etc.). <strong>Remember:</strong> This is your <em>starting point</em> - add any relevant context like source code, files, documents, or specific requirements to get the best results.</p>
                   </div>
                 </div>
-                
+
                 <div className="pro-tips">
                   <h4>💡 Pro Tips</h4>
                   <ul>
@@ -317,7 +322,7 @@ function App() {
                   </div>
                 )}
               </div>
-              
+
               <div className="form-group">
                 <label htmlFor="template-search" className="sr-only">
                   Search templates
@@ -376,14 +381,9 @@ function App() {
                   aria-describedby="category-filter-help"
                 >
                   <option value="">All Categories ({templates.length})</option>
-                  {uniqueCategories.map((cat) => {
-                    const count = templates.filter(t => t.category === cat).length;
-                    return (
-                      <option key={cat} value={cat}>
-                        {cat} ({count})
-                      </option>
-                    );
-                  })}
+                  {uniqueCategories.map((cat) => (
+                    <option key={cat} value={cat}>{cat}</option>
+                  ))}
                 </select>
                 <div id="category-filter-help" className="sr-only">
                   Filter templates by specific category
@@ -630,7 +630,7 @@ function App() {
                     <div id="prompt-help" className="sr-only">
                       This is your generated prompt based on the information you provided
                     </div>
-                    
+
                     <div className="prompt-actions">
                       <button
                         className={`btn ${copied ? 'btn-success' : 'btn-primary'}`}
@@ -644,7 +644,7 @@ function App() {
                         )}
                       </button>
                     </div>
-                    
+
                     <div className="prompt-reminder">
                       <p className="reminder-text">
                         <strong>💡 Remember:</strong> This is your starting point! Paste this into your AI tool and add any relevant context like source code, files, documents, or specific examples to get the best results.

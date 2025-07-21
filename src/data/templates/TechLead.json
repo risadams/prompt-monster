@@ -1,0 +1,134 @@
+[
+  {
+    "id": "TechLead-1",
+    "name": "Guide Technical Decisions",
+    "roles": ["Tech Lead"],
+    "title": "Guide Technical Decisions",
+    "task": "Describe your approach to guiding technical decisions within the team.",
+    "goal": "Ensure sound technical choices and team alignment.",
+    "context": "During architecture discussions and code reviews.",
+    "details": "Include decision frameworks and consensus-building techniques.",
+    "categories": ["Technical Leadership", "Decision Making"]
+  },
+  {
+    "id": "TechLead-2",
+    "name": "Mentor Developers",
+    "roles": ["Tech Lead"],
+    "title": "Mentor Developers",
+    "task": "Explain how you mentor junior developers and foster growth.",
+    "goal": "Support skill development and career progression.",
+    "context": "During onboarding and regular check-ins.",
+    "details": "Include mentoring strategies and feedback methods.",
+    "categories": ["Technical Leadership", "Mentoring"]
+  },
+  {
+    "id": "TechLead-3",
+    "name": "Review Code Quality",
+    "roles": ["Tech Lead"],
+    "title": "Review Code Quality",
+    "task": "List your criteria for reviewing code quality and ensuring best practices.",
+    "goal": "Maintain high standards and reduce technical debt.",
+    "context": "During code reviews and pull requests.",
+    "details": "Include code review checklists and tools.",
+    "categories": ["Technical Leadership", "Quality"]
+  },
+  {
+    "id": "TechLead-4",
+    "name": "Facilitate Technical Discussions",
+    "roles": ["Tech Lead"],
+    "title": "Facilitate Technical Discussions",
+    "task": "Describe how you facilitate technical discussions and resolve disagreements.",
+    "goal": "Reach consensus and make informed technical decisions.",
+    "context": "During team meetings and design sessions.",
+    "details": "Include facilitation techniques and conflict resolution strategies.",
+    "categories": ["Technical Leadership", "Collaboration"]
+  },
+  {
+    "id": "TechLead-5",
+    "name": "Plan Technical Roadmap",
+    "roles": ["Tech Lead"],
+    "title": "Plan Technical Roadmap",
+    "task": "Outline a technical roadmap for the next release cycle.",
+    "goal": "Align technical work with product goals and timelines.",
+    "context": "During release planning and strategy sessions.",
+    "details": "Include roadmap tools and milestone tracking.",
+    "categories": ["Technical Leadership", "Roadmap"]
+  },
+  {
+    "id": "TechLead-6",
+    "name": "Ensure Code Consistency",
+    "roles": ["Tech Lead"],
+    "title": "Ensure Code Consistency",
+    "task": "Explain your approach to maintaining code consistency across the project.",
+    "goal": "Promote maintainable and readable codebase.",
+    "context": "During development and code reviews.",
+    "details": "Include coding standards and enforcement tools.",
+    "categories": ["Technical Leadership", "Quality"]
+  },
+  {
+    "id": "TechLead-7",
+    "name": "Integrate New Technologies",
+    "roles": ["Tech Lead"],
+    "title": "Integrate New Technologies",
+    "task": "Describe your process for evaluating and integrating new technologies.",
+    "goal": "Keep the project up-to-date and competitive.",
+    "context": "During technology evaluation and prototyping.",
+    "details": "Include evaluation criteria and integration steps.",
+    "categories": ["Technical Leadership", "Technology"]
+  },
+  {
+    "id": "TechLead-8",
+    "name": "Handle Technical Debt",
+    "roles": ["Tech Lead"],
+    "title": "Handle Technical Debt",
+    "task": "List strategies for managing and reducing technical debt.",
+    "goal": "Improve codebase health and reduce maintenance costs.",
+    "context": "During refactoring and sprint planning.",
+    "details": "Include prioritization and tracking methods.",
+    "categories": ["Technical Leadership", "Technical Debt"]
+  },
+  {
+    "id": "TechLead-9",
+    "name": "Coordinate with Stakeholders",
+    "roles": ["Tech Lead"],
+    "title": "Coordinate with Stakeholders",
+    "task": "Explain how you coordinate technical requirements with stakeholders.",
+    "goal": "Ensure technical solutions meet business needs.",
+    "context": "During requirements gathering and project reviews.",
+    "details": "Include communication strategies and documentation tools.",
+    "categories": ["Technical Leadership", "Stakeholder"]
+  },
+  {
+    "id": "TechLead-10",
+    "name": "Lead Code Reviews",
+    "roles": ["Tech Lead"],
+    "title": "Lead Code Reviews",
+    "task": "Describe your process for leading effective code reviews.",
+    "goal": "Improve code quality and team knowledge sharing.",
+    "context": "During pull requests and review meetings.",
+    "details": "Include review formats and feedback techniques.",
+    "categories": ["Technical Leadership", "Quality"]
+  },
+  {
+    "id": "TechLead-11",
+    "name": "Support Release Planning",
+    "roles": ["Tech Lead"],
+    "title": "Support Release Planning",
+    "task": "Explain your role in supporting release planning and deployment activities.",
+    "goal": "Ensure smooth and successful releases.",
+    "context": "During release planning and deployment.",
+    "details": "Include coordination with DevOps and deployment checklists.",
+    "categories": ["Technical Leadership", "Release"]
+  },
+  {
+    "id": "TechLead-12",
+    "name": "Promote Team Collaboration",
+    "roles": ["Tech Lead"],
+    "title": "Promote Team Collaboration",
+    "task": "List ways you promote collaboration and knowledge sharing within the team.",
+    "goal": "Foster a collaborative and innovative team environment.",
+    "context": "During team meetings and project work.",
+    "details": "Include collaboration tools and practices.",
+    "categories": ["Technical Leadership", "Collaboration"]
+  }
+]

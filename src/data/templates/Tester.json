@@ -1,0 +1,134 @@
+[
+  {
+    "id": "Tester-1",
+    "name": "Create Test Cases",
+    "roles": ["Tester"],
+    "title": "Create Test Cases",
+    "task": "Write test cases for a new feature.",
+    "goal": "Ensure comprehensive testing of new functionality.",
+    "context": "After feature development and before release.",
+    "details": "Include test case formats and management tools.",
+    "categories": ["Testing", "Quality"]
+  },
+  {
+    "id": "Tester-2",
+    "name": "Execute Regression Testing",
+    "roles": ["Tester"],
+    "title": "Execute Regression Testing",
+    "task": "Describe your approach to regression testing before a release.",
+    "goal": "Verify that existing functionality is not broken by new changes.",
+    "context": "Before each release or deployment.",
+    "details": "Include regression testing tools and strategies.",
+    "categories": ["Testing", "Regression"]
+  },
+  {
+    "id": "Tester-3",
+    "name": "Report Bugs",
+    "roles": ["Tester"],
+    "title": "Report Bugs",
+    "task": "Document and report a bug found during testing.",
+    "goal": "Ensure timely identification and resolution of defects.",
+    "context": "During testing cycles.",
+    "details": "Include bug reporting templates and tools.",
+    "categories": ["Testing", "Bug"]
+  },
+  {
+    "id": "Tester-4",
+    "name": "Automate Tests",
+    "roles": ["Tester"],
+    "title": "Automate Tests",
+    "task": "Outline steps to automate repetitive test scenarios.",
+    "goal": "Increase testing efficiency and coverage through automation.",
+    "context": "During test planning and execution.",
+    "details": "Include automation tools and scripting standards.",
+    "categories": ["Testing", "Automation"]
+  },
+  {
+    "id": "Tester-5",
+    "name": "Test Documentation",
+    "roles": ["Tester"],
+    "title": "Test Documentation",
+    "task": "Write documentation for the testing process of a new module.",
+    "goal": "Provide clear guidelines and information for testers.",
+    "context": "After test planning and before test execution.",
+    "details": "Include documentation standards and tools.",
+    "categories": ["Testing", "Documentation"]
+  },
+  {
+    "id": "Tester-6",
+    "name": "Performance Testing",
+    "roles": ["Tester"],
+    "title": "Performance Testing",
+    "task": "Describe how you would conduct performance testing for a web application.",
+    "goal": "Ensure the application meets performance requirements and is scalable.",
+    "context": "During test planning and execution.",
+    "details": "Include performance testing tools and metrics.",
+    "categories": ["Testing", "Performance"]
+  },
+  {
+    "id": "Tester-7",
+    "name": "Security Testing",
+    "roles": ["Tester"],
+    "title": "Security Testing",
+    "task": "List key security tests to perform on a new release.",
+    "goal": "Identify and mitigate security vulnerabilities.",
+    "context": "Before each release, as part of regression testing.",
+    "details": "Include security testing tools and techniques.",
+    "categories": ["Testing", "Security"]
+  },
+  {
+    "id": "Tester-8",
+    "name": "Usability Testing",
+    "roles": ["Tester"],
+    "title": "Usability Testing",
+    "task": "Explain your process for conducting usability testing.",
+    "goal": "Ensure the product is user-friendly and meets user needs.",
+    "context": "During test planning and execution.",
+    "details": "Include usability testing methods and reporting.",
+    "categories": ["Testing", "Usability"]
+  },
+  {
+    "id": "Tester-9",
+    "name": "Test Environment Setup",
+    "roles": ["Tester"],
+    "title": "Test Environment Setup",
+    "task": "Describe how you set up a test environment for a new project.",
+    "goal": "Ensure a stable and representative test environment.",
+    "context": "At the start of a new project or testing phase.",
+    "details": "Include environment configuration and management tools.",
+    "categories": ["Testing", "Environment"]
+  },
+  {
+    "id": "Tester-10",
+    "name": "Defect Tracking",
+    "roles": ["Tester"],
+    "title": "Defect Tracking",
+    "task": "Explain how you track and manage defects throughout the testing cycle.",
+    "goal": "Maintain visibility and control over defect resolution.",
+    "context": "Ongoing during testing and development.",
+    "details": "Include defect tracking tools and reporting metrics.",
+    "categories": ["Testing", "Defect Tracking"]
+  },
+  {
+    "id": "Tester-11",
+    "name": "Test Coverage Analysis",
+    "roles": ["Tester"],
+    "title": "Test Coverage Analysis",
+    "task": "Analyze and report on test coverage for a release.",
+    "goal": "Ensure comprehensive testing and identify gaps in coverage.",
+    "context": "Before each release, as part of test analysis.",
+    "details": "Include coverage metrics and improvement recommendations.",
+    "categories": ["Testing", "Coverage"]
+  },
+  {
+    "id": "Tester-12",
+    "name": "Acceptance Testing",
+    "roles": ["Tester"],
+    "title": "Acceptance Testing",
+    "task": "Describe the process for conducting acceptance testing with stakeholders.",
+    "goal": "Validate that the product meets business requirements and is ready for release.",
+    "context": "Before final release approval.",
+    "details": "Include acceptance criteria and testing procedures.",
+    "categories": ["Testing", "Acceptance"]
+  }
+]

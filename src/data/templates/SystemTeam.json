@@ -1,0 +1,134 @@
+[
+  {
+    "id": "SystemTeam-1",
+    "name": "Setup Development Environment",
+    "roles": ["System Team"],
+    "title": "Setup Development Environment",
+    "task": "Describe the steps to set up a new development environment for the team.",
+    "goal": "Ensure all team members have a consistent and functional development setup.",
+    "context": "At the start of a new project or team onboarding.",
+    "details": "Include software, tools, and configuration settings.",
+    "categories": ["System Team", "Environment"]
+  },
+  {
+    "id": "SystemTeam-2",
+    "name": "Maintain CI/CD Pipeline",
+    "roles": ["System Team"],
+    "title": "Maintain CI/CD Pipeline",
+    "task": "Explain how you maintain and troubleshoot the CI/CD pipeline.",
+    "goal": "Ensure reliable and efficient software delivery processes.",
+    "context": "Ongoing, as part of DevOps practices.",
+    "details": "Include CI/CD tools, common issues, and resolution steps.",
+    "categories": ["System Team", "CI/CD"]
+  },
+  {
+    "id": "SystemTeam-3",
+    "name": "Provision Test Data",
+    "roles": ["System Team"],
+    "title": "Provision Test Data",
+    "task": "Describe your process for provisioning test data for development and testing.",
+    "goal": "Ensure availability of realistic and relevant test data.",
+    "context": "During test planning and environment setup.",
+    "details": "Include data generation tools and data privacy considerations.",
+    "categories": ["System Team", "Testing"]
+  },
+  {
+    "id": "SystemTeam-4",
+    "name": "Monitor System Health",
+    "roles": ["System Team"],
+    "title": "Monitor System Health",
+    "task": "List tools and techniques for monitoring system health and performance.",
+    "goal": "Proactively identify and resolve system issues.",
+    "context": "Ongoing, as part of system maintenance.",
+    "details": "Include monitoring tools, key metrics, and alerting mechanisms.",
+    "categories": ["System Team", "Monitoring"]
+  },
+  {
+    "id": "SystemTeam-5",
+    "name": "Automate Repetitive Tasks",
+    "roles": ["System Team"],
+    "title": "Automate Repetitive Tasks",
+    "task": "Identify tasks that can be automated and describe your automation approach.",
+    "goal": "Increase efficiency and reduce manual errors.",
+    "context": "During process improvement initiatives.",
+    "details": "Include automation tools and examples of tasks automated.",
+    "categories": ["System Team", "Automation"]
+  },
+  {
+    "id": "SystemTeam-6",
+    "name": "Support Release Activities",
+    "roles": ["System Team"],
+    "title": "Support Release Activities",
+    "task": "Explain how you support release activities and ensure smooth deployments.",
+    "goal": "Facilitate successful and efficient software releases.",
+    "context": "During release planning and execution.",
+    "details": "Include release checklists, common issues, and resolution steps.",
+    "categories": ["System Team", "Release"]
+  },
+  {
+    "id": "SystemTeam-7",
+    "name": "Manage Access Controls",
+    "roles": ["System Team"],
+    "title": "Manage Access Controls",
+    "task": "Describe your process for managing access controls and permissions.",
+    "goal": "Ensure system security and compliance with access policies.",
+    "context": "Ongoing, as part of system administration.",
+    "details": "Include access management tools and procedures.",
+    "categories": ["System Team", "Security"]
+  },
+  {
+    "id": "SystemTeam-8",
+    "name": "Document System Configurations",
+    "roles": ["System Team"],
+    "title": "Document System Configurations",
+    "task": "Write documentation for system configurations and environment setup.",
+    "goal": "Provide clear and comprehensive system documentation.",
+    "context": "During system setup and configuration changes.",
+    "details": "Include documentation standards and tools.",
+    "categories": ["System Team", "Documentation"]
+  },
+  {
+    "id": "SystemTeam-9",
+    "name": "Troubleshoot Environment Issues",
+    "roles": ["System Team"],
+    "title": "Troubleshoot Environment Issues",
+    "task": "Outline steps to troubleshoot and resolve environment issues.",
+    "goal": "Minimize downtime and ensure system reliability.",
+    "context": "During system maintenance and support.",
+    "details": "Include common environment issues and troubleshooting techniques.",
+    "categories": ["System Team", "Troubleshooting"]
+  },
+  {
+    "id": "SystemTeam-10",
+    "name": "Coordinate with DevOps",
+    "roles": ["System Team"],
+    "title": "Coordinate with DevOps",
+    "task": "Explain how you coordinate with DevOps for infrastructure management.",
+    "goal": "Ensure alignment and collaboration between development and operations.",
+    "context": "Ongoing, as part of DevOps practices.",
+    "details": "Include communication channels and collaboration tools.",
+    "categories": ["System Team", "DevOps"]
+  },
+  {
+    "id": "SystemTeam-11",
+    "name": "Support Automated Testing",
+    "roles": ["System Team"],
+    "title": "Support Automated Testing",
+    "task": "Describe your role in supporting automated testing frameworks.",
+    "goal": "Facilitate efficient and effective automated testing.",
+    "context": "During test planning and execution.",
+    "details": "Include testing frameworks and integration procedures.",
+    "categories": ["System Team", "Testing"]
+  },
+  {
+    "id": "SystemTeam-12",
+    "name": "Maintain System Documentation",
+    "roles": ["System Team"],
+    "title": "Maintain System Documentation",
+    "task": "List best practices for maintaining up-to-date system documentation.",
+    "goal": "Ensure system documentation is current and useful.",
+    "context": "Ongoing, as part of system maintenance.",
+    "details": "Include documentation review and update procedures.",
+    "categories": ["System Team", "Documentation"]
+  }
+]

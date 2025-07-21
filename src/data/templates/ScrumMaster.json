@@ -1,0 +1,134 @@
+[
+  {
+    "id": "SM-1",
+    "name": "Facilitate Daily Standup",
+    "roles": ["Scrum Master"],
+    "title": "Facilitate Daily Standup",
+    "task": "Outline the agenda and best practices for a daily standup meeting.",
+    "goal": "Ensure effective and time-boxed daily team syncs.",
+    "context": "Daily Scrum meetings.",
+    "details": "Include tips for remote standups and common anti-patterns.",
+    "categories": ["Agile", "Scrum"]
+  },
+  {
+    "id": "SM-2",
+    "name": "Remove Impediments",
+    "roles": ["Scrum Master"],
+    "title": "Remove Impediments",
+    "task": "Describe a process for identifying and removing team impediments during a sprint.",
+    "goal": "Facilitate smooth team progress by addressing blockers.",
+    "context": "Ongoing during the sprint.",
+    "details": "Include examples of common impediments and solutions.",
+    "categories": ["Agile", "Scrum"]
+  },
+  {
+    "id": "SM-3",
+    "name": "Sprint Retrospective Guide",
+    "roles": ["Scrum Master"],
+    "title": "Sprint Retrospective Guide",
+    "task": "Create a guide for conducting an effective sprint retrospective.",
+    "goal": "Continuously improve team processes and collaboration.",
+    "context": "End of sprint retrospective meetings.",
+    "details": "Include retrospective formats, techniques, and follow-up actions.",
+    "categories": ["Agile", "Retrospective"]
+  },
+  {
+    "id": "SM-4",
+    "name": "Coach Agile Principles",
+    "roles": ["Scrum Master"],
+    "title": "Coach Agile Principles",
+    "task": "Explain how you coach the team on Agile principles and Scrum values.",
+    "goal": "Foster an Agile mindset and adherence to Scrum values.",
+    "context": "Ongoing team interactions and ceremonies.",
+    "details": "Include examples of Agile principles in action.",
+    "categories": ["Agile", "Coaching"]
+  },
+  {
+    "id": "SM-5",
+    "name": "Conflict Resolution",
+    "roles": ["Scrum Master"],
+    "title": "Conflict Resolution",
+    "task": "Provide a strategy for resolving conflicts within the Scrum team.",
+    "goal": "Maintain a collaborative and respectful team environment.",
+    "context": "As conflicts arise within the team.",
+    "details": "Include conflict resolution techniques and when to escalate.",
+    "categories": ["Agile", "Conflict Resolution"]
+  },
+  {
+    "id": "SM-6",
+    "name": "Facilitate Sprint Planning",
+    "roles": ["Scrum Master"],
+    "title": "Facilitate Sprint Planning",
+    "task": "List steps to facilitate a successful sprint planning session.",
+    "goal": "Create a well-defined and achievable sprint plan.",
+    "context": "Beginning of each sprint.",
+    "details": "Include tips for time management and stakeholder involvement.",
+    "categories": ["Agile", "Sprint Planning"]
+  },
+  {
+    "id": "SM-7",
+    "name": "Monitor Team Progress",
+    "roles": ["Scrum Master"],
+    "title": "Monitor Team Progress",
+    "task": "Describe how you monitor and report team progress during a sprint.",
+    "goal": "Ensure transparency and accountability in team performance.",
+    "context": "Daily and weekly progress checks.",
+    "details": "Include tools for tracking progress and reporting formats.",
+    "categories": ["Agile", "Monitoring"]
+  },
+  {
+    "id": "SM-8",
+    "name": "Encourage Collaboration",
+    "roles": ["Scrum Master"],
+    "title": "Encourage Collaboration",
+    "task": "Suggest ways to encourage collaboration between team members and stakeholders.",
+    "goal": "Enhance teamwork and stakeholder engagement.",
+    "context": "Throughout the sprint and project.",
+    "details": "Include collaboration tools and techniques.",
+    "categories": ["Agile", "Collaboration"]
+  },
+  {
+    "id": "SM-9",
+    "name": "Handle Scope Changes",
+    "roles": ["Scrum Master"],
+    "title": "Handle Scope Changes",
+    "task": "Explain your approach to handling scope changes during a sprint.",
+    "goal": "Manage changes effectively without disrupting the sprint.",
+    "context": "When scope changes are proposed.",
+    "details": "Include change control processes and communication plans.",
+    "categories": ["Agile", "Scope Management"]
+  },
+  {
+    "id": "SM-10",
+    "name": "Promote Continuous Improvement",
+    "roles": ["Scrum Master"],
+    "title": "Promote Continuous Improvement",
+    "task": "Describe how you promote continuous improvement within the team.",
+    "goal": "Instill a culture of learning and adaptation.",
+    "context": "Ongoing team development.",
+    "details": "Include examples of continuous improvement initiatives.",
+    "categories": ["Agile", "Continuous Improvement"]
+  },
+  {
+    "id": "SM-11",
+    "name": "Track Sprint Metrics",
+    "roles": ["Scrum Master"],
+    "title": "Track Sprint Metrics",
+    "task": "List key sprint metrics to track and how to use them for team improvement.",
+    "goal": "Utilize metrics for informed decision-making and process enhancement.",
+    "context": "During and after each sprint.",
+    "details": "Include metrics like velocity, burn-down charts, and cycle time.",
+    "categories": ["Agile", "Metrics"]
+  },
+  {
+    "id": "SM-12",
+    "name": "Facilitate Backlog Refinement",
+    "roles": ["Scrum Master"],
+    "title": "Facilitate Backlog Refinement",
+    "task": "Outline your role in facilitating backlog refinement sessions.",
+    "goal": "Ensure the backlog is well-prepared and prioritized.",
+    "context": "Regular backlog grooming sessions.",
+    "details": "Include techniques for effective refinement and prioritization.",
+    "categories": ["Agile", "Backlog Refinement"]
+  }
+]

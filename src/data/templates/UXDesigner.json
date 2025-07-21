@@ -1,0 +1,134 @@
+[
+  {
+    "id": "UXDesigner-1",
+    "name": "Design User Flow",
+    "roles": ["UX Designer"],
+    "title": "Design User Flow",
+    "task": "Create a user flow for a new feature.",
+    "goal": "Visualize and optimize the user journey through the product.",
+    "context": "During feature design and prototyping.",
+    "details": "Include user flow diagrams and key decision points.",
+    "categories": ["UX", "Design"]
+  },
+  {
+    "id": "UXDesigner-2",
+    "name": "Conduct Usability Testing",
+    "roles": ["UX Designer"],
+    "title": "Conduct Usability Testing",
+    "task": "Describe your process for conducting usability testing on a prototype.",
+    "goal": "Validate design assumptions and identify usability issues.",
+    "context": "After developing design prototypes.",
+    "details": "Include usability testing methods and reporting.",
+    "categories": ["UX", "Testing"]
+  },
+  {
+    "id": "UXDesigner-3",
+    "name": "Create Wireframes",
+    "roles": ["UX Designer"],
+    "title": "Create Wireframes",
+    "task": "Design wireframes for a new application screen.",
+    "goal": "Provide a visual guide for the layout and elements of the screen.",
+    "context": "During the design phase of feature development.",
+    "details": "Include wireframe tools and best practices.",
+    "categories": ["UX", "Design"]
+  },
+  {
+    "id": "UXDesigner-4",
+    "name": "Persona Development",
+    "roles": ["UX Designer"],
+    "title": "Persona Development",
+    "task": "Develop user personas for the target audience.",
+    "goal": "Create representative profiles to guide design decisions.",
+    "context": "During user research and design planning.",
+    "details": "Include persona templates and research methods.",
+    "categories": ["UX", "Research"]
+  },
+  {
+    "id": "UXDesigner-5",
+    "name": "Accessibility Review",
+    "roles": ["UX Designer"],
+    "title": "Accessibility Review",
+    "task": "List steps to review and improve accessibility in your design.",
+    "goal": "Ensure the product is usable by people with diverse abilities.",
+    "context": "During design and before development handoff.",
+    "details": "Include accessibility standards and testing methods.",
+    "categories": ["UX", "Accessibility"]
+  },
+  {
+    "id": "UXDesigner-6",
+    "name": "Design System Creation",
+    "roles": ["UX Designer"],
+    "title": "Design System Creation",
+    "task": "Outline the process for creating a design system for your product.",
+    "goal": "Ensure consistency and efficiency in design and development.",
+    "context": "During the initial design phase and as the product scales.",
+    "details": "Include design system components and governance.",
+    "categories": ["UX", "Design System"]
+  },
+  {
+    "id": "UXDesigner-7",
+    "name": "User Journey Mapping",
+    "roles": ["UX Designer"],
+    "title": "User Journey Mapping",
+    "task": "Map out a user journey for a key workflow.",
+    "goal": "Visualize and optimize the end-to-end user experience.",
+    "context": "During design thinking and user research.",
+    "details": "Include journey mapping tools and techniques.",
+    "categories": ["UX", "Journey Mapping"]
+  },
+  {
+    "id": "UXDesigner-8",
+    "name": "Feedback Integration",
+    "roles": ["UX Designer"],
+    "title": "Feedback Integration",
+    "task": "Describe how you collect and integrate user feedback into design iterations.",
+    "goal": "Continuously improve the design based on user input.",
+    "context": "After usability testing and user feedback sessions.",
+    "details": "Include feedback analysis and prioritization methods.",
+    "categories": ["UX", "Feedback"]
+  },
+  {
+    "id": "UXDesigner-9",
+    "name": "Prototype Development",
+    "roles": ["UX Designer"],
+    "title": "Prototype Development",
+    "task": "Explain your approach to developing interactive prototypes.",
+    "goal": "Create realistic and testable representations of the product.",
+    "context": "During the design and development handoff.",
+    "details": "Include prototyping tools and best practices.",
+    "categories": ["UX", "Prototyping"]
+  },
+  {
+    "id": "UXDesigner-10",
+    "name": "Collaborate with Developers",
+    "roles": ["UX Designer"],
+    "title": "Collaborate with Developers",
+    "task": "List best practices for collaborating with developers during implementation.",
+    "goal": "Ensure design feasibility and fidelity in development.",
+    "context": "During the development phase.",
+    "details": "Include communication strategies and collaboration tools.",
+    "categories": ["UX", "Collaboration"]
+  },
+  {
+    "id": "UXDesigner-11",
+    "name": "Visual Design Principles",
+    "roles": ["UX Designer"],
+    "title": "Visual Design Principles",
+    "task": "Describe key visual design principles you apply in your work.",
+    "goal": "Create visually appealing and effective user interfaces.",
+    "context": "During the design phase of feature development.",
+    "details": "Include design principles and examples.",
+    "categories": ["UX", "Visual Design"]
+  },
+  {
+    "id": "UXDesigner-12",
+    "name": "Conduct Heuristic Evaluation",
+    "roles": ["UX Designer"],
+    "title": "Conduct Heuristic Evaluation",
+    "task": "Outline the steps for conducting a heuristic evaluation of an interface.",
+    "goal": "Identify usability issues and areas for improvement.",
+    "context": "During design review and testing phases.",
+    "details": "Include heuristic evaluation criteria and reporting.",
+    "categories": ["UX", "Evaluation"]
+  }
+]

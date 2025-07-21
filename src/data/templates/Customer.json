@@ -1,0 +1,134 @@
+[
+  {
+    "id": "Customer-1",
+    "name": "Provide Product Feedback",
+    "roles": ["Customer"],
+    "title": "Provide Product Feedback",
+    "task": "Share feedback on your experience with the product.",
+    "goal": "Help improve the product based on real user experiences.",
+    "context": "After using the product.",
+    "details": "Include feedback channels and examples of useful feedback.",
+    "categories": ["Customer", "Feedback"]
+  },
+  {
+    "id": "Customer-2",
+    "name": "Request New Feature",
+    "roles": ["Customer"],
+    "title": "Request New Feature",
+    "task": "Describe a new feature you would like to see in the product.",
+    "goal": "Influence product development to better meet your needs.",
+    "context": "Whenever you have a new idea or need.",
+    "details": "Include feature request channels and prioritization criteria.",
+    "categories": ["Customer", "Feature Request"]
+  },
+  {
+    "id": "Customer-3",
+    "name": "Report an Issue",
+    "roles": ["Customer"],
+    "title": "Report an Issue",
+    "task": "Report an issue or bug you encountered while using the product.",
+    "goal": "Ensure timely identification and resolution of defects.",
+    "context": "During or after using the product.",
+    "details": "Include issue reporting channels and examples of useful reports.",
+    "categories": ["Customer", "Issue"]
+  },
+  {
+    "id": "Customer-4",
+    "name": "Rate Product Satisfaction",
+    "roles": ["Customer"],
+    "title": "Rate Product Satisfaction",
+    "task": "Rate your overall satisfaction with the product and explain your rating.",
+    "goal": "Provide a quantitative measure of customer satisfaction.",
+    "context": "After using the product for a period of time.",
+    "details": "Include rating scales and feedback examples.",
+    "categories": ["Customer", "Satisfaction"]
+  },
+  {
+    "id": "Customer-5",
+    "name": "Suggest Improvement",
+    "roles": ["Customer"],
+    "title": "Suggest Improvement",
+    "task": "Suggest an improvement to enhance your user experience.",
+    "goal": "Help prioritize product improvements that will benefit users.",
+    "context": "Whenever you have a suggestion.",
+    "details": "Include suggestion channels and examples of impactful suggestions.",
+    "categories": ["Customer", "Improvement"]
+  },
+  {
+    "id": "Customer-6",
+    "name": "Share Use Case",
+    "roles": ["Customer"],
+    "title": "Share Use Case",
+    "task": "Describe how you use the product in your daily workflow.",
+    "goal": "Provide insights into real-world product usage and value.",
+    "context": "During customer interviews or feedback sessions.",
+    "details": "Include use case templates and examples.",
+    "categories": ["Customer", "Use Case"]
+  },
+  {
+    "id": "Customer-7",
+    "name": "Participate in Survey",
+    "roles": ["Customer"],
+    "title": "Participate in Survey",
+    "task": "Participate in a product survey and provide honest feedback.",
+    "goal": "Help gather data on customer satisfaction and product performance.",
+    "context": "When surveys are conducted by the company.",
+    "details": "Include survey participation guidelines and examples of survey topics.",
+    "categories": ["Customer", "Survey"]
+  },
+  {
+    "id": "Customer-8",
+    "name": "Request Support",
+    "roles": ["Customer"],
+    "title": "Request Support",
+    "task": "Request support for a specific issue you are facing.",
+    "goal": "Receive timely and effective assistance for product-related issues.",
+    "context": "Whenever you encounter a problem or have a question.",
+    "details": "Include support request channels and response time expectations.",
+    "categories": ["Customer", "Support"]
+  },
+  {
+    "id": "Customer-9",
+    "name": "Review Product Documentation",
+    "roles": ["Customer"],
+    "title": "Review Product Documentation",
+    "task": "Review the product documentation and suggest areas for improvement.",
+    "goal": "Help improve the quality and usability of product documentation.",
+    "context": "After using the product and consulting the documentation.",
+    "details": "Include documentation review criteria and feedback examples.",
+    "categories": ["Customer", "Documentation"]
+  },
+  {
+    "id": "Customer-10",
+    "name": "Join Beta Program",
+    "roles": ["Customer"],
+    "title": "Join Beta Program",
+    "task": "Express interest in joining the product's beta program.",
+    "goal": "Participate in early access programs to test and provide feedback on new features.",
+    "context": "Whenever a beta program is announced.",
+    "details": "Include beta program benefits and participation criteria.",
+    "categories": ["Customer", "Beta Program"]
+  },
+  {
+    "id": "Customer-11",
+    "name": "Share Success Story",
+    "roles": ["Customer"],
+    "title": "Share Success Story",
+    "task": "Share a success story of how the product helped you achieve your goals.",
+    "goal": "Provide testimonials and case studies to promote the product's value.",
+    "context": "Whenever you have a relevant success story.",
+    "details": "Include success story templates and sharing channels.",
+    "categories": ["Customer", "Success Story"]
+  },
+  {
+    "id": "Customer-12",
+    "name": "Provide Feature Prioritization",
+    "roles": ["Customer"],
+    "title": "Provide Feature Prioritization",
+    "task": "Prioritize features you would like to see in future releases.",
+    "goal": "Help the product team understand customer priorities and needs.",
+    "context": "During product feedback and planning sessions.",
+    "details": "Include prioritization criteria and examples of prioritized features.",
+    "categories": ["Customer", "Prioritization"]
+  }
+]

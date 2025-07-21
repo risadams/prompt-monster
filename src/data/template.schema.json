@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Template",
+  "type": "object",
+  "required": ["id", "name", "roles", "title", "task", "goal", "context", "details", "categories"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "roles": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "title": { "type": "string" },
+    "task": { "type": "string" },
+    "goal": { "type": "string" },
+    "context": { "type": "string" },
+    "details": { "type": "string" },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

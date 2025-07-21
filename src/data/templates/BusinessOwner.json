@@ -1,0 +1,134 @@
+[
+  {
+    "id": "BusinessOwner-1",
+    "name": "Define Business Objectives",
+    "roles": ["Business Owner"],
+    "title": "Define Business Objectives",
+    "task": "Outline the key business objectives for the upcoming quarter.",
+    "goal": "Align product development with business priorities.",
+    "context": "Quarterly business planning.",
+    "details": "Include financial, customer, and operational objectives.",
+    "categories": ["Business", "Strategy"]
+  },
+  {
+    "id": "BusinessOwner-2",
+    "name": "Review Product Roadmap",
+    "roles": ["Business Owner"],
+    "title": "Review Product Roadmap",
+    "task": "Describe your process for reviewing and approving the product roadmap.",
+    "goal": "Ensure the product roadmap aligns with business goals and priorities.",
+    "context": "Regular roadmap review meetings.",
+    "details": "Include criteria for roadmap evaluation and approval.",
+    "categories": ["Business", "Product"]
+  },
+  {
+    "id": "BusinessOwner-3",
+    "name": "Stakeholder Alignment",
+    "roles": ["Business Owner"],
+    "title": "Stakeholder Alignment",
+    "task": "Explain how you ensure alignment among key stakeholders.",
+    "goal": "Maintain stakeholder support and alignment with business objectives.",
+    "context": "Ongoing stakeholder engagement.",
+    "details": "Include communication strategies and alignment meetings.",
+    "categories": ["Business", "Stakeholder"]
+  },
+  {
+    "id": "BusinessOwner-4",
+    "name": "Evaluate ROI",
+    "roles": ["Business Owner"],
+    "title": "Evaluate ROI",
+    "task": "List steps to evaluate the return on investment for a new initiative.",
+    "goal": "Ensure resources are allocated to initiatives with the highest return.",
+    "context": "Before approving new projects or initiatives.",
+    "details": "Include ROI calculation methods and criteria.",
+    "categories": ["Business", "Finance"]
+  },
+  {
+    "id": "BusinessOwner-5",
+    "name": "Approve Budget",
+    "roles": ["Business Owner"],
+    "title": "Approve Budget",
+    "task": "Describe your approach to budget approval and resource allocation.",
+    "goal": "Ensure effective and strategic use of financial resources.",
+    "context": "Annual budgeting and quarterly reviews.",
+    "details": "Include budget planning processes and approval workflows.",
+    "categories": ["Business", "Finance"]
+  },
+  {
+    "id": "BusinessOwner-6",
+    "name": "Monitor Business Metrics",
+    "roles": ["Business Owner"],
+    "title": "Monitor Business Metrics",
+    "task": "Identify key business metrics to monitor and report on.",
+    "goal": "Maintain visibility into business performance and health.",
+    "context": "Ongoing, as part of business management.",
+    "details": "Include key performance indicators (KPIs) and reporting tools.",
+    "categories": ["Business", "Metrics"]
+  },
+  {
+    "id": "BusinessOwner-7",
+    "name": "Risk Management",
+    "roles": ["Business Owner"],
+    "title": "Risk Management",
+    "task": "Explain your strategy for managing business risks.",
+    "goal": "Proactively identify and mitigate risks to the business.",
+    "context": "Ongoing, as part of business planning and review.",
+    "details": "Include risk assessment methods and mitigation planning.",
+    "categories": ["Business", "Risk"]
+  },
+  {
+    "id": "BusinessOwner-8",
+    "name": "Support Product Launch",
+    "roles": ["Business Owner"],
+    "title": "Support Product Launch",
+    "task": "Describe your role in supporting a major product launch.",
+    "goal": "Ensure successful and well-coordinated product launches.",
+    "context": "During product launch planning and execution.",
+    "details": "Include launch checklists and cross-functional coordination.",
+    "categories": ["Business", "Product"]
+  },
+  {
+    "id": "BusinessOwner-9",
+    "name": "Customer Engagement",
+    "roles": ["Business Owner"],
+    "title": "Customer Engagement",
+    "task": "List ways to engage with customers and gather feedback.",
+    "goal": "Enhance customer satisfaction and product alignment with needs.",
+    "context": "Ongoing, as part of customer relationship management.",
+    "details": "Include customer feedback channels and engagement metrics.",
+    "categories": ["Business", "Customer"]
+  },
+  {
+    "id": "BusinessOwner-10",
+    "name": "Review Compliance",
+    "roles": ["Business Owner"],
+    "title": "Review Compliance",
+    "task": "Explain how you review and ensure compliance with regulations.",
+    "goal": "Maintain adherence to legal and regulatory requirements.",
+    "context": "Ongoing, as part of business operations.",
+    "details": "Include compliance monitoring and reporting processes.",
+    "categories": ["Business", "Compliance"]
+  },
+  {
+    "id": "BusinessOwner-11",
+    "name": "Strategic Partnerships",
+    "roles": ["Business Owner"],
+    "title": "Strategic Partnerships",
+    "task": "Describe your approach to forming strategic partnerships.",
+    "goal": "Leverage partnerships for business growth and innovation.",
+    "context": "Ongoing, as part of business development.",
+    "details": "Include partnership criteria and management processes.",
+    "categories": ["Business", "Partnership"]
+  },
+  {
+    "id": "BusinessOwner-12",
+    "name": "Business Case Development",
+    "roles": ["Business Owner"],
+    "title": "Business Case Development",
+    "task": "Outline the process for developing a business case for a new project.",
+    "goal": "Ensure projects are aligned with business strategy and have clear value.",
+    "context": "Before project initiation and approval.",
+    "details": "Include business case components and evaluation criteria.",
+    "categories": ["Business", "Strategy"]
+  }
+]

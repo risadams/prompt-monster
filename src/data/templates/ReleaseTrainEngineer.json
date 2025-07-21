@@ -1,0 +1,134 @@
+[
+  {
+    "id": "RTE-1",
+    "name": "Facilitate PI Planning",
+    "roles": ["Release Train Engineer"],
+    "title": "Facilitate PI Planning",
+    "task": "Outline the steps to facilitate a successful PI Planning event.",
+    "goal": "Align all teams on the program vision and plan.",
+    "context": "At the beginning of each Program Increment.",
+    "details": "Include agenda, participants, and expected outcomes.",
+    "categories": ["Agile Release Train", "Planning"]
+  },
+  {
+    "id": "RTE-2",
+    "name": "Coach ART Teams",
+    "roles": ["Release Train Engineer"],
+    "title": "Coach ART Teams",
+    "task": "Describe how you coach Agile Release Train teams on Lean-Agile practices.",
+    "goal": "Enhance team performance and Agile maturity.",
+    "context": "Ongoing, as part of ART leadership.",
+    "details": "Include coaching techniques and success metrics.",
+    "categories": ["Agile Release Train", "Coaching"]
+  },
+  {
+    "id": "RTE-3",
+    "name": "Remove ART Impediments",
+    "roles": ["Release Train Engineer"],
+    "title": "Remove ART Impediments",
+    "task": "Explain your process for identifying and removing impediments across the ART.",
+    "goal": "Facilitate smooth ART operations and delivery.",
+    "context": "Ongoing, as impediments are identified.",
+    "details": "Include examples of common ART impediments and solutions.",
+    "categories": ["Agile Release Train", "Impediment Removal"]
+  },
+  {
+    "id": "RTE-4",
+    "name": "Monitor ART Progress",
+    "roles": ["Release Train Engineer"],
+    "title": "Monitor ART Progress",
+    "task": "Describe how you monitor and report progress for the Agile Release Train.",
+    "goal": "Ensure transparency and accountability at the ART level.",
+    "context": "Daily and weekly progress checks.",
+    "details": "Include tools for tracking ART progress and reporting formats.",
+    "categories": ["Agile Release Train", "Monitoring"]
+  },
+  {
+    "id": "RTE-5",
+    "name": "Facilitate Scrum of Scrums",
+    "roles": ["Release Train Engineer"],
+    "title": "Facilitate Scrum of Scrums",
+    "task": "List best practices for facilitating Scrum of Scrums meetings.",
+    "goal": "Ensure effective cross-team coordination and problem-solving.",
+    "context": "Regular Scrum of Scrums meetings.",
+    "details": "Include agenda, participant roles, and common challenges.",
+    "categories": ["Agile Release Train", "Scrum"]
+  },
+  {
+    "id": "RTE-6",
+    "name": "Drive Continuous Improvement",
+    "roles": ["Release Train Engineer"],
+    "title": "Drive Continuous Improvement",
+    "task": "Explain how you drive continuous improvement across ART teams.",
+    "goal": "Foster a culture of learning and adaptation at scale.",
+    "context": "Ongoing, as part of ART leadership.",
+    "details": "Include examples of continuous improvement initiatives and metrics.",
+    "categories": ["Agile Release Train", "Continuous Improvement"]
+  },
+  {
+    "id": "RTE-7",
+    "name": "Coordinate Releases",
+    "roles": ["Release Train Engineer"],
+    "title": "Coordinate Releases",
+    "task": "Describe your approach to coordinating releases across multiple teams.",
+    "goal": "Ensure synchronized and efficient releases across the ART.",
+    "context": "During release planning and execution.",
+    "details": "Include release train schedules and coordination mechanisms.",
+    "categories": ["Agile Release Train", "Release"]
+  },
+  {
+    "id": "RTE-8",
+    "name": "Manage Risks",
+    "roles": ["Release Train Engineer"],
+    "title": "Manage Risks",
+    "task": "List strategies for managing risks at the ART level.",
+    "goal": "Proactively identify and mitigate risks to ART delivery.",
+    "context": "Ongoing, as part of ART management.",
+    "details": "Include risk management frameworks and tools.",
+    "categories": ["Agile Release Train", "Risk Management"]
+  },
+  {
+    "id": "RTE-9",
+    "name": "Facilitate Inspect & Adapt",
+    "roles": ["Release Train Engineer"],
+    "title": "Facilitate Inspect & Adapt",
+    "task": "Outline the process for facilitating an Inspect & Adapt workshop.",
+    "goal": "Continuously improve ART processes and outcomes.",
+    "context": "At the end of each Program Increment.",
+    "details": "Include workshop agenda, participant roles, and follow-up actions.",
+    "categories": ["Agile Release Train", "Workshop"]
+  },
+  {
+    "id": "RTE-10",
+    "name": "Track ART Metrics",
+    "roles": ["Release Train Engineer"],
+    "title": "Track ART Metrics",
+    "task": "Identify key metrics to track for ART performance and improvement.",
+    "goal": "Utilize metrics for data-driven decision-making and process enhancement.",
+    "context": "Ongoing, during and after each Program Increment.",
+    "details": "Include metrics like ART velocity, predictability, and quality.",
+    "categories": ["Agile Release Train", "Metrics"]
+  },
+  {
+    "id": "RTE-11",
+    "name": "Promote Collaboration",
+    "roles": ["Release Train Engineer"],
+    "title": "Promote Collaboration",
+    "task": "Suggest ways to promote collaboration between ART teams and stakeholders.",
+    "goal": "Enhance teamwork and stakeholder engagement at scale.",
+    "context": "Throughout the Program Increment.",
+    "details": "Include collaboration tools and techniques for distributed teams.",
+    "categories": ["Agile Release Train", "Collaboration"]
+  },
+  {
+    "id": "RTE-12",
+    "name": "Facilitate ART Retrospectives",
+    "roles": ["Release Train Engineer"],
+    "title": "Facilitate ART Retrospectives",
+    "task": "Describe how you facilitate retrospectives at the ART level.",
+    "goal": "Continuously improve ART performance and collaboration.",
+    "context": "At the end of each Program Increment.",
+    "details": "Include retrospective formats, techniques, and follow-up actions.",
+    "categories": ["Agile Release Train", "Retrospective"]
+  }
+]

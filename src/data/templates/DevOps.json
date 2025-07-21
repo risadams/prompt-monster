@@ -1,0 +1,134 @@
+[
+  {
+    "id": "DevOps-1",
+    "name": "Setup CI/CD Pipeline",
+    "roles": ["DevOps Engineer"],
+    "title": "Setup CI/CD Pipeline",
+    "task": "Describe your process for setting up a CI/CD pipeline.",
+    "goal": "Automate and streamline software delivery.",
+    "context": "During initial project setup or DevOps transformation.",
+    "details": "Include pipeline tools, configuration steps, and best practices.",
+    "categories": ["DevOps", "CI/CD"]
+  },
+  {
+    "id": "DevOps-2",
+    "name": "Automate Deployment",
+    "roles": ["DevOps Engineer"],
+    "title": "Automate Deployment",
+    "task": "Explain how you automate deployment processes for faster releases.",
+    "goal": "Reduce manual effort and deployment errors.",
+    "context": "During release cycles and continuous delivery.",
+    "details": "Include deployment scripts, tools, and rollback strategies.",
+    "categories": ["DevOps", "Deployment"]
+  },
+  {
+    "id": "DevOps-3",
+    "name": "Monitor Infrastructure",
+    "roles": ["DevOps Engineer"],
+    "title": "Monitor Infrastructure",
+    "task": "List tools and techniques for monitoring infrastructure health and performance.",
+    "goal": "Ensure system reliability and performance.",
+    "context": "Ongoing, as part of operations.",
+    "details": "Include monitoring platforms, alerting, and reporting.",
+    "categories": ["DevOps", "Monitoring"]
+  },
+  {
+    "id": "DevOps-4",
+    "name": "Manage Cloud Resources",
+    "roles": ["DevOps Engineer"],
+    "title": "Manage Cloud Resources",
+    "task": "Describe your approach to managing cloud resources efficiently.",
+    "goal": "Optimize cloud usage and control costs.",
+    "context": "During cloud migration and ongoing management.",
+    "details": "Include resource provisioning, scaling, and cost management tools.",
+    "categories": ["DevOps", "Cloud"]
+  },
+  {
+    "id": "DevOps-5",
+    "name": "Handle Incident Response",
+    "roles": ["DevOps Engineer"],
+    "title": "Handle Incident Response",
+    "task": "Outline your process for handling and documenting incident response.",
+    "goal": "Minimize downtime and ensure rapid recovery.",
+    "context": "During system outages or security incidents.",
+    "details": "Include incident tracking, communication, and post-mortem analysis.",
+    "categories": ["DevOps", "Incident Response"]
+  },
+  {
+    "id": "DevOps-6",
+    "name": "Implement Infrastructure as Code",
+    "roles": ["DevOps Engineer"],
+    "title": "Implement Infrastructure as Code",
+    "task": "Explain how you implement infrastructure as code (IaC) in your projects.",
+    "goal": "Automate infrastructure provisioning and management.",
+    "context": "During environment setup and scaling.",
+    "details": "Include IaC tools, templates, and version control.",
+    "categories": ["DevOps", "Infrastructure as Code"]
+  },
+  {
+    "id": "DevOps-7",
+    "name": "Ensure System Security",
+    "roles": ["DevOps Engineer"],
+    "title": "Ensure System Security",
+    "task": "List best practices for ensuring system security in DevOps workflows.",
+    "goal": "Protect systems and data from threats.",
+    "context": "Ongoing, as part of DevOps operations.",
+    "details": "Include security tools, policies, and monitoring.",
+    "categories": ["DevOps", "Security"]
+  },
+  {
+    "id": "DevOps-8",
+    "name": "Optimize Resource Usage",
+    "roles": ["DevOps Engineer"],
+    "title": "Optimize Resource Usage",
+    "task": "Describe strategies for optimizing resource usage and reducing costs.",
+    "goal": "Increase efficiency and reduce operational expenses.",
+    "context": "During infrastructure reviews and scaling.",
+    "details": "Include cost analysis tools and optimization techniques.",
+    "categories": ["DevOps", "Optimization"]
+  },
+  {
+    "id": "DevOps-9",
+    "name": "Coordinate with Development Teams",
+    "roles": ["DevOps Engineer"],
+    "title": "Coordinate with Development Teams",
+    "task": "Explain how you coordinate with development teams for smooth releases.",
+    "goal": "Ensure collaboration and successful deployments.",
+    "context": "During release planning and execution.",
+    "details": "Include communication channels and integration tools.",
+    "categories": ["DevOps", "Collaboration"]
+  },
+  {
+    "id": "DevOps-10",
+    "name": "Manage Rollbacks",
+    "roles": ["DevOps Engineer"],
+    "title": "Manage Rollbacks",
+    "task": "Describe your approach to managing rollbacks and recovery procedures.",
+    "goal": "Restore service quickly after failed deployments.",
+    "context": "During deployment failures and incident response.",
+    "details": "Include rollback scripts, backup strategies, and documentation.",
+    "categories": ["DevOps", "Rollback"]
+  },
+  {
+    "id": "DevOps-11",
+    "name": "Document DevOps Processes",
+    "roles": ["DevOps Engineer"],
+    "title": "Document DevOps Processes",
+    "task": "List documentation required for DevOps processes and automation scripts.",
+    "goal": "Ensure repeatability and knowledge sharing.",
+    "context": "During process setup and updates.",
+    "details": "Include documentation templates and storage solutions.",
+    "categories": ["DevOps", "Documentation"]
+  },
+  {
+    "id": "DevOps-12",
+    "name": "Promote DevOps Culture",
+    "roles": ["DevOps Engineer"],
+    "title": "Promote DevOps Culture",
+    "task": "Explain how you promote a DevOps culture within the organization.",
+    "goal": "Foster collaboration and continuous improvement.",
+    "context": "Ongoing, as part of organizational change.",
+    "details": "Include training, advocacy, and success stories.",
+    "categories": ["DevOps", "Culture"]
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "Architect-1",
+    "name": "Design System Architecture",
+    "roles": ["Architect"],
+    "title": "Design System Architecture",
+    "task": "Outline the high-level architecture for a new software system.",
+    "goal": "Establish a strong architectural foundation for the system.",
+    "context": "At the start of a new project or major system update.",
+    "details": "Include system components, relationships, and technologies.",
+    "categories": ["Architecture", "Design"]
+  },
+  {
+    "id": "Architect-2",
+    "name": "Select Technology Stack",
+    "roles": ["Architect"],
+    "title": "Select Technology Stack",
+    "task": "Recommend a technology stack for a scalable web application and justify your choices.",
+    "goal": "Ensure the technology stack supports scalability and maintainability.",
+    "context": "During the project initiation or technology evaluation phase.",
+    "details": "Include criteria for selection and potential alternatives.",
+    "categories": ["Architecture", "Technology"]
+  },
+  {
+    "id": "Architect-3",
+    "name": "Create Data Flow Diagram",
+    "roles": ["Architect"],
+    "title": "Create Data Flow Diagram",
+    "task": "Draw and explain a data flow diagram for a core business process.",
+    "goal": "Visualize and understand data movement and transformation.",
+    "context": "During process analysis and design.",
+    "details": "Include data sources, destinations, and storage.",
+    "categories": ["Architecture", "Data", "Design"]
+  },
+  {
+    "id": "Architect-4",
+    "name": "Define Integration Points",
+    "roles": ["Architect"],
+    "title": "Define Integration Points",
+    "task": "List and describe integration points with external systems.",
+    "goal": "Ensure seamless integration with external systems and services.",
+    "context": "During system design and planning.",
+    "details": "Include protocols, data formats, and security considerations.",
+    "categories": ["Architecture", "Integration", "Security"]
+  },
+  {
+    "id": "Architect-5",
+    "name": "Establish Coding Standards",
+    "roles": ["Architect"],
+    "title": "Establish Coding Standards",
+    "task": "Set coding standards and architectural guidelines for the development team.",
+    "goal": "Maintain code quality and consistency across the project.",
+    "context": "At the beginning of a project and during onboarding.",
+    "details": "Include language-specific guidelines and best practices.",
+    "categories": ["Architecture", "Quality", "Best Practices"]
+  },
+  {
+    "id": "Architect-6",
+    "name": "Review System Scalability",
+    "roles": ["Architect"],
+    "title": "Review System Scalability",
+    "task": "Assess the scalability of the current system and suggest improvements.",
+    "goal": "Ensure the system can handle increased load and growth.",
+    "context": "During system evaluation and capacity planning.",
+    "details": "Include scalability metrics and testing results.",
+    "categories": ["Architecture", "Scalability", "Performance"]
+  },
+  {
+    "id": "Architect-7",
+    "name": "Security Architecture",
+    "roles": ["Architect"],
+    "title": "Security Architecture",
+    "task": "Design a security architecture for a cloud-based application.",
+    "goal": "Protect the application and data from security threats.",
+    "context": "During system design and threat modeling.",
+    "details": "Include security controls, monitoring, and response strategies.",
+    "categories": ["Architecture", "Security", "Cloud"]
+  },
+  {
+    "id": "Architect-8",
+    "name": "Performance Optimization",
+    "roles": ["Architect"],
+    "title": "Performance Optimization",
+    "task": "Identify performance bottlenecks and propose optimization strategies.",
+    "goal": "Improve system performance and responsiveness.",
+    "context": "During system tuning and optimization phases.",
+    "details": "Include profiling results and recommended optimizations.",
+    "categories": ["Architecture", "Performance", "Optimization"]
+  },
+  {
+    "id": "Architect-9",
+    "name": "Document Architectural Decisions",
+    "roles": ["Architect"],
+    "title": "Document Architectural Decisions",
+    "task": "Document key architectural decisions and their rationale.",
+    "goal": "Provide a clear record of architectural choices and reasons.",
+    "context": "After major design sessions or decisions.",
+    "details": "Include decision logs and impact assessments.",
+    "categories": ["Architecture", "Documentation"]
+  },
+  {
+    "id": "Architect-10",
+    "name": "Microservices Design",
+    "roles": ["Architect"],
+    "title": "Microservices Design",
+    "task": "Design a microservices architecture for a large-scale system.",
+    "goal": "Enable scalability and flexibility through microservices.",
+    "context": "During system architecture design.",
+    "details": "Include service boundaries, communication methods, and data management.",
+    "categories": ["Architecture", "Microservices", "Scalability"]
+  },
+  {
+    "id": "Architect-11",
+    "name": "Legacy System Migration",
+    "roles": ["Architect"],
+    "title": "Legacy System Migration",
+    "task": "Plan the migration of a legacy system to a modern platform.",
+    "goal": "Ensure a smooth and efficient migration with minimal disruption.",
+    "context": "When modernizing outdated systems.",
+    "details": "Include migration strategy, tools, and risk management.",
+    "categories": ["Architecture", "Migration", "Modernization"]
+  },
+  {
+    "id": "Architect-12",
+    "name": "Disaster Recovery Planning",
+    "roles": ["Architect"],
+    "title": "Disaster Recovery Planning",
+    "task": "Create a disaster recovery plan for mission-critical applications.",
+    "goal": "Ensure business continuity in case of disasters.",
+    "context": "During risk management and contingency planning.",
+    "details": "Include recovery strategies, resources, and testing procedures.",
+    "categories": ["Architecture", "Recovery", "Business Continuity"]
+  }
+]

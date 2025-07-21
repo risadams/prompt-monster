@@ -1,0 +1,134 @@
+[
+  {
+    "id": "Developer-1",
+    "name": "Implement Feature Request",
+    "roles": ["Developer"],
+    "title": "Implement Feature Request",
+    "task": "Describe your approach to implementing a new feature request.",
+    "goal": "Deliver high-quality features that meet requirements.",
+    "context": "During feature development.",
+    "details": "Include coding, testing, and documentation practices.",
+    "categories": ["Development", "Feature"]
+  },
+  {
+    "id": "Developer-2",
+    "name": "Fix a Bug",
+    "roles": ["Developer"],
+    "title": "Fix a Bug",
+    "task": "Outline the steps you take to identify and fix a bug in the codebase.",
+    "goal": "Resolve issues quickly to maintain software quality.",
+    "context": "During bug fixing and maintenance.",
+    "details": "Include debugging tools and techniques.",
+    "categories": ["Development", "Bug"]
+  },
+  {
+    "id": "Developer-3",
+    "name": "Write Unit Tests",
+    "roles": ["Developer"],
+    "title": "Write Unit Tests",
+    "task": "Write unit tests for a newly developed module.",
+    "goal": "Ensure code correctness and prevent regressions.",
+    "context": "After developing new code or features.",
+    "details": "Include testing frameworks and coverage criteria.",
+    "categories": ["Development", "Testing"]
+  },
+  {
+    "id": "Developer-4",
+    "name": "Code Review Checklist",
+    "roles": ["Developer"],
+    "title": "Code Review Checklist",
+    "task": "Create a checklist for reviewing code submissions.",
+    "goal": "Maintain code quality and consistency through reviews.",
+    "context": "During code review processes.",
+    "details": "Include criteria for code quality, security, and performance.",
+    "categories": ["Development", "Code Review"]
+  },
+  {
+    "id": "Developer-5",
+    "name": "Refactor Legacy Code",
+    "roles": ["Developer"],
+    "title": "Refactor Legacy Code",
+    "task": "Describe your process for refactoring legacy code to improve maintainability.",
+    "goal": "Enhance code maintainability and reduce technical debt.",
+    "context": "During code maintenance and improvement efforts.",
+    "details": "Include refactoring techniques and tools.",
+    "categories": ["Development", "Refactoring"]
+  },
+  {
+    "id": "Developer-6",
+    "name": "Optimize Performance",
+    "roles": ["Developer"],
+    "title": "Optimize Performance",
+    "task": "Suggest ways to optimize the performance of a slow-running function.",
+    "goal": "Improve application performance and resource efficiency.",
+    "context": "During performance tuning and optimization.",
+    "details": "Include profiling tools and optimization strategies.",
+    "categories": ["Development", "Performance"]
+  },
+  {
+    "id": "Developer-7",
+    "name": "Document Code",
+    "roles": ["Developer"],
+    "title": "Document Code",
+    "task": "Write documentation for a new API endpoint.",
+    "goal": "Provide clear and helpful documentation for users and developers.",
+    "context": "After developing new features or APIs.",
+    "details": "Include documentation standards and tools.",
+    "categories": ["Development", "Documentation"]
+  },
+  {
+    "id": "Developer-8",
+    "name": "Integrate Third-Party Service",
+    "roles": ["Developer"],
+    "title": "Integrate Third-Party Service",
+    "task": "Explain how you would integrate a third-party service into the application.",
+    "goal": "Extend application functionality through external services.",
+    "context": "During feature development and integration.",
+    "details": "Include integration patterns and security considerations.",
+    "categories": ["Development", "Integration"]
+  },
+  {
+    "id": "Developer-9",
+    "name": "Handle Merge Conflicts",
+    "roles": ["Developer"],
+    "title": "Handle Merge Conflicts",
+    "task": "Describe your approach to resolving merge conflicts in a collaborative project.",
+    "goal": "Ensure a smooth and efficient collaboration process.",
+    "context": "During version control operations.",
+    "details": "Include strategies for common merge conflict scenarios.",
+    "categories": ["Development", "Merge Conflict"]
+  },
+  {
+    "id": "Developer-10",
+    "name": "Continuous Integration Setup",
+    "roles": ["Developer"],
+    "title": "Continuous Integration Setup",
+    "task": "Set up a basic continuous integration pipeline for the project.",
+    "goal": "Automate build and testing processes for faster feedback.",
+    "context": "At the start of a new project or feature.",
+    "details": "Include CI tools and configuration examples.",
+    "categories": ["Development", "CI"]
+  },
+  {
+    "id": "Developer-11",
+    "name": "Implement Error Handling",
+    "roles": ["Developer"],
+    "title": "Implement Error Handling",
+    "task": "Add robust error handling to a critical module.",
+    "goal": "Improve application reliability and maintainability.",
+    "context": "During development of critical features or modules.",
+    "details": "Include error handling strategies and testing.",
+    "categories": ["Development", "Error Handling"]
+  },
+  {
+    "id": "Developer-12",
+    "name": "Pair Programming Session",
+    "roles": ["Developer"],
+    "title": "Pair Programming Session",
+    "task": "Describe the benefits and process of a pair programming session.",
+    "goal": "Enhance code quality and team collaboration.",
+    "context": "During development, especially for complex tasks.",
+    "details": "Include pair programming techniques and tools.",
+    "categories": ["Development", "Pair Programming"]
+  }
+]

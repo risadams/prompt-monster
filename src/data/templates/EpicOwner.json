@@ -1,0 +1,134 @@
+[
+  {
+    "id": "EpicOwner-1",
+    "name": "Coordinate Epic Implementation",
+    "roles": ["Epic Owner"],
+    "title": "Coordinate Epic Implementation",
+    "task": "Outline the steps to coordinate implementation across multiple teams.",
+    "goal": "Ensure successful and synchronized delivery of epics.",
+    "context": "During epic planning and execution.",
+    "details": "Include coordination mechanisms and communication plans.",
+    "categories": ["Epic", "Coordination"]
+  },
+  {
+    "id": "EpicOwner-2",
+    "name": "Define Epic Success Criteria",
+    "roles": ["Epic Owner"],
+    "title": "Define Epic Success Criteria",
+    "task": "List success criteria for a new epic and how to measure them.",
+    "goal": "Ensure clarity and alignment on epic objectives and outcomes.",
+    "context": "At the start of epic planning.",
+    "details": "Include success metrics and evaluation methods.",
+    "categories": ["Epic", "Success Criteria"]
+  },
+  {
+    "id": "EpicOwner-3",
+    "name": "Manage Epic Backlog",
+    "roles": ["Epic Owner"],
+    "title": "Manage Epic Backlog",
+    "task": "Describe your process for managing and prioritizing the epic backlog.",
+    "goal": "Maintain a well-defined and prioritized backlog for the epic.",
+    "context": "Ongoing, as part of epic management.",
+    "details": "Include backlog refinement and prioritization techniques.",
+    "categories": ["Epic", "Backlog"]
+  },
+  {
+    "id": "EpicOwner-4",
+    "name": "Stakeholder Communication",
+    "roles": ["Epic Owner"],
+    "title": "Stakeholder Communication",
+    "task": "Explain how you communicate epic progress to stakeholders.",
+    "goal": "Keep stakeholders informed and engaged throughout the epic lifecycle.",
+    "context": "Regular stakeholder updates and meetings.",
+    "details": "Include communication channels and reporting formats.",
+    "categories": ["Epic", "Stakeholder"]
+  },
+  {
+    "id": "EpicOwner-5",
+    "name": "Risk Assessment for Epics",
+    "roles": ["Epic Owner"],
+    "title": "Risk Assessment for Epics",
+    "task": "Identify and assess risks associated with epic delivery.",
+    "goal": "Proactively manage risks to ensure successful epic delivery.",
+    "context": "During epic planning and execution.",
+    "details": "Include risk identification, analysis, and mitigation planning.",
+    "categories": ["Epic", "Risk"]
+  },
+  {
+    "id": "EpicOwner-6",
+    "name": "Epic Roadmap Planning",
+    "roles": ["Epic Owner"],
+    "title": "Epic Roadmap Planning",
+    "task": "Outline a roadmap for epic delivery and key milestones.",
+    "goal": "Provide a clear and actionable plan for epic implementation.",
+    "context": "At the start of epic planning and during PI planning.",
+    "details": "Include roadmap components and milestone tracking.",
+    "categories": ["Epic", "Roadmap"]
+  },
+  {
+    "id": "EpicOwner-7",
+    "name": "Cross-Team Collaboration",
+    "roles": ["Epic Owner"],
+    "title": "Cross-Team Collaboration",
+    "task": "List best practices for collaborating across teams on epic work.",
+    "goal": "Enhance teamwork and communication across functional boundaries.",
+    "context": "Throughout the epic lifecycle.",
+    "details": "Include collaboration tools and techniques.",
+    "categories": ["Epic", "Collaboration"]
+  },
+  {
+    "id": "EpicOwner-8",
+    "name": "Epic Retrospective",
+    "roles": ["Epic Owner"],
+    "title": "Epic Retrospective",
+    "task": "Describe how you conduct a retrospective for completed epics.",
+    "goal": "Learn from past epics to improve future delivery.",
+    "context": "At the end of each epic.",
+    "details": "Include retrospective formats and follow-up actions.",
+    "categories": ["Epic", "Retrospective"]
+  },
+  {
+    "id": "EpicOwner-9",
+    "name": "Epic Value Proposition",
+    "roles": ["Epic Owner"],
+    "title": "Epic Value Proposition",
+    "task": "Articulate the value proposition of a new epic.",
+    "goal": "Clearly define and communicate the epic's unique value.",
+    "context": "During epic initiation and stakeholder presentations.",
+    "details": "Include competitive advantages and key benefits.",
+    "categories": ["Epic", "Value Proposition"]
+  },
+  {
+    "id": "EpicOwner-10",
+    "name": "Epic Metrics Tracking",
+    "roles": ["Epic Owner"],
+    "title": "Epic Metrics Tracking",
+    "task": "Identify key metrics to track for epic progress and success.",
+    "goal": "Utilize metrics for data-driven decision-making and process enhancement.",
+    "context": "Ongoing, during and after each epic.",
+    "details": "Include metrics like epic velocity, predictability, and quality.",
+    "categories": ["Epic", "Metrics"]
+  },
+  {
+    "id": "EpicOwner-11",
+    "name": "Epic Change Management",
+    "roles": ["Epic Owner"],
+    "title": "Epic Change Management",
+    "task": "Explain your approach to managing changes within an epic.",
+    "goal": "Effectively handle changes to epic scope, schedule, and resources.",
+    "context": "As changes are proposed and approved.",
+    "details": "Include change control processes and communication plans.",
+    "categories": ["Epic", "Change Management"]
+  },
+  {
+    "id": "EpicOwner-12",
+    "name": "Epic Documentation",
+    "roles": ["Epic Owner"],
+    "title": "Epic Documentation",
+    "task": "List documentation required for epic implementation and handoff.",
+    "goal": "Ensure comprehensive and accessible documentation for all aspects of the epic.",
+    "context": "During epic planning, execution, and closure.",
+    "details": "Include documentation standards and storage locations.",
+    "categories": ["Epic", "Documentation"]
+  }
+]

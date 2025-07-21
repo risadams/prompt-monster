@@ -1,0 +1,134 @@
+[
+  {
+    "id": "ProductManager-1",
+    "name": "Define Product Strategy",
+    "roles": ["Product Manager"],
+    "title": "Define Product Strategy",
+    "task": "Outline the product strategy for the next year.",
+    "goal": "Align the product vision with business objectives and market needs.",
+    "context": "Annual strategic planning.",
+    "details": "Include market analysis, competitive positioning, and product goals.",
+    "categories": ["Product Management", "Strategy"]
+  },
+  {
+    "id": "ProductManager-2",
+    "name": "Create Product Roadmap",
+    "roles": ["Product Manager"],
+    "title": "Create Product Roadmap",
+    "task": "Develop a product roadmap with key milestones and deliverables.",
+    "goal": "Provide a clear and actionable plan for product development.",
+    "context": "At the start of each planning cycle.",
+    "details": "Include roadmap components, timelines, and dependencies.",
+    "categories": ["Product Management", "Roadmap"]
+  },
+  {
+    "id": "ProductManager-3",
+    "name": "Coordinate Cross-Functional Teams",
+    "roles": ["Product Manager"],
+    "title": "Coordinate Cross-Functional Teams",
+    "task": "Describe your approach to coordinating cross-functional teams.",
+    "goal": "Ensure effective collaboration and communication across teams.",
+    "context": "Throughout the product development lifecycle.",
+    "details": "Include coordination tools and techniques for cross-functional collaboration.",
+    "categories": ["Product Management", "Collaboration"]
+  },
+  {
+    "id": "ProductManager-4",
+    "name": "Manage Product Backlog",
+    "roles": ["Product Manager"],
+    "title": "Manage Product Backlog",
+    "task": "Outline your process for managing and prioritizing the product backlog.",
+    "goal": "Ensure a well-defined and prioritized backlog that aligns with business goals.",
+    "context": "Ongoing, as part of product management.",
+    "details": "Include backlog refinement and prioritization techniques.",
+    "categories": ["Product Management", "Backlog"]
+  },
+  {
+    "id": "ProductManager-5",
+    "name": "Define Product Metrics",
+    "roles": ["Product Manager"],
+    "title": "Define Product Metrics",
+    "task": "Identify key metrics to measure product success and guide decision-making.",
+    "goal": "Utilize data-driven insights to improve product performance and outcomes.",
+    "context": "During product planning and review.",
+    "details": "Include metrics related to user engagement, satisfaction, and business impact.",
+    "categories": ["Product Management", "Metrics"]
+  },
+  {
+    "id": "ProductManager-6",
+    "name": "Conduct Market Research",
+    "roles": ["Product Manager"],
+    "title": "Conduct Market Research",
+    "task": "Describe your process for conducting market research and analysis.",
+    "goal": "Gather insights on market trends, customer needs, and competitive landscape.",
+    "context": "As part of product discovery and strategic planning.",
+    "details": "Include research methods, tools, and key areas of focus.",
+    "categories": ["Product Management", "Research"]
+  },
+  {
+    "id": "ProductManager-7",
+    "name": "Facilitate Product Demos",
+    "roles": ["Product Manager"],
+    "title": "Facilitate Product Demos",
+    "task": "Outline the steps to prepare and conduct a product demo for stakeholders.",
+    "goal": "Showcase product features and gather feedback from stakeholders.",
+    "context": "At the end of development cycles or major milestones.",
+    "details": "Include demo preparation, presentation tips, and feedback collection.",
+    "categories": ["Product Management", "Demo"]
+  },
+  {
+    "id": "ProductManager-8",
+    "name": "Manage Product Launch",
+    "roles": ["Product Manager"],
+    "title": "Manage Product Launch",
+    "task": "Describe your role in planning and executing a product launch.",
+    "goal": "Ensure a successful and coordinated launch of the product.",
+    "context": "During product release planning and execution.",
+    "details": "Include launch checklists, cross-functional coordination, and communication plans.",
+    "categories": ["Product Management", "Launch"]
+  },
+  {
+    "id": "ProductManager-9",
+    "name": "Gather Customer Feedback",
+    "roles": ["Product Manager"],
+    "title": "Gather Customer Feedback",
+    "task": "Explain how you collect and analyze customer feedback post-launch.",
+    "goal": "Continuously improve the product based on customer insights and feedback.",
+    "context": "After product launch and during ongoing product support.",
+    "details": "Include feedback collection methods, analysis techniques, and action planning.",
+    "categories": ["Product Management", "Feedback"]
+  },
+  {
+    "id": "ProductManager-10",
+    "name": "Align Stakeholders",
+    "roles": ["Product Manager"],
+    "title": "Align Stakeholders",
+    "task": "Describe your approach to ensuring stakeholder alignment and support.",
+    "goal": "Maintain strong relationships and alignment with key stakeholders.",
+    "context": "Ongoing, as part of product management and leadership.",
+    "details": "Include communication strategies, meeting facilitation, and reporting.",
+    "categories": ["Product Management", "Stakeholder"]
+  },
+  {
+    "id": "ProductManager-11",
+    "name": "Drive Product Vision",
+    "roles": ["Product Manager"],
+    "title": "Drive Product Vision",
+    "task": "Articulate and promote the product vision internally and externally.",
+    "goal": "Inspire and align teams and stakeholders around the product vision.",
+    "context": "During product strategy and planning sessions.",
+    "details": "Include vision communication, storytelling, and alignment techniques.",
+    "categories": ["Product Management", "Vision"]
+  },
+  {
+    "id": "ProductManager-12",
+    "name": "Evaluate Product Performance",
+    "roles": ["Product Manager"],
+    "title": "Evaluate Product Performance",
+    "task": "Outline the process for evaluating product performance against goals.",
+    "goal": "Ensure the product meets its strategic objectives and delivers value.",
+    "context": "Regularly, as part of product performance management.",
+    "details": "Include performance review meetings, reporting formats, and action planning.",
+    "categories": ["Product Management", "Performance"]
+  }
+]
