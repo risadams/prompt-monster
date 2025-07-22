@@ -5,7 +5,71 @@ All notable changes to Prompt Monster will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# Changelog
+
+All notable changes to Prompt Monster will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
 ## [Unreleased]
+
+## [1.2.0] - 2025-07-22
+
+### ✨ Added
+
+#### Template Content Expansion
+
+- **New Role Templates**: Added comprehensive template content for 13 previously empty role templates:
+  - ComplianceOfficer: Regulatory compliance, policy development, training programs, incident investigation, reporting
+  - ContentWriter: Blog posts, content strategy, product descriptions, email campaigns, social media content
+  - DataAnalyst: Customer behavior analysis, dashboards, A/B testing, data quality, predictive modeling
+  - MarketingManager: Marketing campaigns, market research, brand positioning, performance metrics, customer journey mapping
+  - ProjectManager: Project planning, risk management, stakeholder communication, resource management, status reporting
+  - QALead: Test strategy, test case management, bug triage, automation framework, quality metrics
+  - Researcher: Literature review, research methodology, data analysis, research papers, grant proposals
+  - SalesRep: Lead qualification, product demos, objection handling, deal closing, relationship management
+  - SecuritySpecialist: Risk assessment, incident response, security policies, penetration testing, awareness training
+  - SolutionArchitect: System architecture, technology evaluation, integration strategy, performance optimization, documentation
+  - Stakeholder: Requirements definition, project feedback, budget approval, change requests, outcome assessment
+  - SupportAgent: Customer inquiries, technical troubleshooting, issue escalation, case documentation, follow-up
+  - UIDesigner: UI mockups, design systems, responsive design, visual hierarchy, design handoff
+
+#### Enhanced Scrum Master Templates
+
+- **Extended Scrum Master Collection**: Added 12 new advanced Scrum Master templates (SM-13 through SM-24):
+  - Sprint Review Facilitation: Stakeholder engagement and feedback collection
+  - Cross-Team Coordination: Multi-team scaling and dependency management
+  - Team Formation and Storming: New team development and conflict navigation
+  - Definition of Done Management: Quality standards and completion criteria
+  - Stakeholder Engagement Strategy: Communication plans and expectation management
+  - Technical Debt Management: Balancing feature delivery with code quality
+  - Remote Team Facilitation: Virtual team effectiveness and collaboration
+  - Product Owner Coaching: Supporting PO effectiveness and team collaboration
+  - Velocity Trending and Forecasting: Data-driven delivery predictions
+  - Organizational Impediment Escalation: Addressing systemic barriers
+  - Agile Maturity Assessment: Team development and improvement roadmaps
+  - Innovation and Experimentation: Fostering continuous learning and innovation
+
+### 🔧 Improved
+
+#### Development & Testing
+
+- **Testing Infrastructure**: Enabled comprehensive testing with Jest and Babel configuration
+- **Dynamic Template Loading**: Enhanced template loading system for better performance and maintainability
+- **Template Validation**: Improved template structure validation and consistency
+
+#### Template System
+
+- **Role-Based Organization**: Better organization of templates by specific roles and responsibilities
+- **Category Refinement**: Enhanced categorization for improved template discovery
+- **Content Quality**: All templates now follow consistent structure with clear goals, context, and implementation details
+
+### 📈 Statistics
+
+- **Total Templates**: Expanded from ~84 to ~144 templates (60+ new templates added)
+- **Role Coverage**: Now covers 28 distinct professional roles
+- **Template Categories**: Enhanced categorization across Development, Design, Management, Sales, Marketing, Security, and more
 
 ## [1.1.0] - 2025-07-21
 
