@@ -2,7 +2,7 @@
   {
     "id": "QALead-1",
     "name": "Design Test Strategy",
-    "roles": ["QA Lead"],
+    "roles": ["QA Lead", "Developer", "Tech Lead", "Scrum Master", "Product Owner"],
     "title": "Design Test Strategy",
     "task": "Develop a comprehensive test strategy for a new product or feature.",
     "goal": "Ensure thorough testing coverage and quality assurance processes.",
@@ -13,7 +13,7 @@
   {
     "id": "QALead-2",
     "name": "Test Case Management",
-    "roles": ["QA Lead"],
+    "roles": ["QA Lead", "Developer", "Tech Lead"],
     "title": "Test Case Management",
     "task": "Create and manage test cases for functional and non-functional requirements.",
     "goal": "Maintain comprehensive test coverage and traceability to requirements.",
@@ -24,7 +24,7 @@
   {
     "id": "QALead-3",
     "name": "Bug Triage Process",
-    "roles": ["QA Lead"],
+    "roles": ["QA Lead", "Developer", "Tech Lead", "Scrum Master"],
     "title": "Bug Triage Process",
     "task": "Establish a bug triage process to prioritize and manage defects.",
     "goal": "Ensure efficient defect resolution and quality improvement.",
@@ -35,7 +35,7 @@
   {
     "id": "QALead-4",
     "name": "Automation Framework",
-    "roles": ["QA Lead"],
+    "roles": ["QA Lead", "Developer", "Tech Lead", "System Team"],
     "title": "Automation Framework",
     "task": "Design and implement a test automation framework for the project.",
     "goal": "Improve testing efficiency and enable continuous integration.",
@@ -46,7 +46,7 @@
   {
     "id": "QALead-5",
     "name": "Quality Metrics Reporting",
-    "roles": ["QA Lead"],
+    "roles": ["QA Lead", "Developer", "Tech Lead", "Scrum Master", "Product Owner"],
     "title": "Quality Metrics Reporting",
     "task": "Establish quality metrics and reporting for project stakeholders.",
     "goal": "Provide visibility into product quality and testing effectiveness.",

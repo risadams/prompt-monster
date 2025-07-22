@@ -13,7 +13,7 @@
   {
     "id": "Stakeholder-2",
     "name": "Provide Project Feedback",
-    "roles": ["Stakeholder"],
+    "roles": ["Stakeholder", "Project Manager", "Product Owner", "Scrum Master", "Release Train Engineer"],
     "title": "Provide Project Feedback",
     "task": "Review project deliverables and provide constructive feedback to the team.",
     "goal": "Ensure deliverables meet expectations and business requirements.",
@@ -24,7 +24,7 @@
   {
     "id": "Stakeholder-3",
     "name": "Budget Approval Process",
-    "roles": ["Stakeholder"],
+    "roles": ["Stakeholder", "Project Manager", "Product Owner"],
     "title": "Budget Approval Process",
     "task": "Evaluate and approve project budgets and resource allocations.",
     "goal": "Ensure appropriate funding while maintaining fiscal responsibility.",
@@ -35,7 +35,7 @@
   {
     "id": "Stakeholder-4",
     "name": "Change Request Evaluation",
-    "roles": ["Stakeholder"],
+    "roles": ["Stakeholder", "Project Manager", "Product Owner", "Scrum Master"],
     "title": "Change Request Evaluation",
     "task": "Assess and approve changes to project scope or requirements.",
     "goal": "Balance business needs with project constraints and timelines.",
@@ -46,7 +46,7 @@
   {
     "id": "Stakeholder-5",
     "name": "Project Outcome Assessment",
-    "roles": ["Stakeholder"],
+    "roles": ["Stakeholder", "Project Manager", "Product Owner", "Release Train Engineer"],
     "title": "Project Outcome Assessment",
     "task": "Evaluate project outcomes against original objectives and expectations.",
     "goal": "Measure project success and identify lessons learned for future initiatives.",

@@ -13,7 +13,7 @@
   {
     "id": "ProjectManager-2",
     "name": "Manage Project Risk",
-    "roles": ["Project Manager"],
+    "roles": ["Project Manager", "Product Owner", "Release Train Engineer", "Scrum Master"],
     "title": "Manage Project Risk",
     "task": "Identify, assess, and mitigate project risks throughout the lifecycle.",
     "goal": "Minimize negative impacts and maximize project success probability.",
@@ -24,7 +24,7 @@
   {
     "id": "ProjectManager-3",
     "name": "Stakeholder Communication",
-    "roles": ["Project Manager"],
+    "roles": ["Project Manager", "Product Owner", "Scrum Master", "Stakeholder", "Release Train Engineer"],
     "title": "Stakeholder Communication",
     "task": "Develop a communication plan for project stakeholders.",
     "goal": "Ensure alignment and transparency throughout the project lifecycle.",
@@ -35,7 +35,7 @@
   {
     "id": "ProjectManager-4",
     "name": "Resource Management",
-    "roles": ["Project Manager"],
+    "roles": ["Project Manager", "Scrum Master", "Release Train Engineer", "System Team"],
     "title": "Resource Management",
     "task": "Optimize resource allocation and utilization across project activities.",
     "goal": "Maximize efficiency and ensure adequate resources for project success.",
@@ -46,7 +46,7 @@
   {
     "id": "ProjectManager-5",
     "name": "Project Status Reporting",
-    "roles": ["Project Manager"],
+    "roles": ["Project Manager", "Product Owner", "Scrum Master", "Stakeholder", "Release Train Engineer"],
     "title": "Project Status Reporting",
     "task": "Create regular status reports for project stakeholders and leadership.",
     "goal": "Maintain visibility into project progress and identify issues early.",

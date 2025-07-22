@@ -24,7 +24,7 @@
   {
     "id": "Developer-3",
     "name": "Write Unit Tests",
-    "roles": ["Developer"],
+    "roles": ["Developer", "QA Lead", "Tech Lead", "System Team"],
     "title": "Write Unit Tests",
     "task": "Write unit tests for a newly developed module.",
     "goal": "Ensure code correctness and prevent regressions.",
@@ -35,7 +35,7 @@
   {
     "id": "Developer-4",
     "name": "Code Review Checklist",
-    "roles": ["Developer"],
+    "roles": ["Developer", "Tech Lead", "QA Lead", "Scrum Master"],
     "title": "Code Review Checklist",
     "task": "Create a checklist for reviewing code submissions.",
     "goal": "Maintain code quality and consistency through reviews.",
@@ -46,7 +46,7 @@
   {
     "id": "Developer-5",
     "name": "Refactor Legacy Code",
-    "roles": ["Developer"],
+    "roles": ["Developer", "Tech Lead", "QA Lead", "Scrum Master"],
     "title": "Refactor Legacy Code",
     "task": "Describe your process for refactoring legacy code to improve maintainability.",
     "goal": "Enhance code maintainability and reduce technical debt.",
@@ -68,7 +68,7 @@
   {
     "id": "Developer-7",
     "name": "Document Code",
-    "roles": ["Developer"],
+    "roles": ["Developer", "Tech Lead", "QA Lead", "System Team"],
     "title": "Document Code",
     "task": "Write documentation for a new API endpoint.",
     "goal": "Provide clear and helpful documentation for users and developers.",
@@ -101,7 +101,7 @@
   {
     "id": "Developer-10",
     "name": "Continuous Integration Setup",
-    "roles": ["Developer"],
+    "roles": ["Developer", "System Team", "Tech Lead", "QA Lead"],
     "title": "Continuous Integration Setup",
     "task": "Set up a basic continuous integration pipeline for the project.",
     "goal": "Automate build and testing processes for faster feedback.",
@@ -123,7 +123,7 @@
   {
     "id": "Developer-12",
     "name": "Pair Programming Session",
-    "roles": ["Developer"],
+    "roles": ["Developer", "Tech Lead", "QA Lead", "Scrum Master"],
     "title": "Pair Programming Session",
     "task": "Describe the benefits and process of a pair programming session.",
     "goal": "Enhance code quality and team collaboration.",

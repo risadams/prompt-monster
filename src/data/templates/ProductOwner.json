@@ -2,133 +2,273 @@
   {
     "id": "PO-1",
     "name": "Define Product Vision",
-    "roles": ["Product Owner"],
+    "roles": [
+      "Product Owner"
+    ],
     "title": "Define Product Vision",
     "task": "Describe the product vision and strategic goals for the next release.",
     "goal": "Align the team and stakeholders on the product direction.",
     "context": "Planning for the upcoming release with stakeholders.",
     "details": "Focus on long-term strategy and measurable objectives.",
-    "categories": ["Agile", "Vision"]
+    "categories": [
+      "Agile",
+      "Vision"
+    ]
   },
   {
     "id": "PO-2",
     "name": "Prioritize Backlog Items",
-    "roles": ["Product Owner"],
+    "roles": [
+      "Product Owner"
+    ],
     "title": "Prioritize Backlog Items",
     "task": "List and prioritize the top 5 backlog items for the upcoming sprint.",
     "goal": "Ensure the team works on the most valuable features.",
     "context": "Sprint planning with development team.",
     "details": "Explain rationale for prioritization and consider business value.",
-    "categories": ["Agile", "Backlog"]
+    "categories": [
+      "Agile",
+      "Backlog"
+    ]
   },
   {
     "id": "PO-3",
     "name": "Write User Stories",
-    "roles": ["Product Owner"],
+    "roles": [
+      "Product Owner"
+    ],
     "title": "Write User Stories",
     "task": "Draft 3 user stories for new features, including acceptance criteria.",
     "goal": "Provide clear requirements for development.",
     "context": "Preparing backlog items for the next sprint.",
     "details": "Ensure stories are actionable and testable.",
-    "categories": ["Agile", "User Stories"]
+    "categories": [
+      "Agile",
+      "User Stories"
+    ]
   },
   {
     "id": "PO-4",
     "name": "Stakeholder Communication",
-    "roles": ["Product Owner"],
+    "roles": [
+      "Product Owner", "Scrum Master", "Stakeholder", "Project Manager"
+    ],
     "title": "Stakeholder Communication",
     "task": "Summarize a communication plan for keeping stakeholders informed about product progress.",
     "goal": "Maintain transparency and trust with stakeholders.",
     "context": "Regular updates during product development.",
     "details": "Include meeting cadence and reporting methods.",
-    "categories": ["Agile", "Stakeholder"]
+    "categories": [
+      "Agile",
+      "Stakeholder"
+    ]
   },
   {
     "id": "PO-5",
     "name": "Release Planning",
-    "roles": ["Product Owner"],
+    "roles": [
+      "Product Owner", "Project Manager", "Release Train Engineer"
+    ],
     "title": "Release Planning",
     "task": "Outline a release plan for the next major product update, including key milestones.",
     "goal": "Deliver product updates on schedule.",
     "context": "Coordinating with team and stakeholders for release.",
     "details": "Identify dependencies and risks for each milestone.",
-    "categories": ["Agile", "Release"]
+    "categories": [
+      "Agile",
+      "Release"
+    ]
   },
   {
     "id": "PO-6",
     "name": "Backlog Refinement",
-    "roles": ["Product Owner"],
+    "roles": [
+      "Product Owner", "Scrum Master"
+    ],
     "title": "Backlog Refinement",
     "task": "Describe your approach to backlog refinement and how you ensure items are ready for development.",
     "goal": "Maintain a healthy and actionable backlog.",
     "context": "Regular backlog grooming sessions with the team.",
     "details": "Clarify requirements and prioritize items for development.",
-    "categories": ["Agile", "Backlog"]
+    "categories": [
+      "Agile",
+      "Backlog"
+    ]
   },
   {
     "id": "PO-7",
     "name": "Customer Feedback Integration",
-    "roles": ["Product Owner"],
+    "roles": [
+      "Product Owner"
+    ],
     "title": "Customer Feedback Integration",
     "task": "Explain how you collect and integrate customer feedback into the product backlog.",
     "goal": "Improve product quality and user satisfaction.",
     "context": "Gathering feedback from users and stakeholders.",
     "details": "Use feedback to inform backlog priorities and feature development.",
-    "categories": ["Agile", "Feedback"]
+    "categories": [
+      "Agile",
+      "Feedback"
+    ]
   },
   {
     "id": "PO-8",
     "name": "Value Proposition",
-    "roles": ["Product Owner"],
+    "roles": [
+      "Product Owner"
+    ],
     "title": "Value Proposition",
     "task": "Articulate the product's value proposition for a new target market.",
     "goal": "Expand product reach and relevance.",
     "context": "Entering a new market segment.",
     "details": "Highlight unique benefits and competitive advantages.",
-    "categories": ["Agile", "Value Proposition"]
+    "categories": [
+      "Agile",
+      "Value Proposition"
+    ]
   },
   {
     "id": "PO-9",
     "name": "Sprint Review Preparation",
-    "roles": ["Product Owner"],
+    "roles": [
+      "Product Owner", "Scrum Master", "Stakeholder"
+    ],
     "title": "Sprint Review Preparation",
     "task": "Prepare a summary for the upcoming sprint review, highlighting completed work and outstanding items.",
     "goal": "Showcase team achievements and identify areas for improvement.",
     "context": "End-of-sprint review meeting.",
     "details": "Include demo-ready features and unresolved issues.",
-    "categories": ["Agile", "Sprint Review"]
+    "categories": [
+      "Agile",
+      "Sprint Review"
+    ]
   },
   {
     "id": "PO-10",
     "name": "Risk Assessment",
-    "roles": ["Product Owner"],
+    "roles": [
+      "Product Owner", "Project Manager", "Release Train Engineer"
+    ],
     "title": "Risk Assessment",
     "task": "Identify and assess the top 3 risks to product delivery this quarter.",
     "goal": "Mitigate risks and ensure successful delivery.",
     "context": "Quarterly planning and risk review.",
     "details": "Provide mitigation strategies for each risk.",
-    "categories": ["Agile", "Risk"]
+    "categories": [
+      "Agile",
+      "Risk"
+    ]
   },
   {
     "id": "PO-11",
     "name": "Competitor Analysis",
-    "roles": ["Product Owner"],
+    "roles": [
+      "Product Owner"
+    ],
     "title": "Competitor Analysis",
     "task": "Provide a brief competitor analysis and how it influences your product strategy.",
     "goal": "Stay informed and competitive in the market.",
     "context": "Annual or bi-annual strategic planning.",
     "details": "Include SWOT analysis and market positioning.",
-    "categories": ["Agile", "Competitor Analysis"]
+    "categories": [
+      "Agile",
+      "Competitor Analysis"
+    ]
   },
   {
     "id": "PO-12",
     "name": "Define MVP",
-    "roles": ["Product Owner"],
+    "roles": [
+      "Product Owner"
+    ],
     "title": "Define MVP",
     "task": "Define the minimum viable product (MVP) for a new feature and justify your choices.",
     "goal": "Launch new features with the minimum necessary scope to gather feedback.",
     "context": "Feature ideation and prioritization.",
     "details": "Include criteria for MVP definition and success metrics.",
-    "categories": ["Agile", "MVP"]
+    "categories": [
+      "Agile",
+      "MVP"
+    ]
+  },
+  {
+    "id": "PO-13",
+    "name": "Roadmap Communication",
+    "roles": [
+      "Product Owner"
+    ],
+    "title": "Roadmap Communication",
+    "task": "Create a visual roadmap for the next two quarters and share it with stakeholders.",
+    "goal": "Align everyone on product timelines and major deliverables.",
+    "context": "Quarterly planning and stakeholder meetings.",
+    "details": "Highlight key releases, dependencies, and expected outcomes.",
+    "categories": [
+      "Agile",
+      "Roadmap"
+    ]
+  },
+  {
+    "id": "PO-14",
+    "name": "User Persona Development",
+    "roles": [
+      "Product Owner"
+    ],
+    "title": "User Persona Development",
+    "task": "Develop 2-3 user personas to guide feature development.",
+    "goal": "Ensure product features address real user needs.",
+    "context": "Early-stage feature planning.",
+    "details": "Include demographics, goals, pain points, and usage scenarios.",
+    "categories": [
+      "Agile",
+      "User Research"
+    ]
+  },
+  {
+    "id": "PO-15",
+    "name": "Feature Validation",
+    "roles": [
+      "Product Owner"
+    ],
+    "title": "Feature Validation",
+    "task": "Design a validation plan for a new feature, including metrics and feedback channels.",
+    "goal": "Confirm feature value before full rollout.",
+    "context": "Pilot or beta release planning.",
+    "details": "Specify KPIs and methods for collecting user feedback.",
+    "categories": [
+      "Agile",
+      "Validation"
+    ]
+  },
+  {
+    "id": "PO-16",
+    "name": "Cross-Functional Collaboration",
+    "roles": [
+      "Product Owner"
+    ],
+    "title": "Cross-Functional Collaboration",
+    "task": "Outline a plan for collaborating with UX, QA, and marketing teams on a major release.",
+    "goal": "Deliver a cohesive and high-quality product experience.",
+    "context": "Coordinating multi-team efforts.",
+    "details": "Define roles, responsibilities, and communication channels.",
+    "categories": [
+      "Agile",
+      "Collaboration"
+    ]
+  },
+  {
+    "id": "PO-17",
+    "name": "Release Retrospective",
+    "roles": [
+      "Product Owner"
+    ],
+    "title": "Release Retrospective",
+    "task": "Facilitate a retrospective for the last product release, capturing lessons learned and improvement actions.",
+    "goal": "Continuously improve product delivery processes.",
+    "context": "Post-release review.",
+    "details": "Document successes, challenges, and actionable next steps.",
+    "categories": [
+      "Agile",
+      "Retrospective"
+    ]
   }
 ]

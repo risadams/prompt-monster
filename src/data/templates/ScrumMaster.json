@@ -57,7 +57,7 @@
   {
     "id": "SM-6",
     "name": "Facilitate Sprint Planning",
-    "roles": ["Scrum Master"],
+    "roles": ["Scrum Master", "Product Owner", "Project Manager"],
     "title": "Facilitate Sprint Planning",
     "task": "List steps to facilitate a successful sprint planning session.",
     "goal": "Create a well-defined and achievable sprint plan.",
@@ -101,7 +101,7 @@
   {
     "id": "SM-10",
     "name": "Promote Continuous Improvement",
-    "roles": ["Scrum Master"],
+    "roles": ["Scrum Master", "Product Owner", "Release Train Engineer"],
     "title": "Promote Continuous Improvement",
     "task": "Describe how you promote continuous improvement within the team.",
     "goal": "Instill a culture of learning and adaptation.",
@@ -123,7 +123,7 @@
   {
     "id": "SM-12",
     "name": "Facilitate Backlog Refinement",
-    "roles": ["Scrum Master"],
+    "roles": ["Scrum Master", "Product Owner"],
     "title": "Facilitate Backlog Refinement",
     "task": "Outline your role in facilitating backlog refinement sessions.",
     "goal": "Ensure the backlog is well-prepared and prioritized.",
@@ -134,7 +134,7 @@
   {
     "id": "SM-13",
     "name": "Sprint Review Facilitation",
-    "roles": ["Scrum Master"],
+    "roles": ["Scrum Master", "Product Owner", "Stakeholder"],
     "title": "Sprint Review Facilitation",
     "task": "Design an effective sprint review meeting to showcase completed work to stakeholders.",
     "goal": "Demonstrate sprint achievements and gather valuable stakeholder feedback.",
@@ -145,7 +145,7 @@
   {
     "id": "SM-14",
     "name": "Cross-Team Coordination",
-    "roles": ["Scrum Master"],
+    "roles": ["Scrum Master", "Release Train Engineer", "Project Manager"],
     "title": "Cross-Team Coordination",
     "task": "Establish coordination mechanisms between multiple Scrum teams working on related products.",
     "goal": "Ensure alignment and minimize dependencies between teams.",
@@ -167,7 +167,7 @@
   {
     "id": "SM-16",
     "name": "Definition of Done Management",
-    "roles": ["Scrum Master"],
+    "roles": ["Scrum Master", "Product Owner", "QA Lead"],
     "title": "Definition of Done Management",
     "task": "Facilitate the creation and evolution of the team's Definition of Done.",
     "goal": "Ensure consistent quality standards and shared understanding of completion criteria.",
@@ -178,7 +178,7 @@
   {
     "id": "SM-17",
     "name": "Stakeholder Engagement Strategy",
-    "roles": ["Scrum Master"],
+    "roles": ["Scrum Master", "Product Owner", "Stakeholder", "Project Manager"],
     "title": "Stakeholder Engagement Strategy",
     "task": "Develop a strategy for effective stakeholder engagement throughout the project.",
     "goal": "Maintain stakeholder buy-in and ensure their needs are addressed.",
@@ -189,7 +189,7 @@
   {
     "id": "SM-18",
     "name": "Technical Debt Management",
-    "roles": ["Scrum Master"],
+    "roles": ["Scrum Master", "Product Owner", "Developer", "Tech Lead"],
     "title": "Technical Debt Management",
     "task": "Help the team identify, prioritize, and address technical debt in the product backlog.",
     "goal": "Balance feature delivery with long-term code quality and maintainability.",

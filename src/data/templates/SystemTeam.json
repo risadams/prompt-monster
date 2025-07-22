@@ -13,7 +13,7 @@
   {
     "id": "SystemTeam-2",
     "name": "Maintain CI/CD Pipeline",
-    "roles": ["System Team"],
+    "roles": ["System Team", "Developer", "Tech Lead", "QA Lead", "Release Train Engineer"],
     "title": "Maintain CI/CD Pipeline",
     "task": "Explain how you maintain and troubleshoot the CI/CD pipeline.",
     "goal": "Ensure reliable and efficient software delivery processes.",
@@ -24,7 +24,7 @@
   {
     "id": "SystemTeam-3",
     "name": "Provision Test Data",
-    "roles": ["System Team"],
+    "roles": ["System Team", "QA Lead", "Developer"],
     "title": "Provision Test Data",
     "task": "Describe your process for provisioning test data for development and testing.",
     "goal": "Ensure availability of realistic and relevant test data.",
@@ -35,7 +35,7 @@
   {
     "id": "SystemTeam-4",
     "name": "Monitor System Health",
-    "roles": ["System Team"],
+    "roles": ["System Team", "Developer", "Tech Lead", "QA Lead"],
     "title": "Monitor System Health",
     "task": "List tools and techniques for monitoring system health and performance.",
     "goal": "Proactively identify and resolve system issues.",
@@ -46,7 +46,7 @@
   {
     "id": "SystemTeam-5",
     "name": "Automate Repetitive Tasks",
-    "roles": ["System Team"],
+    "roles": ["System Team", "Developer", "Tech Lead", "QA Lead"],
     "title": "Automate Repetitive Tasks",
     "task": "Identify tasks that can be automated and describe your automation approach.",
     "goal": "Increase efficiency and reduce manual errors.",
@@ -57,7 +57,7 @@
   {
     "id": "SystemTeam-6",
     "name": "Support Release Activities",
-    "roles": ["System Team"],
+    "roles": ["System Team", "Developer", "Tech Lead", "Release Train Engineer", "Product Owner"],
     "title": "Support Release Activities",
     "task": "Explain how you support release activities and ensure smooth deployments.",
     "goal": "Facilitate successful and efficient software releases.",
@@ -68,7 +68,7 @@
   {
     "id": "SystemTeam-7",
     "name": "Manage Access Controls",
-    "roles": ["System Team"],
+    "roles": ["System Team", "Security Specialist", "Developer", "Tech Lead"],
     "title": "Manage Access Controls",
     "task": "Describe your process for managing access controls and permissions.",
     "goal": "Ensure system security and compliance with access policies.",
@@ -79,7 +79,7 @@
   {
     "id": "SystemTeam-8",
     "name": "Document System Configurations",
-    "roles": ["System Team"],
+    "roles": ["System Team", "Developer", "Tech Lead", "QA Lead"],
     "title": "Document System Configurations",
     "task": "Write documentation for system configurations and environment setup.",
     "goal": "Provide clear and comprehensive system documentation.",
@@ -90,7 +90,7 @@
   {
     "id": "SystemTeam-9",
     "name": "Troubleshoot Environment Issues",
-    "roles": ["System Team"],
+    "roles": ["System Team", "Developer", "Tech Lead", "QA Lead"],
     "title": "Troubleshoot Environment Issues",
     "task": "Outline steps to troubleshoot and resolve environment issues.",
     "goal": "Minimize downtime and ensure system reliability.",
@@ -101,7 +101,7 @@
   {
     "id": "SystemTeam-10",
     "name": "Coordinate with DevOps",
-    "roles": ["System Team"],
+    "roles": ["System Team", "DevOps Engineer", "Developer", "Tech Lead"],
     "title": "Coordinate with DevOps",
     "task": "Explain how you coordinate with DevOps for infrastructure management.",
     "goal": "Ensure alignment and collaboration between development and operations.",
@@ -112,7 +112,7 @@
   {
     "id": "SystemTeam-11",
     "name": "Support Automated Testing",
-    "roles": ["System Team"],
+    "roles": ["System Team", "QA Lead", "Developer", "Tech Lead"],
     "title": "Support Automated Testing",
     "task": "Describe your role in supporting automated testing frameworks.",
     "goal": "Facilitate efficient and effective automated testing.",
@@ -123,7 +123,7 @@
   {
     "id": "SystemTeam-12",
     "name": "Maintain System Documentation",
-    "roles": ["System Team"],
+    "roles": ["System Team", "Developer", "Tech Lead", "QA Lead"],
     "title": "Maintain System Documentation",
     "task": "List best practices for maintaining up-to-date system documentation.",
     "goal": "Ensure system documentation is current and useful.",

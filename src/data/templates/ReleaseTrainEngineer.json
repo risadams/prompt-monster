@@ -57,7 +57,7 @@
   {
     "id": "RTE-6",
     "name": "Drive Continuous Improvement",
-    "roles": ["Release Train Engineer"],
+    "roles": ["Release Train Engineer", "Scrum Master", "Project Manager", "Product Owner"],
     "title": "Drive Continuous Improvement",
     "task": "Explain how you drive continuous improvement across ART teams.",
     "goal": "Foster a culture of learning and adaptation at scale.",
@@ -68,7 +68,7 @@
   {
     "id": "RTE-7",
     "name": "Coordinate Releases",
-    "roles": ["Release Train Engineer"],
+    "roles": ["Release Train Engineer", "Project Manager", "Product Owner", "System Team", "Tech Lead"],
     "title": "Coordinate Releases",
     "task": "Describe your approach to coordinating releases across multiple teams.",
     "goal": "Ensure synchronized and efficient releases across the ART.",
@@ -79,7 +79,7 @@
   {
     "id": "RTE-8",
     "name": "Manage Risks",
-    "roles": ["Release Train Engineer"],
+    "roles": ["Release Train Engineer", "Project Manager", "Product Owner", "Scrum Master"],
     "title": "Manage Risks",
     "task": "List strategies for managing risks at the ART level.",
     "goal": "Proactively identify and mitigate risks to ART delivery.",
@@ -101,7 +101,7 @@
   {
     "id": "RTE-10",
     "name": "Track ART Metrics",
-    "roles": ["Release Train Engineer"],
+    "roles": ["Release Train Engineer", "Scrum Master", "QA Lead", "Tech Lead", "Developer"],
     "title": "Track ART Metrics",
     "task": "Identify key metrics to track for ART performance and improvement.",
     "goal": "Utilize metrics for data-driven decision-making and process enhancement.",
@@ -112,7 +112,7 @@
   {
     "id": "RTE-11",
     "name": "Promote Collaboration",
-    "roles": ["Release Train Engineer"],
+    "roles": ["Release Train Engineer", "Scrum Master", "Project Manager", "Stakeholder"],
     "title": "Promote Collaboration",
     "task": "Suggest ways to promote collaboration between ART teams and stakeholders.",
     "goal": "Enhance teamwork and stakeholder engagement at scale.",
@@ -123,7 +123,7 @@
   {
     "id": "RTE-12",
     "name": "Facilitate ART Retrospectives",
-    "roles": ["Release Train Engineer"],
+    "roles": ["Release Train Engineer", "Scrum Master", "Project Manager", "Product Owner", "QA Lead", "Tech Lead", "Developer"],
     "title": "Facilitate ART Retrospectives",
     "task": "Describe how you facilitate retrospectives at the ART level.",
     "goal": "Continuously improve ART performance and collaboration.",

@@ -24,7 +24,7 @@
   {
     "id": "TechLead-3",
     "name": "Review Code Quality",
-    "roles": ["Tech Lead"],
+    "roles": ["Tech Lead", "Developer", "QA Lead", "Scrum Master"],
     "title": "Review Code Quality",
     "task": "List your criteria for reviewing code quality and ensuring best practices.",
     "goal": "Maintain high standards and reduce technical debt.",
@@ -35,7 +35,7 @@
   {
     "id": "TechLead-4",
     "name": "Facilitate Technical Discussions",
-    "roles": ["Tech Lead"],
+    "roles": ["Tech Lead", "Developer", "QA Lead", "Scrum Master", "Product Owner"],
     "title": "Facilitate Technical Discussions",
     "task": "Describe how you facilitate technical discussions and resolve disagreements.",
     "goal": "Reach consensus and make informed technical decisions.",
@@ -46,7 +46,7 @@
   {
     "id": "TechLead-5",
     "name": "Plan Technical Roadmap",
-    "roles": ["Tech Lead"],
+    "roles": ["Tech Lead", "Developer", "Product Owner", "Release Train Engineer"],
     "title": "Plan Technical Roadmap",
     "task": "Outline a technical roadmap for the next release cycle.",
     "goal": "Align technical work with product goals and timelines.",
@@ -57,7 +57,7 @@
   {
     "id": "TechLead-6",
     "name": "Ensure Code Consistency",
-    "roles": ["Tech Lead"],
+    "roles": ["Tech Lead", "Developer", "QA Lead"],
     "title": "Ensure Code Consistency",
     "task": "Explain your approach to maintaining code consistency across the project.",
     "goal": "Promote maintainable and readable codebase.",
@@ -79,7 +79,7 @@
   {
     "id": "TechLead-8",
     "name": "Handle Technical Debt",
-    "roles": ["Tech Lead"],
+    "roles": ["Tech Lead", "Developer", "QA Lead", "Scrum Master", "Product Owner"],
     "title": "Handle Technical Debt",
     "task": "List strategies for managing and reducing technical debt.",
     "goal": "Improve codebase health and reduce maintenance costs.",
@@ -90,7 +90,7 @@
   {
     "id": "TechLead-9",
     "name": "Coordinate with Stakeholders",
-    "roles": ["Tech Lead"],
+    "roles": ["Tech Lead", "Product Owner", "Stakeholder", "Project Manager"],
     "title": "Coordinate with Stakeholders",
     "task": "Explain how you coordinate technical requirements with stakeholders.",
     "goal": "Ensure technical solutions meet business needs.",
@@ -101,7 +101,7 @@
   {
     "id": "TechLead-10",
     "name": "Lead Code Reviews",
-    "roles": ["Tech Lead"],
+    "roles": ["Tech Lead", "Developer", "QA Lead", "Scrum Master"],
     "title": "Lead Code Reviews",
     "task": "Describe your process for leading effective code reviews.",
     "goal": "Improve code quality and team knowledge sharing.",
@@ -112,7 +112,7 @@
   {
     "id": "TechLead-11",
     "name": "Support Release Planning",
-    "roles": ["Tech Lead"],
+    "roles": ["Tech Lead", "Developer", "System Team", "Release Train Engineer", "Product Owner"],
     "title": "Support Release Planning",
     "task": "Explain your role in supporting release planning and deployment activities.",
     "goal": "Ensure smooth and successful releases.",
@@ -123,7 +123,7 @@
   {
     "id": "TechLead-12",
     "name": "Promote Team Collaboration",
-    "roles": ["Tech Lead"],
+    "roles": ["Tech Lead", "Developer", "QA Lead", "Scrum Master", "Product Owner"],
     "title": "Promote Team Collaboration",
     "task": "List ways you promote collaboration and knowledge sharing within the team.",
     "goal": "Foster a collaborative and innovative team environment.",
