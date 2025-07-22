@@ -1,0 +1,57 @@
+[
+  {
+    "id": "SecuritySpecialist-1",
+    "name": "Security Risk Assessment",
+    "roles": ["Security Specialist"],
+    "title": "Security Risk Assessment",
+    "task": "Conduct a comprehensive security risk assessment for systems and applications.",
+    "goal": "Identify vulnerabilities and threats to implement appropriate security controls.",
+    "context": "Security audits and compliance assessments.",
+    "details": "Include threat modeling, vulnerability scanning, and risk prioritization.",
+    "categories": ["Security", "Risk Assessment"]
+  },
+  {
+    "id": "SecuritySpecialist-2",
+    "name": "Incident Response Plan",
+    "roles": ["Security Specialist"],
+    "title": "Incident Response Plan",
+    "task": "Develop an incident response plan for security breaches and threats.",
+    "goal": "Ensure rapid and effective response to security incidents.",
+    "context": "Security preparedness and incident management.",
+    "details": "Include response procedures, communication protocols, and recovery strategies.",
+    "categories": ["Security", "Incident Response"]
+  },
+  {
+    "id": "SecuritySpecialist-3",
+    "name": "Security Policy Development",
+    "roles": ["Security Specialist"],
+    "title": "Security Policy Development",
+    "task": "Create comprehensive security policies and procedures for the organization.",
+    "goal": "Establish clear security guidelines and compliance requirements.",
+    "context": "Security governance and policy management.",
+    "details": "Include access controls, data protection, and employee training requirements.",
+    "categories": ["Security", "Policy"]
+  },
+  {
+    "id": "SecuritySpecialist-4",
+    "name": "Penetration Testing",
+    "roles": ["Security Specialist"],
+    "title": "Penetration Testing",
+    "task": "Perform penetration testing to identify security weaknesses.",
+    "goal": "Validate security controls and identify exploitable vulnerabilities.",
+    "context": "Security testing and validation activities.",
+    "details": "Include testing methodology, exploitation techniques, and remediation recommendations.",
+    "categories": ["Security", "Testing"]
+  },
+  {
+    "id": "SecuritySpecialist-5",
+    "name": "Security Awareness Training",
+    "roles": ["Security Specialist"],
+    "title": "Security Awareness Training",
+    "task": "Design and deliver security awareness training for employees.",
+    "goal": "Educate staff on security best practices and threat recognition.",
+    "context": "Security education and culture development.",
+    "details": "Include training content, delivery methods, and effectiveness measurement.",
+    "categories": ["Security", "Training"]
+  }
+]

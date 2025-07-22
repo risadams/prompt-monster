@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ComplianceOfficer-1",
+    "name": "Regulatory Compliance Assessment",
+    "roles": ["Compliance Officer"],
+    "title": "Regulatory Compliance Assessment",
+    "task": "Conduct a comprehensive assessment of organizational compliance with relevant regulations.",
+    "goal": "Identify compliance gaps and ensure adherence to regulatory requirements.",
+    "context": "Regulatory audits and compliance monitoring activities.",
+    "details": "Include regulation mapping, gap analysis, and remediation planning.",
+    "categories": ["Compliance", "Assessment"]
+  },
+  {
+    "id": "ComplianceOfficer-2",
+    "name": "Policy Development",
+    "roles": ["Compliance Officer"],
+    "title": "Policy Development",
+    "task": "Develop organizational policies to ensure compliance with industry regulations.",
+    "goal": "Establish clear guidelines and procedures for regulatory compliance.",
+    "context": "Policy creation and governance framework development.",
+    "details": "Include regulatory requirements, implementation procedures, and monitoring mechanisms.",
+    "categories": ["Compliance", "Policy"]
+  },
+  {
+    "id": "ComplianceOfficer-3",
+    "name": "Training Program Design",
+    "roles": ["Compliance Officer"],
+    "title": "Training Program Design",
+    "task": "Design compliance training programs for employees and stakeholders.",
+    "goal": "Educate staff on regulatory requirements and compliance procedures.",
+    "context": "Compliance education and awareness initiatives.",
+    "details": "Include training content, delivery methods, and effectiveness measurement.",
+    "categories": ["Compliance", "Training"]
+  },
+  {
+    "id": "ComplianceOfficer-4",
+    "name": "Incident Investigation",
+    "roles": ["Compliance Officer"],
+    "title": "Incident Investigation",
+    "task": "Investigate compliance incidents and implement corrective measures.",
+    "goal": "Address compliance violations and prevent future occurrences.",
+    "context": "Incident response and corrective action implementation.",
+    "details": "Include investigation procedures, root cause analysis, and remediation plans.",
+    "categories": ["Compliance", "Investigation"]
+  },
+  {
+    "id": "ComplianceOfficer-5",
+    "name": "Regulatory Reporting",
+    "roles": ["Compliance Officer"],
+    "title": "Regulatory Reporting",
+    "task": "Prepare and submit required regulatory reports to governing bodies.",
+    "goal": "Maintain transparency and demonstrate compliance to regulatory authorities.",
+    "context": "Regulatory reporting cycles and compliance documentation.",
+    "details": "Include data collection, report preparation, and submission procedures.",
+    "categories": ["Compliance", "Reporting"]
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "DataAnalyst-1",
+    "name": "Analyze Customer Behavior",
+    "roles": ["Data Analyst"],
+    "title": "Analyze Customer Behavior",
+    "task": "Analyze customer behavior patterns from user interaction data.",
+    "goal": "Identify trends and insights to improve customer experience and retention.",
+    "context": "Customer analytics and business intelligence reporting.",
+    "details": "Include segmentation analysis, funnel metrics, and actionable recommendations.",
+    "categories": ["Analytics", "Customer"]
+  },
+  {
+    "id": "DataAnalyst-2",
+    "name": "Create Data Dashboard",
+    "roles": ["Data Analyst"],
+    "title": "Create Data Dashboard",
+    "task": "Design and build an interactive dashboard for key business metrics.",
+    "goal": "Provide stakeholders with real-time visibility into business performance.",
+    "context": "Business intelligence and performance monitoring.",
+    "details": "Include KPI selection, visualization best practices, and automated reporting.",
+    "categories": ["Analytics", "Dashboard"]
+  },
+  {
+    "id": "DataAnalyst-3",
+    "name": "Perform A/B Test Analysis",
+    "roles": ["Data Analyst"],
+    "title": "Perform A/B Test Analysis",
+    "task": "Analyze results from an A/B test to determine statistical significance.",
+    "goal": "Provide data-driven recommendations for product or marketing decisions.",
+    "context": "Experimentation and optimization initiatives.",
+    "details": "Include statistical methods, confidence intervals, and business impact assessment.",
+    "categories": ["Analytics", "Testing"]
+  },
+  {
+    "id": "DataAnalyst-4",
+    "name": "Data Quality Assessment",
+    "roles": ["Data Analyst"],
+    "title": "Data Quality Assessment",
+    "task": "Evaluate data quality and identify issues in datasets.",
+    "goal": "Ensure data integrity and reliability for analysis and reporting.",
+    "context": "Data governance and quality assurance processes.",
+    "details": "Include completeness checks, accuracy validation, and remediation plans.",
+    "categories": ["Analytics", "Quality"]
+  },
+  {
+    "id": "DataAnalyst-5",
+    "name": "Predictive Model Development",
+    "roles": ["Data Analyst"],
+    "title": "Predictive Model Development",
+    "task": "Develop a predictive model to forecast business outcomes.",
+    "goal": "Enable proactive decision-making through data-driven predictions.",
+    "context": "Strategic planning and risk management.",
+    "details": "Include feature engineering, model selection, and validation techniques.",
+    "categories": ["Analytics", "Modeling"]
+  }
+]

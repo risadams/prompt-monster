@@ -1,0 +1,57 @@
+[
+  {
+    "id": "SupportAgent-1",
+    "name": "Handle Customer Inquiry",
+    "roles": ["Support Agent"],
+    "title": "Handle Customer Inquiry",
+    "task": "Respond to a customer inquiry about product features or functionality.",
+    "goal": "Provide accurate and helpful information to resolve customer questions.",
+    "context": "Customer support interactions and help desk operations.",
+    "details": "Include active listening, problem identification, and solution communication.",
+    "categories": ["Support", "Customer Service"]
+  },
+  {
+    "id": "SupportAgent-2",
+    "name": "Troubleshoot Technical Issue",
+    "roles": ["Support Agent"],
+    "title": "Troubleshoot Technical Issue",
+    "task": "Diagnose and resolve a technical problem reported by a customer.",
+    "goal": "Quickly identify and fix issues to minimize customer downtime.",
+    "context": "Technical support and problem resolution activities.",
+    "details": "Include diagnostic procedures, escalation criteria, and documentation requirements.",
+    "categories": ["Support", "Technical"]
+  },
+  {
+    "id": "SupportAgent-3",
+    "name": "Escalate Complex Issues",
+    "roles": ["Support Agent"],
+    "title": "Escalate Complex Issues",
+    "task": "Properly escalate complex customer issues to appropriate technical teams.",
+    "goal": "Ensure customer issues receive appropriate expertise and resolution.",
+    "context": "Multi-tier support operations and issue management.",
+    "details": "Include escalation criteria, handoff procedures, and communication protocols.",
+    "categories": ["Support", "Escalation"]
+  },
+  {
+    "id": "SupportAgent-4",
+    "name": "Document Support Cases",
+    "roles": ["Support Agent"],
+    "title": "Document Support Cases",
+    "task": "Create comprehensive documentation for customer support cases.",
+    "goal": "Maintain accurate records and enable knowledge sharing across the team.",
+    "context": "Case management and knowledge base maintenance.",
+    "details": "Include case details, resolution steps, and follow-up requirements.",
+    "categories": ["Support", "Documentation"]
+  },
+  {
+    "id": "SupportAgent-5",
+    "name": "Customer Follow-up",
+    "roles": ["Support Agent"],
+    "title": "Customer Follow-up",
+    "task": "Follow up with customers to ensure satisfaction and issue resolution.",
+    "goal": "Verify customer satisfaction and identify any additional support needs.",
+    "context": "Post-resolution customer relationship management.",
+    "details": "Include satisfaction surveys, feedback collection, and relationship building.",
+    "categories": ["Support", "Follow-up"]
+  }
+]

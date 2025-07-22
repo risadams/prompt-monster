@@ -1,0 +1,57 @@
+[
+  {
+    "id": "Stakeholder-1",
+    "name": "Define Project Requirements",
+    "roles": ["Stakeholder"],
+    "title": "Define Project Requirements",
+    "task": "Clearly articulate business requirements and success criteria for a project.",
+    "goal": "Ensure project alignment with business objectives and stakeholder needs.",
+    "context": "Project initiation and requirements gathering phases.",
+    "details": "Include functional requirements, acceptance criteria, and success metrics.",
+    "categories": ["Stakeholder", "Requirements"]
+  },
+  {
+    "id": "Stakeholder-2",
+    "name": "Provide Project Feedback",
+    "roles": ["Stakeholder"],
+    "title": "Provide Project Feedback",
+    "task": "Review project deliverables and provide constructive feedback to the team.",
+    "goal": "Ensure deliverables meet expectations and business requirements.",
+    "context": "Project review cycles and milestone evaluations.",
+    "details": "Include feedback criteria, communication methods, and follow-up processes.",
+    "categories": ["Stakeholder", "Feedback"]
+  },
+  {
+    "id": "Stakeholder-3",
+    "name": "Budget Approval Process",
+    "roles": ["Stakeholder"],
+    "title": "Budget Approval Process",
+    "task": "Evaluate and approve project budgets and resource allocations.",
+    "goal": "Ensure appropriate funding while maintaining fiscal responsibility.",
+    "context": "Budget planning and financial decision-making.",
+    "details": "Include cost-benefit analysis, ROI evaluation, and approval criteria.",
+    "categories": ["Stakeholder", "Budget"]
+  },
+  {
+    "id": "Stakeholder-4",
+    "name": "Change Request Evaluation",
+    "roles": ["Stakeholder"],
+    "title": "Change Request Evaluation",
+    "task": "Assess and approve changes to project scope or requirements.",
+    "goal": "Balance business needs with project constraints and timelines.",
+    "context": "Change management and scope control activities.",
+    "details": "Include impact assessment, priority evaluation, and decision criteria.",
+    "categories": ["Stakeholder", "Change Management"]
+  },
+  {
+    "id": "Stakeholder-5",
+    "name": "Project Outcome Assessment",
+    "roles": ["Stakeholder"],
+    "title": "Project Outcome Assessment",
+    "task": "Evaluate project outcomes against original objectives and expectations.",
+    "goal": "Measure project success and identify lessons learned for future initiatives.",
+    "context": "Project closure and post-implementation review.",
+    "details": "Include success metrics, benefit realization, and improvement recommendations.",
+    "categories": ["Stakeholder", "Assessment"]
+  }
+]

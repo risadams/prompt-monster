@@ -1,0 +1,57 @@
+[
+  {
+    "id": "UIDesigner-1",
+    "name": "Design User Interface Mockups",
+    "roles": ["UI Designer"],
+    "title": "Design User Interface Mockups",
+    "task": "Create detailed UI mockups for a new application or feature.",
+    "goal": "Provide visual specifications for development teams and stakeholder approval.",
+    "context": "UI design and prototyping phases of product development.",
+    "details": "Include layout, typography, color schemes, and interactive elements.",
+    "categories": ["UI", "Design"]
+  },
+  {
+    "id": "UIDesigner-2",
+    "name": "Create Design System",
+    "roles": ["UI Designer"],
+    "title": "Create Design System",
+    "task": "Develop a comprehensive design system with reusable UI components.",
+    "goal": "Ensure consistency and efficiency across all product interfaces.",
+    "context": "Design standardization and component library development.",
+    "details": "Include style guides, component specifications, and usage guidelines.",
+    "categories": ["UI", "Design System"]
+  },
+  {
+    "id": "UIDesigner-3",
+    "name": "Responsive Design Implementation",
+    "roles": ["UI Designer"],
+    "title": "Responsive Design Implementation",
+    "task": "Design responsive interfaces that work across different devices and screen sizes.",
+    "goal": "Ensure optimal user experience on desktop, tablet, and mobile devices.",
+    "context": "Multi-device application development and accessibility requirements.",
+    "details": "Include breakpoints, grid systems, and adaptive layout strategies.",
+    "categories": ["UI", "Responsive"]
+  },
+  {
+    "id": "UIDesigner-4",
+    "name": "Visual Hierarchy Optimization",
+    "roles": ["UI Designer"],
+    "title": "Visual Hierarchy Optimization",
+    "task": "Optimize visual hierarchy to guide user attention and improve usability.",
+    "goal": "Enhance user comprehension and task completion through effective design.",
+    "context": "Interface refinement and usability improvement initiatives.",
+    "details": "Include typography, spacing, color contrast, and element prioritization.",
+    "categories": ["UI", "Usability"]
+  },
+  {
+    "id": "UIDesigner-5",
+    "name": "Design Handoff Documentation",
+    "roles": ["UI Designer"],
+    "title": "Design Handoff Documentation",
+    "task": "Create detailed design specifications for development team implementation.",
+    "goal": "Ensure accurate translation of designs into functional interfaces.",
+    "context": "Design-to-development handoff and implementation support.",
+    "details": "Include asset preparation, spacing specifications, and interaction details.",
+    "categories": ["UI", "Documentation"]
+  }
+]

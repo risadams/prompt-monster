@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ContentWriter-1",
+    "name": "Create Blog Post",
+    "roles": ["Content Writer"],
+    "title": "Create Blog Post",
+    "task": "Write an engaging blog post on a specific topic for the target audience.",
+    "goal": "Drive traffic and engagement through high-quality, SEO-optimized content.",
+    "context": "Content marketing campaigns and brand awareness initiatives.",
+    "details": "Include keyword research, compelling headlines, and clear call-to-actions.",
+    "categories": ["Content", "Blog"]
+  },
+  {
+    "id": "ContentWriter-2",
+    "name": "Develop Content Strategy",
+    "roles": ["Content Writer"],
+    "title": "Develop Content Strategy",
+    "task": "Create a comprehensive content strategy for a product or campaign.",
+    "goal": "Align content creation with business objectives and audience needs.",
+    "context": "Marketing planning and content calendar development.",
+    "details": "Include content pillars, publishing schedule, and performance metrics.",
+    "categories": ["Content", "Strategy"]
+  },
+  {
+    "id": "ContentWriter-3",
+    "name": "Write Product Descriptions",
+    "roles": ["Content Writer"],
+    "title": "Write Product Descriptions",
+    "task": "Create compelling product descriptions that convert browsers into buyers.",
+    "goal": "Increase product sales through persuasive and informative copy.",
+    "context": "E-commerce platforms and product launches.",
+    "details": "Include benefit-focused language, technical specifications, and SEO keywords.",
+    "categories": ["Content", "Product"]
+  },
+  {
+    "id": "ContentWriter-4",
+    "name": "Create Email Campaign",
+    "roles": ["Content Writer"],
+    "title": "Create Email Campaign",
+    "task": "Develop email content for a marketing campaign or newsletter.",
+    "goal": "Engage subscribers and drive desired actions through targeted messaging.",
+    "context": "Email marketing campaigns and customer communication.",
+    "details": "Include subject lines, personalization, and clear CTAs.",
+    "categories": ["Content", "Email"]
+  },
+  {
+    "id": "ContentWriter-5",
+    "name": "Write Social Media Content",
+    "roles": ["Content Writer"],
+    "title": "Write Social Media Content",
+    "task": "Create engaging social media posts for various platforms.",
+    "goal": "Build brand awareness and community engagement on social channels.",
+    "context": "Social media marketing and brand promotion.",
+    "details": "Include platform-specific formatting, hashtags, and visual content suggestions.",
+    "categories": ["Content", "Social Media"]
+  }
+]

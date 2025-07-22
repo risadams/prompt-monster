@@ -1,0 +1,57 @@
+[
+  {
+    "id": "MarketingManager-1",
+    "name": "Develop Marketing Campaign",
+    "roles": ["Marketing Manager"],
+    "title": "Develop Marketing Campaign",
+    "task": "Create a comprehensive marketing campaign for a new product launch.",
+    "goal": "Generate awareness, leads, and sales through integrated marketing efforts.",
+    "context": "Product launches and promotional activities.",
+    "details": "Include target audience analysis, channel strategy, and budget allocation.",
+    "categories": ["Marketing", "Campaign"]
+  },
+  {
+    "id": "MarketingManager-2",
+    "name": "Market Research Analysis",
+    "roles": ["Marketing Manager"],
+    "title": "Market Research Analysis",
+    "task": "Conduct market research to identify opportunities and threats.",
+    "goal": "Inform strategic marketing decisions with data-driven insights.",
+    "context": "Strategic planning and competitive analysis.",
+    "details": "Include competitor analysis, market sizing, and customer surveys.",
+    "categories": ["Marketing", "Research"]
+  },
+  {
+    "id": "MarketingManager-3",
+    "name": "Brand Positioning Strategy",
+    "roles": ["Marketing Manager"],
+    "title": "Brand Positioning Strategy",
+    "task": "Define brand positioning and messaging for target markets.",
+    "goal": "Differentiate the brand and create compelling value propositions.",
+    "context": "Brand development and marketing communications.",
+    "details": "Include brand attributes, competitive differentiation, and messaging framework.",
+    "categories": ["Marketing", "Branding"]
+  },
+  {
+    "id": "MarketingManager-4",
+    "name": "Performance Metrics Dashboard",
+    "roles": ["Marketing Manager"],
+    "title": "Performance Metrics Dashboard",
+    "task": "Design a dashboard to track marketing performance and ROI.",
+    "goal": "Monitor campaign effectiveness and optimize marketing spend.",
+    "context": "Campaign management and performance optimization.",
+    "details": "Include KPI selection, attribution modeling, and reporting automation.",
+    "categories": ["Marketing", "Analytics"]
+  },
+  {
+    "id": "MarketingManager-5",
+    "name": "Customer Journey Mapping",
+    "roles": ["Marketing Manager"],
+    "title": "Customer Journey Mapping",
+    "task": "Map the customer journey from awareness to conversion.",
+    "goal": "Optimize touchpoints and improve customer experience.",
+    "context": "Customer experience optimization and conversion improvement.",
+    "details": "Include touchpoint analysis, pain point identification, and optimization opportunities.",
+    "categories": ["Marketing", "Customer Experience"]
+  }
+]

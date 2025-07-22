@@ -1,0 +1,57 @@
+[
+  {
+    "id": "SolutionArchitect-1",
+    "name": "Design System Architecture",
+    "roles": ["Solution Architect"],
+    "title": "Design System Architecture",
+    "task": "Design a scalable and robust system architecture for a new application.",
+    "goal": "Create a technical blueprint that meets functional and non-functional requirements.",
+    "context": "System design and architecture planning phases.",
+    "details": "Include architectural patterns, technology stack, and scalability considerations.",
+    "categories": ["Architecture", "Design"]
+  },
+  {
+    "id": "SolutionArchitect-2",
+    "name": "Technology Evaluation",
+    "roles": ["Solution Architect"],
+    "title": "Technology Evaluation",
+    "task": "Evaluate and recommend technologies for a specific project or solution.",
+    "goal": "Select the most appropriate technology stack for project requirements.",
+    "context": "Technology selection and architectural decision-making.",
+    "details": "Include comparison criteria, trade-off analysis, and implementation considerations.",
+    "categories": ["Architecture", "Technology"]
+  },
+  {
+    "id": "SolutionArchitect-3",
+    "name": "Integration Strategy",
+    "roles": ["Solution Architect"],
+    "title": "Integration Strategy",
+    "task": "Design an integration strategy for connecting multiple systems and services.",
+    "goal": "Ensure seamless data flow and communication between system components.",
+    "context": "System integration and API design projects.",
+    "details": "Include integration patterns, data formats, and error handling strategies.",
+    "categories": ["Architecture", "Integration"]
+  },
+  {
+    "id": "SolutionArchitect-4",
+    "name": "Performance Optimization",
+    "roles": ["Solution Architect"],
+    "title": "Performance Optimization",
+    "task": "Analyze and optimize system performance for scalability and efficiency.",
+    "goal": "Ensure systems meet performance requirements under expected load.",
+    "context": "Performance tuning and optimization initiatives.",
+    "details": "Include bottleneck analysis, caching strategies, and load balancing.",
+    "categories": ["Architecture", "Performance"]
+  },
+  {
+    "id": "SolutionArchitect-5",
+    "name": "Architecture Documentation",
+    "roles": ["Solution Architect"],
+    "title": "Architecture Documentation",
+    "task": "Create comprehensive architecture documentation for development teams.",
+    "goal": "Provide clear guidance for implementation and maintenance activities.",
+    "context": "Architecture communication and knowledge transfer.",
+    "details": "Include diagrams, design decisions, and implementation guidelines.",
+    "categories": ["Architecture", "Documentation"]
+  }
+]

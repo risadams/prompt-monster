@@ -1,0 +1,57 @@
+[
+  {
+    "id": "SalesRep-1",
+    "name": "Qualify Sales Lead",
+    "roles": ["Sales Rep"],
+    "title": "Qualify Sales Lead",
+    "task": "Assess and qualify a potential sales lead for fit and opportunity.",
+    "goal": "Identify high-quality prospects to maximize sales conversion rates.",
+    "context": "Lead generation and sales pipeline management.",
+    "details": "Include BANT criteria, discovery questions, and lead scoring.",
+    "categories": ["Sales", "Lead Qualification"]
+  },
+  {
+    "id": "SalesRep-2",
+    "name": "Product Demonstration",
+    "roles": ["Sales Rep"],
+    "title": "Product Demonstration",
+    "task": "Conduct an effective product demonstration for potential customers.",
+    "goal": "Showcase product value and move prospects closer to purchase decision.",
+    "context": "Sales presentations and customer meetings.",
+    "details": "Include demo preparation, customization, and objection handling.",
+    "categories": ["Sales", "Demo"]
+  },
+  {
+    "id": "SalesRep-3",
+    "name": "Handle Sales Objections",
+    "roles": ["Sales Rep"],
+    "title": "Handle Sales Objections",
+    "task": "Address customer objections and concerns during the sales process.",
+    "goal": "Overcome barriers to purchase and build customer confidence.",
+    "context": "Sales conversations and negotiation phases.",
+    "details": "Include common objections, response techniques, and follow-up strategies.",
+    "categories": ["Sales", "Objections"]
+  },
+  {
+    "id": "SalesRep-4",
+    "name": "Close Sales Deal",
+    "roles": ["Sales Rep"],
+    "title": "Close Sales Deal",
+    "task": "Execute closing techniques to finalize a sales transaction.",
+    "goal": "Convert qualified prospects into paying customers.",
+    "context": "Final stages of the sales process.",
+    "details": "Include closing signals, negotiation tactics, and contract finalization.",
+    "categories": ["Sales", "Closing"]
+  },
+  {
+    "id": "SalesRep-5",
+    "name": "Customer Relationship Management",
+    "roles": ["Sales Rep"],
+    "title": "Customer Relationship Management",
+    "task": "Maintain and nurture relationships with existing customers.",
+    "goal": "Ensure customer satisfaction and identify upselling opportunities.",
+    "context": "Post-sale customer success and account management.",
+    "details": "Include follow-up strategies, satisfaction monitoring, and expansion planning.",
+    "categories": ["Sales", "Relationship Management"]
+  }
+]

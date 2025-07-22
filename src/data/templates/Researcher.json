@@ -1,0 +1,57 @@
+[
+  {
+    "id": "Researcher-1",
+    "name": "Conduct Literature Review",
+    "roles": ["Researcher"],
+    "title": "Conduct Literature Review",
+    "task": "Perform a comprehensive literature review on a specific research topic.",
+    "goal": "Identify knowledge gaps and establish theoretical foundation for research.",
+    "context": "Research project initiation and background analysis.",
+    "details": "Include database searches, source evaluation, and synthesis of findings.",
+    "categories": ["Research", "Literature"]
+  },
+  {
+    "id": "Researcher-2",
+    "name": "Design Research Methodology",
+    "roles": ["Researcher"],
+    "title": "Design Research Methodology",
+    "task": "Develop a research methodology for investigating a specific hypothesis.",
+    "goal": "Ensure rigorous and valid research approach for reliable results.",
+    "context": "Research design and methodology planning.",
+    "details": "Include sample selection, data collection methods, and analysis techniques.",
+    "categories": ["Research", "Methodology"]
+  },
+  {
+    "id": "Researcher-3",
+    "name": "Analyze Research Data",
+    "roles": ["Researcher"],
+    "title": "Analyze Research Data",
+    "task": "Analyze collected research data using appropriate statistical methods.",
+    "goal": "Extract meaningful insights and validate or refute research hypotheses.",
+    "context": "Data analysis phase of research projects.",
+    "details": "Include statistical techniques, visualization, and interpretation of results.",
+    "categories": ["Research", "Analysis"]
+  },
+  {
+    "id": "Researcher-4",
+    "name": "Write Research Paper",
+    "roles": ["Researcher"],
+    "title": "Write Research Paper",
+    "task": "Compose a research paper presenting findings and conclusions.",
+    "goal": "Communicate research results to the academic and professional community.",
+    "context": "Research dissemination and publication activities.",
+    "details": "Include structure, citation standards, and peer review preparation.",
+    "categories": ["Research", "Publication"]
+  },
+  {
+    "id": "Researcher-5",
+    "name": "Grant Proposal Writing",
+    "roles": ["Researcher"],
+    "title": "Grant Proposal Writing",
+    "task": "Develop a compelling grant proposal for research funding.",
+    "goal": "Secure funding to support research activities and objectives.",
+    "context": "Research funding and proposal development.",
+    "details": "Include budget justification, timeline, and impact assessment.",
+    "categories": ["Research", "Funding"]
+  }
+]

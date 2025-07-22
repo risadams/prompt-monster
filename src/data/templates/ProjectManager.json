@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ProjectManager-1",
+    "name": "Create Project Plan",
+    "roles": ["Project Manager"],
+    "title": "Create Project Plan",
+    "task": "Develop a comprehensive project plan with timelines, resources, and deliverables.",
+    "goal": "Ensure successful project delivery within scope, time, and budget constraints.",
+    "context": "Project initiation and planning phases.",
+    "details": "Include work breakdown structure, resource allocation, and risk mitigation.",
+    "categories": ["Project Management", "Planning"]
+  },
+  {
+    "id": "ProjectManager-2",
+    "name": "Manage Project Risk",
+    "roles": ["Project Manager"],
+    "title": "Manage Project Risk",
+    "task": "Identify, assess, and mitigate project risks throughout the lifecycle.",
+    "goal": "Minimize negative impacts and maximize project success probability.",
+    "context": "Ongoing risk management and project monitoring.",
+    "details": "Include risk register, impact assessment, and contingency planning.",
+    "categories": ["Project Management", "Risk"]
+  },
+  {
+    "id": "ProjectManager-3",
+    "name": "Stakeholder Communication",
+    "roles": ["Project Manager"],
+    "title": "Stakeholder Communication",
+    "task": "Develop a communication plan for project stakeholders.",
+    "goal": "Ensure alignment and transparency throughout the project lifecycle.",
+    "context": "Stakeholder engagement and project reporting.",
+    "details": "Include communication matrix, reporting schedules, and escalation procedures.",
+    "categories": ["Project Management", "Communication"]
+  },
+  {
+    "id": "ProjectManager-4",
+    "name": "Resource Management",
+    "roles": ["Project Manager"],
+    "title": "Resource Management",
+    "task": "Optimize resource allocation and utilization across project activities.",
+    "goal": "Maximize efficiency and ensure adequate resources for project success.",
+    "context": "Resource planning and team management.",
+    "details": "Include capacity planning, skill assessment, and resource leveling.",
+    "categories": ["Project Management", "Resources"]
+  },
+  {
+    "id": "ProjectManager-5",
+    "name": "Project Status Reporting",
+    "roles": ["Project Manager"],
+    "title": "Project Status Reporting",
+    "task": "Create regular status reports for project stakeholders and leadership.",
+    "goal": "Maintain visibility into project progress and identify issues early.",
+    "context": "Project monitoring and control activities.",
+    "details": "Include progress metrics, milestone tracking, and issue escalation.",
+    "categories": ["Project Management", "Reporting"]
+  }
+]
