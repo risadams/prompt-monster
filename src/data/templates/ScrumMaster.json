@@ -130,5 +130,137 @@
     "context": "Regular backlog grooming sessions.",
     "details": "Include techniques for effective refinement and prioritization.",
     "categories": ["Agile", "Backlog Refinement"]
+  },
+  {
+    "id": "SM-13",
+    "name": "Sprint Review Facilitation",
+    "roles": ["Scrum Master"],
+    "title": "Sprint Review Facilitation",
+    "task": "Design an effective sprint review meeting to showcase completed work to stakeholders.",
+    "goal": "Demonstrate sprint achievements and gather valuable stakeholder feedback.",
+    "context": "End of sprint review meetings.",
+    "details": "Include demo preparation, stakeholder engagement, and feedback collection methods.",
+    "categories": ["Agile", "Sprint Review"]
+  },
+  {
+    "id": "SM-14",
+    "name": "Cross-Team Coordination",
+    "roles": ["Scrum Master"],
+    "title": "Cross-Team Coordination",
+    "task": "Establish coordination mechanisms between multiple Scrum teams working on related products.",
+    "goal": "Ensure alignment and minimize dependencies between teams.",
+    "context": "Multi-team scaled Agile environments.",
+    "details": "Include Scrum of Scrums, dependency management, and communication protocols.",
+    "categories": ["Agile", "Scaling"]
+  },
+  {
+    "id": "SM-15",
+    "name": "Team Formation and Storming",
+    "roles": ["Scrum Master"],
+    "title": "Team Formation and Storming",
+    "task": "Guide a newly formed team through the forming and storming phases of team development.",
+    "goal": "Accelerate team maturity and establish productive working relationships.",
+    "context": "New team formation or significant team changes.",
+    "details": "Include team-building activities, role clarification, and conflict navigation strategies.",
+    "categories": ["Agile", "Team Development"]
+  },
+  {
+    "id": "SM-16",
+    "name": "Definition of Done Management",
+    "roles": ["Scrum Master"],
+    "title": "Definition of Done Management",
+    "task": "Facilitate the creation and evolution of the team's Definition of Done.",
+    "goal": "Ensure consistent quality standards and shared understanding of completion criteria.",
+    "context": "Team formation and continuous improvement initiatives.",
+    "details": "Include quality criteria, acceptance standards, and regular review processes.",
+    "categories": ["Agile", "Quality"]
+  },
+  {
+    "id": "SM-17",
+    "name": "Stakeholder Engagement Strategy",
+    "roles": ["Scrum Master"],
+    "title": "Stakeholder Engagement Strategy",
+    "task": "Develop a strategy for effective stakeholder engagement throughout the project.",
+    "goal": "Maintain stakeholder buy-in and ensure their needs are addressed.",
+    "context": "Project initiation and ongoing stakeholder management.",
+    "details": "Include communication plans, feedback loops, and expectation management.",
+    "categories": ["Agile", "Stakeholder Management"]
+  },
+  {
+    "id": "SM-18",
+    "name": "Technical Debt Management",
+    "roles": ["Scrum Master"],
+    "title": "Technical Debt Management",
+    "task": "Help the team identify, prioritize, and address technical debt in the product backlog.",
+    "goal": "Balance feature delivery with long-term code quality and maintainability.",
+    "context": "Sprint planning and backlog refinement sessions.",
+    "details": "Include debt identification techniques, prioritization frameworks, and communication with stakeholders.",
+    "categories": ["Agile", "Technical Debt"]
+  },
+  {
+    "id": "SM-19",
+    "name": "Remote Team Facilitation",
+    "roles": ["Scrum Master"],
+    "title": "Remote Team Facilitation",
+    "task": "Adapt Scrum ceremonies and practices for distributed or remote teams.",
+    "goal": "Maintain team effectiveness and collaboration in virtual environments.",
+    "context": "Remote or hybrid team configurations.",
+    "details": "Include virtual facilitation techniques, tools, and engagement strategies.",
+    "categories": ["Agile", "Remote Work"]
+  },
+  {
+    "id": "SM-20",
+    "name": "Product Owner Coaching",
+    "roles": ["Scrum Master"],
+    "title": "Product Owner Coaching",
+    "task": "Coach the Product Owner on effective backlog management and stakeholder communication.",
+    "goal": "Support Product Owner effectiveness and team-PO collaboration.",
+    "context": "Ongoing Product Owner development and team dynamics.",
+    "details": "Include backlog techniques, stakeholder management, and decision-making frameworks.",
+    "categories": ["Agile", "Product Owner Support"]
+  },
+  {
+    "id": "SM-21",
+    "name": "Velocity Trending and Forecasting",
+    "roles": ["Scrum Master"],
+    "title": "Velocity Trending and Forecasting",
+    "task": "Use velocity data to help the team and stakeholders make realistic forecasts.",
+    "goal": "Improve predictability and set realistic expectations for delivery.",
+    "context": "Sprint planning and release planning activities.",
+    "details": "Include statistical analysis, trend identification, and communication of uncertainty.",
+    "categories": ["Agile", "Forecasting"]
+  },
+  {
+    "id": "SM-22",
+    "name": "Organizational Impediment Escalation",
+    "roles": ["Scrum Master"],
+    "title": "Organizational Impediment Escalation",
+    "task": "Navigate organizational impediments that are beyond the team's control.",
+    "goal": "Remove systemic barriers that prevent team effectiveness.",
+    "context": "When team-level impediments require organizational change.",
+    "details": "Include escalation strategies, stakeholder engagement, and change advocacy.",
+    "categories": ["Agile", "Organizational Change"]
+  },
+  {
+    "id": "SM-23",
+    "name": "Agile Maturity Assessment",
+    "roles": ["Scrum Master"],
+    "title": "Agile Maturity Assessment",
+    "task": "Assess the team's Agile maturity and create an improvement roadmap.",
+    "goal": "Identify growth opportunities and guide the team's Agile journey.",
+    "context": "Periodic team assessment and development planning.",
+    "details": "Include maturity models, assessment techniques, and development planning.",
+    "categories": ["Agile", "Maturity Assessment"]
+  },
+  {
+    "id": "SM-24",
+    "name": "Innovation and Experimentation",
+    "roles": ["Scrum Master"],
+    "title": "Innovation and Experimentation",
+    "task": "Encourage and facilitate team experimentation with new practices and technologies.",
+    "goal": "Foster innovation and continuous learning within the team.",
+    "context": "Retrospectives and improvement initiatives.",
+    "details": "Include experimentation frameworks, hypothesis testing, and learning validation.",
+    "categories": ["Agile", "Innovation"]
   }
 ]
