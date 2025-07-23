@@ -33,6 +33,7 @@ function App() {
   });
   const [showInstructions, setShowInstructions] = useState(true);
   const [isFormValid, setIsFormValid] = useState(false);
+  const [showTemplatesDrawer, setShowTemplatesDrawer] = useState(false);
   // Template search/filter state
   const [templateSearch, setTemplateSearch] = useState('');
   const [roleFilter, setRoleFilter] = useState('');
@@ -150,6 +151,8 @@ function App() {
     announcer.className = 'sr-only';
     document.body.appendChild(announcer);
     setTimeout(() => document.body.removeChild(announcer), 1000);
+
+    if (window.innerWidth < 1024) setShowTemplatesDrawer(false);
   }, [formData, userModifications]);
 
   // Clear current template
@@ -200,31 +203,24 @@ function App() {
   }, []);
 
   return (
-    <div
-      className="min-h-screen flex flex-col bg-gradient-to-br from-indigo-100 via-indigo-200 to-white font-sans text-slate-900"
-    >
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-indigo-100 via-indigo-200 to-white font-sans text-slate-900">
       {/* Skip to content link for accessibility */}
       <a href="#main-content" className="sr-only focus:not-sr-only absolute left-2 top-2 z-50 bg-white text-indigo-700 px-4 py-2 rounded shadow transition focus:outline-none focus:ring-2 focus:ring-indigo-400">Skip to main content</a>
       <Header />
       <main id="main-content" className="flex-1 w-full max-w-6xl mx-auto px-4 py-6" role="main">
-        <Instructions showInstructions={showInstructions} setShowInstructions={setShowInstructions} />
-        <div className="grid grid-cols-1 lg:grid-cols-[340px_1fr] gap-8 mb-8">
-          <TemplateLibrary
-            templates={templates}
-            currentTemplate={currentTemplate}
-            clearTemplate={clearTemplate}
-            applyTemplate={applyTemplate}
-            templateSearch={templateSearch}
-            setTemplateSearch={setTemplateSearch}
-            roleFilter={roleFilter}
-            setRoleFilter={setRoleFilter}
-            categoryFilter={categoryFilter}
-            setCategoryFilter={setCategoryFilter}
-            uniqueRoles={uniqueRoles}
-            uniqueCategories={uniqueCategories}
-            filteredTemplates={filteredTemplates}
-          />
-          <section className="w-full" aria-label="Prompt Builder">
+        {/* Show Templates button for medium and below */}
+        <button
+          className="lg:hidden fixed top-4 right-4 z-40 bg-violet-700 text-white px-4 py-2 rounded-lg shadow-lg focus:outline-none focus:ring-2 focus:ring-violet-400"
+          onClick={() => setShowTemplatesDrawer(true)}
+          aria-label="Show Templates"
+        >
+          📚 Show Templates
+        </button>
+        <Instructions showInstructions={showInstructions && window.innerWidth >= 1024} setShowInstructions={setShowInstructions} />
+        {/* Responsive layout: golden ratio columns on large, single column on medium and below */}
+        <div className="mb-8 grid grid-cols-1 lg:grid-cols-[61.8%_38.2%] gap-8">
+          {/* Prompt Builder always first, full width of column */}
+          <section className="w-full order-1" aria-label="Prompt Builder">
             <div className="liquid-glass p-8 transition hover:shadow-2xl">
               <div className="flex items-center justify-between gap-4 mb-6">
                 <h2 className="flex items-center gap-2 text-xl font-bold text-violet-700"><span role='img' aria-label='monster'>👹</span>Prompt Builder</h2>
@@ -249,7 +245,61 @@ function App() {
               <PromptSection prompt={prompt} />
             </div>
           </section>
+          {/* Template Library: only visible as column on large screens */}
+          <aside className="hidden lg:block w-full order-2">
+            <TemplateLibrary
+              templates={templates}
+              currentTemplate={currentTemplate}
+              clearTemplate={clearTemplate}
+              applyTemplate={applyTemplate}
+              templateSearch={templateSearch}
+              setTemplateSearch={setTemplateSearch}
+              roleFilter={roleFilter}
+              setRoleFilter={setRoleFilter}
+              categoryFilter={categoryFilter}
+              setCategoryFilter={setCategoryFilter}
+              uniqueRoles={uniqueRoles}
+              uniqueCategories={uniqueCategories}
+              filteredTemplates={filteredTemplates}
+              fullWidth={true}
+            />
+          </aside>
         </div>
+        {/* Slideout Drawer for Template Library on medium and below */}
+        {showTemplatesDrawer && (
+          <div className="fixed inset-0 z-50 flex">
+            {/* Overlay */}
+            <div className="flex-1 liquid-glass backdrop-blur-lg" onClick={() => setShowTemplatesDrawer(false)} />
+            {/* Drawer: full width on medium and below */}
+            <aside className="relative w-full h-full bg-white shadow-2xl animate-slideInRight flex flex-col">
+              <button
+                className="absolute top-3 right-3 z-10 text-white bg-violet-700 hover:bg-violet-800 w-10 h-10 flex items-center justify-center rounded-full shadow-lg text-2xl font-bold focus:outline-none focus:ring-2 focus:ring-violet-400"
+                onClick={() => setShowTemplatesDrawer(false)}
+                aria-label="Close Templates"
+              >
+                ×
+              </button>
+              <div className="pt-12 pb-4 px-2 overflow-y-auto flex-1">
+                <TemplateLibrary
+                  templates={templates}
+                  currentTemplate={currentTemplate}
+                  clearTemplate={clearTemplate}
+                  applyTemplate={applyTemplate}
+                  templateSearch={templateSearch}
+                  setTemplateSearch={setTemplateSearch}
+                  roleFilter={roleFilter}
+                  setRoleFilter={setRoleFilter}
+                  categoryFilter={categoryFilter}
+                  setCategoryFilter={setCategoryFilter}
+                  uniqueRoles={uniqueRoles}
+                  uniqueCategories={uniqueCategories}
+                  filteredTemplates={filteredTemplates}
+                  fullWidth={true}
+                />
+              </div>
+            </aside>
+          </div>
+        )}
       </main>
       <Footer />
     </div>

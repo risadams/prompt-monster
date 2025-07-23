@@ -4,7 +4,8 @@ function TemplateLibrary({
   templates,
   currentTemplate,
   clearTemplate,
-  applyTemplate
+  applyTemplate,
+  fullWidth = false
 }) {
   const [templateSearch, setTemplateSearch] = useState('');
   const [roleFilter, setRoleFilter] = useState('');
@@ -23,7 +24,7 @@ function TemplateLibrary({
   }), [templates, templateSearch, roleFilter, categoryFilter]);
 
   return (
-    <aside className="sticky top-4 h-fit w-full max-w-xs" aria-label="Template Library">
+    <aside className={`${fullWidth ? 'sticky top-0 h-full w-full max-w-full' : 'sticky top-4 h-fit w-full max-w-xs'}`} aria-label="Template Library">
       <div className="liquid-glass p-6 mb-6">
         <div className="flex items-center justify-between gap-4 mb-6">
           <h2 className="text-lg font-bold text-violet-700">Template Library</h2>
