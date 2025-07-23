@@ -200,7 +200,9 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-indigo-100 via-indigo-200 to-white font-sans text-slate-900">
+    <div
+      className="min-h-screen flex flex-col bg-gradient-to-br from-indigo-100 via-indigo-200 to-white font-sans text-slate-900"
+    >
       {/* Skip to content link for accessibility */}
       <a href="#main-content" className="sr-only focus:not-sr-only absolute left-2 top-2 z-50 bg-white text-indigo-700 px-4 py-2 rounded shadow transition focus:outline-none focus:ring-2 focus:ring-indigo-400">Skip to main content</a>
       <Header />
@@ -223,7 +225,7 @@ function App() {
             filteredTemplates={filteredTemplates}
           />
           <section className="w-full" aria-label="Prompt Builder">
-            <div className="bg-white rounded-2xl shadow-xl border border-slate-100 p-8 transition hover:shadow-2xl">
+            <div className="liquid-glass p-8 transition hover:shadow-2xl">
               <div className="flex items-center justify-between gap-4 mb-6">
                 <h2 className="flex items-center gap-2 text-xl font-bold text-violet-700"><span role='img' aria-label='monster'>👹</span>Prompt Builder</h2>
                 <div className="flex gap-2">

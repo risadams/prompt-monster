@@ -24,7 +24,7 @@ function TemplateLibrary({
 
   return (
     <aside className="sticky top-4 h-fit w-full max-w-xs" aria-label="Template Library">
-      <div className="bg-white rounded-2xl shadow-lg border border-slate-100 p-6 mb-6">
+      <div className="liquid-glass p-6 mb-6">
         <div className="flex items-center justify-between gap-4 mb-6">
           <h2 className="text-lg font-bold text-violet-700">Template Library</h2>
           {currentTemplate && (

@@ -1,16 +1,37 @@
 @import "tailwindcss";
 
 /* Add any custom styles below using @layer if needed */
-@theme {
-  --font-display: "inter", "sans-serif";
-  --breakpoint-3xl: 1920px;
-  --color-avocado-100: oklch(0.99 0 0);
-  --color-avocado-200: oklch(0.98 0.04 113.22);
-  --color-avocado-300: oklch(0.94 0.11 115.03);
-  --color-avocado-400: oklch(0.92 0.19 114.08);
-  --color-avocado-500: oklch(0.84 0.18 117.33);
-  --color-avocado-600: oklch(0.53 0.12 118.34);
-  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
-  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
-  /* ... */
+@layer base {
+  :root {
+    --font-display: "inter", "sans-serif";
+    --breakpoint-3xl: 1920px;
+    --color-avocado-100: oklch(0.99 0 0);
+    --color-avocado-200: oklch(0.98 0.04 113.22);
+    --color-avocado-300: oklch(0.94 0.11 115.03);
+    --color-avocado-400: oklch(0.92 0.19 114.08);
+    --color-avocado-500: oklch(0.84 0.18 117.33);
+    --color-avocado-600: oklch(0.53 0.12 118.34);
+    --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+    --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+    --pattern-color: oklch(0.94 0.11 115.03 / 0.18); /* avocado-300, semi-transparent */
+  }
+
+  body {
+    background-color: #f8fafc;
+  }
+}
+
+@layer components {
+  .liquid-glass {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 1.25rem;
+    box-shadow:
+      0 1.5px 4px rgba(0,0,0,0.07),
+      0 4px 32px 0 rgba(0,0,0,0.12),
+      0 0.5px 1.5px rgba(0,0,0,0.06),
+      inset 0 1px 8px 0 rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.25);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+  }
 }
