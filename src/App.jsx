@@ -1,6 +1,4 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import './App.css';
-import './utils.css';
 import roles from './data/Role.json';
 // Dynamically import all templates from /data/templates/*.json
 const templateContext = require.context('./data/templates', false, /\.json$/);
