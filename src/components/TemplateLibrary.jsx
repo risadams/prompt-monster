@@ -1,4 +1,4 @@
-import { faSparkles, faUser } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin';
+import { faMagnifyingGlass, faSparkles, faUser } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState, useMemo } from 'react';
 
@@ -45,17 +45,20 @@ function TemplateLibrary({
             </div>
           )}
         </div>
-        <div className="mb-4">
+        <div className="mb-4 relative">
           <label htmlFor="template-search" className="sr-only">
             Search templates
           </label>
+          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none">
+            <FontAwesomeIcon icon={faMagnifyingGlass} />
+          </span>
           <input
             id="template-search"
             type="text"
-            className="block w-full rounded-lg border-2 border-slate-200 focus:border-violet-400 focus:ring-2 focus:ring-violet-100 bg-slate-50 px-3 py-2 text-base text-slate-800 shadow-sm transition mb-2"
+            className="block w-full rounded-lg border-2 border-slate-200 focus:border-violet-400 focus:ring-2 focus:ring-violet-100 bg-slate-50 pl-10 px-3 py-2 text-base text-slate-800 shadow-sm transition mb-2"
             value={templateSearch}
             onChange={(e) => setTemplateSearch(e.target.value)}
-            placeholder="🔍 Search templates..."
+            placeholder="Search templates..."
             aria-describedby="search-help"
           />
           <div id="search-help" className="sr-only">
