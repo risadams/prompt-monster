@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeadSideCircuit } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
+import { faBrainCircuit, faDiagramNested, faPencilAlt, faBullseyePointer, faMemoCircleInfo, faUserAstronaut } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
 
 function PromptBuilder({
   roles,
@@ -14,6 +14,7 @@ function PromptBuilder({
       {/* Role Selection */}
       <div>
         <label htmlFor="role-select" className="block font-semibold text-slate-700 mb-1">
+          <FontAwesomeIcon icon={faUserAstronaut} />
           Role <span className="text-pink-600" aria-label="required">*</span>
         </label>
         <select
@@ -60,10 +61,12 @@ function PromptBuilder({
       {/* Task Input */}
       <div>
         <label htmlFor="task-input" className="block font-semibold text-slate-700 mb-1">
+          <FontAwesomeIcon icon={faDiagramNested} />
           Task <span className="text-pink-600" aria-label="required">*</span>
           {currentTemplate && userModifications.task && (
             <span className="ml-2 text-xs text-blue-600 bg-blue-50 rounded px-2 py-0.5 font-medium" title="You've modified this field from the template">
-              ✏️ Modified
+              <FontAwesomeIcon icon={faPencilAlt} />
+              Modified
             </span>
           )}
         </label>
@@ -84,10 +87,12 @@ function PromptBuilder({
       {/* Goal Input */}
       <div>
         <label htmlFor="idea-input" className="block font-semibold text-slate-700 mb-1">
+          <FontAwesomeIcon icon={faBullseyePointer} />
           Goal <span className="text-pink-600" aria-label="required">*</span>
           {currentTemplate && userModifications.idea && (
             <span className="ml-2 text-xs text-blue-600 bg-blue-50 rounded px-2 py-0.5 font-medium" title="You've modified this field from the template">
-              ✏️ Modified
+              <FontAwesomeIcon icon={faPencilAlt} />
+              Modified
             </span>
           )}
         </label>
@@ -108,10 +113,12 @@ function PromptBuilder({
       {/* Context Input */}
       <div>
         <label htmlFor="context-input" className="block font-semibold text-slate-700 mb-1">
+          <FontAwesomeIcon icon={faBrainCircuit} />
           Context
           {currentTemplate && userModifications.context && (
             <span className="ml-2 text-xs text-blue-600 bg-blue-50 rounded px-2 py-0.5 font-medium" title="You've modified this field from the template">
-              ✏️ Modified
+              <FontAwesomeIcon icon={faPencilAlt} />
+              Modified
             </span>
           )}
         </label>
@@ -131,10 +138,12 @@ function PromptBuilder({
       {/* Requirements Input */}
       <div>
         <label htmlFor="requirements-input" className="block font-semibold text-slate-700 mb-1">
+          <FontAwesomeIcon icon={faMemoCircleInfo} />
           Details
           {currentTemplate && userModifications.requirements && (
             <span className="ml-2 text-xs text-blue-600 bg-blue-50 rounded px-2 py-0.5 font-medium" title="You've modified this field from the template">
-              ✏️ Modified
+              <FontAwesomeIcon icon={faPencilAlt} />
+              Modified
             </span>
           )}
         </label>

@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLightbulb, faCopy, faCheck } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
+import { faLightbulb, faCopy, faCheck, faHandSparkles } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
 
 function PromptSection({ prompt }) {
   const [copied, setCopied] = useState(false);
@@ -28,7 +28,10 @@ function PromptSection({ prompt }) {
   return (
     <section className="mt-8" aria-label="Generated Prompt">
       <div className="mb-4">
-        <h3 className="text-lg font-bold text-violet-700 mb-2">Generated Prompt</h3>
+        <h3 className="text-lg font-bold text-violet-700 mb-2">
+          <FontAwesomeIcon icon={faHandSparkles} />
+          Generated Prompt
+        </h3>
       </div>
       {prompt ? (
         <>

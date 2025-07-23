@@ -1,7 +1,15 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLightbulb } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
-import { faBullseyeArrow } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
+import { faLightbulb, faCircle, faBullseyeArrow } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
+
+function NumberCircle({ number }) {
+  return (
+    <span className="relative flex items-center justify-center w-8 h-8">
+      <FontAwesomeIcon icon={faCircle} className="absolute text-violet-100 w-8 h-8" />
+      <span className="relative z-10 text-violet-700 font-bold text-base">{number}</span>
+    </span>
+  );
+}
 
 function Instructions({ showInstructions, setShowInstructions }) {
   return (
@@ -23,21 +31,21 @@ function Instructions({ showInstructions, setShowInstructions }) {
         {showInstructions && (
           <div className="space-y-6 animate-fade-in">
             <div className="flex gap-4 items-start">
-              <div className="flex items-center justify-center w-8 h-8 rounded-full bg-violet-100 text-violet-700 font-bold">1</div>
+              <NumberCircle number={1} />
               <div>
                 <h3 className="font-semibold text-base text-violet-800 mb-1">Choose Your Approach</h3>
                 <p className="text-slate-700">Start with a <strong>template</strong> from the library for common scenarios, or <strong>build from scratch</strong> by filling out the form manually.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
-              <div className="flex items-center justify-center w-8 h-8 rounded-full bg-violet-100 text-violet-700 font-bold">2</div>
+              <NumberCircle number={2} />
               <div>
-                <h3 className="font-semibold text-base text-violet-800 mb-1">Fill Required Fields</h3>
+                <h3 className="font-semibold text-base text-violet-800 mb-1">Fill in the Required Fields</h3>
                 <p className="text-slate-700">Complete the <strong>Role</strong>, <strong>Task</strong>, and <strong>Goal</strong> fields. Add optional <strong>Context</strong> and <strong>Details</strong> for better results.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
-              <div className="flex items-center justify-center w-8 h-8 rounded-full bg-violet-100 text-violet-700 font-bold">3</div>
+              <NumberCircle number={3} />
               <div>
                 <h3 className="font-semibold text-base text-violet-800 mb-1">Copy & Enhance Your Prompt</h3>
                 <p className="text-slate-700">Copy the generated prompt and paste it into your favorite AI tool (ChatGPT, Claude, Gemini, etc.). <strong>Remember:</strong> This is your <em>starting point</em> - add any relevant context like source code, files, documents, or specific requirements to get the best results.</p>

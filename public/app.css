@@ -797,6 +797,9 @@
   .text-transparent {
     color: transparent;
   }
+  .text-violet-100 {
+    color: var(--color-violet-100);
+  }
   .text-violet-600 {
     color: var(--color-violet-600);
   }

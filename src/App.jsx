@@ -34,12 +34,20 @@ function App() {
     requirements: false
   });
   const [showInstructions, setShowInstructions] = useState(true);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [isFormValid, setIsFormValid] = useState(false);
   const [showTemplatesDrawer, setShowTemplatesDrawer] = useState(false);
   // Template search/filter state
   const [templateSearch, setTemplateSearch] = useState('');
   const [roleFilter, setRoleFilter] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('');
+
+  // Responsive: track window width
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   // Validate form
   useEffect(() => {
@@ -218,7 +226,7 @@ function App() {
         >
           <FontAwesomeIcon icon={faBookOpen} /> Show Templates
         </button>
-        <Instructions showInstructions={showInstructions && window.innerWidth >= 1024} setShowInstructions={setShowInstructions} />
+        <Instructions showInstructions={showInstructions} setShowInstructions={setShowInstructions} isMobile={windowWidth < 1024} />
         {/* Responsive layout: golden ratio columns on large, single column on medium and below */}
         <div className="mb-8 grid grid-cols-1 lg:grid-cols-[61.8%_38.2%] gap-8">
           {/* Prompt Builder always first, full width of column */}
