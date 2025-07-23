@@ -1,4 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBookOpen, faHeadSideCircuit, faRefresh, faTimes } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
 import roles from './data/Role.json';
 import Header from './components/Header';
 import Instructions from './components/Instructions';
@@ -214,7 +216,7 @@ function App() {
           onClick={() => setShowTemplatesDrawer(true)}
           aria-label="Show Templates"
         >
-          📚 Show Templates
+          <FontAwesomeIcon icon={faBookOpen} /> Show Templates
         </button>
         <Instructions showInstructions={showInstructions && window.innerWidth >= 1024} setShowInstructions={setShowInstructions} />
         {/* Responsive layout: golden ratio columns on large, single column on medium and below */}
@@ -223,7 +225,12 @@ function App() {
           <section className="w-full order-1" aria-label="Prompt Builder">
             <div className="liquid-glass p-8 transition hover:shadow-2xl">
               <div className="flex items-center justify-between gap-4 mb-6">
-                <h2 className="flex items-center gap-2 text-xl font-bold text-violet-700"><span role='img' aria-label='monster'>👹</span>Prompt Builder</h2>
+                <h2 className="flex items-center gap-2 text-xl font-bold text-violet-700">
+                  <span role='img' aria-label='monster'>
+                    <FontAwesomeIcon icon={faHeadSideCircuit} />
+                  </span>
+                  Prompt Builder
+                </h2>
                 <div className="flex gap-2">
                   <button
                     className="inline-flex items-center gap-2 px-3 py-1.5 text-sm font-semibold rounded-lg border border-violet-300 bg-white text-violet-700 hover:bg-violet-50 hover:border-violet-500 transition focus:outline-none focus:ring-2 focus:ring-violet-400"
@@ -231,7 +238,8 @@ function App() {
                     aria-label="Reset entire form to initial state"
                     title="Clear all fields and reset template"
                   >
-                    🔄 Reset Form
+                    <FontAwesomeIcon icon={faRefresh} />
+                    Reset Form
                   </button>
                 </div>
               </div>
@@ -277,7 +285,7 @@ function App() {
                 onClick={() => setShowTemplatesDrawer(false)}
                 aria-label="Close Templates"
               >
-                ×
+                <FontAwesomeIcon icon={faTimes} />
               </button>
               <div className="pt-12 pb-4 px-2 overflow-y-auto flex-1">
                 <TemplateLibrary

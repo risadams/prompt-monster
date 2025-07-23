@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
 
 function Footer() {
   return (
@@ -8,7 +10,9 @@ function Footer() {
         <a href="https://risadams.com" target="_blank" rel="noopener noreferrer" className="text-violet-700 hover:underline font-semibold">
           Ris Adams
         </a>
-        . All rights reserved. Made with <span role="img" aria-label="love">💜</span> for the AI community.
+        . All rights reserved. Made with <span role="img" aria-label="love">
+          <FontAwesomeIcon icon={faHeart} />
+        </span> for the AI community.
       </p>
     </footer>
   );

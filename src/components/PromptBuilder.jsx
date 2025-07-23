@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeadSideCircuit } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
 
 function PromptBuilder({
   roles,

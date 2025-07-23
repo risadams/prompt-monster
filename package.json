@@ -30,6 +30,9 @@
     "email": "ris@risadams.com"
   },
   "dependencies": {
+    "@awesome.me/kit-1792c0f8ba": "^1.0.7",
+    "@fortawesome/fontawesome-svg-core": "^7.0.0",
+    "@fortawesome/react-fontawesome": "^0.2.3",
     "@tailwindcss/cli": "^4.1.11",
     "core-js-pure": "^3.44.0",
     "react": "^19.1.0",

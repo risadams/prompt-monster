@@ -1,4 +1,6 @@
 import React, { useState, useCallback } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLightbulb, faCopy, faCheck } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
 
 function PromptSection({ prompt }) {
   const [copied, setCopied] = useState(false);
@@ -48,15 +50,15 @@ function PromptSection({ prompt }) {
               type="button"
             >
               {copied ? (
-                <>✅ Copied!</>
+                <><FontAwesomeIcon icon={faCheck} /> Copied!</>
               ) : (
-                <>📋 Copy to Clipboard</>
+                <><FontAwesomeIcon icon={faCopy} /> Copy to Clipboard</>
               )}
             </button>
           </div>
           <div className="bg-green-50 border border-green-100 rounded-lg p-4">
             <p className="text-green-900 text-sm">
-              <strong>💡 Remember:</strong> This is your starting point! Paste this into your AI tool and add any relevant context like source code, files, documents, or specific examples to get the best results.
+              <strong><FontAwesomeIcon icon={faLightbulb} /> Remember:</strong> This is your starting point! Paste this into your AI tool and add any relevant context like source code, files, documents, or specific examples to get the best results.
             </p>
           </div>
         </>

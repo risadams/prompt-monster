@@ -1,3 +1,5 @@
+import { faSparkles, faUser } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState, useMemo } from 'react';
 
 function TemplateLibrary({
@@ -135,11 +137,12 @@ function TemplateLibrary({
                   <span className="font-semibold text-violet-800">{template.name}</span>
                   {currentTemplate?.id === template.id && (
                     <span className="ml-2 text-xs text-violet-600 bg-violet-100 rounded px-2 py-0.5 font-medium" aria-label="Currently active template">
-                      ✨ Active
+                      <FontAwesomeIcon icon={faSparkles} /> Active
                     </span>
                   )}
                 </div>
-                <div className="text-xs text-indigo-600 mb-1">👤 {template.roles ? template.roles.join(', ') : ''}</div>
+                <div className="text-xs text-indigo-600 mb-1">
+                  <FontAwesomeIcon icon={faUser} /> {template.roles ? template.roles.join(', ') : ''}</div>
                 <div className="text-sm text-slate-700 mb-2">
                   <strong>Task:</strong> {template.task}
                 </div>

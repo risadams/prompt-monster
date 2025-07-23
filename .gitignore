@@ -141,3 +141,5 @@ vite.config.ts.timestamp-*
 .vscode/
 
 build/
+
+.npmrc

@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMasksTheater } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
 
 function Header() {
   return (
@@ -11,7 +13,7 @@ function Header() {
         />
         <h1 className="font-extrabold text-4xl md:text-5xl bg-gradient-to-r from-violet-600 to-indigo-500 bg-clip-text text-transparent mb-2">Prompt Monster</h1>
         <p className="text-indigo-700 text-lg font-medium opacity-90">
-          Unleash your creativity with monstrously good prompts! <span role="img" aria-label="theater">🎭</span>
+          Unleash your creativity with monstrously good prompts! <FontAwesomeIcon icon={faMasksTheater} />
         </p>
       </div>
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">

@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLightbulb } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
+import { faBullseyeArrow } from '@awesome.me/kit-1792c0f8ba/icons/sharp-duotone/thin'
 
 function Instructions({ showInstructions, setShowInstructions }) {
   return (
@@ -6,7 +9,7 @@ function Instructions({ showInstructions, setShowInstructions }) {
       <div className="bg-white rounded-2xl shadow-lg border border-slate-100 p-6 md:p-8">
         <div className="flex items-center justify-between gap-4 mb-6">
           <h2 className="flex items-center gap-2 text-lg md:text-xl font-bold text-violet-700">
-            <span role="img" aria-label="target">🎯</span> How to Use Prompt Monster
+            <span role="img" aria-label="target"><FontAwesomeIcon icon={faBullseyeArrow} /></span> How to Use Prompt Monster
           </h2>
           <button
             className="inline-flex items-center gap-2 px-3 py-1.5 text-sm font-semibold rounded-lg border border-violet-300 bg-white text-violet-700 hover:bg-violet-50 hover:border-violet-500 transition focus:outline-none focus:ring-2 focus:ring-violet-400"
@@ -41,7 +44,9 @@ function Instructions({ showInstructions, setShowInstructions }) {
               </div>
             </div>
             <div className="bg-indigo-50 border border-indigo-100 rounded-lg p-4 mt-2">
-              <h4 className="font-semibold text-indigo-700 mb-2 flex items-center gap-2">💡 Pro Tips</h4>
+              <h4 className="font-semibold text-indigo-700 mb-2 flex items-center gap-2">
+                <FontAwesomeIcon icon={faLightbulb} /> Pro Tips
+              </h4>
               <ul className="list-disc pl-6 space-y-1 text-slate-700">
                 <li><strong>Add Context:</strong> Include relevant files, code snippets, or documents with your prompt</li>
                 <li><strong>Be Specific:</strong> The more specific your task and goal, the better the AI response</li>
