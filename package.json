@@ -30,10 +30,12 @@
     "email": "ris@risadams.com"
   },
   "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
     "core-js-pure": "^3.44.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
+    "tailwindcss": "^4.1.11",
     "web-vitals": "^5.0.3"
   },
   "devDependencies": {
@@ -43,8 +45,10 @@
     "jest": "^27.5.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "tailwind:build": "npx @tailwindcss/cli -i ./src/styles/src.css -o ./public/app.css",
+    "tailwind:watch": "npx @tailwindcss/cli -i ./src/styles/src.css -o ./public/app.css --watch",
+    "start": "start npm run tailwind:watch && react-scripts start",
+    "build": "npm run tailwind:build && react-scripts build",
     "test": "npx jest",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

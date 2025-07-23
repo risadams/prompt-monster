@@ -200,15 +200,13 @@ function App() {
   }, []);
 
   return (
-    <div className="app-container">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-indigo-100 via-indigo-200 to-white font-sans text-slate-900">
       {/* Skip to content link for accessibility */}
-      <a href="#main-content" className="skip-link">
-        Skip to main content
-      </a>
+      <a href="#main-content" className="sr-only focus:not-sr-only absolute left-2 top-2 z-50 bg-white text-indigo-700 px-4 py-2 rounded shadow transition focus:outline-none focus:ring-2 focus:ring-indigo-400">Skip to main content</a>
       <Header />
-      <main id="main-content" className="main-content" role="main">
+      <main id="main-content" className="flex-1 w-full max-w-6xl mx-auto px-4 py-6" role="main">
         <Instructions showInstructions={showInstructions} setShowInstructions={setShowInstructions} />
-        <div className="content-grid">
+        <div className="grid grid-cols-1 lg:grid-cols-[340px_1fr] gap-8 mb-8">
           <TemplateLibrary
             templates={templates}
             currentTemplate={currentTemplate}
@@ -224,13 +222,13 @@ function App() {
             uniqueCategories={uniqueCategories}
             filteredTemplates={filteredTemplates}
           />
-          <section className="prompt-builder" aria-label="Prompt Builder">
-            <div className="card">
-              <div className="card-header">
-                <h2 className="card-title">Prompt Builder</h2>
-                <div className="form-actions">
+          <section className="w-full" aria-label="Prompt Builder">
+            <div className="bg-white rounded-2xl shadow-xl border border-slate-100 p-8 transition hover:shadow-2xl">
+              <div className="flex items-center justify-between gap-4 mb-6">
+                <h2 className="flex items-center gap-2 text-xl font-bold text-violet-700"><span role='img' aria-label='monster'>👹</span>Prompt Builder</h2>
+                <div className="flex gap-2">
                   <button
-                    className="btn btn-outline btn-sm"
+                    className="inline-flex items-center gap-2 px-3 py-1.5 text-sm font-semibold rounded-lg border border-violet-300 bg-white text-violet-700 hover:bg-violet-50 hover:border-violet-500 transition focus:outline-none focus:ring-2 focus:ring-violet-400"
                     onClick={resetForm}
                     aria-label="Reset entire form to initial state"
                     title="Clear all fields and reset template"

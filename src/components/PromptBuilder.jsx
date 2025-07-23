@@ -8,15 +8,15 @@ function PromptBuilder({
   userModifications
 }) {
   return (
-    <form onSubmit={(e) => e.preventDefault()} noValidate>
+    <form onSubmit={(e) => e.preventDefault()} noValidate className="space-y-6">
       {/* Role Selection */}
-      <div className="form-group">
-        <label htmlFor="role-select" className="form-label">
-          Role <span className="required-indicator" aria-label="required">*</span>
+      <div>
+        <label htmlFor="role-select" className="block font-semibold text-slate-700 mb-1">
+          Role <span className="text-pink-600" aria-label="required">*</span>
         </label>
         <select
           id="role-select"
-          className="form-select"
+          className="block w-full rounded-lg border-2 border-violet-200 focus:border-violet-500 focus:ring-2 focus:ring-violet-200 bg-white px-3 py-2 text-base text-slate-800 shadow-sm transition"
           value={formData.selectedRole}
           onChange={(e) => handleFieldChange('selectedRole', e.target.value)}
           required
@@ -36,14 +36,14 @@ function PromptBuilder({
       </div>
       {/* Custom Role Input */}
       {formData.selectedRole === 'other' && (
-        <div className="form-group">
-          <label htmlFor="custom-role" className="form-label">
-            Custom Role <span className="required-indicator" aria-label="required">*</span>
+        <div>
+          <label htmlFor="custom-role" className="block font-semibold text-slate-700 mb-1">
+            Custom Role <span className="text-pink-600" aria-label="required">*</span>
           </label>
           <input
             id="custom-role"
             type="text"
-            className="form-input"
+            className="block w-full rounded-lg border-2 border-violet-200 focus:border-violet-500 focus:ring-2 focus:ring-violet-200 bg-white px-3 py-2 text-base text-slate-800 shadow-sm transition"
             value={formData.customRole}
             onChange={(e) => handleFieldChange('customRole', e.target.value)}
             placeholder="Enter your custom role..."
@@ -56,11 +56,11 @@ function PromptBuilder({
         </div>
       )}
       {/* Task Input */}
-      <div className="form-group">
-        <label htmlFor="task-input" className="form-label">
-          Task <span className="required-indicator" aria-label="required">*</span>
+      <div>
+        <label htmlFor="task-input" className="block font-semibold text-slate-700 mb-1">
+          Task <span className="text-pink-600" aria-label="required">*</span>
           {currentTemplate && userModifications.task && (
-            <span className="modification-indicator" title="You've modified this field from the template">
+            <span className="ml-2 text-xs text-blue-600 bg-blue-50 rounded px-2 py-0.5 font-medium" title="You've modified this field from the template">
               ✏️ Modified
             </span>
           )}
@@ -68,7 +68,7 @@ function PromptBuilder({
         <input
           id="task-input"
           type="text"
-          className="form-input"
+          className="block w-full rounded-lg border-2 border-violet-200 focus:border-violet-500 focus:ring-2 focus:ring-violet-200 bg-white px-3 py-2 text-base text-slate-800 shadow-sm transition"
           value={formData.task}
           onChange={(e) => handleFieldChange('task', e.target.value)}
           placeholder="What do you want the AI to do?"
@@ -80,11 +80,11 @@ function PromptBuilder({
         </div>
       </div>
       {/* Goal Input */}
-      <div className="form-group">
-        <label htmlFor="idea-input" className="form-label">
-          Goal <span className="required-indicator" aria-label="required">*</span>
+      <div>
+        <label htmlFor="idea-input" className="block font-semibold text-slate-700 mb-1">
+          Goal <span className="text-pink-600" aria-label="required">*</span>
           {currentTemplate && userModifications.idea && (
-            <span className="modification-indicator" title="You've modified this field from the template">
+            <span className="ml-2 text-xs text-blue-600 bg-blue-50 rounded px-2 py-0.5 font-medium" title="You've modified this field from the template">
               ✏️ Modified
             </span>
           )}
@@ -92,7 +92,7 @@ function PromptBuilder({
         <input
           id="idea-input"
           type="text"
-          className="form-input"
+          className="block w-full rounded-lg border-2 border-violet-200 focus:border-violet-500 focus:ring-2 focus:ring-violet-200 bg-white px-3 py-2 text-base text-slate-800 shadow-sm transition"
           value={formData.idea}
           onChange={(e) => handleFieldChange('idea', e.target.value)}
           placeholder="Describe your goal or desired outcome..."
@@ -104,11 +104,11 @@ function PromptBuilder({
         </div>
       </div>
       {/* Context Input */}
-      <div className="form-group">
-        <label htmlFor="context-input" className="form-label">
+      <div>
+        <label htmlFor="context-input" className="block font-semibold text-slate-700 mb-1">
           Context
           {currentTemplate && userModifications.context && (
-            <span className="modification-indicator" title="You've modified this field from the template">
+            <span className="ml-2 text-xs text-blue-600 bg-blue-50 rounded px-2 py-0.5 font-medium" title="You've modified this field from the template">
               ✏️ Modified
             </span>
           )}
@@ -116,7 +116,7 @@ function PromptBuilder({
         <input
           id="context-input"
           type="text"
-          className="form-input"
+          className="block w-full rounded-lg border-2 border-violet-200 focus:border-violet-500 focus:ring-2 focus:ring-violet-200 bg-white px-3 py-2 text-base text-slate-800 shadow-sm transition"
           value={formData.context}
           onChange={(e) => handleFieldChange('context', e.target.value)}
           placeholder="Any background context for the task..."
@@ -127,18 +127,18 @@ function PromptBuilder({
         </div>
       </div>
       {/* Requirements Input */}
-      <div className="form-group">
-        <label htmlFor="requirements-input" className="form-label">
+      <div>
+        <label htmlFor="requirements-input" className="block font-semibold text-slate-700 mb-1">
           Details
           {currentTemplate && userModifications.requirements && (
-            <span className="modification-indicator" title="You've modified this field from the template">
+            <span className="ml-2 text-xs text-blue-600 bg-blue-50 rounded px-2 py-0.5 font-medium" title="You've modified this field from the template">
               ✏️ Modified
             </span>
           )}
         </label>
         <textarea
           id="requirements-input"
-          className="form-textarea"
+          className="block w-full rounded-lg border-2 border-violet-200 focus:border-violet-500 focus:ring-2 focus:ring-violet-200 bg-white px-3 py-2 text-base text-slate-800 shadow-sm transition"
           value={formData.requirements}
           onChange={(e) => handleFieldChange('requirements', e.target.value)}
           placeholder="Specify requirements, constraints, output formats, or any other details..."
