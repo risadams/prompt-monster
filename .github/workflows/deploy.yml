@@ -29,6 +29,11 @@ jobs:
         node-version: '18'
         cache: 'npm'
 
+    - name: Use .npmrc
+      uses: bduff9/use-npmrc@v1.2
+      with:
+        dot-npmrc: ${{ secrets.DOT_NPMRC }}
+
     - name: Install dependencies
       run: npm ci
 
